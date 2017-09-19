@@ -1,0 +1,60 @@
+.toc-nav__wrapper {
+  float: left;
+
+  margin: 1em;
+  margin-left: 2em;
+  padding: 0.5em;
+
+  background: rgba(0,0,0,0.01);
+  max-width: 300px;
+
+  h4 {
+    margin-top: 2em;
+  }
+
+  .toc-nav {
+    margin-bottom: 2em;
+    list-style: none;
+    margin-left: 0;
+  }
+
+  .toc-nav > li:before {
+    content: '';
+  }
+
+  // XXX: Search hack
+  .toc-nav--header {
+    margin-top: 2em;
+  }
+
+  li.toc-part {
+    margin-top: 0.5em;
+  }
+
+  li.toc-chapter {
+    padding-left: 1em;
+    padding-right: 0;
+  }
+
+  .chapter:first-child {
+    margin-left: inherit;
+  }
+}
+
+@include media-query(lap) {
+  .toc-nav__wrapper {
+    margin-left: 1em;
+
+    max-width: 200px;
+  }
+}
+
+@include media-query(palm) {
+  .toc-nav__wrapper {
+    /*
+    float: inherit;
+    max-width: 100%;
+    */
+    display: none;
+  }
+}

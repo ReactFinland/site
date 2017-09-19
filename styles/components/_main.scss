@@ -1,0 +1,14 @@
+div, section, article, main, nav {
+  justify-content: center;
+  align-content: center;
+}
+main {
+  width: 100%;
+}
+.main-content {
+  align-items: center;
+}
+.post__content {
+  margin: 0 auto;
+  max-width: 600px;
+}

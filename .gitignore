@@ -1,0 +1,6 @@
+*.log
+books/
+build/
+node_modules/
+.eslintcache
+.antwar

@@ -1,0 +1,24 @@
+ul, ol {
+  margin-bottom: $base-spacing-unit;
+  margin-left: $base-spacing-unit;
+  >li {
+    &:before {
+      position: absolute;
+      margin-left: -1em;
+    }
+  }
+  ul {
+    margin-left: 1em;
+
+    li {
+      margin-bottom: 0.25em;
+    }
+  }
+}
+li {
+  margin-bottom: 0.5em;
+  padding-right: 2em;
+  @include media-query($max-width + $base-spacing-unit * 2) {
+    margin-left: 1em;
+  }
+}
