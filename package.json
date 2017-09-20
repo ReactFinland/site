@@ -11,7 +11,7 @@
     "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js --ext jsx --ignore-path .gitignore --cache",
     "test": "npm run lint",
-    "sitemap": "cd build && sitemap-static --prefix=https://ryyppy.com/ > sitemap.xml",
+    "sitemap": "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
     "prepush": "npm test",
     "copy:all": "npm run copy:extra",
     "copy:extra": "cp -rf assets/extra/ build/"
