@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://react-finland.fi/index.html</loc>
+    </url>
+    <url>
+        <loc>https://react-finland.fi/blog/index.html</loc>
+    </url>
+    <url>
+        <loc>https://react-finland.fi/blog/first-post/index.html</loc>
+    </url>
+    <url>
+        <loc>https://react-finland.fi/blog/second-post/index.html</loc>
+    </url>
+</urlset>
