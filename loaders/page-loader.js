@@ -25,7 +25,7 @@ module.exports = function pageLoader(source) {
   result.preview = generatePreview(result, body);
   result.description = generateDescription(result);
   result.keywords = generateKeywords(result);
-  result.body = markdown(customizeMarkdown).process(body, highlight);
+  result.body = markdown().process(body, highlight);
 
   delete result.frontmatter;
 
@@ -50,20 +50,6 @@ module.exports = function pageLoader(source) {
     )}) + "`;
   });
 };
-
-function customizeMarkdown(renderer) {
-  // XXXXX: This gets executed for all content. It would be better to constrain
-  // per book somehow.
-  renderer.em = function em(text) {
-    const webpackBook = require("./webpack-book");
-
-    // Perform a lookup against webpack book chapter definition to figure
-    // out whether to link or not
-    const match = webpackBook()[text];
-
-    return match ? `<a href="${match.url}">${text}</a>` : `<em>${text}</em>`;
-  };
-}
 
 function resolveAliases(resource) {
   const relativePath = _path.relative(process.cwd(), resource);

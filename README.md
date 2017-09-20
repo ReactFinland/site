@@ -1,3 +1,1 @@
-# site-template
-
-Template site to clone.
+# React Finland site
