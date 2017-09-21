@@ -1392,7 +1392,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2em;
   margin-bottom: 2em; }
 
-.frontpage .front-header, .frontpage .front-motto {
+.frontpage .front-header,
+.frontpage .front-motto {
   color: white;
   margin-bottom: 0.5em;
   font-weight: 400; }
@@ -1414,8 +1415,8 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(/766e80b10c4d9a099a719f6a8c26234b.jpg);
   background-size: cover;
   width: 100%;
-  min-height: 30em;
-  height: 60%; }
+  min-height: 15em;
+  height: 20%; }
 
 @media only screen and (max-width: 1349px) {
   .frontpage .front__heading {
@@ -1443,7 +1444,8 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
   width: auto; }
 
-.frontpage .front-cover, .frontpage .kanban-animation {
+.frontpage .front-cover,
+.frontpage .kanban-animation {
   max-width: auto;
   width: auto;
   height: auto; }
@@ -1453,7 +1455,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   width: 100%; }
 
-.frontpage .post--front, .frontpage .front-heading-content-wrapper {
+.frontpage .post--front,
+.frontpage .front-heading-content-wrapper {
   margin: 0 auto;
   max-width: 1000px; }
 
@@ -1506,7 +1509,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   padding-top: 2em;
   padding-bottom: 1em;
-  background: #D6F5F7;
+  background: #d6f5f7;
   display: table; }
 
 .frontpage .btn--buy {
