@@ -25,7 +25,7 @@ const SiteIndex = ({ section }) => (
       <section className="post__content">
         <div dangerouslySetInnerHTML={{ __html: require("./index.md").body }} />
 
-        <SocialLinks />
+        {/*<SocialLinks />*/}
       </section>
     </div>
   </div>
