@@ -59,21 +59,31 @@ TODO: Above should be a definition list (possible in vanilla markdown?)
 
 ### Andrey Okonetchnikov - React Architecture
 
+![Andrey Okonetchnikov|100|100|author-photo](assets/img/speakers/andrey.jpg)
+
 TODO
 
 ### Artem Sapegin - React Architecture
+
+![Artem Sapegin|100|100|author-photo](assets/img/speakers/artem.jpg)
 
 TODO
 
 ### Christian Alfoni - Cerebral
 
+![Christian Alfoni|100|100|author-photo](assets/img/speakers/christian.jpg)
+
 TODO
 
 ### David Khourshid - ???
 
+![David Khoursid|100|100|author-photo](assets/img/speakers/david.jpg)
+
 TODO
 
 ### [Gant Laborde](http://gantlaborde.com/) - React Native Ignite
+
+![Gant Laborde|100|100|author-photo](assets/img/speakers/gant.png)
 
 Gant is a New Orleans-based force of nature. Not satisfied to be “just” an experienced programmer in an array of disciplines, he’s also a prolific writer, an award-winning public speaker, and an adjunct professor.
 
@@ -87,9 +97,13 @@ Let's look at how simple it is to get started in React Native using Ignite CLI. 
 
 ### Jani Eväkallio - ???
 
+![Jani Eväkallio|100|100|author-photo](assets/img/speakers/jani.jpg)
+
 TODO
 
 ### Juho Vepsäläinen - Webpack
+
+![Juho Vepsäläinen|100|100|author-photo](assets/img/speakers/juho.jpg)
 
 Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
 
@@ -99,13 +113,19 @@ In this high-level overview you'll learn to configure webpack. Even if you know 
 
 ### Patrick Stapfler - ReasonML
 
+![Patrick Stapfler|100|100|author-photo](assets/img/speakers/patrick.jpg)
+
 TODO
 
 ### Shay Keinan - ReactVR
 
+![Shay Keinan|100|100|author-photo](assets/img/speakers/shay.jpg)
+
 TODO
 
 ### Sia Karamalegos - Universal React
+
+![Sia Karamalegos|100|100|author-photo](assets/img/speakers/sia.jpg)
 
 TODO
 
