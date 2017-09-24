@@ -15,8 +15,8 @@ The program of the event has been carefully curated. In Finnish style, we rather
 The workshop day of the event has been limited to hundred people. Each workshop is limited to 50 people and 3 hours. So far, the following workshops have been confirmed:
 
 * React Architecture - Learn to architecture your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
-* [ReactVR]() - Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
-* [ReasonML]() - See the reason in ReasonML with [Patrick Stapfler](https://github.com/ryyppy).
+* ReactVR - Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
+* ReasonML - See the reason in ReasonML with [Patrick Stapfler](https://github.com/ryyppy).
 * [Webpack - The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/) - Learn more about webpack from one of its core developers, [Juho Vepsäläinen](https://github.com/bebraw).
 
 ### 25.04 - Wednesday - React
@@ -48,7 +48,7 @@ The second day of the event continues where the first one left off:
 * 11:00 - 12:00 - ReactVR with [Shay Keinan](https://github.com/crazypixel).
 * 12:00 - 13:00 - Lunch. You might like it better this time.
 * 13:00 - 14:00 - React Native Ignite with [Gant Laborde](https://github.com/GantMan).
-* 14:00 - 15:00 - "Reactive animations in React with RxJS" by [David Khourshid](https://github.com/davidkpiano).
+* 14:00 - 15:00 - ??? by [David Khourshid](https://github.com/davidkpiano).
 * 15:00 - 15:30 - Coffee break. Other beverages are available too although black coffee is our favorite.
 * 15:30 - 16:30 - Four lightning talks. Local heroes or maybe some people from the audience.
 * 16:30 - 17:00 - Panel discussion to end the conference.
@@ -56,6 +56,56 @@ The second day of the event continues where the first one left off:
 TODO: Above should be a definition list (possible in vanilla markdown?)
 
 ## Speakers
+
+### Andrey Okonetchnikov - React Architecture
+
+TODO
+
+### Artem Sapegin - React Architecture
+
+TODO
+
+### Christian Alfoni - Cerebral
+
+TODO
+
+### David Khourshid - ???
+
+TODO
+
+### [Gant Laborde](http://gantlaborde.com/) - React Native Ignite
+
+Gant is a New Orleans-based force of nature. Not satisfied to be “just” an experienced programmer in an array of disciplines, he’s also a prolific writer, an award-winning public speaker, and an adjunct professor.
+
+A self-improvement aficionado, he takes every opportunity to connect with people and share knowledge through education and outreach. In the zombie apocalypse, Gant will run our much-needed bar, offering up advice, encouragement, and libations in equal measure.
+
+**React Native Ignite**
+
+Life can be simple again. Haven’t we built the same house, or given the same hair cut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? It’s not with React Native.
+
+Let's look at how simple it is to get started in React Native using Ignite CLI.  Using Ignite, you can jump in with a popular combination of technologies, OR brew your own. Ignite is the freedom to learn and automate your mobile app.
+
+### Jani Eväkallio - ???
+
+TODO
+
+### Juho Vepsäläinen - Webpack
+
+Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
+
+**Webpack - The Good Parts**
+
+In this high-level overview you'll learn to configure webpack. Even if you know it already, there might be some surprises in store as you gain insight to the tool you otherwise might miss.
+
+### Patrick Stapfler - ReasonML
+
+TODO
+
+### Shay Keinan - ReactVR
+
+TODO
+
+### Sia Karamalegos - Universal React
 
 TODO
 
