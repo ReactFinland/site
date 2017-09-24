@@ -25,16 +25,37 @@ In Finnish style, we start each day early. We also eat lunch early. This way we 
 
 The first presentation day has a strict focus on React itself. Each session ends with a brief break and we have certain longer breaks in between:
 
-* 08:00 - 09:00 - Registration, Finnish breakfast. Trust me, it's the best.
-* 09:00 - 10:00 - Keynote by a mystery secret speaker.
-* 10:00 - 11:00 - Something interesting on state management.
-* 11:00 - 12:00 - Cerebral with [Christian Alfoni](https://github.com/christianalfoni).
-* 12:00 - 13:00 - Lunch. It's functional. You are **not** supposed to like it.
-* 13:00 - 14:00 - Mystery talk related to routing.
-* 14:00 - 15:00 - Universal React with [Sia Karamalegos](https://github.com/siakaramalegos)
-* 15:00 - 15:30 - Coffee break. We don't mind if you drink tea, though. Water is available as well.
-* 15:30 - 16:30 - Four lightning talks. These will be by local heroes of the community most likely.
-* 16:30 - 17:00 - Panel discussion to end the day in style.
+<dl>
+  <dt>08:00 - 09:00</dt>
+  <dd>Registration, Finnish breakfast. Trust me, it's the best.</dd>
+
+  <dt>09:00 - 10:00</dt>
+  <dd>Keynote by a mystery secret speaker.</dd>
+
+  <dt>10:00 - 11:00</dt>
+  <dd>Something interesting on state management.</dd>
+
+  <dt>11:00 - 12:00</dt>
+  <dd>Cerebral with [Christian Alfoni](https://github.com/christianalfoni).</dd>
+
+  <dt>12:00 - 13:00</dt>
+  <dd>Lunch. It's functional. You are **not** supposed to like it.</dd>
+
+  <dt>13:00 - 14:00</dt>
+  <dd>Mystery talk related to routing.</dd>
+
+  <dt>14:00 - 15:00</dt>
+  <dd>Universal React with [Sia Karamalegos](https://github.com/siakaramalegos)</dd>
+
+  <dt>15:00 - 15:30</dt>
+  <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
+
+  <dt>15:30 - 16:30</dt>
+  <dd>Four lightning talks. These will be by local heroes of the community most likely.</dd>
+
+  <dt>16:30 - 17:00</dt>
+  <dd>Panel discussion to end the day in style.</dd>
+</dl>
 
 There will be fun after the panel.
 
@@ -42,18 +63,37 @@ There will be fun after the panel.
 
 The second day of the event continues where the first one left off:
 
-* 08:00 - 09:00 - Registration, Finnish breakfast. Trust me, it's the best still.
-* 09:00 - 10:00 - Keynote by [Jani Eväkallio](https://github.com/jevakallio).
-* 10:00 - 11:00 - ReasonML with [Patrick Stapfler](https://github.com/ryyppy).
-* 11:00 - 12:00 - ReactVR with [Shay Keinan](https://github.com/crazypixel).
-* 12:00 - 13:00 - Lunch. You might like it better this time.
-* 13:00 - 14:00 - React Native Ignite with [Gant Laborde](https://github.com/GantMan).
-* 14:00 - 15:00 - ??? by [David Khourshid](https://github.com/davidkpiano).
-* 15:00 - 15:30 - Coffee break. Other beverages are available too although black coffee is our favorite.
-* 15:30 - 16:30 - Four lightning talks. Local heroes or maybe some people from the audience.
-* 16:30 - 17:00 - Panel discussion to end the conference.
+<dl>
+  <dt>08:00 - 09:00</dt>
+  <dd>Registration, Finnish breakfast. Trust me, it's the best still.</dd>
 
-TODO: Above should be a definition list (possible in vanilla markdown?)
+  <dt>09:00 - 10:00</dt>
+  <dd>Keynote by [Jani Eväkallio](https://github.com/jevakallio).</dd>
+
+  <dt>10:00 - 11:00</dt>
+  <dd>ReasonML with [Patrick Stapfler](https://github.com/ryyppy).</dd>
+
+  <dt>11:00 - 12:00</dt>
+  <dd>ReactVR with [Shay Keinan](https://github.com/crazypixel).</dd>
+
+  <dt>12:00 - 13:00</dt>
+  <dd>Lunch. You might like it better this time.</dd>
+
+  <dt>13:00 - 14:00</dt>
+  <dd>React Native Ignite with [Gant Laborde](https://github.com/GantMan).</dd>
+
+  <dt>14:00 - 15:00</dt>
+  <dd>??? by [David Khourshid](https://github.com/davidkpiano).</dd>
+
+  <dt>15:00 - 15:30</dt>
+  <dd>Coffee break. Other beverages are available too although black coffee is our favorite.</dd>
+
+  <dt>15:30 - 16:30</dt>
+  <dd>Four lightning talks. Local heroes or maybe some people from the audience.</dd>
+
+  <dt>16:30 - 17:00</dt>
+  <dd>Panel discussion to end the conference.</dd>
+</dl>
 
 ## Speakers
 
