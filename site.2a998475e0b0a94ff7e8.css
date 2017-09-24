@@ -543,15 +543,15 @@ body, button, input {
   -webkit-font-smoothing: antialiased; }
 
 ::-moz-selection {
-  background: #5bbac3;
+  background: #688ebc;
   color: #fff; }
 
 ::selection {
-  background: #5bbac3;
+  background: #688ebc;
   color: #fff; }
 
 ::-moz-selection {
-  background: #5bbac3;
+  background: #688ebc;
   color: #fff; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -715,10 +715,10 @@ body {
   color: #fff; }
 
 a {
-  color: #09b5c4;
+  color: #1863bd;
   text-decoration: none; }
   a:hover {
-    color: #0de1f3; }
+    color: #247be4; }
   a, a:focus, a:active {
     outline: 0; }
 
@@ -838,7 +838,7 @@ main {
   font-size: 0.83333rem;
   line-height: 1.8; }
   .nav__link:hover {
-    color: #0bcbdc; }
+    color: #1b6fd4; }
   @media only screen and (max-width: 649px) {
     .nav__link {
       text-align: center;
@@ -857,7 +857,7 @@ main {
   height: 54px;
   border-radius: 50%;
   text-align: center;
-  color: #09b5c4;
+  color: #1863bd;
   padding: 13.5px 0;
   position: absolute;
   top: 0;
@@ -872,7 +872,7 @@ main {
     content: '';
     width: 27px;
     height: 3px;
-    background-color: #09b5c4;
+    background-color: #1863bd;
     border-radius: 3px;
     position: absolute;
     left: calc(50% - 13.5px);
@@ -968,17 +968,17 @@ main {
   transition: background-color cubic-bezier(0.23, 1, 0.32, 1) 0.3s, color cubic-bezier(0.23, 1, 0.32, 1) 0.3s; }
 
 .btn--normal {
-  border: 2px #6EEDF8 solid;
-  color: #09b5c4; }
+  border: 2px #7FB2EF solid;
+  color: #1863bd; }
   .btn--normal:hover {
-    background-color: rgba(110, 237, 248, 0.2); }
+    background-color: rgba(127, 178, 239, 0.2); }
 
 .btn--inverted {
   border: 2px #fff solid;
   color: #fff; }
   .btn--inverted:hover {
     background-color: #fff;
-    color: #09b5c4; }
+    color: #1863bd; }
 
 blockquote {
   background: black;
@@ -1374,7 +1374,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 0.5em; }
 
 .frontpage .front-header-wrapper {
-  margin-top: 6em;
+  margin-top: 3em;
   margin-bottom: 2em;
   margin-right: 6em;
   margin-left: 4em; }
@@ -1386,7 +1386,7 @@ h1, h2, h3, h4, h5, h6 {
   .frontpage .front-name .first {
     color: #ccc; }
   .frontpage .front-name .second {
-    color: #09b5c4; }
+    color: #7FB2EF; }
 
 .frontpage .front-text-wrapper {
   margin-top: 2em;
@@ -1401,7 +1401,7 @@ h1, h2, h3, h4, h5, h6 {
 .frontpage .front-header {
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #09b5c4;
+  color: #5297e9;
   font-size: 175%; }
 
 .frontpage .front-motto {
@@ -1881,7 +1881,7 @@ pre code {
   font-size: 0.8rem; }
 
 q {
-  color: #09b5c4; }
+  color: #7FB2EF; }
 
 .header-image, .header-image + .post__heading {
   z-index: 0;
