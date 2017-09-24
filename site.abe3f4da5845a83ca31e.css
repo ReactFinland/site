@@ -2056,6 +2056,13 @@ table {
     border-right: 0.01em solid #050505; }
   table th:last-child, table td:last-child {
     border-right: none; }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin-left: 0.5em;
+  margin-bottom: 0.5em; }
 /* prism coy */
 .token.comment,
 .token.block-comment,
