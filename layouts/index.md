@@ -112,9 +112,13 @@ To be announced.
 
 ### Christian Alfoni - Declarative state and side effects
 
+Writing declarative code for our UIs is so common that we do not even think about it. But when it comes to writing logic for managing state and side effects it requires a lot of discipline to get the same benefits. We are going to talk about how we can get help writing our business logic in a declarative manner and see what benefits it gives us.
+
+**About Christian**
+
 ![Christian Alfoni|100|100|author-photo](assets/img/speakers/christian.jpg)
 
-Writing declarative code for our UIs is so common that we do not even think about it. But when it comes to writing logic for managing state and side effects it requires a lot of discipline to get the same benefits. We are going to talk about how we can get help writing our business logic in a declarative manner and see what benefits it gives us.
+Christian has been crunching JavaScript for about 8 years. In the recent years open source and writing articles has become a passion. Throwing bad and not so bad ideas out there to see what is valuable to people. Author of Cerebral, created Webpackbin and JSBlog... amongst other things
 
 ### David Khourshid - To be announced
 
@@ -142,15 +146,15 @@ A self-improvement aficionado, he takes every opportunity to connect with people
 
 To be announced.
 
-### Juho Vepsäläinen - Webpack
+### Juho Vepsäläinen - **Webpack - The Good Parts**
+
+In this high-level overview you'll learn to configure webpack. Even if you know it already, there might be some surprises in store as you gain insight to the tool you otherwise might miss.
+
+**About Juho**
 
 ![Juho Vepsäläinen|100|100|author-photo](assets/img/speakers/juho.jpg)
 
 Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
-
-**Webpack - The Good Parts**
-
-In this high-level overview you'll learn to configure webpack. Even if you know it already, there might be some surprises in store as you gain insight to the tool you otherwise might miss.
 
 ### Patrick Stapfler - ReasonML
 
