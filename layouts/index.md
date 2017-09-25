@@ -17,6 +17,7 @@ The workshop day of the event has been limited to hundred people. Each workshop 
 * React Architecture - Learn to architecture your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
 * ReactVR - Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
 * ReasonML - See the reason in ReasonML with [Patrick Stapfler](https://github.com/ryyppy).
+* Universal React - Learn how to develop React in Universal way with [Sia Karamalegos](https://github.com/siakaramalegos).
 * [Webpack - The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/) - Learn more about webpack from one of its core developers, [Juho Vepsäläinen](https://github.com/bebraw).
 
 ### 25.04 - Wednesday - React
