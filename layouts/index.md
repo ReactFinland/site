@@ -45,7 +45,7 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Mystery talk related to routing.</dd>
 
   <dt>14:00 - 15:00</dt>
-  <dd>**Universal React** with [Sia Karamalegos](https://github.com/siakaramalegos)</dd>
+  <dd>**Universal React Apps Using Next.js** with [Sia Karamalegos](https://github.com/siakaramalegos)</dd>
 
   <dt>15:00 - 15:30</dt>
   <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
@@ -123,17 +123,17 @@ TODO
 
 ### [Gant Laborde](http://gantlaborde.com/) - React Native Ignite
 
+Life can be simple again. Haven’t we built the same house, or given the same hair cut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? It’s not with React Native.
+
+Let's look at how simple it is to get started in React Native using Ignite CLI.  Using Ignite, you can jump in with a popular combination of technologies, OR brew your own. Ignite is the freedom to learn and automate your mobile app.
+
+**About Gant**
+
 ![Gant Laborde|100|100|author-photo](assets/img/speakers/gant.png)
 
 Gant is a New Orleans-based force of nature. Not satisfied to be “just” an experienced programmer in an array of disciplines, he’s also a prolific writer, an award-winning public speaker, and an adjunct professor.
 
 A self-improvement aficionado, he takes every opportunity to connect with people and share knowledge through education and outreach. In the zombie apocalypse, Gant will run our much-needed bar, offering up advice, encouragement, and libations in equal measure.
-
-**React Native Ignite**
-
-Life can be simple again. Haven’t we built the same house, or given the same hair cut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? It’s not with React Native.
-
-Let's look at how simple it is to get started in React Native using Ignite CLI.  Using Ignite, you can jump in with a popular combination of technologies, OR brew your own. Ignite is the freedom to learn and automate your mobile app.
 
 ### Jani Eväkallio - ???
 
@@ -163,11 +163,19 @@ TODO
 
 TODO
 
-### Sia Karamalegos - Universal React
+### Sia Karamalegos - Universal React Apps Using Next.js
+
+Every user’s hardware is different, and processing speed can hinder user experience on client-side rendered React applications. Server-side rendering and code-splitting can drastically improve user experience by minimizing the work that the client has to do.
+
+It’s easy to get lost in the lingo, so come learn what it all means and how to easily build universal React apps using the Next.js framework. We’ll walk through the concepts and use code examples to cement your understanding. You’ll get the most out of this session if you’re comfortable with React and ES6 syntax.
+
+**About Sia**
 
 ![Sia Karamalegos|100|100|author-photo](assets/img/speakers/sia.jpg)
 
-TODO
+Sia Karamalegos is the founder and lead developer for Clio + Calliope Web Development. She has over 15 years of experience in technology, strategy, project management, and operations from small startups to large corporations across multiple industries, especially high-tech and education. She leverages her depth of experience with software engineering to build high-value applications.
+
+In both 2015 and 2016, Sia was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana. She graduated from Texas A&M University with a BS in chemical engineering and received her MBA from Harvard Business School.
 
 ## Registration
 
