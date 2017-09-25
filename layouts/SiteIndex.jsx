@@ -1,5 +1,5 @@
 import React from "react";
-import { SocialLinks } from "@survivejs/components";
+import SocialLinks from "../components/SocialLinks";
 
 const SiteIndex = ({ section }) => (
   <div className="frontpage">
@@ -25,7 +25,7 @@ const SiteIndex = ({ section }) => (
       <section className="post__content">
         <div dangerouslySetInnerHTML={{ __html: require("./index.md").body }} />
 
-        {/*<SocialLinks />*/}
+        <SocialLinks />
       </section>
     </div>
   </div>

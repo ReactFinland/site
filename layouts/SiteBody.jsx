@@ -1,11 +1,6 @@
 import React from "react";
 
-import {
-  GitterChat,
-  Feedback,
-  Footer,
-  Navigation
-} from "@survivejs/components";
+import { Navigation } from "@survivejs/components";
 
 import "../styles/custom.scss";
 import "../styles/prism.css";
@@ -18,27 +13,12 @@ const navigationPages = sectionName => [
     url: "/"
   },
   {
-    title: sectionName === "blog" ? "Read the webpack book" : "Read the blog",
-    url: sectionName === "blog" ? "/webpack/foreword/" : "/blog/"
-  },
-  {
-    title: "Get training",
-    url: "/training/"
-  },
-  {
-    title: "Buy the ebook",
-    url:
-      sectionName === "webpack"
-        ? "https://leanpub.com/survivejs-webpack"
-        : "https://leanpub.com/survivejs-react"
-  },
-  {
     title: "",
     url: ""
   },
   {
-    title: "@survivejs",
-    url: "https://twitter.com/survivejs"
+    title: "@ReactFinland",
+    url: "https://twitter.com/ReactFinland"
   }
 ];
 
@@ -46,12 +26,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
   <div>
     {children}
 
-    {pathname !== "/" && <Navigation pages={navigationPages(section.name)} />}
-    {pathname !== "/" && <Feedback sectionName={section.name} />}
-
-    <Footer section={section} />
-
-    <GitterChat sectionName={section.name} />
+    <Navigation pages={navigationPages(section.name)} />
   </div>
 );
 
