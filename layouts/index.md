@@ -102,13 +102,13 @@ The second day of the event continues where the first one left off:
 
 ![Andrey Okonetchnikov|100|100|author-photo](assets/img/speakers/andrey.jpg)
 
-TODO
+To be announced.
 
 ### Artem Sapegin - React Architecture
 
 ![Artem Sapegin|100|100|author-photo](assets/img/speakers/artem.jpg)
 
-TODO
+To be announced.
 
 ### Christian Alfoni - Declarative state and side effects
 
@@ -116,11 +116,11 @@ TODO
 
 Writing declarative code for our UIs is so common that we do not even think about it. But when it comes to writing logic for managing state and side effects it requires a lot of discipline to get the same benefits. We are going to talk about how we can get help writing our business logic in a declarative manner and see what benefits it gives us.
 
-### David Khourshid - ???
+### David Khourshid - To be announced
 
 ![David Khoursid|100|100|author-photo](assets/img/speakers/david.jpg)
 
-TODO
+To be announced.
 
 ### [Gant Laborde](http://gantlaborde.com/) - React Native Ignite
 
@@ -136,11 +136,11 @@ Gant is a New Orleans-based force of nature. Not satisfied to be “just” an e
 
 A self-improvement aficionado, he takes every opportunity to connect with people and share knowledge through education and outreach. In the zombie apocalypse, Gant will run our much-needed bar, offering up advice, encouragement, and libations in equal measure.
 
-### Jani Eväkallio - ???
+### Jani Eväkallio - To be announced
 
 ![Jani Eväkallio|100|100|author-photo](assets/img/speakers/jani.jpg)
 
-TODO
+To be announced.
 
 ### Juho Vepsäläinen - Webpack
 
@@ -156,13 +156,13 @@ In this high-level overview you'll learn to configure webpack. Even if you know 
 
 ![Patrick Stapfler|100|100|author-photo](assets/img/speakers/patrick.jpg)
 
-TODO
+To be announced.
 
 ### Shay Keinan - ReactVR
 
 ![Shay Keinan|100|100|author-photo](assets/img/speakers/shay.jpg)
 
-TODO
+To be announced.
 
 ### Sia Karamalegos - Universal React Apps Using Next.js
 
@@ -180,4 +180,4 @@ In both 2015 and 2016, Sia was recognized in the Silicon Bayou 100, the 100 most
 
 ## Registration
 
-TODO
+To be announced.
