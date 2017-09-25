@@ -36,7 +36,7 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Something interesting on state management.</dd>
 
   <dt>11:00 - 12:00</dt>
-  <dd>Cerebral with [Christian Alfoni](https://github.com/christianalfoni).</dd>
+  <dd>**Declarative state and side effects** with [Christian Alfoni](https://github.com/christianalfoni).</dd>
 
   <dt>12:00 - 13:00</dt>
   <dd>Lunch. It's functional. You are **not** supposed to like it.</dd>
@@ -45,7 +45,7 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Mystery talk related to routing.</dd>
 
   <dt>14:00 - 15:00</dt>
-  <dd>Universal React with [Sia Karamalegos](https://github.com/siakaramalegos)</dd>
+  <dd>**Universal React** with [Sia Karamalegos](https://github.com/siakaramalegos)</dd>
 
   <dt>15:00 - 15:30</dt>
   <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
@@ -71,16 +71,16 @@ The second day of the event continues where the first one left off:
   <dd>Keynote by [Jani Eväkallio](https://github.com/jevakallio).</dd>
 
   <dt>10:00 - 11:00</dt>
-  <dd>ReasonML with [Patrick Stapfler](https://github.com/ryyppy).</dd>
+  <dd>**ReasonML** with [Patrick Stapfler](https://github.com/ryyppy).</dd>
 
   <dt>11:00 - 12:00</dt>
-  <dd>ReactVR with [Shay Keinan](https://github.com/crazypixel).</dd>
+  <dd>**ReactVR** with [Shay Keinan](https://github.com/crazypixel).</dd>
 
   <dt>12:00 - 13:00</dt>
   <dd>Lunch. You might like it better this time.</dd>
 
   <dt>13:00 - 14:00</dt>
-  <dd>React Native Ignite with [Gant Laborde](https://github.com/GantMan).</dd>
+  <dd>**React Native Ignite** with [Gant Laborde](https://github.com/GantMan).</dd>
 
   <dt>14:00 - 15:00</dt>
   <dd>??? by [David Khourshid](https://github.com/davidkpiano).</dd>
@@ -109,11 +109,11 @@ TODO
 
 TODO
 
-### Christian Alfoni - Cerebral
+### Christian Alfoni - Declarative state and side effects
 
 ![Christian Alfoni|100|100|author-photo](assets/img/speakers/christian.jpg)
 
-TODO
+Writing declarative code for our UIs is so common that we do not even think about it. But when it comes to writing logic for managing state and side effects it requires a lot of discipline to get the same benefits. We are going to talk about how we can get help writing our business logic in a declarative manner and see what benefits it gives us.
 
 ### David Khourshid - ???
 
