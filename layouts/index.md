@@ -16,7 +16,7 @@ The workshop day of the event has been limited to hundred people. Each workshop 
 
 * React Architecture - Learn to architecture your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
 * ReactVR - Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
-* ReasonML - See the reason in ReasonML with [Patrick Stapfler](https://github.com/ryyppy).
+* ReasonML - See the reason in ReasonML with [Patrick Stapfer](https://github.com/ryyppy).
 * Universal React - Learn how to develop React in Universal way with [Sia Karamalegos](https://github.com/siakaramalegos).
 * [Webpack - The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/) - Learn more about webpack from one of its core developers, [Juho Vepsäläinen](https://github.com/bebraw).
 
@@ -72,7 +72,7 @@ The second day of the event continues where the first one left off:
   <dd>Keynote by [Jani Eväkallio](https://github.com/jevakallio).</dd>
 
   <dt>10:00 - 11:00</dt>
-  <dd>**ReasonML** with [Patrick Stapfler](https://github.com/ryyppy).</dd>
+  <dd>**ReasonML** with [Patrick Stapfer](https://github.com/ryyppy).</dd>
 
   <dt>11:00 - 12:00</dt>
   <dd>**ReactVR** with [Shay Keinan](https://github.com/crazypixel).</dd>
@@ -156,9 +156,9 @@ In this high-level overview you'll learn to configure webpack. Even if you know 
 
 Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
 
-### Patrick Stapfler - ReasonML
+### Patrick Stapfer - ReasonML
 
-![Patrick Stapfler|100|100|author-photo](assets/img/speakers/patrick.jpg)
+![Patrick Stapfer|100|100|author-photo](assets/img/speakers/patrick.jpg)
 
 To be announced.
 
