@@ -8,6 +8,7 @@ import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
 
 const navigationPages = sectionName => [
+  /*
   {
     title: "Home",
     url: "/"
@@ -16,6 +17,7 @@ const navigationPages = sectionName => [
     title: "",
     url: ""
   },
+  */
   {
     title: "@ReactFinland",
     url: "https://twitter.com/ReactFinland"
