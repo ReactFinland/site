@@ -14,7 +14,7 @@ The program of the event has been carefully curated. In Finnish style, we rather
 
 The workshop day of the event has been limited to hundred people. Each workshop is limited to 50 people and 3 hours. So far, the following workshops have been confirmed:
 
-* React Architecture - Learn to architecture your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
+* Style guides in React - Learn to develop style guides for your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
 * ReactVR - Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
 * ReasonML - See the reason in ReasonML with [Patrick Stapfer](https://github.com/ryyppy).
 * Universal React - Learn how to develop React in Universal way with [Sia Karamalegos](https://github.com/siakaramalegos).
@@ -98,17 +98,29 @@ The second day of the event continues where the first one left off:
 
 ## Speakers
 
-### Andrey Okonetchnikov - React Architecture
+### Andrey Okonetchnikov - Style Guides in React
+
+To be announced.
+
+**About Andrey**
 
 ![Andrey Okonetchnikov|100|100|author-photo](assets/img/speakers/andrey.jpg)
 
+* [Andrey on GitHub](https://github.com/okonet)
+* [@okonetchnikov](https://twitter.com/okonetchnikov)
+
+### Artem Sapegin - Style Guides in React
+
 To be announced.
 
-### Artem Sapegin - React Architecture
+**About Artem**
 
 ![Artem Sapegin|100|100|author-photo](assets/img/speakers/artem.jpg)
 
-To be announced.
+Frontend developer living in Berlin, passionate photographer and owner of crazy dogs. Creator of React Styleguidist.
+
+* [Artem on GitHub](https://github.com/sapegin)
+* [@sapegin](https://twitter.com/sapegin)
 
 ### Christian Alfoni - Declarative state and side effects
 
@@ -120,11 +132,19 @@ Writing declarative code for our UIs is so common that we do not even think abou
 
 Christian has been crunching JavaScript for about 8 years. In the recent years open source and writing articles has become a passion. Throwing bad and not so bad ideas out there to see what is valuable to people. Author of Cerebral, created Webpackbin and JSBlog... amongst other things
 
+* [Christian on GitHub](https://github.com/christianalfoni)
+* [@christianalfoni](https://twitter.com/christianalfoni)
+
 ### David Khourshid - To be announced
+
+To be announced.
+
+**About David**
 
 ![David Khoursid|100|100|author-photo](assets/img/speakers/david.jpg)
 
-To be announced.
+* [David on GitHub](https://github.com/davidkpiano)
+* [@davidkpiano](https://twitter.com/davidkpiano)
 
 ### [Gant Laborde](http://gantlaborde.com/) - React Native Ignite
 
@@ -140,11 +160,19 @@ Gant is a New Orleans-based force of nature. Not satisfied to be “just” an e
 
 A self-improvement aficionado, he takes every opportunity to connect with people and share knowledge through education and outreach. In the zombie apocalypse, Gant will run our much-needed bar, offering up advice, encouragement, and libations in equal measure.
 
+* [Gant on GitHub](https://github.com/GantMan)
+* [@GantLaborde](https://twitter.com/GantLaborde)
+
 ### Jani Eväkallio - To be announced
+
+To be announced.
+
+**About Jani**
 
 ![Jani Eväkallio|100|100|author-photo](assets/img/speakers/jani.jpg)
 
-To be announced.
+* [Jani on GitHub](https://github.com/jevakallio)
+* [@jevakallio](https://twitter.com/jevakallio)
 
 ### Juho Vepsäläinen - **Webpack - The Good Parts**
 
@@ -156,17 +184,30 @@ In this high-level overview you'll learn to configure webpack. Even if you know 
 
 Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
 
+* [Juho on GitHub](https://github.com/bebraw)
+* [@bebraw](https://twitter.com/bebraw)
+
 ### Patrick Stapfer - ReasonML
+
+To be announced.
+
+**About Patrick**
 
 ![Patrick Stapfer|100|100|author-photo](assets/img/speakers/patrick.jpg)
 
-To be announced.
+* [Patrick on GitHub](https://github.com/ryyppy)
+* [@ryyppy](https://twitter.com/ryyppy)
 
 ### Shay Keinan - ReactVR
 
+To be announced.
+
+**About Shay**
+
 ![Shay Keinan|100|100|author-photo](assets/img/speakers/shay.jpg)
 
-To be announced.
+* [Shay on GitHub](https://github.com/crazypixel)
+* [@crazypixel](https://twitter.com/Shay_Keinan)
 
 ### Sia Karamalegos - Universal React Apps Using Next.js
 
@@ -180,4 +221,5 @@ It’s easy to get lost in the lingo, so come learn what it all means and how to
 
 Sia Karamalegos is the founder and lead developer for Clio + Calliope Web Development. She has over 15 years of experience in technology, strategy, project management, and operations from small startups to large corporations across multiple industries, especially high-tech and education. She leverages her depth of experience with software engineering to build high-value applications.
 
-In both 2015 and 2016, Sia was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana. She graduated from Texas A&M University with a BS in chemical engineering and received her MBA from Harvard Business School.
+* [Sia on GitHub](https://github.com/siakaramalegos)
+* [@thegreengreek](https://twitter.com/thegreengreek)
