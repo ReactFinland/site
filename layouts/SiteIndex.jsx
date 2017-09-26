@@ -23,7 +23,14 @@ const SiteIndex = ({ section }) => (
 
     <div className="post post--front">
       <section className="post__content">
-        <div dangerouslySetInnerHTML={{ __html: require("./index.md").body }} />
+        <div
+          className="post__schedule"
+          dangerouslySetInnerHTML={{ __html: require("./schedule.md").body }}
+        />
+        <div
+          className="post__speakers"
+          dangerouslySetInnerHTML={{ __html: require("./speakers.md").body }}
+        />
 
         <SocialLinks />
       </section>

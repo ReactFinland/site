@@ -1,0 +1,99 @@
+## Learn More about React, Explore Finland
+
+![React Finland logo|200|200|react-image](assets/img/logo.png)
+
+**React Finland** combines the Finnish React community with international flavor. First of its kind in Finland, the event consists of a workshop day and two days of presentations around the topic. In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community.
+
+The event will be held between 24th and 26th of April (2018) in Helsinki. In addition to enjoying the event, this is your chance to explore Finland.
+
+T> If there's enough demand, we'll organize a guided tour that helps you understand this mysterious country not many seems to know a lot about. You might have heard of Nokia or Linux but there's more to the country than that.
+
+## Program
+
+The program of the event has been carefully curated. In Finnish style, we rather focus on quality than quantity. There is no call for papers and the speakers have been chosen with care.
+
+### 24.04 - Tuesday - Workshops
+
+The workshop day of the event has been limited to hundred people. Each workshop is limited to 50 people and 3 hours. So far, the following workshops have been confirmed:
+
+* Style guides in React - Learn to develop style guides for your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
+* ReactVR - Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
+* ReasonML - See the reason in ReasonML with [Patrick Stapfer](https://github.com/ryyppy).
+* Universal React - Learn how to develop React in Universal way with [Sia Karamalegos](https://github.com/siakaramalegos).
+* [Webpack - The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/) - Learn more about webpack from one of its core developers, [Juho Vepsäläinen](https://github.com/bebraw).
+
+### 25.04 - Wednesday - React
+
+In Finnish style, we start each day early. We also eat lunch early. This way we have time to visit sauna, the holiest place of the culture.
+
+The first presentation day has a strict focus on React itself. Each session ends with a brief break and we have certain longer breaks in between:
+
+<dl>
+  <dt>08:00 - 09:00</dt>
+  <dd>Registration, Finnish breakfast. Trust me, it's the best.</dd>
+
+  <dt>09:00 - 10:00</dt>
+  <dd>Keynote by a mystery secret speaker.</dd>
+
+  <dt>10:00 - 11:00</dt>
+  <dd>Something interesting on state management.</dd>
+
+  <dt>11:00 - 12:00</dt>
+  <dd>**Declarative state and side effects** with [Christian Alfoni](https://github.com/christianalfoni).</dd>
+
+  <dt>12:00 - 13:00</dt>
+  <dd>Lunch. It's functional. You are **not** supposed to like it.</dd>
+
+  <dt>13:00 - 14:00</dt>
+  <dd>Mystery talk related to routing.</dd>
+
+  <dt>14:00 - 15:00</dt>
+  <dd>**Universal React Apps Using Next.js** with [Sia Karamalegos](https://github.com/siakaramalegos)</dd>
+
+  <dt>15:00 - 15:30</dt>
+  <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
+
+  <dt>15:30 - 16:30</dt>
+  <dd>Four lightning talks. These will be by local heroes of the community most likely.</dd>
+
+  <dt>16:30 - 17:00</dt>
+  <dd>Panel discussion to end the day in style.</dd>
+</dl>
+
+There will be fun after the panel.
+
+### 26.04 - Thursday - More React
+
+The second day of the event continues where the first one left off:
+
+<dl>
+  <dt>08:00 - 09:00</dt>
+  <dd>Registration, Finnish breakfast. Trust me, it's the best still.</dd>
+
+  <dt>09:00 - 10:00</dt>
+  <dd>Keynote by [Jani Eväkallio](https://github.com/jevakallio).</dd>
+
+  <dt>10:00 - 11:00</dt>
+  <dd>**ReasonML** with [Patrick Stapfer](https://github.com/ryyppy).</dd>
+
+  <dt>11:00 - 12:00</dt>
+  <dd>**ReactVR** with [Shay Keinan](https://github.com/crazypixel).</dd>
+
+  <dt>12:00 - 13:00</dt>
+  <dd>Lunch. You might like it better this time.</dd>
+
+  <dt>13:00 - 14:00</dt>
+  <dd>**React Native Ignite** with [Gant Laborde](https://github.com/GantMan).</dd>
+
+  <dt>14:00 - 15:00</dt>
+  <dd>??? by [David Khourshid](https://github.com/davidkpiano).</dd>
+
+  <dt>15:00 - 15:30</dt>
+  <dd>Coffee break. Other beverages are available too although black coffee is our favorite.</dd>
+
+  <dt>15:30 - 16:30</dt>
+  <dd>Four lightning talks. Local heroes or maybe some people from the audience.</dd>
+
+  <dt>16:30 - 17:00</dt>
+  <dd>Panel discussion to end the conference.</dd>
+</dl>
