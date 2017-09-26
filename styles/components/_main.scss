@@ -1,4 +1,8 @@
-div, section, article, main, nav {
+div,
+section,
+article,
+main,
+nav {
   justify-content: center;
   align-content: center;
 }
@@ -10,5 +14,11 @@ main {
 }
 .post__content {
   margin: 0 auto;
+  max-width: 1400px;
+}
+.post__block {
+  vertical-align: top;
+  display: inline-block;
   max-width: 600px;
+  margin: 2em;
 }
