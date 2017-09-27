@@ -16,7 +16,7 @@
       "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
     "prepush": "npm test",
     "copy:all": "npm run copy:extra",
-    "copy:extra": "cp -rfv assets/extra/ build/"
+    "copy:extra": "cp -rfv assets/extra build"
   },
   "repository": {
     "type": "git",
