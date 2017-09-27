@@ -22,7 +22,7 @@ To be announced.
 Frontend developer living in Berlin, passionate photographer and owner of crazy dogs. Creator of React Styleguidist.
 
 * [Artem on GitHub](https://github.com/sapegin)
-* [@sapegin](https://twitter.com/sapegin)
+* [@iamsapegin](https://twitter.com/iamsapegin)
 
 ### Christian Alfoni - Declarative state and side effects
 
