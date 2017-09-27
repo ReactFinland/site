@@ -6,7 +6,7 @@
 
 The event will be held between 24th and 26th of April (2018) in Helsinki. In addition to enjoying the event, this is your chance to explore Finland.
 
-T> If there's enough demand, we'll organize a guided tour that helps you understand this mysterious country not many seems to know a lot about. You might have heard of Nokia or Linux but there's more to the country than that.
+T> If there's enough demand, we'll organize a guided tour that helps you understand this mysterious country not many seem to know a lot about. You might have heard of Nokia or Linux but there's more to the country than that.
 
 ## Program
 
@@ -54,7 +54,7 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
 
   <dt>15:30 - 16:30</dt>
-  <dd>Four lightning talks. These will be by local heroes of the community most likely.</dd>
+  <dd>Four lightning talks. These will be by locals most likely.</dd>
 
   <dt>16:30 - 17:00</dt>
   <dd>Panel discussion to end the day in style.</dd>
@@ -92,7 +92,7 @@ The second day of the event continues where the first one left off:
   <dd>Coffee break. Other beverages are available too although black coffee is our favorite.</dd>
 
   <dt>15:30 - 16:30</dt>
-  <dd>Four lightning talks. Local heroes or maybe some people from the audience.</dd>
+  <dd>Four lightning talks. Locals or maybe some people from the audience.</dd>
 
   <dt>16:30 - 17:00</dt>
   <dd>Panel discussion to end the conference.</dd>
