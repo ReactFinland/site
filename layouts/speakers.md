@@ -37,9 +37,9 @@ Christian has been crunching JavaScript for about 8 years. In the recent years o
 * [Christian on GitHub](https://github.com/christianalfoni)
 * [@christianalfoni](https://twitter.com/christianalfoni)
 
-### David Khourshid - To be announced
+### David Khourshid - Reactive State Machines and Statecharts
 
-To be announced.
+Managing the many user interface states of an application easily become complicated. We'll discover how some historical and important computer science concepts - state machines and statecharts - and a functional + reactive approach can make it much easier to understand, visualize, implement, and automatically create tests for complex user interfaces and flows.
 
 **About David**
 
@@ -52,7 +52,7 @@ To be announced.
 
 Life can be simple again. Haven’t we built the same house, or given the same hair cut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? It’s not with React Native.
 
-Let's look at how simple it is to get started in React Native using Ignite CLI.  Using Ignite, you can jump in with a popular combination of technologies, OR brew your own. Ignite is the freedom to learn and automate your mobile app.
+Let's look at how simple it is to get started in React Native using Ignite CLI. Using Ignite, you can jump in with a popular combination of technologies, OR brew your own. Ignite is the freedom to learn and automate your mobile app.
 
 **About Gant**
 

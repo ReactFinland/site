@@ -86,7 +86,7 @@ The second day of the event continues where the first one left off:
   <dd>**React Native Ignite** with [Gant Laborde](https://github.com/GantMan).</dd>
 
   <dt>14:00 - 15:00</dt>
-  <dd>??? by [David Khourshid](https://github.com/davidkpiano).</dd>
+  <dd>**Reactive State Machines and Statecharts** by [David Khourshid](https://github.com/davidkpiano).</dd>
 
   <dt>15:00 - 15:30</dt>
   <dd>Coffee break. Other beverages are available too although black coffee is our favorite.</dd>
