@@ -8,6 +8,7 @@ To be announced.
 
 ![Andrey Okonetchnikov|100|100|author-photo](assets/img/speakers/andrey.jpg)
 
+* [Andrey's homepage](http://okonet.ru/)
 * [Andrey on GitHub](https://github.com/okonet)
 * [@okonetchnikov](https://twitter.com/okonetchnikov)
 
@@ -21,6 +22,7 @@ To be announced.
 
 Frontend developer living in Berlin, passionate photographer and owner of crazy dogs. Creator of React Styleguidist.
 
+* [Artem's homepage](http://sapegin.me/)
 * [Artem on GitHub](https://github.com/sapegin)
 * [@iamsapegin](https://twitter.com/iamsapegin)
 
@@ -34,6 +36,7 @@ Writing declarative code for our UIs is so common that we do not even think abou
 
 Christian has been crunching JavaScript for about 8 years. In the recent years open source and writing articles has become a passion. Throwing bad and not so bad ideas out there to see what is valuable to people. Author of Cerebral, created Webpackbin and JSBlog... amongst other things
 
+* [Christian's homepage](http://www.christianalfoni.com/)
 * [Christian on GitHub](https://github.com/christianalfoni)
 * [@christianalfoni](https://twitter.com/christianalfoni)
 
@@ -62,6 +65,7 @@ Gant is a New Orleans-based force of nature. Not satisfied to be “just” an e
 
 A self-improvement aficionado, he takes every opportunity to connect with people and share knowledge through education and outreach. In the zombie apocalypse, Gant will run our much-needed bar, offering up advice, encouragement, and libations in equal measure.
 
+* [Gant's homepage](http://gantlaborde.com/)
 * [Gant on GitHub](https://github.com/GantMan)
 * [@GantLaborde](https://twitter.com/GantLaborde)
 
@@ -86,6 +90,7 @@ In this high-level overview you'll learn to configure webpack. Even if you know 
 
 Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
 
+* [Juho's homepage](https://survivejs.com/)
 * [Juho on GitHub](https://github.com/bebraw)
 * [@bebraw](https://twitter.com/bebraw)
 
@@ -123,6 +128,7 @@ It’s easy to get lost in the lingo, so come learn what it all means and how to
 
 Sia Karamalegos is the founder and lead developer for Clio + Calliope Web Development. She has over 15 years of experience in technology, strategy, project management, and operations from small startups to large corporations across multiple industries, especially high-tech and education. She leverages her depth of experience with software engineering to build high-value applications.
 
+* [Sia's homepage](http://www.clioandcalliope.com/)
 * [Sia on GitHub](https://github.com/siakaramalegos)
 * [@thegreengreek](https://twitter.com/thegreengreek)
 
