@@ -39,16 +39,16 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Something interesting on state management.</dd>
 
   <dt>11:00 - 12:00</dt>
-  <dd>**Declarative state and side effects** with [Christian Alfoni](https://github.com/christianalfoni).</dd>
+  <dd>**Declarative state and side effects** with Christian Alfoni.</dd>
 
   <dt>12:00 - 13:00</dt>
   <dd>Lunch. It's functional. You are **not** supposed to like it.</dd>
 
   <dt>13:00 - 14:00</dt>
-  <dd>Mystery talk related to routing.</dd>
+  <dd>**Universal React Apps Using Next.js** with Sia Karamalegos</dd>
 
   <dt>14:00 - 15:00</dt>
-  <dd>**Universal React Apps Using Next.js** with [Sia Karamalegos](https://github.com/siakaramalegos)</dd>
+  <dd>**Testing** with Sara Vieira and Rotem Mizrachi-Meidan</dd>
 
   <dt>15:00 - 15:30</dt>
   <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
@@ -71,22 +71,22 @@ The second day of the event continues where the first one left off:
   <dd>Registration, Finnish breakfast. Trust me, it's the best still.</dd>
 
   <dt>09:00 - 10:00</dt>
-  <dd>Keynote by [Jani Eväkallio](https://github.com/jevakallio).</dd>
+  <dd>Keynote by Jani Eväkallio.</dd>
 
   <dt>10:00 - 11:00</dt>
-  <dd>**ReasonML** with [Patrick Stapfer](https://github.com/ryyppy).</dd>
+  <dd>**ReasonML** with Patrick Stapfer.</dd>
 
   <dt>11:00 - 12:00</dt>
-  <dd>**ReactVR** with [Shay Keinan](https://github.com/crazypixel).</dd>
+  <dd>**ReactVR** with Shay Keinan.</dd>
 
   <dt>12:00 - 13:00</dt>
   <dd>Lunch. You might like it better this time.</dd>
 
   <dt>13:00 - 14:00</dt>
-  <dd>**React Native Ignite** with [Gant Laborde](https://github.com/GantMan).</dd>
+  <dd>**React Native Ignite** with Gant Laborde.</dd>
 
   <dt>14:00 - 15:00</dt>
-  <dd>**Reactive State Machines and Statecharts** by [David Khourshid](https://github.com/davidkpiano).</dd>
+  <dd>**Reactive State Machines and Statecharts** by David Khourshid.</dd>
 
   <dt>15:00 - 15:30</dt>
   <dd>Coffee break. Other beverages are available too although black coffee is our favorite.</dd>
