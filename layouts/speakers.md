@@ -51,7 +51,7 @@ Managing the many user interface states of an application easily become complica
 * [David on GitHub](https://github.com/davidkpiano)
 * [@davidkpiano](https://twitter.com/davidkpiano)
 
-### [Gant Laborde](http://gantlaborde.com/) - React Native Ignite
+### Gant Laborde - React Native Ignite
 
 Life can be simple again. Haven’t we built the same house, or given the same hair cut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? It’s not with React Native.
 
