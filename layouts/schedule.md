@@ -47,10 +47,10 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Lunch. It's functional. You are **not** supposed to like it.</dd>
 
   <dt>13:00 - 14:00</dt>
-  <dd>**Universal React Apps Using Next.js** with Sia Karamalegos</dd>
+  <dd>**Universal React Apps Using Next.js** with Sia Karamalegos.</dd>
 
   <dt>14:00 - 15:00</dt>
-  <dd>**Testing** with Sara Vieira and Rotem Mizrachi-Meidan</dd>
+  <dd>**Testing** with Sara Vieira and Rotem Mizrachi-Meidan.</dd>
 
   <dt>15:00 - 15:30</dt>
   <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
