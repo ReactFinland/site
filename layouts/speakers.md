@@ -73,6 +73,18 @@ A self-improvement aficionado, he takes every opportunity to connect with people
 * [Gant on GitHub](https://github.com/GantMan)
 * [@GantLaborde](https://twitter.com/GantLaborde)
 
+### Nik Graf - React VR
+
+To be announced.
+
+**About Nik**
+
+![Nik Graf|100|100|author-photo](assets/img/speakers/nik.jpg)
+
+* [Nik's homepage](http://www.nikgraf.com/)
+* [Nik on GitHub](https://github.com/nikgraf)
+* [@nikgraf](https://twitter.com/nikgraf)
+
 ### Jani Eväkallio - To be announced
 
 To be announced.

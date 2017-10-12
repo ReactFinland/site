@@ -79,7 +79,7 @@ The second day of the event continues where the first one left off:
   <dd>**ReasonML** with Patrick Stapfer.</dd>
 
   <dt>11:00 - 12:00</dt>
-  <dd>**ReactVR** with Shay Keinan.</dd>
+  <dd>**Reactive State Machines and Statecharts** by David Khourshid.</dd>
 
   <dt>12:00 - 13:00</dt>
   <dd>Lunch. You might like it better this time.</dd>
@@ -88,7 +88,7 @@ The second day of the event continues where the first one left off:
   <dd>**React Native Ignite** with Gant Laborde.</dd>
 
   <dt>14:00 - 15:00</dt>
-  <dd>**Reactive State Machines and Statecharts** by David Khourshid.</dd>
+  <dd>**ReactVR** with Shay Keinan and Nik Graf.</dd>
 
   <dt>15:00 - 15:30</dt>
   <dd>Coffee break. Other beverages are available too although black coffee is our favorite.</dd>
