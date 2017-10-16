@@ -177,7 +177,7 @@ It’s easy to get lost in the lingo, so come learn what it all means and how to
 
 Sia Karamalegos is the founder and lead developer for Clio + Calliope Web Development. She has over 15 years of experience in technology, strategy, project management, and operations from small startups to large corporations across multiple industries, especially high-tech and education. She leverages her depth of experience with software engineering to build high-value applications.
 
-* [Sia's homepage](http://www.clioandcalliope.com/)
+* [Sia's homepage](https://siakaramalegos.github.io/)
 * [Sia on GitHub](https://github.com/siakaramalegos)
 * [@thegreengreek](https://twitter.com/thegreengreek)
 
