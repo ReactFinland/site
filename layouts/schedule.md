@@ -38,27 +38,27 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Keynote by a mystery secret speaker.</dd>
 
   <dt>10:00 - 11:00</dt>
-  <dd>Something interesting on state management.</dd>
+  <dd>Something interesting on styling.</dd>
 
-  <dt>11:00 - 12:00</dt>
-  <dd>**Declarative state and side effects** with Christian Alfoni.</dd>
-
-  <dt>12:00 - 13:00</dt>
+  <dt>11:00 - 13:00</dt>
   <dd>Lunch. It's functional. You are **not** supposed to like it.</dd>
 
   <dt>13:00 - 14:00</dt>
-  <dd>**Universal React Apps Using Next.js** with Sia Karamalegos.</dd>
+  <dd>**Declarative state and side effects** with Christian Alfoni.</dd>
 
   <dt>14:00 - 15:00</dt>
+  <dd>**Universal React Apps Using Next.js** with Sia Karamalegos.</dd>
+
+  <dt>15:00 - 16:30</dt>
   <dd>**Testing** with Sara Vieira and Rotem Mizrachi-Meidan.</dd>
 
-  <dt>15:00 - 15:30</dt>
+  <dt>16:30 - 17:00</dt>
   <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
 
-  <dt>15:30 - 16:30</dt>
+  <dt>17:00 - 17:30</dt>
   <dd>Four lightning talks. These will be by locals most likely.</dd>
 
-  <dt>16:30 - 17:00</dt>
+  <dt>17:30 - 18:00</dt>
   <dd>Panel discussion to end the day in style.</dd>
 </dl>
 
@@ -78,24 +78,24 @@ The second day of the event continues where the first one left off:
   <dt>10:00 - 11:00</dt>
   <dd>**ReasonML** with Patrick Stapfer.</dd>
 
-  <dt>11:00 - 12:00</dt>
-  <dd>**Reactive State Machines and Statecharts** by David Khourshid.</dd>
-
-  <dt>12:00 - 13:00</dt>
+  <dt>11:00 - 13:00</dt>
   <dd>Lunch. You might like it better this time.</dd>
 
   <dt>13:00 - 14:00</dt>
-  <dd>**React Native Ignite** with Gant Laborde.</dd>
+  <dd>**Reactive State Machines and Statecharts** by David Khourshid.</dd>
 
   <dt>14:00 - 15:00</dt>
+  <dd>**React Native Ignite** with Gant Laborde.</dd>
+
+  <dt>15:00 - 16:30</dt>
   <dd>**ReactVR** with Shay Keinan and Nik Graf.</dd>
 
-  <dt>15:00 - 15:30</dt>
+  <dt>16:30 - 17:00</dt>
   <dd>Coffee break. Other beverages are available too although black coffee is our favorite.</dd>
 
-  <dt>15:30 - 16:30</dt>
+  <dt>17:00 - 17:30</dt>
   <dd>Four lightning talks. Locals or maybe some people from the audience.</dd>
 
-  <dt>16:30 - 17:00</dt>
+  <dt>17:30 - 18:00</dt>
   <dd>Panel discussion to end the conference.</dd>
 </dl>
