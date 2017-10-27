@@ -1,35 +1,3 @@
-## Speakers
-
-### Andrey Okonetchnikov - Style Guides in React
-
-To be announced.
-
-**About Andrey**
-
-![Andrey Okonetchnikov|100|100|author-photo](assets/img/speakers/andrey.jpg)
-
-Andrey is a front-end engineer and UI-designer from Russia who lives in Austria and works on modern user interfaces using web technologies. As an active Open Source contributor, he contributed to the webpack, React.js, Jest; designed PostCSS official website and created a bunch of logos for other OSS projects.
-
-Andrey is a co-organizer of ReactVienna community, designer, and co-creator of ColorSnapper. He loves mountain biking, snowboarding, and specialty coffee.
-
-* [Andrey's homepage](http://okonet.ru/)
-* [Andrey on GitHub](https://github.com/okonet)
-* [@okonetchnikov](https://twitter.com/okonetchnikov)
-
-### Artem Sapegin - Style Guides in React
-
-To be announced.
-
-**About Artem**
-
-![Artem Sapegin|100|100|author-photo](assets/img/speakers/artem.jpg)
-
-Frontend developer living in Berlin, passionate photographer and owner of crazy dogs. Creator of React Styleguidist.
-
-* [Artem's homepage](http://sapegin.me/)
-* [Artem on GitHub](https://github.com/sapegin)
-* [@iamsapegin](https://twitter.com/iamsapegin)
-
 ### Christian Alfoni - Declarative state and side effects
 
 Writing declarative code for our UIs is so common that we do not even think about it. But when it comes to writing logic for managing state and side effects it requires a lot of discipline to get the same benefits. We are going to talk about how we can get help writing our business logic in a declarative manner and see what benefits it gives us.
@@ -44,6 +12,8 @@ Christian has been crunching JavaScript for about 8 years. In the recent years o
 * [Christian on GitHub](https://github.com/christianalfoni)
 * [@christianalfoni](https://twitter.com/christianalfoni)
 
+---
+
 ### David Khourshid - Reactive State Machines and Statecharts
 
 Managing the many user interface states of an application easily become complicated. We'll discover how some historical and important computer science concepts - state machines and statecharts - and a functional + reactive approach can make it much easier to understand, visualize, implement, and automatically create tests for complex user interfaces and flows.
@@ -54,6 +24,8 @@ Managing the many user interface states of an application easily become complica
 
 * [David on GitHub](https://github.com/davidkpiano)
 * [@davidkpiano](https://twitter.com/davidkpiano)
+
+---
 
 ### Gant Laborde - React Native Ignite
 
@@ -73,6 +45,8 @@ A self-improvement aficionado, he takes every opportunity to connect with people
 * [Gant on GitHub](https://github.com/GantMan)
 * [@GantLaborde](https://twitter.com/GantLaborde)
 
+---
+
 ### Nik Graf - React VR
 
 To be announced.
@@ -87,6 +61,8 @@ Nik cares about good UX and development tools. He co-created several popular ope
 * [Nik on GitHub](https://github.com/nikgraf)
 * [@nikgraf](https://twitter.com/nikgraf)
 
+---
+
 ### Jani Eväkallio - To be announced
 
 To be announced.
@@ -98,19 +74,7 @@ To be announced.
 * [Jani on GitHub](https://github.com/jevakallio)
 * [@jevakallio](https://twitter.com/jevakallio)
 
-### Juho Vepsäläinen - **Webpack - The Good Parts**
-
-In this high-level overview you'll learn to configure webpack. Even if you know it already, there might be some surprises in store as you gain insight to the tool you otherwise might miss.
-
-**About Juho**
-
-![Juho Vepsäläinen|100|100|author-photo](assets/img/speakers/juho.jpg)
-
-Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
-
-* [Juho's homepage](https://survivejs.com/)
-* [Juho on GitHub](https://github.com/bebraw)
-* [@bebraw](https://twitter.com/bebraw)
+---
 
 ### Patrick Stapfer - ReasonML
 
@@ -125,6 +89,8 @@ Patrick Stapfer is a JavaScript Software Engineer and freelancer, mostly known f
 * [Patrick on GitHub](https://github.com/ryyppy)
 * [@ryyppy](https://twitter.com/ryyppy)
 
+---
+
 ### Rotem Mizrachi-Meidan - Detox
 
 To be announced.
@@ -137,6 +103,8 @@ Rotem is a Software Engineer, open source advocate, passionate about Android, Re
 
 * [Rotem on GitHub](https://github.com/rotemmiz)
 * [@rotemmiz](https://twitter.com/rotemmiz)
+
+---
 
 ### Sara Vieira - React Testing
 
@@ -152,6 +120,8 @@ Front-End Developer at @YLDio, open sorcerer, maker of useless modules, Blogger,
 * [Sara on GitHub](https://github.com/SaraVieira)
 * [@NikkitaFTW](https://twitter.com/NikkitaFTW)
 
+---
+
 ### Shay Keinan - ReactVR
 
 To be announced.
@@ -164,6 +134,8 @@ Shay is an experienced developer with a rich background in developing complex us
 
 * [Shay on GitHub](https://github.com/crazypixel)
 * [@crazypixel](https://twitter.com/Shay_Keinan)
+
+---
 
 ### Sia Karamalegos - Universal React Apps Using Next.js
 
@@ -180,13 +152,3 @@ Sia Karamalegos is the founder and lead developer for Clio + Calliope Web Develo
 * [Sia's homepage](https://siakaramalegos.github.io/)
 * [Sia on GitHub](https://github.com/siakaramalegos)
 * [@thegreengreek](https://twitter.com/thegreengreek)
-
-### Varya Stepanova - To be announced
-
-![Varya Stepanova|100|100|author-photo](assets/img/speakers/varya.jpg)
-
-Varya Stepanova is a developer enthusiast for modular web and pattern libraries. She loves automation, also in the development processes, strongly believes in open-source community and likes social media. Originally from Russia, she now lives in Helsinki with her family and 2 cats.
-
-* [Varya's homepage](http://varya.me/)
-* [Varya on GitHub](https://github.com/varya)
-* [@varya_en](https://twitter.com/varya_en)

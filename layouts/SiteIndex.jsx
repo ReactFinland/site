@@ -28,13 +28,27 @@ const SiteIndex = ({ section }) => (
             dangerouslySetInnerHTML={{ __html: require("./schedule.md").body }}
           />
 
+          <h2>Workshops</h2>
+          <div
+            dangerouslySetInnerHTML={{ __html: require("./workshops.md").body }}
+          />
+
+          <h2>Lightning Talks</h2>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: require("./lightning-talks.md").body,
+            }}
+          />
+
           <br />
           <SocialLinks />
         </div>
-        <div
-          className="post__block post__speakers"
-          dangerouslySetInnerHTML={{ __html: require("./speakers.md").body }}
-        />
+        <div className="post__block post__speakers">
+          <h2>Talks</h2>
+          <div
+            dangerouslySetInnerHTML={{ __html: require("./talks.md").body }}
+          />
+        </div>
       </section>
     </div>
   </div>
