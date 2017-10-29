@@ -47,6 +47,20 @@ A self-improvement aficionado, he takes every opportunity to connect with people
 
 ---
 
+### Kasia Jastrzębska - Styled Components, SSR, and Theming
+
+All you need to know to become hero of CSS-in-JS with styled-components. We will go through new API, performance improvements, server side rendering with Nextjs and theming manager available with v2 of styled-components.
+
+**About Kasia**
+
+![Kasia Jastrzębska|100|100|author-photo](assets/img/speakers/kasia.jpg)
+
+Frontend developer with over 6 years of experience around various frameworks and libs knowledge in my basket (such as React+Redux, Polymer, Ember, Backbone). Always eager to go deeper ;D
+
+* [@kejt_bw](https://twitter.com/kejt_bw)
+
+---
+
 ### Nik Graf - React VR
 
 To be announced.

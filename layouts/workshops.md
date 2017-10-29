@@ -32,6 +32,19 @@ Frontend developer living in Berlin, passionate photographer and owner of crazy 
 
 ---
 
+### Sven Sauleau - Babel
+
+To be announced.
+
+**About Sven**
+
+![Sven Sauleau|100|100|author-photo](assets/img/speakers/sven.jpg)
+
+* [Sven on GitHub](https://github.com/xtuc)
+* [@svensauleau](https://twitter.com/svensauleau)
+
+---
+
 ### Juho Vepsäläinen - **Webpack - The Good Parts**
 
 In this high-level overview you'll learn to configure webpack. Even if you know it already, there might be some surprises in store as you gain insight to the tool you otherwise might miss.
