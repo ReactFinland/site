@@ -24,7 +24,7 @@ To be announced.
 
 ![Artem Sapegin|100|100|author-photo](assets/img/speakers/artem.jpg)
 
-Frontend developer living in Berlin, passionate photographer and owner of crazy dogs. Creator of React Styleguidist.
+Artem is a frontend developer living in Berlin, passionate photographer and owner of crazy dogs. Creator of React Styleguidist.
 
 * [Artem's homepage](http://sapegin.me/)
 * [Artem on GitHub](https://github.com/sapegin)
@@ -34,12 +34,15 @@ Frontend developer living in Berlin, passionate photographer and owner of crazy 
 
 ### Sven Sauleau - Babel
 
-To be announced.
+The Babel workshop demystifies how the JSX syntax works in Babel and shows how to create your first plugin using code transformation, type analysis or other compiler buzzwords.
 
 **About Sven**
 
+Sven is a software engineer living in France and mostly working with Golang and JavaScript. OSS enthusiast and one of the persons behind Babel.
+
 ![Sven Sauleau|100|100|author-photo](assets/img/speakers/sven.jpg)
 
+* [Sven's homepage](http://www.xtuc.fr/)
 * [Sven on GitHub](https://github.com/xtuc)
 * [@svensauleau](https://twitter.com/svensauleau)
 
