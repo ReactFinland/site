@@ -57,6 +57,7 @@ All you need to know to become hero of CSS-in-JS with styled-components. We will
 
 Frontend developer with over 6 years of experience around various frameworks and libs knowledge in my basket (such as React+Redux, Polymer, Ember, Backbone). Always eager to go deeper ;D
 
+* [Kasia on GitHub](https://github.com/kajas90)
 * [@kejt_bw](https://twitter.com/kejt_bw)
 
 ---
