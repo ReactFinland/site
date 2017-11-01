@@ -25,18 +25,22 @@ const SiteIndex = ({ section }) => (
       <section className="post__content">
         <div className="post__block post__schedule">
           <div
-            dangerouslySetInnerHTML={{ __html: require("./schedule.md").body }}
+            dangerouslySetInnerHTML={{
+              __html: require("../content/schedule.md").body,
+            }}
           />
 
           <h2>Workshops</h2>
           <div
-            dangerouslySetInnerHTML={{ __html: require("./workshops.md").body }}
+            dangerouslySetInnerHTML={{
+              __html: require("../content/workshops.md").body,
+            }}
           />
 
           <h2>Lightning Talks</h2>
           <div
             dangerouslySetInnerHTML={{
-              __html: require("./lightning-talks.md").body,
+              __html: require("../content/lightning-talks.md").body,
             }}
           />
 
@@ -46,7 +50,9 @@ const SiteIndex = ({ section }) => (
         <div className="post__block post__speakers">
           <h2>Talks</h2>
           <div
-            dangerouslySetInnerHTML={{ __html: require("./talks.md").body }}
+            dangerouslySetInnerHTML={{
+              __html: require("../content/talks.md").body,
+            }}
           />
         </div>
       </section>
