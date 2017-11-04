@@ -1,5 +1,12 @@
 <div class="organizer">
 
+![Aarni Koskela|100|100|author-photo](assets/img/speakers/aarni.jpg)
+
+You can reach Aarni Koskela through Twitter at [@akx](https://twitter.com/akx)
+
+</div>
+<div class="organizer">
+
 ![Aleksi Pousar|100|100|author-photo](assets/img/speakers/aleksi.jpg)
 
 You can reach Aleksi Pousar through Twitter at [@AleksiPousar](https://twitter.com/AleksiPousar)
