@@ -61,6 +61,20 @@ const SiteIndex = ({ section }) => (
               __html: require("../content/presentations.md").body,
             }}
           />
+
+          <h2>About Organization</h2>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: require("../content/about-organization.md").body,
+            }}
+          />
+
+          <h2>Organizers</h2>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: require("../content/organizers.md").body,
+            }}
+          />
         </div>
       </section>
     </div>
