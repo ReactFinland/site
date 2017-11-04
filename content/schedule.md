@@ -6,7 +6,7 @@
 
 In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community.
 
-The event will be held between 24th and 26th of April, 2018 in Helsinki, the capital of Finland. In addition to enjoying the event, this is your chance to explore Finland.
+The event will be held between 24th and 26th of April 2018 in Helsinki, the capital of Finland. In addition to enjoying the event, this is your chance to explore Finland.
 
 T> If there's enough demand, we'll organize a guided tour that helps you understand this mysterious country not many seem to know a lot about. You might have heard of Nokia or Linux but there's more to the country than that.
 
@@ -16,10 +16,10 @@ The program of the event has been carefully curated. In true Finnish style, we r
 
 ### 24.04 - Tuesday - Workshops
 
-The workshop day of the event has been limited to a hundred people. Each workshop is limited to 50 people and 3 hours. So far, the following workshops have been confirmed:
+So far, the following workshops have been confirmed. Each session will take four hours and they are arranged twice so you have a chance to choose two. A session is capped to twenty people.
 
 * Babel – Learn Babel thoroughly with [Sven Sauleau](https://github.com/xtuc), a core developer.
-* ReactVR – Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
+* ReactVR – Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel). 4 hours, two sessions.
 * ReasonML – See the reason in ReasonML with [Patrick Stapfer](https://github.com/ryyppy).
 * Style guides in React – Learn to develop style guides for your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
 * Universal React – Learn how to develop React in Universal way with [Sia Karamalegos](https://github.com/siakaramalegos).
