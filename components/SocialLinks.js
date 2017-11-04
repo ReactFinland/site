@@ -31,7 +31,7 @@ const SocialLinks = ({ type }) => {
             style={{
               display: "none",
               position: "absolute",
-              left: "-5000px"
+              left: "-5000px",
             }}
           >
             <input
@@ -48,7 +48,7 @@ const SocialLinks = ({ type }) => {
               style={{
                 marginTop: "1em",
                 marginBottom: "1em",
-                lineHeight: "2em"
+                lineHeight: "2em",
               }}
               value="Subscribe"
               name="subscribe"
