@@ -43,9 +43,6 @@ const SiteIndex = ({ section }) => (
               __html: require("../content/lightning-talks.md").body,
             }}
           />
-
-          <br />
-          <SocialLinks />
         </div>
         <div className="post__block post__speakers">
           <h2>Keynotes</h2>
@@ -61,14 +58,19 @@ const SiteIndex = ({ section }) => (
               __html: require("../content/presentations.md").body,
             }}
           />
-
-          <h2>About Organization</h2>
+        </div>
+        <div className="post__block post__block__full post__social">
+          <SocialLinks />
+        </div>
+        <div className="post__block post__organization">
+          <h2>About the Organization</h2>
           <div
             dangerouslySetInnerHTML={{
               __html: require("../content/about-organization.md").body,
             }}
           />
-
+        </div>
+        <div className="post__block post__organizers">
           <h2>Organizers</h2>
           <div
             dangerouslySetInnerHTML={{

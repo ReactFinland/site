@@ -20,8 +20,8 @@ const navigationPages = sectionName => [
   */
   {
     title: "@ReactFinland",
-    url: "https://twitter.com/ReactFinland"
-  }
+    url: "https://twitter.com/ReactFinland",
+  },
 ];
 
 const SiteBody = ({ children, section, location: { pathname } }) => (

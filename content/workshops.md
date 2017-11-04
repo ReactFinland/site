@@ -6,9 +6,9 @@ To be announced.
 
 ![Andrey Okonetchnikov|100|100|author-photo](assets/img/speakers/andrey.jpg)
 
-Andrey is a front-end engineer and UI-designer from Russia who lives in Austria and works on modern user interfaces using web technologies. As an active Open Source contributor, he contributed to the webpack, React.js, Jest; designed PostCSS official website and created a bunch of logos for other OSS projects.
+Andrey is a front-end engineer and UI designer from Russia who lives in Austria and works on modern user interfaces using web technologies. As an active Open Source contributor, he contributed to Webpack, React.js, and Jest; designed the PostCSS official website and created a bunch of logos for other OSS projects.
 
-Andrey is a co-organizer of ReactVienna community, designer, and co-creator of ColorSnapper. He loves mountain biking, snowboarding, and specialty coffee.
+Andrey is a co-organizer of the ReactVienna community, designer, and co-creator of ColorSnapper. He loves mountain biking, snowboarding, and specialty coffee.
 
 * [Andrey's homepage](http://okonet.ru/)
 * [Andrey on GitHub](https://github.com/okonet)
@@ -34,7 +34,7 @@ Artem is a frontend developer living in Berlin, passionate photographer and owne
 
 ### Sven Sauleau - Babel
 
-The Babel workshop demystifies how the JSX syntax works in Babel and shows how to create your first plugin using code transformation, type analysis or other compiler buzzwords.
+The Babel workshop demystifies how the JSX syntax works in Babel and shows how to create your first plugin using code transformation, type analysis, or other compiler buzzwords.
 
 **About Sven**
 
@@ -50,13 +50,13 @@ Sven is a software engineer living in France and mostly working with Golang and 
 
 ### Juho Vepsäläinen - **Webpack - The Good Parts**
 
-In this high-level overview you'll learn to configure webpack. Even if you know it already, there might be some surprises in store as you gain insight to the tool you otherwise might miss.
+In this high-level overview you'll learn how to configure Webpack. Even if you know it already, there might be some surprises in store as you gain insight to the tool you otherwise might miss.
 
 **About Juho**
 
 ![Juho Vepsäläinen|100|100|author-photo](assets/img/speakers/juho.jpg)
 
-Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
+Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of Webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
 
 * [Juho's homepage](https://survivejs.com/)
 * [Juho on GitHub](https://github.com/bebraw)
