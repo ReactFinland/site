@@ -1,6 +1,15 @@
 import React from "react";
 import SocialLinks from "../components/SocialLinks";
 
+const ContentBlock = ({ name }) => (
+  <div
+    className="content-block"
+    dangerouslySetInnerHTML={{
+      __html: require(`../content/${name}.md`).body,
+    }}
+  />
+);
+
 const SiteIndex = ({ section }) => (
   <div className="frontpage">
     <div className="front__heading">
@@ -24,59 +33,44 @@ const SiteIndex = ({ section }) => (
     <div className="post post--front">
       <section className="post__content">
         <div className="post__block post__schedule">
-          <div
-            dangerouslySetInnerHTML={{
-              __html: require("../content/schedule.md").body,
-            }}
-          />
-
+          <ContentBlock name="schedule" />
           <h2>Workshops</h2>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: require("../content/workshops.md").body,
-            }}
-          />
+          <ContentBlock name="workshops/andrey-okonetchnikov" />
+          <ContentBlock name="workshops/artem-sapegin" />
+          <ContentBlock name="workshops/juho-vepsalainen" />
+          <ContentBlock name="workshops/michel-weststrate" />
+          <ContentBlock name="workshops/sven-sauleau" />
 
           <h2>Lightning Talks</h2>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: require("../content/lightning-talks.md").body,
-            }}
-          />
+          <ContentBlock name="lightning-talks/varya-stepanova" />
         </div>
         <div className="post__block post__speakers">
           <h2>Keynotes</h2>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: require("../content/keynotes.md").body,
-            }}
-          />
+          <ContentBlock name="keynotes/jani-evakallio" />
+          <ContentBlock name="keynotes/ken-wheeler" />
 
           <h2>Presentations</h2>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: require("../content/presentations.md").body,
-            }}
-          />
+          <ContentBlock name="presentations/christian-alfoni" />
+          <ContentBlock name="presentations/david-khourshid" />
+          <ContentBlock name="presentations/gant-laborde" />
+          <ContentBlock name="presentations/kasia-jastrzebska" />
+          <ContentBlock name="presentations/nik-graf" />
+          <ContentBlock name="presentations/patrick-stapfer" />
+          <ContentBlock name="presentations/rotem-mizrachi-meidan" />
+          <ContentBlock name="presentations/sara-vieira" />
+          <ContentBlock name="presentations/shay-keinan" />
+          <ContentBlock name="presentations/sia-karamalegos" />
         </div>
         <div className="post__block post__block__full post__social">
           <SocialLinks />
         </div>
         <div className="post__block post__organization">
           <h2>About the Organization</h2>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: require("../content/about-organization.md").body,
-            }}
-          />
+          <ContentBlock name="about-organization" />
         </div>
         <div className="post__block post__organizers">
           <h2>Organizers</h2>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: require("../content/organizers.md").body,
-            }}
-          />
+          <ContentBlock name="organizers" />
         </div>
       </section>
     </div>
