@@ -2,34 +2,34 @@
 
 ![React Finland logo|200|200|react-image](assets/img/logo.png)
 
-**React Finland** combines the Finnish React community with international flavor. First of its kind in Finland, the event consists of a workshop day and two days of presentations around the topic.
+**React Finland** combines the Finnish React community with international flavor. The first of its kind in Finland, the event consists of a workshop day and two days of presentations around the topic.
 
 In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community.
 
-The event will be held between 24th and 26th of April (2018) in Helsinki. In addition to enjoying the event, this is your chance to explore Finland.
+The event will be held between 24th and 26th of April, 2018 in Helsinki, the capital of Finland. In addition to enjoying the event, this is your chance to explore Finland.
 
 T> If there's enough demand, we'll organize a guided tour that helps you understand this mysterious country not many seem to know a lot about. You might have heard of Nokia or Linux but there's more to the country than that.
 
 ## Program
 
-The program of the event has been carefully curated. In Finnish style, we rather focus on quality than quantity. There is no call for papers and the speakers have been chosen with care.
+The program of the event has been carefully curated. In true Finnish style, we rather focus on quality than quantity. There is no call for papers and the speakers have been chosen with care.
 
 ### 24.04 - Tuesday - Workshops
 
-The workshop day of the event has been limited to hundred people. Each workshop is limited to 50 people and 3 hours. So far, the following workshops have been confirmed:
+The workshop day of the event has been limited to a hundred people. Each workshop is limited to 50 people and 3 hours. So far, the following workshops have been confirmed:
 
-* Babel - Learn Babel thoroughly with [Sven Sauleau](https://github.com/xtuc), a core developer.
-* ReactVR - Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
-* ReasonML - See the reason in ReasonML with [Patrick Stapfer](https://github.com/ryyppy).
-* Style guides in React - Learn to develop style guides for your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
-* Universal React - Learn how to develop React in Universal way with [Sia Karamalegos](https://github.com/siakaramalegos).
-* [Webpack - The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/) - Learn more about webpack from one of its core developers, [Juho Vepsäläinen](https://github.com/bebraw).
+* Babel – Learn Babel thoroughly with [Sven Sauleau](https://github.com/xtuc), a core developer.
+* ReactVR – Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel).
+* ReasonML – See the reason in ReasonML with [Patrick Stapfer](https://github.com/ryyppy).
+* Style guides in React – Learn to develop style guides for your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
+* Universal React – Learn how to develop React in Universal way with [Sia Karamalegos](https://github.com/siakaramalegos).
+* [Webpack – The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/) – Learn more about webpack from one of its core developers, [Juho Vepsäläinen](https://github.com/bebraw).
 
 ### 25.04 - Wednesday - React
 
-In Finnish style, we start each day early. We also eat lunch early. This way we have time to visit sauna, the holiest place of the culture.
+In Finnish style, we start each day early. We also eat lunch early. This way we'll have time to visit sauna, the holiest place of our culture.
 
-The first presentation day has a strict focus on React itself. Each session ends with a brief break and we have certain longer breaks in between:
+The first presentation day has a strict focus on React itself. Each session ends with a brief break and we have a couple longer breaks in between:
 
 <dl>
   <dt>08:00 - 09:00</dt>
@@ -63,7 +63,7 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Panel discussion to end the day in style.</dd>
 </dl>
 
-There will be fun after the panel.
+There will be Fun after the panel.
 
 ### 26.04 - Thursday - More React
 

@@ -6,7 +6,7 @@ Writing declarative code for our UIs is so common that we do not even think abou
 
 ![Christian Alfoni|100|100|author-photo](assets/img/speakers/christian.jpg)
 
-Christian has been crunching JavaScript for about 8 years. In the recent years open source and writing articles has become a passion. Throwing bad and not so bad ideas out there to see what is valuable to people. Author of Cerebral, created Webpackbin and JSBlog... amongst other things
+Christian has been crunching JavaScript for about 8 years. In the recent years open source and writing articles has become a passion. Throwing bad and not so bad ideas out there to see what is valuable to people. Author of Cerebral, created Webpackbin and JSBlog... amongst other things.
 
 * [Christian's homepage](http://www.christianalfoni.com/)
 * [Christian on GitHub](https://github.com/christianalfoni)
@@ -16,7 +16,7 @@ Christian has been crunching JavaScript for about 8 years. In the recent years o
 
 ### David Khourshid - Reactive State Machines and Statecharts
 
-Managing the many user interface states of an application easily become complicated. We'll discover how some historical and important computer science concepts - state machines and statecharts - and a functional + reactive approach can make it much easier to understand, visualize, implement, and automatically create tests for complex user interfaces and flows.
+Managing the many user interface states of an application easily becomes complicated. We'll discover how some historical and important computer science concepts – state machines and statecharts – and a functional + reactive approach can make it much easier to understand, visualize, implement, and automatically create tests for complex user interfaces and flows.
 
 **About David**
 
@@ -29,7 +29,7 @@ Managing the many user interface states of an application easily become complica
 
 ### Gant Laborde - React Native Ignite
 
-Life can be simple again. Haven’t we built the same house, or given the same hair cut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? It’s not with React Native.
+Life can be simple again. Haven’t we built the same house, or given the same haircut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? It’s not with React Native.
 
 Let's look at how simple it is to get started in React Native using Ignite CLI. Using Ignite, you can jump in with a popular combination of technologies, OR brew your own. Ignite is the freedom to learn and automate your mobile app.
 
@@ -49,7 +49,7 @@ A self-improvement aficionado, he takes every opportunity to connect with people
 
 ### Kasia Jastrzębska - Styled Components, SSR, and Theming
 
-All you need to know to become hero of CSS-in-JS with styled-components. We will go through new API, performance improvements, server side rendering with Nextjs and theming manager available with v2 of styled-components.
+All you need to know to become hero of CSS-in-JS with `styled-components`. We will go through the new API, performance improvements, server side rendering with Next.js and the theming manager available with v2 of `styled-components`.
 
 **About Kasia**
 
@@ -86,7 +86,7 @@ To be announced.
 
 ![Patrick Stapfer|100|100|author-photo](assets/img/speakers/patrick.jpg)
 
-Patrick Stapfer is a JavaScript Software Engineer and freelancer, mostly known for his contributions to the Flow type checker ecosystem and his recent work at Runtastic, where he spent most of his time working on the Mobile News Feed feature (built in React-Native). Most of his Open Source time is dedicated to the ReasonML and OCaml platform to build robust, type-safe JS applications.
+Patrick Stapfer is a JavaScript Software Engineer and freelancer, mostly known for his contributions to the Flow type checker ecosystem and his recent work at Runtastic, where he spent most of his time working on the Mobile News Feed feature (built in React Native). Most of his Open Source time is dedicated to the ReasonML and OCaml platform to build robust, type-safe JS applications.
 
 * [Patrick on GitHub](https://github.com/ryyppy)
 * [@ryyppy](https://twitter.com/ryyppy)
