@@ -2,14 +2,14 @@
 
 ![Aarni Koskela|100|100|author-photo](assets/img/speakers/aarni.jpg)
 
-You can reach Aarni Koskela through Twitter at [@akx](https://twitter.com/akx)
+You can reach Aarni Koskela through Twitter at [@akx](https://twitter.com/akx).
 
 </div>
 <div class="organizer">
 
 ![Aleksi Pousar|100|100|author-photo](assets/img/speakers/aleksi.jpg)
 
-You can reach Aleksi Pousar through Twitter at [@AleksiPousar](https://twitter.com/AleksiPousar)
+You can reach Aleksi Pousar through Twitter at [@AleksiPousar](https://twitter.com/AleksiPousar).
 
 </div>
 <div class="organizer">
@@ -23,12 +23,12 @@ Juho Vepsäläinen put together the conference schedule, handles speaker relatio
 
 ![Samuli Hakoniemi|100|100|author-photo](assets/img/speakers/samuli.jpg)
 
-You can reach Samuli Hakoniemi through Twitter at [@zvona](https://twitter.com/zvona)
+You can reach Samuli Hakoniemi through Twitter at [@zvona](https://twitter.com/zvona).
 
 </div>
 <div class="organizer">
 
 ![Toni Ristola|100|100|author-photo](assets/img/speakers/toni.png)
 
-You can reach Toni Ristola through Twitter at [@toniristola](https://twitter.com/toniristola)
+You can reach Toni Ristola through Twitter at [@toniristola](https://twitter.com/toniristola).
 </div>
