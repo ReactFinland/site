@@ -36,7 +36,7 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Registration, Finnish breakfast. Trust me, it's the best.</dd>
 
   <dt>09:00 - 10:00</dt>
-  <dd>Keynote by a mystery secret speaker.</dd>
+  <dd>Keynote by Ken Wheeler.</dd>
 
   <dt>10:00 - 11:00</dt>
   <dd>**Styled Components, SSR, and Theming** with Kasia Jastrzębska.</dd>

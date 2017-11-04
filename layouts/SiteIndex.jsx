@@ -48,10 +48,17 @@ const SiteIndex = ({ section }) => (
           <SocialLinks />
         </div>
         <div className="post__block post__speakers">
-          <h2>Talks</h2>
+          <h2>Keynotes</h2>
           <div
             dangerouslySetInnerHTML={{
-              __html: require("../content/talks.md").body,
+              __html: require("../content/keynotes.md").body,
+            }}
+          />
+
+          <h2>Presentations</h2>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: require("../content/presentations.md").body,
             }}
           />
         </div>
