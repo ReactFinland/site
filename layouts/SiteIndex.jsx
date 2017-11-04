@@ -1,11 +1,11 @@
 import React from "react";
 import SocialLinks from "../components/SocialLinks";
 
-const ContentBlock = ({ name }) => (
+const ContentBlock = ({ name, type = "json" }) => (
   <div
     className="content-block"
     dangerouslySetInnerHTML={{
-      __html: require(`../content/${name}.md`).body,
+      __html: require(`../content/${name}.${type}`).body,
     }}
   />
 );
@@ -33,7 +33,7 @@ const SiteIndex = ({ section }) => (
     <div className="post post--front">
       <section className="post__content">
         <div className="post__block post__schedule">
-          <ContentBlock name="schedule" />
+          <ContentBlock name="schedule" type="md" />
           <h2>Workshops</h2>
           <ContentBlock name="workshops/andrey-okonetchnikov" />
           <ContentBlock name="workshops/artem-sapegin" />
@@ -66,11 +66,11 @@ const SiteIndex = ({ section }) => (
         </div>
         <div className="post__block post__organization">
           <h2>About the Organization</h2>
-          <ContentBlock name="about-organization" />
+          <ContentBlock name="about-organization" type="md" />
         </div>
         <div className="post__block post__organizers">
           <h2>Organizers</h2>
-          <ContentBlock name="organizers" />
+          <ContentBlock name="organizers" type="md" />
         </div>
       </section>
     </div>

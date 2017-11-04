@@ -1,0 +1,13 @@
+### <%= speaker.name %> - <%= session.title || 'To be announced' %>
+
+<%= session.description || 'To be announced' %>
+
+**About <%= speaker.firstName %>**
+
+![<%= speaker.name %>|100|100|author-photo](assets/img/speakers/<%= speaker.photo %>)
+
+<%= speaker.about %>
+
+<% if (speaker.homepage) { %>* [<%= speaker.firstName %>'s homepage](https://github.com/<%= speaker.homepage %>)<% } %>
+* [<%= speaker.firstName %> on GitHub](https://github.com/<%= speaker.github %>)
+* [@<%= speaker.twitter %>](https://twitter.com/<%= speaker.twitter %>)
