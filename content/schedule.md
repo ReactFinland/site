@@ -41,8 +41,14 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dt>10:00 - 11:00</dt>
   <dd>**Styled Components, SSR, and Theming** with Kasia Jastrzębska.</dd>
 
-  <dt>11:00 - 13:00</dt>
+  <dt>11:00 - 11:30</dt>
+  <dd>Four lightning talks.</dd>
+
+  <dt>11:30 - 12:30</dt>
   <dd>Lunch. It's functional. You are **not** supposed to like it.</dd>
+
+  <dt>12:30 - 13:00</dt>
+  <dd>Panel discussion.</dd>
 
   <dt>13:00 - 14:00</dt>
   <dd>**Declarative state and side effects** with Christian Alfoni.</dd>
@@ -57,7 +63,7 @@ The first presentation day has a strict focus on React itself. Each session ends
   <dd>Coffee break. We don't mind if you drink tea, though. Water is available as well.</dd>
 
   <dt>17:00 - 17:30</dt>
-  <dd>Four lightning talks. These will be by locals most likely.</dd>
+  <dd>Four lightning talks.</dd>
 
   <dt>17:30 - 18:00</dt>
   <dd>Panel discussion to end the day in style.</dd>
@@ -79,8 +85,14 @@ The second day of the event continues where the first one left off:
   <dt>10:00 - 11:00</dt>
   <dd>**ReasonML** with Patrick Stapfer.</dd>
 
-  <dt>11:00 - 13:00</dt>
+  <dt>11:00 - 11:30</dt>
+  <dd>Four lightning talks.</dd>
+
+  <dt>11:30 - 12:30</dt>
   <dd>Lunch. You might like it better this time.</dd>
+
+  <dt>12:30 - 13:00</dt>
+  <dd>Panel discussion.</dd>
 
   <dt>13:00 - 14:00</dt>
   <dd>**Reactive State Machines and Statecharts** by David Khourshid.</dd>
@@ -95,7 +107,7 @@ The second day of the event continues where the first one left off:
   <dd>Coffee break. Other beverages are available too although black coffee is our favorite.</dd>
 
   <dt>17:00 - 17:30</dt>
-  <dd>Four lightning talks. Locals or maybe some people from the audience.</dd>
+  <dd>Four lightning talks.</dd>
 
   <dt>17:30 - 18:00</dt>
   <dd>Panel discussion to end the conference.</dd>
