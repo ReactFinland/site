@@ -9,9 +9,6 @@ nav {
 main {
   width: 100%;
 }
-.main-content {
-  align-items: center;
-}
 .post__content {
   margin: 0 auto;
   max-width: 1400px;
@@ -29,4 +26,13 @@ main {
 
 hr {
   clear: both;
+}
+
+@media (max-width: 1358px) {
+  // each parallel block is ~700 px + jämät
+  .post__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

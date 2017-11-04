@@ -2,10 +2,9 @@ import React from "react";
 
 import { Navigation } from "@survivejs/components";
 
-import "../styles/custom.scss";
-import "../styles/prism.css";
 import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
+import "../styles/custom.scss";
 
 const navigationPages = sectionName => [
   /*

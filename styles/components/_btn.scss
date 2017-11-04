@@ -14,20 +14,3 @@
   transition: background-color $transition-easing $transition-speed,
     color $transition-easing $transition-speed;
 }
-
-.btn--normal {
-  border: $border-width $action-color solid;
-  color: darken($action-color, 30%);
-  &:hover {
-    background-color: rgba($action-color, 0.2);
-  }
-}
-
-.btn--inverted {
-  border: $border-width $background-color solid;
-  color: $background-color;
-  &:hover {
-    background-color: $background-color;
-    color: darken($action-color, 30%);
-  }
-}
