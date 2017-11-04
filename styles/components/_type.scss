@@ -86,7 +86,7 @@ blockquote {
 }
 
 .h1-size {
-  @extend .bottom-margin;
+	margin-bottom: $base-spacing-unit;
 }
 
 .beefcake,
