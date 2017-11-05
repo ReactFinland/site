@@ -9,7 +9,7 @@ You can reach Aarni Koskela through Twitter at [@akx](https://twitter.com/akx).
 
 ![Aleksi Pousar|100|100|author-photo](assets/img/speakers/aleksi.jpg)
 
-You can reach Aleksi Pousar through Twitter at [@AleksiPousar](https://twitter.com/AleksiPousar).
+Aleksi Pousar works on the app and is the treasurer of the association. You can reach Aleksi Pousar through Twitter at [@AleksiPousar](https://twitter.com/AleksiPousar).
 
 </div>
 <div class="organizer">
