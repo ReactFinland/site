@@ -18,12 +18,15 @@ The program of the event has been carefully curated. In true Finnish style, we r
 
 So far, the following workshops have been confirmed. Each session will take four hours and they are arranged twice so you have a chance to choose two. A session is capped to twenty people.
 
-* Babel – Learn Babel thoroughly with [Sven Sauleau](https://github.com/xtuc), a core developer.
-* ReactVR – Get most out of ReactVR with [Shay Keinan](https://github.com/crazypixel). 4 hours, two sessions.
-* ReasonML – See the reason in ReasonML with [Patrick Stapfer](https://github.com/ryyppy).
-* Style guides in React – Learn to develop style guides for your React application with [Andrey Okonetchnikov](https://github.com/okonet) and [Artem Sapegin](https://github.com/sapegin).
-* Universal React – Learn how to develop React in Universal way with [Sia Karamalegos](https://github.com/siakaramalegos).
-* [Webpack – The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/) – Learn more about webpack from one of its core developers, [Juho Vepsäläinen](https://github.com/bebraw).
+* Babel – Learn Babel thoroughly with Sven Sauleau, a core developer.
+* ReactVR – Get most out of ReactVR with Shay Keinan.
+* Reactive State Machines - Learn how to refactor an old application to use state machines with David Khourshid.
+* ReasonML – See the reason in ReasonML with Patrick Stapfer.
+* Style guides in React – Learn to develop style guides for your React application with Andrey Okonetchnikov and Artem Sapegin.
+* Universal React – Learn how to develop React in Universal way with Sia Karamalegos.
+* [Webpack – The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/) – Learn more about webpack from one of its core developers, Juho Vepsäläinen.
+
+We also have a full day workshop about state management by Michel Weststrate, the author of MobX and mobx-state-tree.
 
 ### 25.04 - Wednesday - React
 
