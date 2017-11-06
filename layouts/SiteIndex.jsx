@@ -10,33 +10,28 @@ const ContentBlock = ({ name, type = "json" }) => (
   />
 );
 
-const SiteIndex = ({ section }) => (
-  <div className="frontpage">
-    <div className="front__heading">
-      <div className="front-heading-content-wrapper">
-        <div className="front-header-wrapper">
-          <div className="front-name">
-            <span className="first">React </span>
-            <span className="second">Finland</span>
-          </div>
-
-          <h1 className="front-header">
-            One workshop day + two days of presentations
-          </h1>
-          <h3 className="front-motto">
-            Your chance to learn more about React up north - Helsinki
-            (24-26.4.2018)
-          </h3>
-        </div>
+const Header = () => (
+  <header>
+    <div className="container">
+      <div className="rubric">
+        <span>React </span>
+        <span className="text-rf-blue">Finland</span>
       </div>
+      <h1>One workshop day + two days of presentations</h1>
+      <h3>Your chance to learn more about React up north</h3>
     </div>
+  </header>
+);
 
-    <div className="post post--front">
-      <section className="post__content">
-        <div className="post__block post__block__full post__social">
+const SiteIndex = ({ section }) => (
+  <section className="frontpage">
+    <Header />
+    <div className="container">
+      <section className="post-block-wrap">
+        <div className="post-block post-block-full" id="social">
           <SocialLinks />
         </div>
-        <div className="post__block post__schedule">
+        <div className="post-block" id="schedule">
           <ContentBlock name="schedule" type="md" />
           <h2>Workshops</h2>
           <ContentBlock name="workshops/andrey-okonetchnikov" />
@@ -45,7 +40,7 @@ const SiteIndex = ({ section }) => (
           <ContentBlock name="workshops/michel-weststrate" />
           <ContentBlock name="workshops/sven-sauleau" />
         </div>
-        <div className="post__block post__speakers">
+        <div className="post-block" id="speakers">
           <h2>Keynotes</h2>
           <ContentBlock name="keynotes/jani-evakallio" />
           <ContentBlock name="keynotes/ken-wheeler" />
@@ -65,20 +60,20 @@ const SiteIndex = ({ section }) => (
           <h2>Lightning Talks</h2>
           <ContentBlock name="lightning-talks/varya-stepanova" />
         </div>
-        <div className="post__block post__block__full post__social">
+        <div className="post-block post-block-full" id="social2">
           <SocialLinks />
         </div>
-        <div className="post__block post__organization">
+        <div className="post-block" id="organization">
           <h2>About the Organization</h2>
           <ContentBlock name="about-organization" type="md" />
         </div>
-        <div className="post__block post__organizers">
+        <div className="post-block" id="organizers">
           <h2>Organizers</h2>
           <ContentBlock name="organizers" type="md" />
         </div>
       </section>
     </div>
-  </div>
+  </section>
 );
 SiteIndex.description =
   "React Finland is a conference that comes with a workshop day and two days of presentations.";

@@ -4,7 +4,8 @@ import { Navigation } from "@survivejs/components";
 
 import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
-import "../styles/custom.scss";
+import "normalize.css/normalize.css";
+import "../styles/style.less";
 
 const navigationPages = sectionName => [
   /*
@@ -28,11 +29,10 @@ const navigationPages = sectionName => [
 ];
 
 const SiteBody = ({ children, section, location: { pathname } }) => (
-  <div>
+  <main>
     {children}
-
     <Navigation pages={navigationPages(section.name)} />
-  </div>
+  </main>
 );
 
 export default SiteBody;

@@ -1,6 +1,9 @@
 *.log
+.antwar
+.eslintcache
+.idea
 books/
 build/
 node_modules/
-.eslintcache
-.antwar
+styles-old
+yarn.lock

@@ -1,0 +1,46 @@
+
+.nav__wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  pointer-events: none;
+  z-index: 100;
+}
+
+nav.nav {
+  padding: @pu 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  background: #fff;
+}
+
+.nav__link,
+.nav__toggle-label {
+  font-family: @fh;
+  font-weight: normal;
+  font-size: .875rem;
+  padding: 0 @pu * 4;
+  z-index: 10000;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  pointer-events: all;
+}
+
+.nav__link {
+  display: inline-block;
+  
+  a {
+    text-decoration: none;
+    
+    &:hover {
+      color: black;
+    }
+  }
+}
+.nav__toggle { /* this should probably be visible in mobile? */
+  display: none;
+}

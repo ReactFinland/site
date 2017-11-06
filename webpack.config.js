@@ -3,7 +3,6 @@ const webpack = require("webpack");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const merge = require("webpack-merge");
-const autoprefixer = require("autoprefixer");
 
 module.exports = env => {
   switch (env) {
@@ -109,23 +108,11 @@ function developmentConfig() {
       rules: [
         {
           test: /\.css$/,
-          use: ["style-loader", "css-loader"],
+          use: ["style-loader", "css-loader", "postcss-loader"],
         },
         {
-          test: /\.scss$/,
-          use: [
-            "style-loader",
-            "css-loader",
-            {
-              loader: "postcss-loader",
-              options: {
-                plugins: () => [
-                  autoprefixer({ browsers: ["last 2 versions"] }),
-                ],
-              },
-            },
-            "sass-loader",
-          ],
+          test: /\.less$/,
+          use: ["style-loader", "css-loader", "postcss-loader", "less-loader"],
         },
       ],
     },
@@ -139,26 +126,15 @@ function buildConfig() {
         {
           test: /\.css$/,
           use: ExtractTextPlugin.extract({
-            use: "css-loader",
+            use: ["css-loader", "postcss-loader"],
             fallback: "style-loader",
           }),
         },
         {
-          test: /\.scss$/,
-          loader: ExtractTextPlugin.extract({
+          test: /\.less$/,
+          use: ExtractTextPlugin.extract({
+            use: ["css-loader", "postcss-loader", "less-loader"],
             fallback: "style-loader",
-            use: [
-              "css-loader",
-              {
-                loader: "postcss-loader",
-                options: {
-                  plugins: () => [
-                    autoprefixer({ browsers: ["last 2 versions"] }),
-                  ],
-                },
-              },
-              "sass-loader",
-            ],
           }),
         },
       ],
