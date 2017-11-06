@@ -18,8 +18,12 @@ const navigationPages = sectionName => [
   },
   */
   {
-    title: "@ReactFinland",
+    title: "Follow @ReactFinland",
     url: "https://twitter.com/ReactFinland",
+  },
+  {
+    title: "Read the blog",
+    url: "https://medium.com/react-finland",
   },
 ];
 
