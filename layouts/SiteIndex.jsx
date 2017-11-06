@@ -40,9 +40,6 @@ const SiteIndex = ({ section }) => (
           <ContentBlock name="workshops/juho-vepsalainen" />
           <ContentBlock name="workshops/michel-weststrate" />
           <ContentBlock name="workshops/sven-sauleau" />
-
-          <h2>Lightning Talks</h2>
-          <ContentBlock name="lightning-talks/varya-stepanova" />
         </div>
         <div className="post__block post__speakers">
           <h2>Keynotes</h2>
@@ -60,6 +57,9 @@ const SiteIndex = ({ section }) => (
           <ContentBlock name="presentations/sara-vieira" />
           <ContentBlock name="presentations/shay-keinan" />
           <ContentBlock name="presentations/sia-karamalegos" />
+
+          <h2>Lightning Talks</h2>
+          <ContentBlock name="lightning-talks/varya-stepanova" />
         </div>
         <div className="post__block post__block__full post__social">
           <SocialLinks />

@@ -29,7 +29,7 @@ So far, the following workshops have been confirmed. Each session will take four
 We also have full day workshops (eight hours including a lunch):
 
 * React Native with Gant Laborde.
-* State management with Michel Weststrate, the author of MobX and mobx-state-tree.
+* State management with Michel Weststrate, the author of MobX and Mobx-State-Tree.
 
 ### 25.04 - Wednesday - React
 
