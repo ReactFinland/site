@@ -33,6 +33,9 @@ const SiteIndex = ({ section }) => (
 
     <div className="post post--front">
       <section className="post__content">
+        <div className="post__block post__block__full post__social">
+          <SocialLinks />
+        </div>
         <div className="post__block post__schedule">
           <ContentBlock name="schedule" type="md" />
           <h2>Workshops</h2>
