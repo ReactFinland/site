@@ -14,7 +14,12 @@ a {
   color: @very-blue;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: @fh;
   margin-bottom: @pu2;
   line-height: 1.25;
@@ -24,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: #ccc;
   }
-  
+
   &:hover .header-anchor-select {
     visibility: visible;
   }
@@ -43,7 +48,8 @@ h1, h2, h3, h4, h5, h6 {
   & h2 {
     margin-top: @pu * 4;
   }
-  & h3, h4 {
+  & h3,
+  h4 {
     margin-top: @pu * 3;
   }
 }
@@ -56,16 +62,16 @@ blockquote {
   padding: @pu2;
   margin: @pu * 3;
   border: 1px solid #dae4e9;
-  
+
   p:last-child {
     margin: 0;
   }
-  
+
   &.tip {
     color: #696969;
-    background-color: #F5FFFB;
+    background-color: #f5fffb;
   }
-  
+
   /*
   &.warning {
     color: #696969;
@@ -126,7 +132,6 @@ header {
   }
 }
 
-
 .content-block {
   .clearfix();
   margin-bottom: @pu2;
@@ -146,7 +151,8 @@ header {
   }
   .social-form {
     margin-top: @pu;
-    .social-input-container, .social-subscribe-container {
+    .social-input-container,
+    .social-subscribe-container {
       display: inline;
     }
     input {
@@ -156,11 +162,11 @@ header {
       margin: 0;
       padding: 0 @pu * 4;
     }
-    
+
     .social-input-container input {
       border-radius: @pu 0 0 @pu;
       border-right: 0;
-      min-width: 30em;
+      min-width: 15em;
     }
     .social-subscribe-container input {
       border-radius: 0 @pu @pu 0;
@@ -172,13 +178,14 @@ header {
       }
     }
   }
-  
 }
 
-@media only screen and (max-device-width : @mobile-breakpoint) {
+@media only screen and (max-device-width: @mobile-breakpoint) {
   header {
-    .rubric, h1, h3 {
-      padding: 0
+    .rubric,
+    h1,
+    h3 {
+      padding: 0;
     }
   }
   .nav__link {
