@@ -6,8 +6,8 @@
 
 ![<%= speaker.name %>|100|100|author-photo](assets/img/speakers/<%= speaker.photo %>)
 
-**About <%= speaker.firstName %>** <% if (speaker.homepage) { %> [<i class="icon-home"></i>](<%= speaker.homepage %>)<% } %> [<i class="icon-github-circled"></i>](https://github.com/<%= speaker.github %>) [<i class="icon-twitter"></i>](https://twitter.com/<%= speaker.twitter %>)  
+**About <%= speaker.firstName %>** <% if (speaker.homepage) { %> [<i class="icon-home"></i>](<%= speaker.homepage %>)<% } %> [<i class="icon-github-circled"></i>](https://github.com/<%= speaker.github %>) [<i class="icon-twitter"></i>](https://twitter.com/<%= speaker.twitter %>)
 
-<%= speaker.about || 'No bio yet.' %>
+<%- speaker.about.replace('\n\n', '<br/><br/>') || 'No bio yet.' %>
 
 </div>
