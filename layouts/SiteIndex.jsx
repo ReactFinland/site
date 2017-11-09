@@ -40,6 +40,7 @@ const SiteIndex = ({ section }) => (
           <ContentBlock name="workshops/artem-sapegin" />
           <ContentBlock name="workshops/juho-vepsalainen" />
           <ContentBlock name="workshops/michel-weststrate" />
+          <ContentBlock name="workshops/sara-vieira" />
           <ContentBlock name="workshops/sven-sauleau" />
         </div>
         <div className="post-block" id="speakers">

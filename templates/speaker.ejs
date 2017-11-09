@@ -8,6 +8,6 @@
 
 **About <%= speaker.firstName %>** <% if (speaker.homepage) { %> [<i class="icon-home"></i>](<%= speaker.homepage %>)<% } %> [<i class="icon-github-circled"></i>](https://github.com/<%= speaker.github %>) [<i class="icon-twitter"></i>](https://twitter.com/<%= speaker.twitter %>)
 
-<%- speaker.about.replace('\n\n', '<br/><br/>') || 'No bio yet.' %>
+<%- speaker.about ? speaker.about.replace('\n\n', '<br/><br/>') : 'No bio yet.' %>
 
 </div>
