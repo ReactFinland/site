@@ -30,7 +30,7 @@
   "dependencies": {
     "@survivejs/components": "^0.1.1",
     "@survivejs/utils": "^0.1.1",
-    "antwar": "^0.19.1",
+    "antwar": "^0.19.2",
     "front-matter": "^2.3.0",
     "loader-utils": "^1.1.0",
     "lodash": "^4.17.4",
