@@ -10,18 +10,6 @@ module.exports = () => ({
   output: "build",
   layout: () => require("./layouts/SiteBody").default,
   paths: {
-    "/": {
-      content: () => require.context("./pages", true, /^\.\/.*\.md$/),
-      index: () => require("./layouts/SiteIndex").default,
-      paths: {
-        blog: {
-          index: () => require("./layouts/BlogIndex").default,
-          layout: () => require("./layouts/BlogPage").default,
-          transform: pages =>
-            generateAdjacent(_.sortBy(pages, "date")).reverse(),
-          url: ({ fileName }) => `/${clean.chapterName(fileName)}/`,
-        },
-      },
-    },
+    "/": () => require("./layouts/SiteIndex").default,
   },
 });
