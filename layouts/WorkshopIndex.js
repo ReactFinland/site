@@ -11,6 +11,7 @@ const WorkshopIndex = ({ section }) => (
       <ContentBlock name="workshops/michel-weststrate" />
     </div>
     <div className="post-block" id="schedule2">
+      <ContentBlock name="workshops/patrick-and-nik" />
       <ContentBlock name="presentations/rotem-mizrachi-meidan" />
       <ContentBlock name="workshops/sara-vieira" />
       <ContentBlock name="presentations/sia-karamalegos" />
