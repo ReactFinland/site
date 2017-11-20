@@ -11,28 +11,8 @@ const ContentBlock = ({ name, type = "json" }) => (
 
 const SiteIndex = ({ section }) => (
   <div className="flex">
-    <div className="post-block" id="schedule">
+    <div className="post-block-full" id="schedule">
       <ContentBlock name="schedule" type="md" />
-
-      <h2>Lightning Talks</h2>
-      <ContentBlock name="lightning-talks/varya-stepanova" />
-    </div>
-    <div className="post-block" id="speakers">
-      <h2>Keynotes</h2>
-      <ContentBlock name="keynotes/jani-evakallio" />
-      <ContentBlock name="keynotes/ken-wheeler" />
-
-      <h2>Presentations</h2>
-      <ContentBlock name="presentations/christian-alfoni" />
-      <ContentBlock name="presentations/david-khourshid" />
-      <ContentBlock name="presentations/gant-laborde" />
-      <ContentBlock name="presentations/kasia-jastrzebska" />
-      <ContentBlock name="presentations/nik-graf" />
-      <ContentBlock name="presentations/patrick-stapfer" />
-      <ContentBlock name="presentations/rotem-mizrachi-meidan" />
-      <ContentBlock name="presentations/sara-vieira" />
-      <ContentBlock name="presentations/shay-keinan" />
-      <ContentBlock name="presentations/sia-karamalegos" />
     </div>
   </div>
 );

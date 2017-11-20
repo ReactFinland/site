@@ -11,6 +11,7 @@ module.exports = () => ({
   layout: () => require("./layouts/SiteBody").default,
   paths: {
     "/": () => require("./layouts/SiteIndex").default,
+    presentations: () => require("./layouts/PresentationIndex").default,
     workshops: () => require("./layouts/WorkshopIndex").default,
   },
 });

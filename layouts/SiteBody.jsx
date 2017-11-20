@@ -38,9 +38,16 @@ const navigationPages = pathname => [
     url: "https://twitter.com/ReactFinland",
   },
   {
-    title:
-      pathname === "/" ? "Check out the workshops" : "Check out the schedule",
-    url: pathname === "/" ? "/workshops/" : "/",
+    title: "Schedule",
+    url: "/",
+  },
+  {
+    title: "Presentations",
+    url: "/presentations/",
+  },
+  {
+    title: "Workshops",
+    url: "/workshops/",
   },
   {
     title: "Read the blog",
