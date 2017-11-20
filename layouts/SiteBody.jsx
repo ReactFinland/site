@@ -32,14 +32,15 @@ const ContentBlock = ({ name, type = "json" }) => (
   />
 );
 
-const navigationPages = sectionName => [
+const navigationPages = pathname => [
   {
     title: "Follow @ReactFinland",
     url: "https://twitter.com/ReactFinland",
   },
   {
-    title: "Check out the workshops",
-    url: "/workshops/",
+    title:
+      pathname === "/" ? "Check out the workshops" : "Check out the schedule",
+    url: pathname === "/" ? "/workshops/" : "/",
   },
   {
     title: "Read the blog",
@@ -72,7 +73,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
       </div>
     </section>
 
-    <Navigation pages={navigationPages(section.name)} />
+    <Navigation pages={navigationPages(pathname)} />
   </main>
 );
 
