@@ -11,7 +11,15 @@ const template = ejs.compile(
 module.exports = function speakerLoader(source) {
   const context = JSON.parse(source);
 
-  context.speaker.firstName = context.speaker.name.split(" ")[0];
+  // Normalize to an array so it's easier to work with
+  context.speakers = context.speakers || [context.speaker];
+
+  // Inject first names
+  context.speakers = context.speakers.map(speaker => {
+    speaker.firstName = speaker.name.split(" ")[0];
+
+    return speaker;
+  });
 
   return template(context);
 };

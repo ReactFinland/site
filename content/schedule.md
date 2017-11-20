@@ -14,7 +14,7 @@ T> If there's enough demand, we'll organize a guided tour that helps you underst
 
 The program of the event has been carefully curated. In true Finnish style, we rather focus on quality than quantity. There is no call for papers and the speakers have been chosen with care.
 
-### 24.04 - Tuesday - Workshops
+### 24.04 - Tuesday - [Workshops](/workshops/)
 
 So far, the following workshops have been confirmed. Each session will take four hours and they are arranged twice so you have a chance to choose two. A session is capped to twenty people.
 
