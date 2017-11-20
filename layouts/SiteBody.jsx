@@ -80,7 +80,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
       </div>
     </section>
 
-    <Navigation pages={navigationPages(pathname)} />
+    <Navigation pathname={pathname} pages={navigationPages(pathname)} />
   </main>
 );
 

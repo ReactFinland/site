@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@survivejs/components": "^0.1.1",
+    "@survivejs/components": "^0.2.0",
     "@survivejs/utils": "^0.1.1",
     "antwar": "^0.19.2",
     "front-matter": "^2.3.0",
