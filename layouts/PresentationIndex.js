@@ -1,14 +1,6 @@
 import React from "react";
+import ContentBlock from "../components/ContentBlock";
 import SocialLinks from "../components/SocialLinks";
-
-const ContentBlock = ({ name, type = "json" }) => (
-  <div
-    className="content-block"
-    dangerouslySetInnerHTML={{
-      __html: require(`../content/${name}.${type}`).body,
-    }}
-  />
-);
 
 const PresentationIndex = ({ section }) => (
   <div className="flex">
