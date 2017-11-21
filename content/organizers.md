@@ -14,6 +14,13 @@ Aleksi Pousar works on the app and is the treasurer of the association. You can 
 </div>
 <div class="organizer">
 
+![Harri Määttä|100|100|author-photo](assets/img/speakers/harri.jpg)
+
+You can reach Harri Määttä through Twitter at [@HarriMaatta](https://twitter.com/HarriMaatta).
+
+</div>
+<div class="organizer">
+
 ![Juho Vepsäläinen|100|100|author-photo](assets/img/speakers/juho.jpg)
 
 Juho Vepsäläinen put together the conference schedule, handles speaker relations and marketing. You can reach him through Twitter at [@bebraw](https://twitter.com/bebraw).
