@@ -22,6 +22,7 @@ So far, the following workshops have been confirmed. Each session will take four
 * **Reactive State Machines** - Learn how to refactor an old application to use state machines with David Khourshid.
 * **ReasonML** – See the reason in ReasonML with Nik Graf and Patrick Stapfer.
 * **Style Guides in React** – Learn to develop style guides for your React application with Andrey Okonetchnikov and Artem Sapegin.
+* **React Native** with Gant Laborde.
 * **Universal React with Next.js** – Learn how to develop React in Universal way with Sia Karamalegos.
 * **[Webpack – The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/)** – Learn more about webpack from one of its core developers, Juho Vepsäläinen.
 
@@ -30,9 +31,8 @@ The following four hour workshops are arranged only once:
 * **Testing React** – Learn how to test React with Sara Vieira.
 * **Detox** – Learn graybox E2E testing with Rotem Mizrachi-Meidan, the author of the tool.
 
-We also have full day workshops (eight hours including a lunch):
+We also have a full day workshop (eight hours including a lunch):
 
-* **React Native** with Gant Laborde and Shay Keinan.
 * **State Management** with Michel Weststrate, the author of MobX and Mobx-State-Tree.
 
 ### 25.04 - Wednesday - React
