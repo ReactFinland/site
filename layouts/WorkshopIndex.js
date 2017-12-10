@@ -7,6 +7,7 @@ const WorkshopIndex = ({ section }) => (
     <div className="post-block-full" id="schedule">
       <ContentBlock name="workshops/andrey-and-artem" />
       <ContentBlock name="presentations/david-khourshid" />
+      <ContentBlock name="workshops/gant-laborde" />
       <ContentBlock name="workshops/juho-vepsalainen" />
       <ContentBlock name="workshops/michel-weststrate" />
       <ContentBlock name="workshops/patrick-and-nik" />
