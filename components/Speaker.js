@@ -20,7 +20,9 @@ const Speaker = ({ speaker: { speakers, session } }) => (
           className="author-photo"
           width={100}
           height={100}
-          src={require(`assets/img/speakers/${speaker.photo}`)}
+          src={require(`@react-finland/content-2018/images/speakers/${
+            speaker.photo
+          }`)}
         />
 
         <b>About {speaker.name.split(" ")[0]}</b>
