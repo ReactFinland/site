@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/gant-laborde.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/gant-laborde.json"
+    }
+  ],
   "session": {
     "title": "React Native",
     "description":

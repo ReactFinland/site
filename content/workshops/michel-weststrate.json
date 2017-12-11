@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/michel-weststrate.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/michel-weststrate.json"
+    }
+  ],
   "session": {
     "title": "State Management",
     "description":

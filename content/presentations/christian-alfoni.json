@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/christian-alfoni.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/christian-alfoni.json"
+    }
+  ],
   "session": {
     "title": "Declarative state and side effects",
     "description":

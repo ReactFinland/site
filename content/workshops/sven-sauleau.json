@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/sven-sauleau.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/sven-sauleau.json"
+    }
+  ],
   "session": {
     "title": "Babel",
     "description":

@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/shay-keinan.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/shay-keinan.json"
+    }
+  ],
   "session": {
     "title": "ReactVR",
     "description": ""

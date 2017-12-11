@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/varya-stepanova.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/varya-stepanova.json"
+    }
+  ],
   "session": {
     "title":
       "How to use React, webpack and other buzzwords if there is no need",

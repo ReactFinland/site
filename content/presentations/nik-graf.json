@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/nik-graf.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/nik-graf.json"
+    }
+  ],
   "session": {
     "title": "React VR",
     "description": ""

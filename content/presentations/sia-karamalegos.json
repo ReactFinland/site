@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/sia-karamalegos.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/sia-karamalegos.json"
+    }
+  ],
   "session": {
     "title": "Universal React Apps Using Next.js",
     "description":

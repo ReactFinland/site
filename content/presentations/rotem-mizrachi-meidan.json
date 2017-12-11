@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/rotem-mizrachi-meidan.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/rotem-mizrachi-meidan.json"
+    }
+  ],
   "session": {
     "title": "Detox",
     "description":

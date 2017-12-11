@@ -12,9 +12,6 @@ module.exports = function speakerLoader(source) {
   // Resolve possible $ref's against other resources. Flat for now
   const context = resolveObjectRefs(JSON.parse(source));
 
-  // Normalize to an array so it's easier to work with
-  context.speakers = context.speakers || [context.speaker];
-
   // Inject first names
   context.speakers = context.speakers.map(speaker => {
     speaker.firstName = speaker && speaker.name.split(" ")[0];

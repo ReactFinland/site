@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/kasia-jastrzebska.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/kasia-jastrzebska.json"
+    }
+  ],
   "session": {
     "title": "Styled Components, SSR, and Theming",
     "description":

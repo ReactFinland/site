@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/juho-vepsalainen.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/juho-vepsalainen.json"
+    }
+  ],
   "session": {
     "title": "Webpack - The Good Parts",
     "description":

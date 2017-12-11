@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/jani-evakallio.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/jani-evakallio.json"
+    }
+  ],
   "session": {
     "title": "",
     "description": ""

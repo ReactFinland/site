@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/ken-wheeler.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/ken-wheeler.json"
+    }
+  ],
   "session": {
     "title": "",
     "description": ""

@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/david-khourshid.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/david-khourshid.json"
+    }
+  ],
   "session": {
     "title": "Reactive State Machines and Statecharts",
     "description":

@@ -1,7 +1,9 @@
 {
-  "speaker": {
-    "$ref": "../speakers/sara-vieira.json"
-  },
+  "speakers": [
+    {
+      "$ref": "../speakers/sara-vieira.json"
+    }
+  ],
   "session": {
     "title": "Testing React",
     "description":
