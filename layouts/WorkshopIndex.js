@@ -1,20 +1,13 @@
 import React from "react";
 import ContentBlock from "../components/ContentBlock";
 import SocialLinks from "../components/SocialLinks";
+import Speakers from "../components/Speakers";
+import { workshops } from "@react-finland/content-2018";
 
 const WorkshopIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block-full" id="schedule">
-      <ContentBlock name="workshops/andrey-and-artem" />
-      <ContentBlock name="presentations/david-khourshid" />
-      <ContentBlock name="workshops/gant-laborde" />
-      <ContentBlock name="workshops/juho-vepsalainen" />
-      <ContentBlock name="workshops/michel-weststrate" />
-      <ContentBlock name="workshops/patrick-and-nik" />
-      <ContentBlock name="presentations/rotem-mizrachi-meidan" />
-      <ContentBlock name="workshops/sara-vieira" />
-      <ContentBlock name="presentations/sia-karamalegos" />
-      <ContentBlock name="workshops/sven-sauleau" />
+      <Speakers speakers={workshops} />
     </div>
   </div>
 );

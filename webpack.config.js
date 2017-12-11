@@ -62,11 +62,6 @@ function commonConfig() {
           test: /\.md$/,
           use: "page-loader",
         },
-        {
-          test: /\.json$/,
-          use: ["page-loader", "speaker-loader"],
-          include: path.join(__dirname, "content"),
-        },
       ],
     },
     resolve: {
@@ -78,7 +73,6 @@ function commonConfig() {
     resolveLoader: {
       alias: {
         "page-loader": path.resolve(__dirname, "loaders/page-loader.js"),
-        "speaker-loader": path.resolve(__dirname, "loaders/speaker-loader.js"),
       },
     },
   };

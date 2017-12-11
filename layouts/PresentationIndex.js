@@ -1,28 +1,24 @@
 import React from "react";
 import ContentBlock from "../components/ContentBlock";
 import SocialLinks from "../components/SocialLinks";
+import Speakers from "../components/Speakers";
+import {
+  keynotes,
+  lightningTalks,
+  presentations,
+} from "@react-finland/content-2018";
 
 const PresentationIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block post-block-full" id="schedule">
       <h2>Keynotes</h2>
-      <ContentBlock name="keynotes/jani-evakallio" />
-      <ContentBlock name="keynotes/ken-wheeler" />
+      <Speakers speakers={keynotes} />
 
       <h2>Presentations</h2>
-      <ContentBlock name="presentations/christian-alfoni" />
-      <ContentBlock name="presentations/david-khourshid" />
-      <ContentBlock name="presentations/gant-laborde" />
-      <ContentBlock name="presentations/kasia-jastrzebska" />
-      <ContentBlock name="presentations/nik-graf" />
-      <ContentBlock name="presentations/patrick-stapfer" />
-      <ContentBlock name="presentations/rotem-mizrachi-meidan" />
-      <ContentBlock name="presentations/sara-vieira" />
-      <ContentBlock name="presentations/shay-keinan" />
-      <ContentBlock name="presentations/sia-karamalegos" />
+      <Speakers speakers={presentations} />
 
       <h2>Lightning Talks</h2>
-      <ContentBlock name="lightning-talks/varya-stepanova" />
+      <Speakers speakers={lightningTalks} />
     </div>
   </div>
 );
