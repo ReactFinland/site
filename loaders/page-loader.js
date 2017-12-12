@@ -4,7 +4,10 @@ const frontmatter = require("front-matter");
 const loaderUtils = require("loader-utils");
 const removeMarkdown = require("remove-markdown");
 const { markdown, highlight, parse } = require("@survivejs/utils");
+const { renderToStaticMarkup } = require("react-dom/server");
+const React = require("react");
 const headers = require("./headers");
+const Schedule = require("../components/Schedule");
 
 module.exports = function pageLoader(source) {
   const result = frontmatter(source);
@@ -25,7 +28,7 @@ module.exports = function pageLoader(source) {
   result.preview = generatePreview(result, body);
   result.description = generateDescription(result);
   result.keywords = generateKeywords(result);
-  result.body = markdown().process(body, highlight);
+  result.body = markdown(customizeMarkdown).process(body, highlight);
 
   delete result.frontmatter;
 
@@ -52,6 +55,27 @@ module.exports = function pageLoader(source) {
     }
   );
 };
+
+function customizeMarkdown(renderer) {
+  const oldParagraph = renderer.paragraph;
+
+  renderer.paragraph = text => {
+    // Example: {schedule:@react-finland/content-2018/schedule/25-04-2018}
+    if (/\{schedule\:[a-zA-Z@\/\-0-9]*\}/.test(text)) {
+      const importPath = text.slice(0, -1).split(":")[1];
+
+      console.log(
+        renderToStaticMarkup(<Schedule items={require(importPath)} />)
+      );
+
+      return renderToStaticMarkup(<Schedule items={require(importPath)} />);
+    }
+
+    return oldParagraph(text);
+  };
+
+  return renderer;
+}
 
 function resolveAliases(resource) {
   const relativePath = _path.relative(process.cwd(), resource);
