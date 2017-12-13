@@ -64,10 +64,6 @@ function customizeMarkdown(renderer) {
     if (/\{schedule\:[a-zA-Z@\/\-0-9]*\}/.test(text)) {
       const importPath = text.slice(0, -1).split(":")[1];
 
-      console.log(
-        renderToStaticMarkup(<Schedule items={require(importPath)} />)
-      );
-
       return renderToStaticMarkup(<Schedule items={require(importPath)} />);
     }
 
