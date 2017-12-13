@@ -12,8 +12,10 @@ antwar[environment]({
   environment,
   antwar: require("./antwar.config"),
   webpack: require("./webpack.config"),
-}).catch(err => {
-  console.error(err);
+})
+  .then(() => console.log("Surf to http://localhost:3000"))
+  .catch(err => {
+    console.error(err);
 
-  process.exit(1);
-});
+    process.exit(1);
+  });

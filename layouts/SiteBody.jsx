@@ -1,6 +1,5 @@
 import React from "react";
-import SocialLinks from "../components/SocialLinks";
-
+import { ContentBlock, SocialLinks } from "../components";
 import { Navigation } from "@survivejs/components";
 
 import "../styles/fontello-codes.css";
@@ -21,15 +20,6 @@ const Header = () => (
       </h3>
     </div>
   </header>
-);
-
-const ContentBlock = ({ name, type = "json" }) => (
-  <div
-    className="content-block"
-    dangerouslySetInnerHTML={{
-      __html: require(`../content/${name}.${type}`).body,
-    }}
-  />
 );
 
 const navigationPages = pathname => [

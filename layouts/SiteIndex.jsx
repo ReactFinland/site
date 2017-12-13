@@ -1,5 +1,5 @@
 import React from "react";
-import ContentBlock from "../components/ContentBlock";
+import { ContentBlock } from "../components";
 
 const SiteIndex = ({ section }) => (
   <div className="flex">

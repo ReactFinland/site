@@ -1,7 +1,5 @@
 import React from "react";
-import ContentBlock from "../components/ContentBlock";
-import SocialLinks from "../components/SocialLinks";
-import Speakers from "../components/Speakers";
+import { ContentBlock, SocialLinks, Speakers } from "../components";
 import { workshops } from "@react-finland/content-2018";
 
 const WorkshopIndex = ({ section }) => (
