@@ -1,12 +1,13 @@
 import React from "react";
 import Markdown from "./Markdown";
+import AnchorHeader from "./AnchorHeader";
 
 const Speaker = ({ speaker: { speakers, session } }) => (
   <div className="content-block">
-    <h3 className="header">
+    <AnchorHeader level={3}>
       {speakers.map(speaker => speaker.name).join(" and ")} -{" "}
       {session.title || "To be announced."}
-    </h3>
+    </AnchorHeader>
 
     {session.description ? (
       <Markdown source={session.description} />
