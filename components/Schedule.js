@@ -1,5 +1,5 @@
 const React = require("react"); // XXX: imports aren't transpiled in Node
-const ReactMarkdown = require("react-markdown");
+const Markdown = require("./Markdown");
 
 // TODO: Replace wrapper divs with fragments in React 16
 const Schedule = ({ items }) => (
@@ -10,7 +10,7 @@ const Schedule = ({ items }) => (
           {interval.begin} - {interval.end}
         </dt>
         <dd>
-          <ReactMarkdown source={description} />
+          <Markdown source={description} />
         </dd>
       </div>
     ))}

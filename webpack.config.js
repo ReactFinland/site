@@ -98,6 +98,7 @@ function interactiveConfig() {
 
 function developmentConfig() {
   return {
+    stats: "normal",
     module: {
       rules: [
         {

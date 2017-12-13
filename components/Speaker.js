@@ -1,5 +1,5 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
+import Markdown from "./Markdown";
 
 const Speaker = ({ speaker: { speakers, session } }) => (
   <div className="content-block">
@@ -9,7 +9,7 @@ const Speaker = ({ speaker: { speakers, session } }) => (
     </h3>
 
     {session.description ? (
-      <ReactMarkdown source={session.description} />
+      <Markdown source={session.description} />
     ) : (
       "To be announced."
     )}
@@ -45,11 +45,7 @@ const Speaker = ({ speaker: { speakers, session } }) => (
           </a>
         )}
 
-        {speaker.about ? (
-          <ReactMarkdown source={speaker.about} />
-        ) : (
-          "No bio yet."
-        )}
+        {speaker.about ? <Markdown source={speaker.about} /> : "No bio yet."}
       </div>
     ))}
   </div>
