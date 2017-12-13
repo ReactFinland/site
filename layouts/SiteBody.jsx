@@ -9,7 +9,7 @@ import "../styles/style.less";
 
 const Header = () => (
   <header>
-    <div className="container">
+    <div className="header-container container">
       <div className="rubric">
         <span>React </span>
         <span className="text-rf-blue">Finland</span>
@@ -49,7 +49,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
   <main>
     <section className="frontpage">
       <Header />
-      <div className="container">
+      <div className="main-container container">
         <section className="post-block-wrap">
           <div className="post-block post-block-full" id="social">
             <SocialLinks />
