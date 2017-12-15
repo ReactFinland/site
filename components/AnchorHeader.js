@@ -1,13 +1,10 @@
 import React from "react";
+import slugify from "./slugify";
 
 const AnchorHeader = ({ level, anchor, children }) => {
-  const idBase = [anchor] || (Array.isArray(children) ? children : [children]);
-
-  const id = idBase
-    .join()
-    .toLowerCase()
-    .replace(/`/g, "")
-    .replace(/[^\w]+/g, "-");
+  const id = slugify(
+    anchor || (Array.isArray(children) ? children : [children]).join()
+  );
 
   return React.createElement(`h${level}`, { className: "header" }, [
     <a className="header-anchor" href={`#${id}`} id={id} key="anchor" />,

@@ -1,8 +1,20 @@
 const React = require("react"); // XXX: imports aren't transpiled in Node
 const Markdown = require("./Markdown");
+const slugify = require("./slugify");
 
 const SpeakerNames = ({ speakers = [] }) => (
-  <span>{speakers.map(({ name }) => name).join(" and ")}</span>
+  <div className="speaker-names">
+    {speakers.map(({ name }, i) => [
+      speakers.length > 1 && i === speakers.length - 1 ? (
+        <span> and </span>
+      ) : (
+        undefined
+      ),
+      <a className="speaker-name" key={i} href={`/speakers/#${slugify(name)}`}>
+        {name}
+      </a>,
+    ])}
+  </div>
 );
 
 const Schedule = ({ items: { intervals } }) => (
@@ -13,7 +25,7 @@ const Schedule = ({ items: { intervals } }) => (
           {begin} - {end}
         </dt>
         <dd>
-          {sessions.map(({ title, description, speakers }, i) => [
+          {sessions.map(({ title, description, speakers }) => [
             <h3>
               {title} {title && speakers && "-"}{" "}
               <SpeakerNames speakers={speakers} />
