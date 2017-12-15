@@ -17,7 +17,8 @@ const Schedule = ({ items: { intervals } }) => (
           {sessions.map(({ title, description, speakers }, i) => (
             <div key={`session-${i}`}>
               <h3>
-                {title} {title && "-"} <SpeakerNames speakers={speakers} />
+                {title} {title && speakers && "-"}{" "}
+                <SpeakerNames speakers={speakers} />
               </h3>
               <Markdown source={description || "Not announced yet."} />
             </div>
