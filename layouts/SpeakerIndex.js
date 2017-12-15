@@ -1,11 +1,12 @@
 import React from "react";
-import { Speakers } from "../components";
 import { speakers } from "@react-finland/content-2018";
+import values from "object.values";
+import { Speakers } from "../components";
 
 const SpeakerIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block-full" id="schedule">
-      <Speakers items={Object.values(speakers)} />
+      <Speakers items={values(speakers)} />
     </div>
   </div>
 );

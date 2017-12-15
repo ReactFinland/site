@@ -38,6 +38,7 @@
     "marked": "^0.3.7",
     "moment": "^2.19.4",
     "normalize.css": "^7.0.0",
+    "object.values": "^1.0.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-markdown": "^3.1.1",
