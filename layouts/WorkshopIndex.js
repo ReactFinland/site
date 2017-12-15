@@ -1,5 +1,5 @@
 import React from "react";
-import { ContentBlock, Sessions, SocialLinks } from "../components";
+import { Sessions } from "../components";
 import { workshops } from "@react-finland/content-2018";
 
 const WorkshopIndex = ({ section }) => (

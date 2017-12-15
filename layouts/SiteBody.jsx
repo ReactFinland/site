@@ -40,6 +40,10 @@ const navigationPages = pathname => [
     url: "/workshops/",
   },
   {
+    title: "Speakers",
+    url: "/speakers/",
+  },
+  {
     title: "Read the blog",
     url: "https://medium.com/react-finland",
   },

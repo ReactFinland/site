@@ -12,6 +12,7 @@ module.exports = () => ({
   paths: {
     "/": () => require("./layouts/SiteIndex").default,
     presentations: () => require("./layouts/PresentationIndex").default,
+    speakers: () => require("./layouts/SpeakerIndex").default,
     workshops: () => require("./layouts/WorkshopIndex").default,
   },
 });
