@@ -35,6 +35,12 @@ const Speakers = ({ items }) => (
               <i className="icon-twitter" />
             </a>
           )}
+
+          {speaker.linkedin && (
+            <a href={`https://www.linkedin.com/in/${speaker.linkedin}`}>
+              <i className="icon-linkedin-squared" />
+            </a>
+          )}
         </AnchorHeader>
 
         {speaker.about ? <Markdown source={speaker.about} /> : "No bio yet."}
