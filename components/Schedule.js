@@ -5,7 +5,6 @@ const SpeakerNames = ({ speakers = [] }) => (
   <span>{speakers.map(({ name }) => name).join(" and ")}</span>
 );
 
-// TODO: Replace wrapper divs with fragments in React 16
 const Schedule = ({ items: { intervals } }) => (
   <dl className="schedule">
     {intervals.map(({ begin, end, sessions }) => (
@@ -14,15 +13,13 @@ const Schedule = ({ items: { intervals } }) => (
           {begin} - {end}
         </dt>
         <dd>
-          {sessions.map(({ title, description, speakers }, i) => (
-            <div key={`session-${i}`}>
-              <h3>
-                {title} {title && speakers && "-"}{" "}
-                <SpeakerNames speakers={speakers} />
-              </h3>
-              <Markdown source={description || "Not announced yet."} />
-            </div>
-          ))}
+          {sessions.map(({ title, description, speakers }, i) => [
+            <h3>
+              {title} {title && speakers && "-"}{" "}
+              <SpeakerNames speakers={speakers} />
+            </h3>,
+            <Markdown source={description || "Not announced yet."} />,
+          ])}
         </dd>
       </div>
     ))}
