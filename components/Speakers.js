@@ -15,7 +15,7 @@ const Speakers = ({ items }) => (
           }`)}
         />
 
-        <AnchorHeader level={3}>
+        <AnchorHeader level={3} anchor={speaker.name}>
           {speaker.name}
 
           {speaker.homepage && (

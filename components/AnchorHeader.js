@@ -1,7 +1,9 @@
 import React from "react";
 
-const AnchorHeader = ({ level, children }) => {
-  const id = (Array.isArray(children) ? children : [children])
+const AnchorHeader = ({ level, anchor, children }) => {
+  const idBase = [anchor] || (Array.isArray(children) ? children : [children]);
+
+  const id = idBase
     .join()
     .toLowerCase()
     .replace(/`/g, "")
