@@ -2,18 +2,14 @@ import React from "react";
 import Markdown from "./Markdown";
 import AnchorHeader from "./AnchorHeader";
 
-const Speaker = ({ speaker: { speakers, session } }) => (
+const Session = ({ item, item: { speakers, title, description } }) => (
   <div className="content-block">
     <AnchorHeader level={3}>
       {speakers.map(speaker => speaker.name).join(" and ")} -{" "}
-      {session.title || "To be announced."}
+      {title || "To be announced."}
     </AnchorHeader>
 
-    {session.description ? (
-      <Markdown source={session.description} />
-    ) : (
-      "To be announced."
-    )}
+    {description ? <Markdown source={description} /> : "To be announced."}
 
     {speakers.map(speaker => (
       <div className="speaker-meta" key={speaker.name}>
@@ -52,4 +48,4 @@ const Speaker = ({ speaker: { speakers, session } }) => (
   </div>
 );
 
-export default Speaker;
+export default Session;

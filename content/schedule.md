@@ -43,7 +43,7 @@ In Finnish style, we start each day early. We also eat lunch early. This way we'
 
 The first presentation day has a strict focus on React itself. Each session ends with a brief break and we have a couple longer breaks in between:
 
-{schedule:@react-finland/content-2018/src/schedule/25-04-2018}
+{schedule:@react-finland/content-2018/src/schedules/25-04-2018}
 
 There will be fun after the panel.
 
@@ -51,4 +51,4 @@ There will be fun after the panel.
 
 The second day of the event continues where the first one left off:
 
-{schedule:@react-finland/content-2018/src/schedule/26-04-2018}
+{schedule:@react-finland/content-2018/src/schedules/26-04-2018}

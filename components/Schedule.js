@@ -1,16 +1,27 @@
 const React = require("react"); // XXX: imports aren't transpiled in Node
 const Markdown = require("./Markdown");
 
+const SpeakerNames = ({ speakers = [] }) => (
+  <span>{speakers.map(({ name }) => name).join(" and ")}</span>
+);
+
 // TODO: Replace wrapper divs with fragments in React 16
-const Schedule = ({ items }) => (
+const Schedule = ({ items: { intervals } }) => (
   <dl className="schedule">
-    {items.map(({ interval, description }) => (
-      <div key={interval.begin + interval.end}>
+    {intervals.map(({ begin, end, sessions }) => (
+      <div key={begin + end}>
         <dt>
-          {interval.begin} - {interval.end}
+          {begin} - {end}
         </dt>
         <dd>
-          <Markdown source={description} />
+          {sessions.map(({ title, description, speakers }, i) => (
+            <div key={`session-${i}`}>
+              <h3>
+                {title} {speakers && "-"} <SpeakerNames speakers={speakers} />
+              </h3>
+              <Markdown source={description || "Not announced yet."} />
+            </div>
+          ))}
         </dd>
       </div>
     ))}

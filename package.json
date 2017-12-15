@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@react-finland/content-2018": "^0.6.0",
+    "@react-finland/content-2018": "^4.1.2",
     "@survivejs/components": "^0.2.0",
     "@survivejs/utils": "^0.1.1",
     "antwar": "^0.21.1",
@@ -45,7 +45,7 @@
     "remove-markdown": "^0.2.2"
   },
   "devDependencies": {
-    "autoprefixer": "^7.2.2",
+    "autoprefixer": "^7.2.3",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",
     "babel-loader": "^7.1.2",
@@ -74,7 +74,7 @@
     "raw-loader": "^0.5.1",
     "react-router": "^4.2.0",
     "sitemap-static": "^0.4.2",
-    "style-loader": "^0.19.0",
+    "style-loader": "^0.19.1",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7",

@@ -1,11 +1,11 @@
 import React from "react";
-import { ContentBlock, SocialLinks, Speakers } from "../components";
+import { ContentBlock, Sessions, SocialLinks } from "../components";
 import { workshops } from "@react-finland/content-2018";
 
 const WorkshopIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block-full" id="schedule">
-      <Speakers speakers={workshops} />
+      <Sessions items={workshops} />
     </div>
   </div>
 );
