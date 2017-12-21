@@ -1,5 +1,6 @@
 const React = require("react"); // XXX: imports aren't transpiled in Node
 const Markdown = require("./Markdown");
+const Keywords = require("./Keywords");
 const slugify = require("./slugify");
 
 const SpeakerNames = ({ speakers = [] }) => (
@@ -19,22 +20,21 @@ const SpeakerNames = ({ speakers = [] }) => (
 
 const Schedule = ({ items: { intervals } }) => (
   <dl className="schedule">
-    {intervals.map(({ begin, end, sessions }) => (
-      <div key={begin + end}>
-        <dt>
-          {begin} - {end}
-        </dt>
-        <dd>
-          {sessions.map(({ title, description, speakers }) => [
-            <h3>
-              {title} {title && speakers && "-"}{" "}
-              <SpeakerNames speakers={speakers} />
-            </h3>,
-            <Markdown source={description || "Not announced yet."} />,
-          ])}
-        </dd>
-      </div>
-    ))}
+    {intervals.map(({ begin, end, sessions }) => [
+      <dt>
+        {begin} - {end}
+      </dt>,
+      <dd>
+        {sessions.map(({ title, description, speakers, keywords }) => [
+          <h3>
+            {title} {title && speakers && "-"}{" "}
+            <SpeakerNames speakers={speakers} />
+          </h3>,
+          <Markdown source={description || "Not announced yet."} />,
+          keywords && <Keywords items={keywords} />,
+        ])}
+      </dd>,
+    ])}
   </dl>
 );
 

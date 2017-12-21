@@ -1,6 +1,7 @@
 import React from "react";
 import Markdown from "./Markdown";
 import AnchorHeader from "./AnchorHeader";
+import Keywords from "./Keywords";
 
 const Speaker = ({
   name,
@@ -10,6 +11,7 @@ const Speaker = ({
   twitter,
   linkedin,
   about,
+  keywords,
 }) => (
   <div className="speaker-meta" key={name}>
     <img
@@ -48,6 +50,8 @@ const Speaker = ({
     </AnchorHeader>
 
     {about ? <Markdown source={about} /> : "No bio yet."}
+
+    {keywords && <Keywords items={keywords} />}
   </div>
 );
 

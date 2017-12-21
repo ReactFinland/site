@@ -104,11 +104,16 @@ dt {
 
 dd {
   margin-left: @pu2;
-  margin-bottom: @pu2;
+  margin-bottom: @pu2 * 2;
 }
 dd {
   h3 {
     margin-top: 0;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: @pu2;
   }
 }
 
@@ -232,4 +237,20 @@ header {
 }
 .speaker-names {
   display: inline;
+}
+
+.keywords {
+  font-size: smaller;
+}
+
+.keyword {
+  background-color: @very-blue;
+  color: white;
+  display: inline;
+  margin: @pu;
+  padding: @pu;
+  border-radius: @pu;
+}
+.keyword:first-child {
+  margin-left: 0;
 }
