@@ -20,10 +20,12 @@
     <% for (var file of htmlWebpackPlugin.options.context.cssFiles) { %>
       <link href="<%= file %>" rel="stylesheet">
     <% } %>
+    <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
   </head>
   <body>
     <%- webpackConfig.html %>
 
+    <script src='https://js.tito.io/v1' async></script>
     <% for (var script of htmlWebpackPlugin.options.context.jsFiles) { %>
       <script src="<%= script %>" type="text/javascript"></script>
     <% } %>
