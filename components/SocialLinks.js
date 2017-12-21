@@ -4,7 +4,7 @@ const SocialLinks = ({ type }) => {
   return (
     <div className="social-links">
       <h2 className="subscribe-header">
-        Subscribe to the mailing list to know when registration opens.
+        Subscribe to know when the registration opens.
       </h2>
 
       <form
