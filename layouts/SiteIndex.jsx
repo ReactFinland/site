@@ -6,6 +6,7 @@ const SiteIndex = ({ section }) => (
     <div className="post-block-full" id="schedule">
       <ContentBlock name="intro" type="md" />
       <ContentBlock name="schedule" type="md" />
+      <ContentBlock name="venue" type="md" />
     </div>
   </div>
 );
