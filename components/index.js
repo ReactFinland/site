@@ -1,5 +1,6 @@
 import AnchorHeader from "./AnchorHeader";
-import ContentBlock from "./ContentBlock";
+import Markdown from "./Markdown";
+import Organizers from "./Organizers";
 import Partners from "./Partners";
 import Schedule from "./Schedule";
 import Session from "./Session";
@@ -10,7 +11,8 @@ import Speaker from "./Speaker";
 
 export {
   AnchorHeader,
-  ContentBlock,
+  Markdown,
+  Organizers,
   Partners,
   Schedule,
   Session,

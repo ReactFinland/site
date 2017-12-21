@@ -6,12 +6,14 @@
   "private": true,
   "scripts": {
     "start": "node ./antwar.bootstrap.js develop",
-    "build": "node ./antwar.bootstrap.js build && npm run sitemap && npm run copy:all",
+    "build":
+      "node ./antwar.bootstrap.js build && npm run sitemap && npm run copy:all",
     "build:netlify": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js --ext jsx --ignore-path .gitignore --cache",
     "test": "npm run lint",
-    "sitemap": "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
+    "sitemap":
+      "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
     "prepush": "npm test",
     "copy:all": "npm run copy:extra",
     "copy:extra": "cp -rfv assets/extra/* build"
@@ -32,10 +34,7 @@
     "@survivejs/components": "^0.2.0",
     "@survivejs/utils": "^0.1.1",
     "antwar": "^0.21.1",
-    "loader-utils": "^1.1.0",
     "lodash": "^4.17.4",
-    "marked": "^0.3.7",
-    "moment": "^2.20.1",
     "normalize.css": "^7.0.0",
     "object.values": "^1.0.4",
     "react": "^16.2.0",

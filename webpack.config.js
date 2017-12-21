@@ -62,19 +62,13 @@ function commonConfig() {
         },
         {
           test: /\.md$/,
-          use: "page-loader",
+          use: "raw-loader",
         },
       ],
     },
     resolve: {
       alias: {
         assets: path.resolve(__dirname, "assets"),
-        books: path.resolve(__dirname, "books"),
-      },
-    },
-    resolveLoader: {
-      alias: {
-        "page-loader": path.resolve(__dirname, "loaders/page-loader.js"),
       },
     },
   };

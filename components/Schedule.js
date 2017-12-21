@@ -1,7 +1,7 @@
-const React = require("react"); // XXX: imports aren't transpiled in Node
-const Markdown = require("./Markdown");
-const Keywords = require("./Keywords");
-const slugify = require("./slugify");
+import React from "react";
+import Markdown from "./Markdown";
+import Keywords from "./Keywords";
+import slugify from "./slugify";
 
 const SpeakerNames = ({ speakers = [] }) => (
   <div className="speaker-names">
@@ -20,11 +20,11 @@ const SpeakerNames = ({ speakers = [] }) => (
 
 const Schedule = ({ items: { intervals } }) => (
   <dl className="schedule">
-    {intervals.map(({ begin, end, sessions }) => [
-      <dt>
+    {intervals.map(({ begin, end, sessions }, i) => [
+      <dt key={`dt-${i}`}>
         {begin} - {end}
       </dt>,
-      <dd>
+      <dd key={`dd-${i}`}>
         {sessions.map(({ title, description, speakers, keywords }) => [
           <h3>
             {title} {title && speakers && "-"}{" "}
@@ -38,4 +38,4 @@ const Schedule = ({ items: { intervals } }) => (
   </dl>
 );
 
-module.exports = Schedule;
+export default Schedule;

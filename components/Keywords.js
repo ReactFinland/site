@@ -1,4 +1,4 @@
-const React = require("react");
+import React from "react";
 
 const Keywords = ({ items }) => (
   <div className="keywords">
@@ -10,4 +10,4 @@ const Keywords = ({ items }) => (
   </div>
 );
 
-module.exports = Keywords;
+export default Keywords;
