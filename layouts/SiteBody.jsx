@@ -69,11 +69,11 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
           </div>
           <div className="post-block" id="organization">
             <AnchorHeader level={2}>About the Organization</AnchorHeader>
-            <ContentBlock name="about-organization" type="md" />
+            <ContentBlock name="about-organization" />
           </div>
           <div className="post-block" id="organizers">
             <AnchorHeader level={2}>Organizers</AnchorHeader>
-            <ContentBlock name="organizers" type="md" />
+            <ContentBlock name="organizers" />
           </div>
           <div className="post-block post-block-full">
             <Partners />

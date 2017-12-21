@@ -1,10 +1,10 @@
 import React from "react";
 
-const ContentBlock = ({ name, type = "json" }) => (
+const ContentBlock = ({ name }) => (
   <div
     className="content-block"
     dangerouslySetInnerHTML={{
-      __html: require(`../content/${name}.${type}`).body,
+      __html: require(`../content/${name}.md`),
     }}
   />
 );
