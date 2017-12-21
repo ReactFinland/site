@@ -1,6 +1,7 @@
 import React from "react";
 import { Sessions } from "../components";
-import { enums, presentations } from "@react-finland/content-2018";
+import { presentations } from "@react-finland/content-2018";
+import enums from "@react-finland/content-2018/src/enums"; // XXX
 
 const PresentationIndex = ({ section }) => (
   <div className="flex">

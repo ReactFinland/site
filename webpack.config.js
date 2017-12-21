@@ -27,6 +27,7 @@ function commonConfig() {
           include: [
             path.join(__dirname, "components"),
             path.join(__dirname, "layouts"),
+            path.join(__dirname, "node_modules", "@react-finland"),
             path.join(__dirname, "pages"),
           ],
         },
