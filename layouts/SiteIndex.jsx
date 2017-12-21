@@ -4,6 +4,7 @@ import { ContentBlock } from "../components";
 const SiteIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block-full" id="schedule">
+      <ContentBlock name="intro" type="md" />
       <ContentBlock name="schedule" type="md" />
     </div>
   </div>
