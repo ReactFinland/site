@@ -1,5 +1,5 @@
 import React from "react";
-import { ContentBlock, SocialLinks } from "../components";
+import { ContentBlock, Partners, SocialLinks } from "../components";
 import { Navigation } from "@survivejs/components";
 
 import "../styles/fontello-codes.css";
@@ -69,6 +69,9 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
           <div className="post-block" id="organizers">
             <h2>Organizers</h2>
             <ContentBlock name="organizers" type="md" />
+          </div>
+          <div className="post-block post-block-full">
+            <Partners />
           </div>
         </section>
       </div>
