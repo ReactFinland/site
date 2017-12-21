@@ -1,8 +1,9 @@
 import React from "react";
+import AnchorHeader from "./AnchorHeader";
 
 const Partners = () => (
   <div className="content-block partners">
-    <h2>Partners</h2>
+    <AnchorHeader level={2}>Partners</AnchorHeader>
     <a href="https://www.agent.sh/" className="partner">
       <img
         className="partner-logo"

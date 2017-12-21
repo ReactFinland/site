@@ -1,12 +1,12 @@
 import React from "react";
-import { Sessions } from "../components";
+import { AnchorHeader, Sessions } from "../components";
 import { presentations } from "@react-finland/content-2018";
 import enums from "@react-finland/content-2018/src/enums"; // XXX
 
 const PresentationIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block post-block-full" id="schedule">
-      <h2>Keynotes</h2>
+      <AnchorHeader level={2}>Keynotes</AnchorHeader>
       <Sessions
         items={filterObject(
           presentations,
@@ -14,10 +14,10 @@ const PresentationIndex = ({ section }) => (
         )}
       />
 
-      <h2>Presentations</h2>
+      <AnchorHeader level={2}>Presentations</AnchorHeader>
       <Sessions items={filterObject(presentations, ({ type }) => !type)} />
 
-      <h2>Lightning Talks</h2>
+      <AnchorHeader level={2}>Lightning Talks</AnchorHeader>
       <Sessions
         items={filterObject(
           presentations,
