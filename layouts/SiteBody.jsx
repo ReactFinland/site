@@ -1,6 +1,7 @@
 import React from "react";
+import values from "object.values";
 import { Navigation } from "@survivejs/components";
-import { partners } from "@react-finland/content-2018";
+import { organizers, partners } from "@react-finland/content-2018";
 import {
   AnchorHeader,
   Markdown,
@@ -75,11 +76,11 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
           </div>
           <div className="post-block" id="organizers">
             <AnchorHeader level={2}>Organizers</AnchorHeader>
-            <Organizers />
+            <Organizers items={values(organizers)} />
           </div>
           <div className="post-block post-block-full">
             <AnchorHeader level={2}>Partners</AnchorHeader>
-            <Partners items={partners} />
+            <Partners items={values(partners)} />
           </div>
         </section>
       </div>
