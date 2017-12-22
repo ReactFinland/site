@@ -26,13 +26,16 @@ const Schedule = ({ items: { intervals } }) => (
         {begin} - {end}
       </dt>,
       <dd key={`dd-${i}`}>
-        {sessions.map(({ title, description, speakers, keywords }) => [
-          <h3>
+        {sessions.map(({ title, description, speakers, keywords }, i) => [
+          <h3 key={`title-${i}`}>
             {title} {title && speakers && "-"}{" "}
-            <SpeakerNames speakers={speakers} />
+            <SpeakerNames key={`speaker-names-${i}`} speakers={speakers} />
           </h3>,
-          <Markdown source={description || "Not announced yet."} />,
-          keywords && <Keywords items={keywords} />,
+          <Markdown
+            key={`description-${i}`}
+            source={description || "Not announced yet."}
+          />,
+          keywords && <Keywords key={`keywords-${i}`} items={keywords} />,
         ])}
       </dd>,
     ])}
