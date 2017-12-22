@@ -1,12 +1,12 @@
 import React from "react";
 import { speakers } from "@react-finland/content-2018";
 import values from "object.values";
-import { Speakers } from "../components";
+import { Contacts } from "../components";
 
 const SpeakerIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block-full" id="schedule">
-      <Speakers items={values(speakers)} />
+      <Contacts className="speakers" items={values(speakers)} />
     </div>
   </div>
 );

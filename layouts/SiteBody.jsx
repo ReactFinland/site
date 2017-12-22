@@ -4,8 +4,8 @@ import { Navigation } from "@survivejs/components";
 import { organizers, partners } from "@react-finland/content-2018";
 import {
   AnchorHeader,
+  Contacts,
   Markdown,
-  Organizers,
   Partners,
   SocialLinks,
 } from "../components";
@@ -76,7 +76,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
           </div>
           <div className="post-block" id="organizers">
             <AnchorHeader level={2}>Organizers</AnchorHeader>
-            <Organizers items={values(organizers)} />
+            <Contacts className="organizers" items={values(organizers)} />
           </div>
           <div className="post-block post-block-full">
             <AnchorHeader level={2}>Partners</AnchorHeader>

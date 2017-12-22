@@ -1,7 +1,7 @@
 import React from "react";
-import Markdown from "./Markdown";
 import AnchorHeader from "./AnchorHeader";
-import Speakers from "./Speakers";
+import Contacts from "./Contacts";
+import Markdown from "./Markdown";
 
 const Session = ({ item, item: { speakers, title, description } }) => (
   <div className="content-block">
@@ -9,7 +9,7 @@ const Session = ({ item, item: { speakers, title, description } }) => (
 
     {description ? <Markdown source={description} /> : "To be announced."}
 
-    <Speakers items={speakers} />
+    <Contacts className="speakers" items={speakers} />
   </div>
 );
 
