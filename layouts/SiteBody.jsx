@@ -6,7 +6,7 @@ import {
   AnchorHeader,
   Contacts,
   Markdown,
-  Partners,
+  Partner,
   SocialLinks,
 } from "../components";
 
@@ -80,7 +80,11 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
           </div>
           <div className="post-block post-block-full">
             <AnchorHeader level={2}>Partners</AnchorHeader>
-            <Partners items={values(partners)} />
+            <Contacts
+              className="partners"
+              items={values(partners)}
+              render={Partner}
+            />
           </div>
         </section>
       </div>

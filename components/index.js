@@ -2,7 +2,7 @@ import AnchorHeader from "./AnchorHeader";
 import Contacts from "./Contacts";
 import Contact from "./Contact";
 import Markdown from "./Markdown";
-import Partners from "./Partners";
+import Partner from "./Partner";
 import Schedule from "./Schedule";
 import Session from "./Session";
 import Sessions from "./Sessions";
@@ -13,7 +13,7 @@ export {
   Contacts,
   Contact,
   Markdown,
-  Partners,
+  Partner,
   Schedule,
   Session,
   Sessions,
