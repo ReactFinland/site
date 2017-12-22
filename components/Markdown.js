@@ -1,5 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import AnchorHeader from "./AnchorHeader";
 import Schedule from "./Schedule";
 
 function parseCustomQuote(token, match, className) {
@@ -37,6 +38,9 @@ const Warning = ({ text }) => (
 );
 
 const renderers = {
+  heading: ({ level, children }) => (
+    <AnchorHeader level={level}>{children}</AnchorHeader>
+  ),
   image: ({ alt, src }) => {
     const srcParts = alt ? alt.split("|") : [];
     alt = srcParts[0] || "";
