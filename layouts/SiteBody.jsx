@@ -2,6 +2,7 @@ import React from "react";
 import values from "object.values";
 import { Navigation } from "@survivejs/components";
 import { organizers, partners } from "@react-finland/content-2018";
+import navigationPages from "./navigation-pages";
 import {
   AnchorHeader,
   Contacts,
@@ -29,33 +30,6 @@ const Header = () => (
     </div>
   </header>
 );
-
-const navigationPages = pathname => [
-  {
-    title: "Follow @ReactFinland",
-    url: "https://twitter.com/ReactFinland",
-  },
-  {
-    title: "Schedule",
-    url: "/",
-  },
-  {
-    title: "Presentations",
-    url: "/presentations/",
-  },
-  {
-    title: "Workshops",
-    url: "/workshops/",
-  },
-  {
-    title: "Speakers",
-    url: "/speakers/",
-  },
-  {
-    title: "Read the blog",
-    url: "https://medium.com/react-finland",
-  },
-];
 
 const SiteBody = ({ children, section, location: { pathname } }) => (
   <main>
@@ -90,7 +64,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
       </div>
     </section>
 
-    <Navigation pathname={pathname} pages={navigationPages(pathname)} />
+    <Navigation pathname={pathname} pages={navigationPages} />
   </main>
 );
 
