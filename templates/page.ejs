@@ -26,12 +26,22 @@
     <% for (var file of htmlWebpackPlugin.options.context.cssFiles) { %>
       <link href="<%= file %>" rel="stylesheet">
     <% } %>
-    <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
+    <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1.1" />
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      window.scrollTo(0, localStorage.getItem('scrollY'));
+
+      document.body.onscroll = function() {
+        localStorage.setItem('scrollY', window.scrollY);
+      }
+    });
+    </script>
   </head>
   <body>
     <%- webpackConfig.html %>
 
-    <script src='https://js.tito.io/v1' async></script>
+    <script src="https://js.tito.io/v1" async></script>
     <% for (var script of htmlWebpackPlugin.options.context.jsFiles) { %>
       <script src="<%= script %>" type="text/javascript"></script>
     <% } %>
