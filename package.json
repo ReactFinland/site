@@ -30,10 +30,8 @@
   "dependencies": {
     "@react-finland/content-2018": "^6.0.1",
     "@survivejs/components": "^0.2.0",
-    "@survivejs/utils": "^0.1.1",
     "antwar": "^0.21.1",
-    "lodash": "^4.17.4",
-    "marked": "^0.3.7",
+    "graphql": "^0.12.3",
     "moment": "^2.20.1",
     "normalize.css": "^7.0.0",
     "object.values": "^1.0.4",

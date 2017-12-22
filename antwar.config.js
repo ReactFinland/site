@@ -1,6 +1,4 @@
-const _ = require("lodash");
 const path = require("path");
-const { generateAdjacent, clean } = require("@survivejs/utils");
 
 module.exports = () => ({
   template: {
