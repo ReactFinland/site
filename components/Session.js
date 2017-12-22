@@ -3,7 +3,7 @@ import AnchorHeader from "./AnchorHeader";
 import Contacts from "./Contacts";
 import Markdown from "./Markdown";
 
-const Session = ({ item, item: { speakers, title, description } }) => (
+const Session = ({ speakers, title, description }) => (
   <div className="content-block">
     <AnchorHeader level={3}>{title || "To be announced."}</AnchorHeader>
 

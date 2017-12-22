@@ -1,11 +1,12 @@
 import React from "react";
-import { Sessions } from "../components";
+import values from "object.values";
 import { workshops } from "@react-finland/content-2018";
+import { Sessions } from "../components";
 
 const WorkshopIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block-full" id="schedule">
-      <Sessions items={workshops} />
+      <Sessions items={values(workshops)} />
     </div>
   </div>
 );
