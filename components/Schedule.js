@@ -1,4 +1,5 @@
 import React from "react";
+import AnchorHeader from "./AnchorHeader";
 import Markdown from "./Markdown";
 import Keywords from "./Keywords";
 import slugify from "./slugify";
@@ -27,10 +28,10 @@ const Schedule = ({ items: { intervals } }) => (
       </dt>,
       <dd key={`dd-${i}`}>
         {sessions.map(({ title, description, speakers, keywords }, i) => [
-          <h3 key={`title-${i}`}>
+          <AnchorHeader level={3} anchor={title} key={`title-${i}`}>
             {title} {title && speakers && "-"}{" "}
             <SpeakerNames key={`speaker-names-${i}`} speakers={speakers} />
-          </h3>,
+          </AnchorHeader>,
           <Markdown
             key={`description-${i}`}
             source={description || "Not announced yet."}
