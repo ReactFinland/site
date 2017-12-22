@@ -86,13 +86,14 @@ const renderers = {
     // Example: {schedule:@react-finland/content-2018/schedules/25-04-2018}
     if (/\{schedule\:[a-zA-Z@\/\-0-9]*\}/.test(text)) {
       const importPath = text.slice(0, -1).split(":")[1];
-      const schedule = importPath.split(
+      const scheduleName = importPath.split(
         "@react-finland/content-2018/src/schedules/"
       )[1];
 
       return (
         <Schedule
-          items={require(`@react-finland/content-2018/src/schedules/${schedule}`)}
+          key={scheduleName}
+          items={require(`@react-finland/content-2018/src/schedules/${scheduleName}`)}
         />
       );
     }

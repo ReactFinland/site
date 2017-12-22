@@ -6,12 +6,13 @@ import slugify from "./slugify";
 const SpeakerNames = ({ speakers = [] }) => (
   <div className="speaker-names">
     {speakers.map(({ name }, i) => [
-      speakers.length > 1 && i === speakers.length - 1 ? (
-        <span> and </span>
-      ) : (
-        undefined
-      ),
-      <a className="speaker-name" key={i} href={`/speakers/#${slugify(name)}`}>
+      speakers.length > 1 &&
+        i === speakers.length - 1 && <span key={`and-${i}`}> and </span>,
+      <a
+        key={`name-${i}`}
+        className="speaker-name"
+        href={`/speakers/#${slugify(name)}`}
+      >
         {name}
       </a>,
     ])}
