@@ -18,7 +18,7 @@ const Speaker = ({
       className="author-photo"
       width={100}
       height={100}
-      src={require(`@react-finland/content-2018/images/speakers/${photo}`)}
+      src={require(`@react-finland/content-2018/images/${photo}`)}
     />
 
     <AnchorHeader level={3} anchor={name}>
