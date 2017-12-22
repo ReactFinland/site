@@ -1,12 +1,12 @@
 import React from "react";
 import values from "object.values";
 import { workshops } from "@react-finland/content-2018";
-import { Sessions } from "../components";
+import { Contacts, Session } from "../components";
 
 const WorkshopIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block-full" id="schedule">
-      <Sessions items={values(workshops)} />
+      <Contacts items={values(workshops)} render={Session} />
     </div>
   </div>
 );
