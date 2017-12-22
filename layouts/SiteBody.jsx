@@ -1,4 +1,6 @@
 import React from "react";
+import { Navigation } from "@survivejs/components";
+import { partners } from "@react-finland/content-2018";
 import {
   AnchorHeader,
   Markdown,
@@ -6,7 +8,6 @@ import {
   Partners,
   SocialLinks,
 } from "../components";
-import { Navigation } from "@survivejs/components";
 
 import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
@@ -77,7 +78,8 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
             <Organizers />
           </div>
           <div className="post-block post-block-full">
-            <Partners />
+            <AnchorHeader level={2}>Partners</AnchorHeader>
+            <Partners items={partners} />
           </div>
         </section>
       </div>
