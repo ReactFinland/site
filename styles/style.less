@@ -15,12 +15,27 @@ a {
 }
 
 h1,
+h2 {
+  &::after {
+    position: relative;
+    display: block;
+    height: @pu / 4;
+    width: 100%;
+    margin-top: @pu;
+    margin-bottom: @pu;
+    background-color: @rf-light-blue;
+    content: "";
+  }
+}
+
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: @fh;
+  margin-top: @pu * 8;
   margin-bottom: @pu2;
   line-height: 1.25;
   & .header-anchor {
@@ -135,7 +150,7 @@ body {
 }
 .main-container {
   background-color: white;
-  padding: 1em;
+  padding: @pu * 8;
   margin-top: 0;
   margin-bottom: 1em;
   border-bottom-right-radius: 1em;
@@ -162,7 +177,7 @@ header {
   h1 {
     padding: @pu * 4 0;
     padding-top: 0;
-    color: @rf-deep-blue;
+    color: @rf-blue;
     font-weight: normal;
   }
   h3 {
