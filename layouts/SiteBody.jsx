@@ -19,6 +19,14 @@ import "../styles/style.less";
 const Header = () => (
   <header>
     <div className="header-container container">
+      <div className="logo">
+        <img
+          src={require("assets/img/logo.png")}
+          width={200}
+          height={200}
+          alt="React Finland logo"
+        />
+      </div>
       <div className="rubric">
         <span>React </span>
         <span className="text-rf-blue">Finland</span>
