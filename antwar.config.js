@@ -9,6 +9,7 @@ module.exports = () => ({
   layout: () => require("./layouts/SiteBody").default,
   paths: {
     "/": () => require("./layouts/SiteIndex").default,
+    organizers: () => require("./layouts/OrganizerIndex").default,
     presentations: () => require("./layouts/PresentationIndex").default,
     schedule: () => require("./layouts/ScheduleIndex").default,
     speakers: () => require("./layouts/SpeakerIndex").default,

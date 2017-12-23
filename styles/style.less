@@ -230,26 +230,6 @@ header {
   display: flex;
 }
 
-@media only screen and (max-device-width: @mobile-breakpoint) {
-  header {
-    .rubric,
-    h1,
-    h3 {
-      padding: 0;
-    }
-  }
-  .nav__link,
-  .nav__selected__link {
-    letter-spacing: 0;
-  }
-  .post-block {
-    min-width: 100%;
-  }
-  .container {
-    max-width: 100%;
-  }
-}
-
 .contact {
   margin-bottom: @pu2;
 
@@ -304,5 +284,28 @@ header {
     margin-top: @pu;
     display: inline-block;
     float: none;
+  }
+}
+
+@media (max-width: @mobile-breakpoint) {
+  header {
+    .rubric,
+    h1,
+    h3 {
+      padding: 0;
+    }
+  }
+  .logo {
+    margin-top: 5em;
+  }
+  .nav__link,
+  .nav__selected__link {
+    letter-spacing: 0;
+  }
+  .post-block {
+    min-width: 100%;
+  }
+  .container {
+    max-width: 100%;
   }
 }

@@ -20,6 +20,10 @@ export default [
     url: "/speakers/",
   },
   {
+    title: "Organizers",
+    url: "/organizers/",
+  },
+  {
     title: "Read the blog",
     url: "https://medium.com/react-finland",
   },
