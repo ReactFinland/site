@@ -2,6 +2,7 @@ import React from "react";
 import values from "object.values";
 import { content } from "@react-finland/content-2018";
 import { AnchorHeader, Contacts, Markdown } from "../components";
+import description from "./description";
 
 const OrganizerIndex = ({ section }) => (
   <div className="flex">
@@ -14,7 +15,6 @@ const OrganizerIndex = ({ section }) => (
     </div>
   </div>
 );
-OrganizerIndex.description =
-  "React Finland is a conference that comes with a workshop day and two days of presentations.";
+OrganizerIndex.description = description;
 
 export default OrganizerIndex;

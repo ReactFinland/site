@@ -2,6 +2,7 @@ import React from "react";
 import values from "object.values";
 import { AnchorHeader, Contacts, ContactMini, Markdown } from "../components";
 import { content } from "@react-finland/content-2018";
+import description from "./description";
 
 const SiteIndex = ({ section }) => (
   <div className="flex">
@@ -26,7 +27,6 @@ const SiteIndex = ({ section }) => (
     </div>
   </div>
 );
-SiteIndex.description =
-  "React Finland is a conference that comes with a workshop day and two days of presentations.";
+SiteIndex.description = description;
 
 export default SiteIndex;

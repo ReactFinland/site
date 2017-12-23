@@ -2,6 +2,7 @@ import React from "react";
 import values from "object.values";
 import { content, schema } from "@react-finland/content-2018";
 import { AnchorHeader, Contacts, Session } from "../components";
+import description from "./description";
 
 const { presentations } = content;
 const { enums } = schema;
@@ -33,7 +34,6 @@ const PresentationIndex = ({ section }) => (
     </div>
   </div>
 );
-PresentationIndex.description =
-  "React Finland is a conference that comes with a workshop day and two days of presentations.";
+PresentationIndex.description = description;
 
 export default PresentationIndex;

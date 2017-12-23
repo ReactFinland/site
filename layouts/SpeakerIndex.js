@@ -2,6 +2,7 @@ import React from "react";
 import { content } from "@react-finland/content-2018";
 import values from "object.values";
 import { Contacts } from "../components";
+import description from "./description";
 
 const SpeakerIndex = ({ section }) => (
   <div className="flex">
@@ -10,7 +11,6 @@ const SpeakerIndex = ({ section }) => (
     </div>
   </div>
 );
-SpeakerIndex.description =
-  "React Finland is a conference that comes with a workshop day and two days of presentations.";
+SpeakerIndex.description = description;
 
 export default SpeakerIndex;
