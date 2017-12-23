@@ -3,7 +3,7 @@ import React from "react";
 const SocialLinks = ({ type }) => {
   return (
     <div className="social-links">
-      <h2 className="subscribe-header">
+      <h2 className="social-links__header">
         Subscribe to know when the registration opens.
       </h2>
 
@@ -16,14 +16,14 @@ const SocialLinks = ({ type }) => {
         target="_blank"
         noValidate
       >
-        <div id="mc_embed_signup_scroll">
-          <div className="mc-field-group social-input-container">
+        <div id="mc_embed_signup_scroll" className="social-form__wrapper">
+          <div className="mc-field-group social-form__input-container">
             <input
               type="email"
               placeholder="Email"
               value=""
               name="EMAIL"
-              className="required email"
+              className="required email social-form__input"
               id="mce-EMAIL"
             />
           </div>
@@ -41,10 +41,10 @@ const SocialLinks = ({ type }) => {
               value=""
             />
           </div>
-          <div className="social-subscribe-container">
+          <div className="social-form__subscribe-container">
             <input
               type="submit"
-              className="btn button social-subscribe"
+              className="btn button social-form__subscribe"
               value="Subscribe"
               name="subscribe"
               id="mc-embedded-subscribe"
