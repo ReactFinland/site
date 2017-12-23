@@ -104,7 +104,7 @@ blockquote {
   }
 }
 
-.author-photo {
+.photo {
   float: right;
   margin-left: @pu * 3;
   margin-bottom: @pu * 3;
@@ -250,8 +250,22 @@ header {
   }
 }
 
-.speaker-meta {
-  margin-bottom: 1em;
+.contact {
+  margin-bottom: @pu2;
+
+  .country {
+    display: inline;
+    margin-left: @pu2;
+
+    span {
+      outline: solid 1px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .social {
+    display: inline;
+    float: right;
+  }
 }
 .speaker-names {
   display: inline;
@@ -281,12 +295,14 @@ header {
 }
 
 .organizers {
-  .speaker-meta {
+  .contact {
     display: inline-block;
     width: 100%;
   }
 
-  .author-photo {
-    float: right;
+  .social {
+    margin-top: @pu;
+    display: inline-block;
+    float: none;
   }
 }

@@ -1,12 +1,13 @@
 import React from "react";
+import ReactCountryFlag from "react-country-flag";
 import Markdown from "./Markdown";
 import AnchorHeader from "./AnchorHeader";
 import Keywords from "./Keywords";
 
-const Speaker = ({ name, image, social, about, keywords }) => (
-  <div className="speaker-meta" key={name}>
+const Speaker = ({ name, image, social, location, about, keywords }) => (
+  <div className="contact" key={name}>
     <img
-      className="author-photo"
+      className="photo"
       width={100}
       height={100}
       src={require(`@react-finland/content-2018/images/${image}`)}
@@ -15,29 +16,35 @@ const Speaker = ({ name, image, social, about, keywords }) => (
     <AnchorHeader level={3} anchor={name}>
       {name}
 
-      {social.homepage && (
-        <a href={social.homepage}>
-          <i className="icon-home" />
-        </a>
-      )}
+      <div className="country">
+        <ReactCountryFlag code={location.country.code} svg />
+      </div>
 
-      {social.github && (
-        <a href={`https://github.com/${social.github}`}>
-          <i className="icon-github-circled" />
-        </a>
-      )}
+      <div className="social">
+        {social.homepage && (
+          <a href={social.homepage}>
+            <i className="icon-home" />
+          </a>
+        )}
 
-      {social.twitter && (
-        <a href={`https://twitter.com/${social.twitter}`}>
-          <i className="icon-twitter" />
-        </a>
-      )}
+        {social.github && (
+          <a href={`https://github.com/${social.github}`}>
+            <i className="icon-github-circled" />
+          </a>
+        )}
 
-      {social.linkedin && (
-        <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
-          <i className="icon-linkedin-squared" />
-        </a>
-      )}
+        {social.twitter && (
+          <a href={`https://twitter.com/${social.twitter}`}>
+            <i className="icon-twitter" />
+          </a>
+        )}
+
+        {social.linkedin && (
+          <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
+            <i className="icon-linkedin-squared" />
+          </a>
+        )}
+      </div>
     </AnchorHeader>
 
     {about ? <Markdown source={about} /> : "No bio yet."}
