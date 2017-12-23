@@ -6,8 +6,8 @@ import navigationPages from "./navigation-pages";
 import {
   AnchorHeader,
   Contacts,
+  ContactMini,
   Markdown,
-  Partner,
   SocialLinks,
 } from "../components";
 
@@ -57,7 +57,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
             <Contacts
               className="partners"
               items={values(content.partners)}
-              render={Partner}
+              render={ContactMini}
             />
           </div>
         </section>
