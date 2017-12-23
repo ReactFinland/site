@@ -1,8 +1,10 @@
 import React from "react";
 import values from "object.values";
-import { presentations } from "@react-finland/content-2018";
-import enums from "@react-finland/content-2018/src/enums"; // XXX
+import { content, schema } from "@react-finland/content-2018";
 import { AnchorHeader, Contacts, Session } from "../components";
+
+const { presentations } = content;
+const { enums } = schema;
 
 const PresentationIndex = ({ section }) => (
   <div className="flex">

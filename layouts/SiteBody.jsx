@@ -1,7 +1,7 @@
 import React from "react";
 import values from "object.values";
 import { Navigation } from "@survivejs/components";
-import { organizers, partners } from "@react-finland/content-2018";
+import { content } from "@react-finland/content-2018";
 import navigationPages from "./navigation-pages";
 import {
   AnchorHeader,
@@ -11,10 +11,12 @@ import {
   SocialLinks,
 } from "../components";
 
+import "normalize.css/normalize.css";
 import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
-import "normalize.css/normalize.css";
 import "../styles/style.less";
+
+const { organizers, partners } = content;
 
 const Header = () => (
   <header>
