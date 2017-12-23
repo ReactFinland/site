@@ -1,5 +1,7 @@
 import React from "react";
-import { AnchorHeader, Markdown } from "../components";
+import values from "object.values";
+import { content } from "@react-finland/content-2018";
+import { AnchorHeader, Contacts, Markdown } from "../components";
 
 const SiteIndex = ({ section }) => (
   <div className="flex">
@@ -9,14 +11,17 @@ const SiteIndex = ({ section }) => (
       </AnchorHeader>
       <Markdown source={require("../content/intro.md")} />
 
-      <AnchorHeader level={2}>Schedule</AnchorHeader>
-      <Markdown source={require("../content/schedule.md")} />
-
       <AnchorHeader level={2}>Venue</AnchorHeader>
       <Markdown source={require("../content/venue.md")} />
 
       <AnchorHeader level={2}>Tickets</AnchorHeader>
       <tito-widget event="react-finland/2018" />
+
+      <AnchorHeader level={2}>Organization</AnchorHeader>
+      <Markdown source={require("../content/about-organization.md")} />
+
+      <AnchorHeader level={2}>Organizers</AnchorHeader>
+      <Contacts className="organizers" items={values(content.organizers)} />
     </div>
   </div>
 );

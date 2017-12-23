@@ -1,11 +1,11 @@
 export default [
   {
-    title: "Follow @ReactFinland",
-    url: "https://twitter.com/ReactFinland",
+    title: "React Finland",
+    url: "/",
   },
   {
     title: "Schedule",
-    url: "/",
+    url: "/schedule/",
   },
   {
     title: "Presentations",
@@ -22,5 +22,9 @@ export default [
   {
     title: "Read the blog",
     url: "https://medium.com/react-finland",
+  },
+  {
+    title: "Follow @ReactFinland",
+    url: "https://twitter.com/ReactFinland",
   },
 ];

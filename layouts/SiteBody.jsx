@@ -16,8 +16,6 @@ import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
 import "../styles/style.less";
 
-const { organizers, partners } = content;
-
 const Header = () => (
   <header>
     <div className="header-container container">
@@ -54,19 +52,11 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
           <div className="post-block post-block-full" id="social2">
             <SocialLinks />
           </div>
-          <div className="post-block" id="organization">
-            <AnchorHeader level={2}>About the Organization</AnchorHeader>
-            <Markdown source={require("../content/about-organization.md")} />
-          </div>
-          <div className="post-block" id="organizers">
-            <AnchorHeader level={2}>Organizers</AnchorHeader>
-            <Contacts className="organizers" items={values(organizers)} />
-          </div>
           <div className="post-block post-block-full">
             <AnchorHeader level={2}>Partners</AnchorHeader>
             <Contacts
               className="partners"
-              items={values(partners)}
+              items={values(content.partners)}
               render={Partner}
             />
           </div>
