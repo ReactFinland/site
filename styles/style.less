@@ -269,9 +269,10 @@ header {
 
 .contact-mini {
   width: 100px;
-  margin: @pu;
+  margin: @pu * 5;
   text-align: center;
-  display: block;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .organizers {
@@ -285,6 +286,10 @@ header {
     display: inline-block;
     float: none;
   }
+}
+
+.speakers {
+  text-align: center;
 }
 
 @media (max-width: @mobile-breakpoint) {

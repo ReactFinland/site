@@ -1,5 +1,7 @@
 import React from "react";
-import { AnchorHeader, Markdown } from "../components";
+import values from "object.values";
+import { AnchorHeader, Contacts, ContactMini, Markdown } from "../components";
+import { content } from "@react-finland/content-2018";
 
 const SiteIndex = ({ section }) => (
   <div className="flex">
@@ -8,6 +10,13 @@ const SiteIndex = ({ section }) => (
         Learn More about React, Explore Finland
       </AnchorHeader>
       <Markdown source={require("../content/intro.md")} />
+
+      <AnchorHeader level={2}>Speakers</AnchorHeader>
+      <Contacts
+        className="speakers"
+        items={values(content.speakers)}
+        render={ContactMini}
+      />
 
       <AnchorHeader level={2}>Venue</AnchorHeader>
       <Markdown source={require("../content/venue.md")} />
