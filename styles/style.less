@@ -209,6 +209,11 @@ header {
   flex-grow: 1;
 }
 
+.social-form__input,
+.social-form__subscribe {
+  border: solid @pu / 2 @rf-deep-blue;
+}
+
 .social-form__input {
   display: block;
   width: 100%;
@@ -216,6 +221,7 @@ header {
   border-top-left-radius: @pu2 * 2;
   border-bottom-left-radius: @pu2 * 2;
   padding-left: @pu;
+  border-right: none;
 }
 .social-form__subscribe-container input {
   border-top-right-radius: @pu2 * 2;
@@ -225,6 +231,7 @@ header {
 .social-form__subscribe {
   line-height: 2em;
   background-color: @rf-blue;
+  border-left: none;
 }
 
 .social-form__subscribe:hover {
