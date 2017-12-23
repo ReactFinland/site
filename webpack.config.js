@@ -135,6 +135,9 @@ function buildConfig() {
         allChunks: true,
       }),
       new CleanWebpackPlugin(["build"]),
+      new webpack.DefinePlugin({
+        window: `false`,
+      }),
     ],
   };
 }
