@@ -14,7 +14,7 @@ const SiteIndex = ({ section }) => (
 
       <AnchorHeader level={2}>Speakers</AnchorHeader>
       <Contacts
-        className="speakers"
+        className="speakers-mini"
         items={values(content.speakers)}
         render={ContactMini}
       />
