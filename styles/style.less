@@ -343,3 +343,24 @@ header {
     max-width: 100%;
   }
 }
+
+.buy {
+  margin: @pu * 6;
+}
+
+.buy-button {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  -webkit-appearance: none;
+  -webkit-appearance: normal;
+  outline: none;
+  background-color: transparent;
+  padding: @pu * 3;
+  border-radius: 100px;
+  background-color: white;
+  border: @pu @rf-blue solid;
+  color: darken(@rf-blue, 30%);
+  &:hover {
+    background-color: @rf-blue;
+  }
+}
