@@ -6,13 +6,6 @@ import Keywords from "./Keywords";
 
 const Speaker = ({ name, image, social, location, about, keywords }) => (
   <div className="contact" key={name}>
-    <img
-      className="photo"
-      width={100}
-      height={100}
-      src={require(`@react-finland/content-2018/images/${image}`)}
-    />
-
     <AnchorHeader level={3} anchor={name}>
       {name}
 
@@ -47,7 +40,15 @@ const Speaker = ({ name, image, social, location, about, keywords }) => (
       </div>
     </AnchorHeader>
 
-    {about ? <Markdown source={about} /> : "No bio yet."}
+    <div className="content">
+      <img
+        className="photo"
+        width={100}
+        height={100}
+        src={require(`@react-finland/content-2018/images/${image}`)}
+      />
+      {about ? <Markdown className="about" source={about} /> : "No bio yet."}
+    </div>
 
     {keywords && <Keywords items={keywords} />}
   </div>

@@ -106,8 +106,8 @@ const renderers = {
   },
 };
 
-const Markdown = ({ source }) => (
-  <ReactMarkdown source={source} renderers={renderers} />
+const Markdown = ({ source, ...props }) => (
+  <ReactMarkdown source={source} renderers={renderers} {...props} />
 );
 
 export default Markdown;
