@@ -3,6 +3,7 @@ import AnchorHeader from "./AnchorHeader";
 import Contacts from "./Contacts";
 import Contact from "./Contact";
 import ContactMini from "./ContactMini";
+import Header from "./Header";
 import Markdown from "./Markdown";
 import Schedule from "./Schedule";
 import Session from "./Session";
@@ -14,6 +15,7 @@ export {
   Contacts,
   Contact,
   ContactMini,
+  Header,
   Markdown,
   Schedule,
   Session,
