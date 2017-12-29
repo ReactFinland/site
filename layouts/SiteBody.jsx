@@ -4,6 +4,7 @@ import { Navigation } from "@survivejs/components";
 import { content } from "@react-finland/content-2018";
 import navigationPages from "./navigation-pages";
 import {
+  AnchorContext,
   AnchorHeader,
   Contacts,
   ContactMini,
@@ -45,32 +46,34 @@ const Header = () => (
 );
 
 const SiteBody = ({ children, section, location: { pathname } }) => (
-  <main>
-    <section className="frontpage">
-      <Header />
-      <div className="main-container container">
-        <section className="post-block-wrap">
-          <div className="post-block post-block-full" id="social">
-            <SocialLinks />
-          </div>
-          {children}
-          <div className="post-block post-block-full" id="social2">
-            <SocialLinks />
-          </div>
-          <div className="post-block post-block-full">
-            <AnchorHeader level={2}>Partners</AnchorHeader>
-            <Contacts
-              className="partners"
-              items={values(content.partners)}
-              render={ContactMini}
-            />
-          </div>
-        </section>
-      </div>
-    </section>
+  <AnchorContext>
+    <main>
+      <section className="frontpage">
+        <Header />
+        <div className="main-container container">
+          <section className="post-block-wrap">
+            <div className="post-block post-block-full" id="social">
+              <SocialLinks />
+            </div>
+            {children}
+            <div className="post-block post-block-full" id="social2">
+              <SocialLinks />
+            </div>
+            <div className="post-block post-block-full">
+              <AnchorHeader level={2}>Partners</AnchorHeader>
+              <Contacts
+                className="partners"
+                items={values(content.partners)}
+                render={ContactMini}
+              />
+            </div>
+          </section>
+        </div>
+      </section>
 
-    <Navigation pathname={pathname} pages={navigationPages} />
-  </main>
+      <Navigation pathname={pathname} pages={navigationPages} />
+    </main>
+  </AnchorContext>
 );
 
 export default SiteBody;

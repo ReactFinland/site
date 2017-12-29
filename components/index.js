@@ -1,3 +1,4 @@
+import AnchorContext from "./AnchorContext";
 import AnchorHeader from "./AnchorHeader";
 import Contacts from "./Contacts";
 import Contact from "./Contact";
@@ -8,6 +9,7 @@ import Session from "./Session";
 import SocialLinks from "./SocialLinks";
 
 export {
+  AnchorContext,
   AnchorHeader,
   Contacts,
   Contact,

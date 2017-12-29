@@ -1,22 +1,8 @@
 import React from "react";
-import slugify from "./slugify";
+import PropTypes from "prop-types";
 
-// XXXXX: Global store to avoid generating duplicate ids. Push this elsewhere?
-const ids = {}; // { id: index }. Example: { foo: 1 }
-
-const AnchorHeader = ({ level, anchor, children }) => {
-  let id = slugify(
-    anchor || (Array.isArray(children) ? children : [children]).join()
-  );
-
-  // Check for duplicate id
-  if (ids[id]) {
-    ids[id]++;
-
-    id += `-${ids[id]}`;
-  } else {
-    ids[id] = 1;
-  }
+const AnchorHeader = ({ level, anchor, children }, { getId }) => {
+  let id = getId(anchor, children);
 
   return React.createElement(`h${level}`, { className: "header" }, [
     <a className="header-anchor" href={`#${id}`} id={id} key="anchor" />,
@@ -27,6 +13,9 @@ const AnchorHeader = ({ level, anchor, children }) => {
       #
     </a>,
   ]);
+};
+AnchorHeader.contextTypes = {
+  getId: PropTypes.func,
 };
 
 export default AnchorHeader;
