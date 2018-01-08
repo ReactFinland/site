@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@react-finland/content-2018": "^9.0.3",
+    "@react-finland/content-2018": "^9.0.4",
     "@survivejs/components": "^0.2.0",
     "antwar": "^0.21.1",
     "moment": "^2.20.1",
@@ -42,7 +42,7 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "autoprefixer": "^7.2.3",
+    "autoprefixer": "^7.2.4",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.1.2",
     "babel-loader": "^7.1.2",
@@ -53,8 +53,8 @@
     "babel-preset-react-hmre": "^1.1.1",
     "babel-register": "^6.26.0",
     "clean-webpack-plugin": "^0.1.17",
-    "css-loader": "^0.28.7",
-    "eslint": "^4.14.0",
+    "css-loader": "^0.28.8",
+    "eslint": "^4.15.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.4.0",
     "extract-text-webpack-plugin": "^3.0.2",
@@ -63,7 +63,7 @@
     "husky": "^0.14.3",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
-    "postcss-loader": "^2.0.9",
+    "postcss-loader": "^2.0.10",
     "preact": "^8.2.7",
     "preact-compat": "^3.17.0",
     "prettier": "^1.9.2",
@@ -73,7 +73,7 @@
     "style-loader": "^0.19.1",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7",
+    "webpack-dev-server": "^2.10.0",
     "webpack-merge": "^4.1.1"
   }
 }
