@@ -2,7 +2,7 @@ The schedule of the event has been carefully curated. In true Finnish style, we 
 
 ### 24.04 - Tuesday - [Workshops](/workshops/)
 
-Each session will take four hours and they are arranged twice so you have a chance to choose two. A session is capped to twenty people. First sessions are from 9 to 13 and second sessions are from 14 to 18.
+Each session will take four hours and they are arranged twice so you have a chance to choose two. A session is capped to twenty people. The first sessions are from 9 to 13 and the second sessions are from 14 to 18.
 
 * **Babel** – Learn Babel thoroughly with Sven Sauleau, a core developer.
 * **Reactive State Machines** - Learn how to refactor an old application to use state machines with David Khourshid.
