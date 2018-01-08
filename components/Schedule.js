@@ -20,6 +20,19 @@ const SpeakerNames = ({ speakers = [] }) => (
   </div>
 );
 
+const SpeakerPhotos = ({ speakers = [] }) => (
+  <div className="speaker-photos">
+    {speakers.map(({ image }, i) => (
+      <img
+        className="photo"
+        width={40}
+        height={40}
+        src={require(`@react-finland/content-2018/images/${image}`)}
+      />
+    ))}
+  </div>
+);
+
 const Schedule = ({ items: { intervals } }) => (
   <dl className="schedule">
     {intervals.map(({ begin, end, sessions }, i) => [
@@ -32,6 +45,7 @@ const Schedule = ({ items: { intervals } }) => (
             <AnchorHeader level={3} anchor={title} key={`title-${i}`}>
               {title} {title && speakers && "-"}{" "}
               <SpeakerNames key={`speaker-names-${i}`} speakers={speakers} />
+              <SpeakerPhotos key={`speaker-photos-${i}`} speakers={speakers} />
             </AnchorHeader>
             {description && (
               <Markdown key={`description-${i}`} source={description} />
