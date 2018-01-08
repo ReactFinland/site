@@ -27,17 +27,18 @@ const Schedule = ({ items: { intervals } }) => (
         {begin} - {end}
       </dt>,
       <dd key={`dd-${i}`}>
-        {sessions.map(({ title, description, speakers, keywords }, i) => [
-          <AnchorHeader level={3} anchor={title} key={`title-${i}`}>
-            {title} {title && speakers && "-"}{" "}
-            <SpeakerNames key={`speaker-names-${i}`} speakers={speakers} />
-          </AnchorHeader>,
-          <Markdown
-            key={`description-${i}`}
-            source={description || "Not announced yet."}
-          />,
-          keywords && <Keywords key={`keywords-${i}`} items={keywords} />,
-        ])}
+        {sessions.map(({ title, description, speakers, keywords }, i) => (
+          <div className="session" key={`session-${i}`}>
+            <AnchorHeader level={3} anchor={title} key={`title-${i}`}>
+              {title} {title && speakers && "-"}{" "}
+              <SpeakerNames key={`speaker-names-${i}`} speakers={speakers} />
+            </AnchorHeader>
+            {description && (
+              <Markdown key={`description-${i}`} source={description} />
+            )}
+            {keywords && <Keywords key={`keywords-${i}`} items={keywords} />}
+          </div>
+        ))}
       </dd>,
     ])}
   </dl>
