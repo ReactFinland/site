@@ -28,6 +28,10 @@ export default [
     url: "/organizers/",
   },
   {
+    title: "For Sponsors",
+    url: "/for-sponsors/",
+  },
+  {
     title: "Read the blog",
     url: "https://medium.com/react-finland",
   },
