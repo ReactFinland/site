@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@react-finland/content-2018": "^10.0.2",
+    "@react-finland/content-2018": "^10.1.1",
     "@survivejs/components": "^0.2.0",
     "antwar": "^0.21.1",
     "moment": "^2.20.1",

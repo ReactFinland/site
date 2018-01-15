@@ -54,7 +54,7 @@ function commonConfig() {
         },
         {
           test: /\.svg$/,
-          use: "raw-loader",
+          use: "file-loader",
         },
         {
           test: /\.txt$/,
