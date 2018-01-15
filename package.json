@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@react-finland/content-2018": "^9.0.7",
+    "@react-finland/content-2018": "^9.0.8",
     "@survivejs/components": "^0.2.0",
     "antwar": "^0.21.1",
     "moment": "^2.20.1",
@@ -73,7 +73,7 @@
     "style-loader": "^0.19.1",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.10.1",
+    "webpack-dev-server": "^2.11.0",
     "webpack-merge": "^4.1.1"
   }
 }
