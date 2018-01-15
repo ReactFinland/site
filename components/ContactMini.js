@@ -15,8 +15,8 @@ const ContactMiniContent = ({ image, name }) => [
 ];
 
 const ContactMini = ({ name, about, social, image }) =>
-  social.homepage ? (
-    <a href={social.homepage} title={about} className="contact-mini">
+  resolveSocialLink(social) ? (
+    <a href={resolveSocialLink(social)} title={about} className="contact-mini">
       <ContactMiniContent image={image} name={name} />
     </a>
   ) : (
@@ -24,5 +24,9 @@ const ContactMini = ({ name, about, social, image }) =>
       <ContactMiniContent image={image} name={name} />
     </div>
   );
+
+function resolveSocialLink(social) {
+  return social.homepage || social.twitter;
+}
 
 export default ContactMini;
