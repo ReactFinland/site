@@ -33,7 +33,6 @@
     "antwar": "^0.21.1",
     "moment": "^2.20.1",
     "normalize.css": "^7.0.0",
-    "object.values": "^1.0.4",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-country-flag": "^0.1.12",
