@@ -1,5 +1,4 @@
 import React from "react";
-import values from "object.values";
 import { AnchorHeader, Contacts, ContactMini, Markdown } from "../components";
 import { content } from "@react-finland/content-2018";
 import description from "./description";
@@ -15,7 +14,7 @@ const SiteIndex = ({ section }) => (
       <AnchorHeader level={2}>Speakers</AnchorHeader>
       <Contacts
         className="speakers-mini"
-        items={values(content.speakers)}
+        items={content.speakers}
         render={ContactMini}
       />
 

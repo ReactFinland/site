@@ -1,5 +1,4 @@
 import React from "react";
-import values from "object.values";
 import { Navigation } from "@survivejs/components";
 import { content } from "@react-finland/content-2018";
 import navigationPages from "./navigation-pages";
@@ -36,7 +35,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
               <AnchorHeader level={2}>Partners</AnchorHeader>
               <Contacts
                 className="partners"
-                items={values(content.partners)}
+                items={content.partners}
                 render={ContactMini}
               />
             </div>

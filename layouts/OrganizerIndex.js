@@ -1,5 +1,4 @@
 import React from "react";
-import values from "object.values";
 import { content } from "@react-finland/content-2018";
 import { AnchorHeader, Contacts, Markdown } from "../components";
 import description from "./description";
@@ -11,7 +10,7 @@ const OrganizerIndex = ({ section }) => (
       <Markdown source={require("../content/about-organization.md")} />
 
       <AnchorHeader level={2}>Organizers</AnchorHeader>
-      <Contacts className="organizers" items={values(content.organizers)} />
+      <Contacts className="organizers" items={content.organizers} />
     </div>
   </div>
 );
