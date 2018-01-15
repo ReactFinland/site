@@ -25,6 +25,7 @@ const SpeakerPhotos = ({ speakers = [] }) => (
     {speakers.map(({ image }, i) => (
       <img
         className="photo"
+        key={i}
         width={40}
         height={40}
         src={require(`@react-finland/content-2018/images/${image}`)}
