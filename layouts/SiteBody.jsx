@@ -12,6 +12,8 @@ import {
   SocialLinks,
 } from "../components";
 
+const { partners, goldSponsors, silverSponsors, bronzeSponsors } = content;
+
 import "normalize.css/normalize.css";
 import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
@@ -32,10 +34,40 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
               <SocialLinks />
             </div>
             <div className="post-block post-block-full">
+              <AnchorHeader level={2}>Gold Sponsors</AnchorHeader>
+              {goldSponsors.length ? (
+                <Contacts
+                  className="gold sponsors"
+                  items={goldSponsors}
+                  render={ContactMini}
+                />
+              ) : (
+                <a href="/for-sponsors/">Become a sponsor</a>
+              )}
+              <AnchorHeader level={2}>Silver Sponsors</AnchorHeader>
+              {silverSponsors.length ? (
+                <Contacts
+                  className="silver sponsors"
+                  items={silverSponsors}
+                  render={ContactMini}
+                />
+              ) : (
+                <a href="/for-sponsors/">Become a sponsor</a>
+              )}
+              <AnchorHeader level={2}>Bronze Sponsors</AnchorHeader>
+              {bronzeSponsors.length ? (
+                <Contacts
+                  className="bronze sponsors"
+                  items={bronzeSponsors}
+                  render={ContactMini}
+                />
+              ) : (
+                <a href="/for-sponsors/">Become a sponsor</a>
+              )}
               <AnchorHeader level={2}>Partners</AnchorHeader>
               <Contacts
                 className="partners"
-                items={content.partners}
+                items={partners}
                 render={ContactMini}
               />
             </div>

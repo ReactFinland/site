@@ -1,33 +1,21 @@
 import React from "react";
-import { content, schema } from "@react-finland/content-2018";
+import { content } from "@react-finland/content-2018";
 import { AnchorHeader, Contacts, Session } from "../components";
 import description from "./description";
 
-const { presentations } = content;
-const { enums } = schema;
+const { keynotes, presentations, lightningTalks } = content;
 
 const PresentationIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block post-block-full" id="schedule">
       <AnchorHeader level={2}>Keynotes</AnchorHeader>
-      <Contacts
-        items={presentations.filter(({ type }) => type === enums.KEYNOTE)}
-        render={Session}
-      />
+      <Contacts items={keynotes} render={Session} />
 
       <AnchorHeader level={2}>Presentations</AnchorHeader>
-      <Contacts
-        items={presentations.filter(({ type }) => !type)}
-        render={Session}
-      />
+      <Contacts items={presentations} render={Session} />
 
       <AnchorHeader level={2}>Lightning Talks</AnchorHeader>
-      <Contacts
-        items={presentations.filter(
-          ({ type }) => type === enums.LIGHTNING_TALK
-        )}
-        render={Session}
-      />
+      <Contacts items={lightningTalks} render={Session} />
     </div>
   </div>
 );

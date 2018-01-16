@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@react-finland/content-2018": "^10.1.1",
+    "@react-finland/content-2018": "^11.0.0",
     "@survivejs/components": "^0.2.0",
     "antwar": "^0.21.1",
     "moment": "^2.20.1",
@@ -55,7 +55,7 @@
     "css-loader": "^0.28.8",
     "eslint": "^4.15.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-prettier": "^2.5.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",
     "gh-pages": "^1.1.0",
