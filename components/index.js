@@ -8,6 +8,7 @@ import Markdown from "./Markdown";
 import Schedule from "./Schedule";
 import Session from "./Session";
 import SocialLinks from "./SocialLinks";
+import Speaker from "./Speaker";
 
 export {
   AnchorContext,
@@ -20,4 +21,5 @@ export {
   Schedule,
   Session,
   SocialLinks,
+  Speaker,
 };

@@ -4,7 +4,7 @@ import Markdown from "./Markdown";
 import AnchorHeader from "./AnchorHeader";
 import Keywords from "./Keywords";
 
-const Speaker = ({ name, image, social, location, about, keywords }) => (
+const Contact = ({ name, image, social, location, about, keywords }) => (
   <div className="contact" key={name}>
     <AnchorHeader level={3} anchor={name}>
       {name}
@@ -54,4 +54,4 @@ const Speaker = ({ name, image, social, location, about, keywords }) => (
   </div>
 );
 
-export default Speaker;
+export default Contact;
