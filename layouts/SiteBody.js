@@ -26,11 +26,8 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
         <Header pathname={pathname} logo={require("assets/img/logo.png")} />
         <div className="main-container container">
           <section className="post-block-wrap">
-            <div className="post-block post-block-full" id="social">
-              <SocialLinks />
-            </div>
             {children}
-            <div className="post-block post-block-full" id="social2">
+            <div className="post-block post-block-full" id="social">
               <SocialLinks />
             </div>
             <div className="post-block post-block-full">
