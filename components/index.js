@@ -20,6 +20,7 @@ export {
   Markdown,
   Schedule,
   Session,
+  SessionLink,
   SocialLinks,
   Speaker,
 };

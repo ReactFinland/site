@@ -4,9 +4,18 @@ import Markdown from "./Markdown";
 import AnchorHeader from "./AnchorHeader";
 import Keywords from "./Keywords";
 
-const Contact = ({ name, image, social, location, about, keywords }) => (
+const Contact = ({
+  name,
+  image,
+  social,
+  location,
+  about,
+  keywords,
+  headerLevel,
+  children,
+}) => (
   <div className="contact" key={name}>
-    <AnchorHeader level={3} anchor={name}>
+    <AnchorHeader level={headerLevel || 2} anchor={name}>
       {name}
 
       <div className="country">
@@ -51,6 +60,8 @@ const Contact = ({ name, image, social, location, about, keywords }) => (
     </div>
 
     {keywords && <Keywords items={keywords} />}
+
+    {children}
   </div>
 );
 

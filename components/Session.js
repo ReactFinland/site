@@ -5,11 +5,15 @@ import Markdown from "./Markdown";
 
 const Session = ({ speakers, title, description }) => (
   <div className="content-block">
-    <AnchorHeader level={3}>{title || "To be announced."}</AnchorHeader>
+    <AnchorHeader level={2}>{title || "To be announced."}</AnchorHeader>
 
     {description ? <Markdown source={description} /> : "To be announced."}
 
-    <Contacts className="speakers" items={speakers} />
+    <Contacts
+      className="speakers"
+      items={speakers}
+      renderProps={{ headerLevel: 3 }}
+    />
   </div>
 );
 
