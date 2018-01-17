@@ -10,7 +10,7 @@ const Header = ({ logo }) => (
         <span>React </span>
         <span className="text-rf-blue">Finland</span>
       </div>
-      <h1>One workshop day + two days of presentations</h1>
+      <h1>One workshop day + two days of talks</h1>
       <h3>
         Your chance to learn more about React up north - Helsinki (24-26.4.2018)
       </h3>
