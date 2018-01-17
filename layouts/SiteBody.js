@@ -23,7 +23,7 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
   <AnchorContext>
     <main>
       <section className="frontpage">
-        <Header logo={require("assets/img/logo.png")} />
+        <Header pathname={pathname} logo={require("assets/img/logo.png")} />
         <div className="main-container container">
           <section className="post-block-wrap">
             <div className="post-block post-block-full" id="social">

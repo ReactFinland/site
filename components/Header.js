@@ -1,7 +1,7 @@
 import React from "react";
 
-const Header = ({ logo }) => (
-  <header>
+const Header = ({ pathname, logo }) => (
+  <header className={pathname === "/" ? "index" : ""}>
     <div className="header-container container">
       <div className="logo">
         <img src={logo} width={200} height={200} alt="React Finland logo" />
