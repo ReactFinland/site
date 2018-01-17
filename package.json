@@ -29,15 +29,17 @@
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
     "@react-finland/content-2018": "^11.1.2",
-    "@survivejs/components": "^0.2.0",
     "antwar": "^0.21.1",
+    "antwar-interactive": "^0.21.0",
     "moment": "^2.20.1",
     "normalize.css": "^7.0.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-country-flag": "^0.1.12",
     "react-dom": "^16.2.0",
+    "react-images": "^0.5.14",
     "react-markdown": "^3.1.4",
+    "react-photo-gallery": "^6.0.22",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {

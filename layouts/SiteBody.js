@@ -1,5 +1,4 @@
 import React from "react";
-import { Navigation } from "@survivejs/components";
 import { content } from "@react-finland/content-2018";
 import navigationPages from "./navigation-pages";
 import {
@@ -8,6 +7,7 @@ import {
   Contacts,
   ContactMini,
   Header,
+  Navigation,
   Markdown,
   SocialLinks,
 } from "../components";

@@ -1,6 +1,13 @@
 import React from "react";
-import { AnchorHeader, Contacts, ContactMini, Markdown } from "../components";
+import Interactive from "antwar-interactive";
 import { content } from "@react-finland/content-2018";
+import {
+  AnchorHeader,
+  Contacts,
+  ContactMini,
+  Markdown,
+  VenueGallery,
+} from "../components";
 import description from "./description";
 
 const SiteIndex = ({ section }) => (
@@ -20,6 +27,11 @@ const SiteIndex = ({ section }) => (
 
       <AnchorHeader level={2}>Venue</AnchorHeader>
       <Markdown source={require("../content/venue.md")} />
+      <Interactive
+        id="components/VenueGallery.js"
+        component={VenueGallery}
+        containerProps={{ className: "venue-lightbox" }}
+      />
 
       <AnchorHeader level={2}>Tickets</AnchorHeader>
       <tito-widget event="react-finland/2018" />
