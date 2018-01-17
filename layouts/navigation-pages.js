@@ -12,8 +12,8 @@ export default [
     url: "/schedule/",
   },
   {
-    title: "Presentations",
-    url: "/presentations/",
+    title: "Talks",
+    url: "/talks/",
   },
   {
     title: "Workshops",

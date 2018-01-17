@@ -5,7 +5,7 @@ import description from "./description";
 
 const { keynotes, presentations, lightningTalks } = content;
 
-const PresentationIndex = ({ section }) => (
+const TalkIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block post-block-full" id="schedule">
       <AnchorHeader level={2}>Keynotes</AnchorHeader>
@@ -19,6 +19,6 @@ const PresentationIndex = ({ section }) => (
     </div>
   </div>
 );
-PresentationIndex.description = description;
+TalkIndex.description = description;
 
-export default PresentationIndex;
+export default TalkIndex;

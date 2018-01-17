@@ -11,7 +11,12 @@ module.exports = () => ({
     "/": () => require("./layouts/SiteIndex").default,
     "for-sponsors": () => require("./layouts/SponsorIndex").default,
     organizers: () => require("./layouts/OrganizerIndex").default,
-    presentations: () => require("./layouts/PresentationIndex").default,
+    presentations: {
+      redirects: {
+        "/": "/talks/",
+      },
+    },
+    talks: () => require("./layouts/TalkIndex").default,
     schedule: () => require("./layouts/ScheduleIndex").default,
     speakers: () => require("./layouts/SpeakerIndex").default,
     workshops: () => require("./layouts/WorkshopIndex").default,
