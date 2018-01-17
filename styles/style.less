@@ -14,18 +14,15 @@ a {
   color: @very-blue;
 }
 
-h1,
-h2 {
-  &::after {
-    position: relative;
-    display: block;
-    height: @pu / 4;
-    width: 100%;
-    margin-top: @pu;
-    margin-bottom: @pu;
-    background-color: @rf-light-blue;
-    content: "";
-  }
+h2::after {
+  position: relative;
+  display: block;
+  height: @pu / 4;
+  width: 100%;
+  margin-top: @pu;
+  margin-bottom: @pu;
+  background-color: @rf-light-blue;
+  content: "";
 }
 .social-links__header::after {
   display: none;
@@ -154,7 +151,6 @@ header {
   margin-top: @pu * 6;
   font-family: @fh;
   padding: @pu2;
-  text-align: center;
   .rubric {
     text-transform: uppercase;
     font-size: xx-large;
@@ -175,6 +171,17 @@ header {
     font-weight: 400;
     padding: @pu2 0;
     padding-top: 0;
+    margin: 0;
+  }
+  .logo {
+    float: right;
+  }
+}
+header.index {
+  text-align: center;
+
+  .logo {
+    float: initial;
   }
 }
 
@@ -346,7 +353,7 @@ header {
 }
 
 .buy {
-  margin: @pu * 6;
+  margin-top: @pu * 8;
 }
 
 .buy-button {
