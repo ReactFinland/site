@@ -172,6 +172,7 @@ body {
 header {
   color: #f3f7f9;
   background-image: url("../assets/img/headers/front.svg");
+  background-size: @header-background-size @header-background-size;
   margin-top: @pu * 6;
   font-family: @fh;
   padding: @pu2;
@@ -206,6 +207,25 @@ header.index {
 
   .logo {
     float: initial;
+  }
+}
+header {
+  animation: waveX 10s linear infinite, waveY 10s linear infinite;
+}
+@keyframes waveX {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: @header-background-size;
+  }
+}
+@keyframes waveY {
+  100% {
+    background-position-y: 0%;
+  }
+  0% {
+    background-position-y: @header-background-size;
   }
 }
 
