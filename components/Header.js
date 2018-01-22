@@ -14,7 +14,7 @@ const Header = ({ pathname, logo }) => (
       <h3>Your chance to learn more about React up north</h3>
       <h3>Helsinki (24-26.4.2018)</h3>
       <div className="buy">
-        <a href="https://ti.to/react-finland/2018" className="buy-button">
+        <a href="/#tickets" className="buy-button">
           Buy tickets now!
         </a>
       </div>
