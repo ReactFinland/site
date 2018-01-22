@@ -11,7 +11,9 @@ import Schedule from "./Schedule";
 import Session from "./Session";
 import SocialLinks from "./SocialLinks";
 import Speaker from "./Speaker";
+import Talk from "./Talk";
 import VenueGallery from "./VenueGallery";
+import Workshop from "./Workshop";
 
 export {
   AnchorContext,
@@ -28,5 +30,7 @@ export {
   SessionLink,
   SocialLinks,
   Speaker,
+  Talk,
   VenueGallery,
+  Workshop,
 };
