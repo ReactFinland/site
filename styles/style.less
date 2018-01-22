@@ -2,12 +2,36 @@
 @import "utilities";
 @import "nav";
 
+@font-face {
+  font-family: "Finlandica Bold";
+  src: url("../assets/extra/fonts/finlandica-bold.eot");
+  src: url("../assets/extra/fonts/finlandica-bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/extra/fonts/finlandica-bold.woff2") format("woff2"),
+    url("../assets/extra/fonts/finlandica-bold.woff") format("woff"),
+    url("../assets/extra/fonts/finlandica-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Finlandica Regular";
+  src: url("../assets/extra/fonts/finlandica-regular.eot");
+  src: url("../assets/extra/fonts/finlandica-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/extra/fonts/finlandica-regular.woff2") format("woff2"),
+    url("../assets/extra/fonts/finlandica-regular.woff") format("woff"),
+    url("../assets/extra/fonts/finlandica-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font: 14pt/1.5 Open Sans, sans-serif;
+  font: 14pt/1.5 @fh, sans-serif;
 }
 
 a {
