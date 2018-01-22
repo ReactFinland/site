@@ -11,11 +11,11 @@ const Contact = ({
   location,
   about,
   keywords,
-  headerLevel,
+  headerLevel = 2,
   children,
 }) => (
   <div className="contact" key={name}>
-    <AnchorHeader level={headerLevel || 2} anchor={name}>
+    <AnchorHeader level={headerLevel} anchor={name}>
       {name}
 
       <div className="country">
