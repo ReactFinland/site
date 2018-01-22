@@ -1,8 +1,11 @@
 import React from "react";
+import Navigation from "./Navigation";
 import logo from "assets/img/logo.svg";
+import navigationPages from "./navigation-pages";
 
 const Header = ({ pathname }) => (
   <header className={pathname === "/" ? "index" : ""}>
+    <Navigation pathname={pathname} pages={navigationPages} />
     <div className="header header-container container grid grid--6col">
       <a href="/" className="rubric site-name header--logo">
         <h1 className="logo">
