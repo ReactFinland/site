@@ -62,6 +62,7 @@ const Header = ({ pathname, title }) => {
             </span>
           </h1>
         </a>
+        <h2 className="header--pageTitle">{title}</h2>
       </div>
     </header>
   );
