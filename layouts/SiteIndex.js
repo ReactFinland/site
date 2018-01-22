@@ -1,13 +1,6 @@
 import React from "react";
-import Interactive from "antwar-interactive";
 import { content } from "@react-finland/content-2018";
-import {
-  AnchorHeader,
-  Contacts,
-  ContactMini,
-  Markdown,
-  VenueGallery,
-} from "../components";
+import { AnchorHeader, Contacts, ContactMini, Markdown } from "../components";
 import description from "./description";
 
 const SiteIndex = ({ section }) => (
@@ -23,14 +16,6 @@ const SiteIndex = ({ section }) => (
         className="speakers-mini"
         items={content.speakers}
         render={ContactMini}
-      />
-
-      <AnchorHeader level={2}>Venue</AnchorHeader>
-      <Markdown source={require("../content/venue.md")} />
-      <Interactive
-        id="components/VenueGallery.js"
-        component={VenueGallery}
-        containerProps={{ className: "venue-lightbox" }}
       />
 
       <AnchorHeader level={2}>Tickets</AnchorHeader>

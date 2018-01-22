@@ -10,7 +10,12 @@ module.exports = () => ({
   paths: {
     "/": () => require("./layouts/SiteIndex").default,
     "for-sponsors": () => require("./layouts/SponsorIndex").default,
-    organizers: () => require("./layouts/OrganizerIndex").default,
+    organizers: {
+      redirects: {
+        "/": "/about/",
+      },
+    },
+    about: () => require("./layouts/AboutIndex").default,
     presentations: {
       redirects: {
         "/": "/talks/",
