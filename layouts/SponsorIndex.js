@@ -11,5 +11,6 @@ const SponsorIndex = ({ section }) => (
   </div>
 );
 SponsorIndex.description = description;
+SponsorIndex.title = "For Sponsors";
 
 export default SponsorIndex;

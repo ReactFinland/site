@@ -17,11 +17,16 @@ import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
 import "../styles/style.less";
 
-const SiteBody = ({ children, section, location: { pathname } }) => (
+const SiteBody = ({
+  children,
+  section,
+  location: { pathname },
+  page: { file: { title } },
+}) => (
   <AnchorContext>
     <main>
       <section className="frontpage">
-        <Header pathname={pathname} />
+        <Header pathname={pathname} title={title} />
         <div className="main-container container">
           <section className="post-block-wrap">
             {children}

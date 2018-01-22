@@ -47,5 +47,6 @@ const AboutIndex = ({ section }) => (
   </div>
 );
 AboutIndex.description = description;
+AboutIndex.title = "About";
 
 export default AboutIndex;

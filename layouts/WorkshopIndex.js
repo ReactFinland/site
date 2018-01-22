@@ -11,5 +11,6 @@ const WorkshopIndex = ({ section }) => (
   </div>
 );
 WorkshopIndex.description = description;
+WorkshopIndex.title = "Workshops";
 
 export default WorkshopIndex;

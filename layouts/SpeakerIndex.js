@@ -15,5 +15,6 @@ const SpeakerIndex = ({ section }) => (
   </div>
 );
 SpeakerIndex.description = description;
+SpeakerIndex.title = "Speakers";
 
 export default SpeakerIndex;
