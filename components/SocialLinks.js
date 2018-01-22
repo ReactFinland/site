@@ -4,7 +4,7 @@ const SocialLinks = ({ type }) => {
   return (
     <div className="social-links">
       <h2 className="social-links__header">
-        Subscribe to get React Finland related news straight to your mailbox.
+        Subscribe to get React Finland related news to your mail.
       </h2>
 
       <form
