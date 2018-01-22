@@ -3,19 +3,7 @@
 @import "nav";
 
 @font-face {
-  font-family: "Finlandica Bold";
-  src: url("../assets/extra/fonts/finlandica-bold.eot");
-  src: url("../assets/extra/fonts/finlandica-bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../assets/extra/fonts/finlandica-bold.woff2") format("woff2"),
-    url("../assets/extra/fonts/finlandica-bold.woff") format("woff"),
-    url("../assets/extra/fonts/finlandica-bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Finlandica Regular";
+  font-family: "Finlandica";
   src: url("../assets/extra/fonts/finlandica-regular.eot");
   src: url("../assets/extra/fonts/finlandica-regular.eot?#iefix")
       format("embedded-opentype"),
@@ -23,6 +11,18 @@
     url("../assets/extra/fonts/finlandica-regular.woff") format("woff"),
     url("../assets/extra/fonts/finlandica-regular.ttf") format("truetype");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Finlandica";
+  src: url("../assets/extra/fonts/finlandica-bold.eot");
+  src: url("../assets/extra/fonts/finlandica-bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/extra/fonts/finlandica-bold.woff2") format("woff2"),
+    url("../assets/extra/fonts/finlandica-bold.woff") format("woff"),
+    url("../assets/extra/fonts/finlandica-bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -157,6 +157,10 @@ dd {
   }
 }
 
+address {
+  font-style: normal;
+}
+
 body {
   background-color: #0b0b0d;
 }
@@ -180,7 +184,6 @@ header {
     text-transform: uppercase;
     font-size: xx-large;
     font-weight: bold;
-    padding: @pu2 0;
   }
   .container {
     padding: @pu * 8 0;
@@ -189,24 +192,67 @@ header {
   h1 {
     padding: @pu * 4 0;
     padding-top: 0;
-    color: @rf-blue;
     font-weight: normal;
   }
-  h3 {
-    font-weight: 400;
-    padding: @pu2 0;
-    padding-top: 0;
-    margin: 0;
-  }
-  .logo {
-    float: right;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+
+  &--6col {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
-header.index {
-  text-align: center;
 
-  .logo {
-    float: initial;
+.header {
+  align-items: center;
+
+  &--logo {
+    grid-column: span 4;
+  }
+  &--tagline {
+    grid-column: 2 / span 3;
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+  }
+  &--dates {
+    grid-column: 5 / span 2;
+    font-size: xx-large;
+  }
+  &--date {
+    font-size: larger;
+  }
+  &--location {
+  }
+  &--buy {
+    grid-column: 5 / span 2;
+  }
+}
+
+.logo {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+
+  &--image {
+    display: block;
+    margin-right: 10px;
+  }
+
+  &--title {
+    margin-top: 10px;
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  &--text {
+    display: block;
+    color: #fff;
   }
 }
 header {
@@ -380,9 +426,6 @@ header {
     h3 {
       padding: 0;
     }
-  }
-  .logo {
-    margin-top: 5em;
   }
   .nav__link,
   .nav__selected__link {

@@ -1,23 +1,40 @@
 import React from "react";
+import logo from "assets/img/logo.svg";
 
-const Header = ({ pathname, logo }) => (
+const Header = ({ pathname }) => (
   <header className={pathname === "/" ? "index" : ""}>
-    <div className="header-container container">
-      <div className="logo">
-        <img src={logo} width={200} height={200} alt="React Finland logo" />
-      </div>
-      <a href="/" className="rubric site-name">
-        <span className="text-rf-white">React </span>
-        <span className="text-rf-blue">Finland</span>
+    <div className="header header-container container grid grid--6col">
+      <a href="/" className="rubric site-name header--logo">
+        <h1 className="logo">
+          <img
+            src={logo}
+            width={140}
+            height={126}
+            alt="React Finland Logo"
+            className="logo--image"
+          />
+          <span className="logo--title">
+            <span className="logo--text logo--text-top">React </span>
+            <span className="logo--text logo--text-bottom">Finland</span>
+          </span>
+        </h1>
       </a>
-      <h1>One workshop day + two days of talks</h1>
-      <h3>Your chance to learn more about React up north</h3>
-      <h3>Helsinki (24-26.4.2018)</h3>
-      <div className="buy">
+      <h2 className="header--tagline">
+        Learn More about React, Explore Finland.
+      </h2>
+
+      <section className="header--dates">
+        <time dateTime="2018-04-24/2018-04-26" className="header--date">
+          24-26 April 2018
+        </time>
+        <address className="header--location">Helsinki, Finland</address>
+      </section>
+
+      <section className="header--buy">
         <a href="/#tickets" className="buy-button">
-          Buy tickets now!
+          Buy tickets
         </a>
-      </div>
+      </section>
     </div>
   </header>
 );
