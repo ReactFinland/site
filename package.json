@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@react-finland/content-2018": "^11.2.4",
+    "@react-finland/content-2018": "^11.2.5",
     "antwar": "^0.21.1",
     "antwar-interactive": "^0.21.0",
     "classnames": "^2.2.5",
@@ -70,7 +70,7 @@
     "lint-staged": "^6.0.1",
     "postcss-loader": "^2.0.10",
     "preact": "^8.2.7",
-    "preact-compat": "^3.17.0",
+    "preact-compat": "^3.18.0",
     "prettier": "^1.10.2",
     "raw-loader": "^0.5.1",
     "react-router": "^4.2.0",
