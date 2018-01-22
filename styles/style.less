@@ -26,6 +26,23 @@
   font-style: normal;
 }
 
+@keyframes waveX {
+  0% {
+    background-position-x: 100%, 0;
+  }
+  100% {
+    background-position-x: 100%, @header-background-size;
+  }
+}
+@keyframes waveY {
+  100% {
+    background-position-y: 100%, 0;
+  }
+  0% {
+    background-position-y: 100%, @header-background-size;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -175,11 +192,14 @@ body {
 
 header {
   color: #f3f7f9;
-  background-image: url("../assets/img/headers/front.svg");
-  background-size: @header-background-size @header-background-size;
+  background-image: linear-gradient(rgba(0, 81, 80, 0.9), rgba(0, 38, 135, 0.9)),
+    url("../assets/img/headers/front.svg");
+  background-size: 100% 100%, @header-background-size @header-background-size;
   margin-top: @pu * 6;
   font-family: @fh;
   padding: @pu2;
+  animation: waveX 10s linear infinite, waveY 10s linear infinite;
+
   .rubric {
     text-transform: uppercase;
     font-size: xx-large;
@@ -253,25 +273,6 @@ header {
   &--text {
     display: block;
     color: #fff;
-  }
-}
-header {
-  animation: waveX 10s linear infinite, waveY 10s linear infinite;
-}
-@keyframes waveX {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: @header-background-size;
-  }
-}
-@keyframes waveY {
-  100% {
-    background-position-y: 0%;
-  }
-  0% {
-    background-position-y: @header-background-size;
   }
 }
 
