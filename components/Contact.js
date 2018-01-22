@@ -14,7 +14,7 @@ const Contact = ({
   headerLevel = 2,
   children,
 }) => (
-  <div className="contact" key={name}>
+  <figure className="contact" key={name}>
     <AnchorHeader level={headerLevel} anchor={name}>
       {name}
 
@@ -62,7 +62,7 @@ const Contact = ({
     {keywords && <Keywords items={keywords} />}
 
     {children}
-  </div>
+  </figure>
 );
 
 export default Contact;

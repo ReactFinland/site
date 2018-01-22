@@ -9,21 +9,22 @@ const ContactMiniContent = ({ image, name }) => [
     src={require(`@react-finland/content-2018/images/${image}`)}
     width={100}
   />,
-  <span key="name" className="contact-mini-name">
+  <figcaption key="name" className="contact-mini-name">
     {name}
-  </span>,
+  </figcaption>,
 ];
 
-const ContactMini = ({ name, about, social, image }) =>
-  resolveSocialLink(social) ? (
-    <a href={resolveSocialLink(social)} title={about} className="contact-mini">
+const ContactMini = ({ name, about, social, image }) => (
+  <figure className="contact-mini">
+    {resolveSocialLink(social) ? (
+      <a href={resolveSocialLink(social)} title={about}>
+        <ContactMiniContent image={image} name={name} />
+      </a>
+    ) : (
       <ContactMiniContent image={image} name={name} />
-    </a>
-  ) : (
-    <div className="contact-mini">
-      <ContactMiniContent image={image} name={name} />
-    </div>
-  );
+    )}
+  </figure>
+);
 
 function resolveSocialLink(social) {
   if (social.homepage) {
