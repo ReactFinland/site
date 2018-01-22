@@ -1,19 +1,9 @@
+import React from "react";
+
 export default [
-  {
-    title: "Get tickets",
-    url: "/#tickets",
-  },
-  {
-    title: "React Finland",
-    url: "/",
-  },
   {
     title: "Schedule",
     url: "/schedule/",
-  },
-  {
-    title: "Talks",
-    url: "/talks/",
   },
   {
     title: "Workshops",
@@ -32,11 +22,21 @@ export default [
     url: "/for-sponsors/",
   },
   {
-    title: "Read the blog",
-    url: "https://medium.com/react-finland",
+    title: "Buy tickets",
+    url: "/#tickets",
   },
   {
-    title: "Follow @ReactFinland",
-    url: "https://twitter.com/ReactFinland",
+    title: (
+      <a href="https://medium.com/react-finland">
+        <i className="icon-medium" />
+      </a>
+    ),
+  },
+  {
+    title: (
+      <a href="https://twitter.com/ReactFinland">
+        <i className="icon-twitter" />
+      </a>
+    ),
   },
 ];

@@ -14,7 +14,7 @@ const Navigation = ({ pages, pathname }) => (
             </div>
           ) : (
             <div key={`link-${i}`} className="nav__link">
-              <Link to={link.url}>{link.title}</Link>
+              {link.url ? <Link to={link.url}>{link.title}</Link> : link.title}
             </div>
           )
       )}
