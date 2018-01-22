@@ -6,9 +6,6 @@ import description from "./description";
 const SiteIndex = ({ section }) => (
   <div className="flex">
     <div className="post-block-full" id="schedule">
-      <AnchorHeader level={2}>
-        Learn More about React, Explore Finland
-      </AnchorHeader>
       <Markdown source={require("../content/intro.md")} />
 
       <AnchorHeader level={2}>Speakers</AnchorHeader>
