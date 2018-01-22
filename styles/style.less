@@ -189,7 +189,7 @@ address {
   //animation: waveX 10s linear infinite, waveY 10s linear infinite;
 
   &--container {
-    padding: @pu * 8 0;
+    padding: @pu * 3 0 @pu * 8 0;
     margin: auto;
     align-items: center;
   }
@@ -211,6 +211,12 @@ address {
   }
   &--buy {
     grid-column: 5 / span 2;
+  }
+  &--pageTitle {
+    grid-column: 2 / span 4;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
   }
 }
 
@@ -247,12 +253,16 @@ address {
   .logo {
     &--image {
       width: 80px;
+      height: 80px;
     }
     &--title {
       display: none;
     }
   }
   &_index {
+    .header--container {
+      padding: @pu * 8 0;
+    }
     .header--logo {
       grid-column: span 4;
       grid-row: 2;
@@ -260,6 +270,7 @@ address {
     .logo {
       &--image {
         width: auto;
+        height: auto;
       }
       &--title {
         display: block;
