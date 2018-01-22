@@ -1,13 +1,11 @@
 import React from "react";
 import { content } from "@react-finland/content-2018";
-import navigationPages from "./navigation-pages";
 import {
   AnchorContext,
   AnchorHeader,
   Contacts,
   ContactMini,
   Header,
-  Navigation,
   Markdown,
   SocialLinks,
 } from "../components";
@@ -71,8 +69,6 @@ const SiteBody = ({ children, section, location: { pathname } }) => (
           </section>
         </div>
       </section>
-
-      <Navigation pathname={pathname} pages={navigationPages} />
     </main>
   </AnchorContext>
 );
