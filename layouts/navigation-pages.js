@@ -1,7 +1,7 @@
 export default [
   {
     title: "Get tickets",
-    url: "https://ti.to/react-finland/2018",
+    url: "/#tickets",
   },
   {
     title: "React Finland",
