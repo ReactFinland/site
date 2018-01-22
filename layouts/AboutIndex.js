@@ -1,7 +1,13 @@
 import React from "react";
 import Interactive from "antwar-interactive";
 import { content } from "@react-finland/content-2018";
-import { AnchorHeader, Contacts, Markdown, VenueGallery } from "../components";
+import {
+  AnchorHeader,
+  Contacts,
+  Markdown,
+  Organizer,
+  VenueGallery,
+} from "../components";
 import description from "./description";
 
 const AboutIndex = ({ section }) => (
@@ -22,7 +28,11 @@ const AboutIndex = ({ section }) => (
         React Finland is organized as a community effort. All of us are
         developers and this shows in the conference.
       </p>
-      <Contacts className="organizers" items={content.organizers} />
+      <Contacts
+        className="organizers"
+        items={content.organizers}
+        render={Organizer}
+      />
       <p>
         Our goal is to connect our valued speakers with our local community in
         the most fruitful way we can and provide Finnish hospitality to our
