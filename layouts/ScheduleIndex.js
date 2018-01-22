@@ -11,5 +11,6 @@ const ScheduleIndex = ({ section }) => (
   </div>
 );
 ScheduleIndex.description = description;
+ScheduleIndex.title = "Schedule";
 
 export default ScheduleIndex;
