@@ -32,7 +32,7 @@ function commonConfig() {
           ],
         },
         {
-          test: /\.woff$/,
+          test: /\.woff(2)?$/,
           use:
             "url-loader?prefix=font/&limit=5000&mimetype=application/font-woff",
         },
