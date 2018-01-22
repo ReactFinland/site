@@ -168,33 +168,6 @@ address {
   font-style: normal;
 }
 
-header {
-  color: #f3f7f9;
-  background-image: linear-gradient(rgba(0, 81, 80, 0.9), rgba(0, 38, 135, 0.9)),
-    url("../assets/img/headers/front.svg");
-  background-size: 100% 100%, @header-background-size @header-background-size;
-  margin-top: @pu * 6;
-  font-family: @fh;
-  padding: @pu2;
-  // The animation is too slow so it's disabled unless we can find a performant way to do it
-  //animation: waveX 10s linear infinite, waveY 10s linear infinite;
-
-  .rubric {
-    text-transform: uppercase;
-    font-size: xx-large;
-    font-weight: bold;
-  }
-  .container {
-    padding: @pu * 8 0;
-    margin: auto;
-  }
-  h1 {
-    padding: @pu * 4 0;
-    padding-top: 0;
-    font-weight: normal;
-  }
-}
-
 .grid {
   display: grid;
   grid-gap: 20px;
@@ -205,14 +178,24 @@ header {
 }
 
 .header {
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #f3f7f9;
+  background-image: linear-gradient(rgba(0, 81, 80, 0.9), rgba(0, 38, 135, 0.9)),
+    url("../assets/img/headers/front.svg");
+  background-size: 100% 100%, @header-background-size @header-background-size;
+  font-family: @fh;
+  // The animation is too slow so it's disabled unless we can find a performant way to do it
+  //animation: waveX 10s linear infinite, waveY 10s linear infinite;
 
-  &--logo {
-    grid-column: span 4;
+  &--container {
+    padding: @pu * 8 0;
+    margin: auto;
+    align-items: center;
   }
   &--tagline {
     grid-column: 2 / span 3;
-    grid-row: 2;
+    grid-row: 3;
     margin: 0;
     padding: 0;
     font-size: xx-large;
@@ -243,15 +226,45 @@ header {
   }
 
   &--title {
-    margin-top: 10px;
-    font-size: 0.85em;
+    margin-top: 0.25em;
+    font-size: 1.25em;
     font-weight: bold;
-    line-height: 1;
+    text-transform: uppercase;
+    line-height: 1.125;
   }
 
   &--text {
     display: block;
     color: #fff;
+  }
+}
+
+.header {
+  &--logo {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+  .logo {
+    &--image {
+      width: 80px;
+    }
+    &--title {
+      display: none;
+    }
+  }
+  &_index {
+    .header--logo {
+      grid-column: span 4;
+      grid-row: 2;
+    }
+    .logo {
+      &--image {
+        width: auto;
+      }
+      &--title {
+        display: block;
+      }
+    }
   }
 }
 
@@ -403,14 +416,7 @@ header {
 }
 
 @media (max-width: @mobile-breakpoint) {
-  header {
-    .rubric,
-    h1,
-    h3 {
-      padding: 0;
-    }
-  }
-  .nav__link,
+  .nav--link,
   .nav__selected__link {
     letter-spacing: 0;
   }

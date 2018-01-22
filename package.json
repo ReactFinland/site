@@ -33,6 +33,7 @@
     "@react-finland/content-2018": "^11.2.2",
     "antwar": "^0.21.1",
     "antwar-interactive": "^0.21.0",
+    "classnames": "^2.2.5",
     "moment": "^2.20.1",
     "normalize.css": "^7.0.0",
     "prop-types": "^15.6.0",

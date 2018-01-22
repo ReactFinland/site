@@ -1,52 +1,48 @@
-.nav__wrapper {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  pointer-events: none;
-  z-index: 100;
-}
+.nav {
+  grid-column: 2 / span 5;
 
-nav.nav {
-  padding: @pu 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  text-align: center;
-  background: #fff;
+  ul {
+    margin: 0 @pu * -3;
+    padding: 0;
+    list-style: none;
+  }
 }
 
 .nav__selected__link,
-.nav__link,
-.nav__toggle-label {
-  font-family: @fh;
-  font-weight: normal;
-  font-size: 0.875rem;
-  padding: 0 @pu * 4;
-  z-index: 10000;
+.nav--link,
+.nav--toggle-label {
+  font-size: smaller;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  pointer-events: all;
 }
 
-.nav__selected__link,
-.nav__link {
+.nav--link {
   display: inline-block;
 
   a {
+    display: inline-block;
+    padding: 3px 7px;
+    color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
-
+    border: 2px solid transparent;
+    transition: all 0.25s ease-in-out;
     &:hover {
-      color: black;
+      color: rgba(255, 255, 255, 0.95);
+      border-bottom-color: rgba(255, 255, 255, 0.35);
+    }
+  }
+
+  &_selected {
+    a:link,
+    a:hover,
+    a:visited,
+    a:active {
+      color: rgba(255, 255, 255, 1);
+      border-color: rgba(255, 255, 255, 1);
+      cursor: default;
     }
   }
 }
-.nav__toggle {
+.nav--toggle {
   /* this should probably be visible in mobile? */
   display: none;
-}
-
-.nav__selected__link {
-  font-weight: bold;
 }
