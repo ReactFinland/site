@@ -14,8 +14,8 @@ export default [
     url: "/speakers/",
   },
   {
-    title: "Organizers",
-    url: "/organizers/",
+    title: "About",
+    url: "/about/",
   },
   {
     title: "For Sponsors",
