@@ -43,6 +43,9 @@
 .icon-github-circled:before {
   content: "\f09b";
 } /* '' */
+.icon-medium:before {
+  content: "\f23a";
+} /* '' */
 .icon-linkedin-squared:before {
   content: "\f30c";
 } /* '' */
