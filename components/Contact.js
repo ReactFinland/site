@@ -15,12 +15,18 @@ const Contact = ({
   children,
 }) => (
   <figure className="contact" key={name}>
-    <AnchorHeader level={headerLevel} anchor={name}>
-      {name}
+    <div className="contact--meta">
+      <AnchorHeader
+        level={headerLevel}
+        anchor={name}
+        className="contact--header"
+      >
+        {name}
 
-      <div className="country">
-        <ReactCountryFlag code={location.country.code} svg />
-      </div>
+        <span className="country">
+          <ReactCountryFlag code={location.country.code} svg />
+        </span>
+      </AnchorHeader>
 
       <div className="social">
         {social.homepage && (
@@ -47,7 +53,7 @@ const Contact = ({
           </a>
         )}
       </div>
-    </AnchorHeader>
+    </div>
 
     <div className="content">
       <img
