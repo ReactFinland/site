@@ -7,6 +7,7 @@ import Header from "./Header";
 import Link from "./Link";
 import Navigation from "./Navigation";
 import Markdown from "./Markdown";
+import Organizer from "./Organizer";
 import Schedule from "./Schedule";
 import Session from "./Session";
 import SocialLinks from "./SocialLinks";
@@ -25,6 +26,7 @@ export {
   Link,
   Navigation,
   Markdown,
+  Organizer,
   Schedule,
   Session,
   SessionLink,
