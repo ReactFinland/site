@@ -7,7 +7,7 @@ const Header = ({ pathname, title }) => {
   const isHomePage = pathname === "/";
   return isHomePage ? (
     <header className={isHomePage ? "header header_index" : "header"}>
-      <div className="header--container container grid grid--6col">
+      <div className="header--container container grid grid_6col">
         <Navigation pathname={pathname} pages={navigationPages} />
         <a href="/" className="rubric site-name header--logo">
           <h1 className="logo">
@@ -45,7 +45,7 @@ const Header = ({ pathname, title }) => {
     </header>
   ) : (
     <header className="header">
-      <div className="header--container container grid grid--6col">
+      <div className="header--container container grid grid_6col">
         <Navigation pathname={pathname} pages={navigationPages} />
         <a href="/" className="rubric site-name header--logo">
           <h1 className="logo">

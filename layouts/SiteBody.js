@@ -28,12 +28,12 @@ const SiteBody = ({
       <section className="frontpage">
         <Header pathname={pathname} title={title} />
         <div className="main-container container">
-          <section className="post-block-wrap">
+          <section className="grid grid_6col">
             {children}
-            <div className="post-block post-block-full" id="social">
+            <div className="grid--full" id="social">
               <SocialLinks />
             </div>
-            <div className="post-block post-block-full">
+            <div className="grid--full">
               <AnchorHeader level={2}>Gold Sponsors</AnchorHeader>
               {goldSponsors.length ? (
                 <Contacts

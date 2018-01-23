@@ -73,6 +73,7 @@ h6 {
 }
 
 .heading {
+  @extend .grid--5col;
   &--anchor {
     position: relative;
     color: inherit;
@@ -85,29 +86,6 @@ h6 {
       content: "#";
     }
   }
-}
-
-.post-block-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-}
-
-.post-block {
-  width: 50%;
-  min-width: 15em;
-  padding: $pu * 3;
-  & h2 {
-    margin-top: $pu * 4;
-  }
-  & h3,
-  h4 {
-    margin-top: $pu * 3;
-  }
-}
-
-.post-block-full {
-  width: 100%;
 }
 
 blockquote {
@@ -172,11 +150,18 @@ address {
   display: grid;
   grid-gap: 20px;
 
-  &--6col {
+  &_6col {
     grid-template-columns: repeat(6, 1fr);
     @media (max-width: $mobile-breakpoint) {
       grid-auto-columns: 100%;
     }
+  }
+
+  &--full {
+    grid-column: 1 / span 6;
+  }
+  &--5col {
+    grid-column: 2 / span 5;
   }
 }
 
@@ -441,9 +426,6 @@ address {
   .nav--link,
   .nav__selected__link {
     letter-spacing: 0;
-  }
-  .post-block {
-    min-width: 100%;
   }
   .container {
     max-width: 100%;
