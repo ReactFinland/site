@@ -71,6 +71,14 @@ h6 {
   line-height: 1.25;
 }
 
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
 .heading {
   @extend .grid--5col;
   &--anchor {
@@ -245,11 +253,18 @@ address {
   &--logo {
     grid-column: 1 / span 1;
     grid-row: 1;
+    align-self: start;
+    justify-self: end;
   }
   .logo {
     &--image {
+      margin: 0;
       width: 80px;
       height: 80px;
+      @media (max-width: $mobile-breakpoint) {
+        width: 40px;
+        height: 40px;
+      }
     }
     &--title {
       display: none;
@@ -262,11 +277,13 @@ address {
     .header--logo {
       grid-column: span 4;
       grid-row: 2;
+      justify-self: start;
     }
     .logo {
       &--image {
         width: auto;
         height: auto;
+        margin-right: 12px;
       }
       &--title {
         display: block;
