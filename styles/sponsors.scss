@@ -1,0 +1,20 @@
+.sponsors {
+  @extend .grid;
+  @extend .grid_6col;
+  &--heading {
+    margin: 0;
+    text-align: right;
+    grid-column: 1 / span 1;
+    @media (max-width: $mobile-breakpoint) {
+      margin-top: 1em;
+      text-align: left;
+      grid-column: 1 / span 6;
+    }
+  }
+  &--list {
+    grid-column: 2 / span 5;
+    @media (max-width: $mobile-breakpoint) {
+      grid-column: 1 / span 6;
+    }
+  }
+}

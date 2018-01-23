@@ -33,38 +33,42 @@ const SiteBody = ({
             <div className="grid--full" id="social">
               <Subscribe />
             </div>
+            <AnchorHeader level={2}>Sponsors</AnchorHeader>
             <div className="grid--full">
-              <AnchorHeader level={2}>Gold Sponsors</AnchorHeader>
-              {goldSponsors.length ? (
-                <Contacts
-                  className="gold sponsors"
-                  items={goldSponsors}
-                  render={ContactMini}
-                />
-              ) : (
-                <a href="/for-sponsors/">Become a sponsor</a>
-              )}
-              <AnchorHeader level={2}>Silver Sponsors</AnchorHeader>
-              {silverSponsors.length ? (
-                <Contacts
-                  className="silver sponsors"
-                  items={silverSponsors}
-                  render={ContactMini}
-                />
-              ) : (
-                <a href="/for-sponsors/">Become a sponsor</a>
-              )}
-              <AnchorHeader level={2}>Bronze Sponsors</AnchorHeader>
-              {bronzeSponsors.length ? (
-                <Contacts
-                  className="bronze sponsors"
-                  items={bronzeSponsors}
-                  render={ContactMini}
-                />
-              ) : (
-                <a href="/for-sponsors/">Become a sponsor</a>
-              )}
-              <AnchorHeader level={2}>Partners</AnchorHeader>
+              <div className="sponsors sponsors_gold">
+                <h3 className="sponsors--heading">🥇 Gold</h3>
+                <section className="sponsors--list">
+                  {goldSponsors.length ? (
+                    <Contacts items={goldSponsors} render={ContactMini} />
+                  ) : (
+                    <a href="/for-sponsors/">Become a sponsor</a>
+                  )}
+                </section>
+              </div>
+              <div className="sponsors sponsors_silver">
+                <h3 className="sponsors--heading">🥈 Silver</h3>
+                <section className="sponsors--list">
+                  {silverSponsors.length ? (
+                    <Contacts items={silverSponsors} render={ContactMini} />
+                  ) : (
+                    <a href="/for-sponsors/">Become a sponsor</a>
+                  )}
+                </section>
+              </div>
+              <div className="sponsors sponsors_bronze">
+                <h3 className="sponsors--heading">🥉 Bronze</h3>
+                <section className="sponsors--list">
+                  {bronzeSponsors.length ? (
+                    <Contacts items={bronzeSponsors} render={ContactMini} />
+                  ) : (
+                    <a href="/for-sponsors/">Become a sponsor</a>
+                  )}
+                </section>
+              </div>
+            </div>
+
+            <AnchorHeader level={2}>Partners</AnchorHeader>
+            <div className="grid--full">
               <Contacts
                 className="partners"
                 items={partners}
