@@ -2,9 +2,10 @@ import React from "react";
 import Markdown from "./Markdown";
 import Keywords from "./Keywords";
 
-const ContactMiniContent = ({ image, name }) => [
+const ContactMiniContent = ({ about, image, name }) => [
   <img
     key="image"
+    alt="about"
     className="contact-mini-logo photo"
     src={require(`@react-finland/content-2018/images/${image}`)}
     width={100}
@@ -18,10 +19,10 @@ const ContactMini = ({ name, about, social, image }) => (
   <figure className="contact-mini">
     {resolveSocialLink(social) ? (
       <a href={resolveSocialLink(social)} title={about}>
-        <ContactMiniContent image={image} name={name} />
+        <ContactMiniContent about={about} image={image} name={name} />
       </a>
     ) : (
-      <ContactMiniContent image={image} name={name} />
+      <ContactMiniContent about={about} image={image} name={name} />
     )}
   </figure>
 );

@@ -58,6 +58,7 @@ const Contact = ({
     <div className="content">
       <img
         className="photo"
+        alt={about}
         width={100}
         height={100}
         src={require(`@react-finland/content-2018/images/${image}`)}
