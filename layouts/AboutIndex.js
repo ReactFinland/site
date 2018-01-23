@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Interactive from "antwar-interactive";
 import { content } from "@react-finland/content-2018";
 import {
@@ -10,28 +10,34 @@ import {
 } from "../components";
 
 const AboutIndex = ({ section }) => (
-  <div className="flex">
-    <div className="post-block-full">
+  <Fragment>
+    <div className="grid--5col">
       <Markdown source={require("../content/about-intro.md")} />
+    </div>
 
-      <AnchorHeader level={2}>The Venue</AnchorHeader>
+    <AnchorHeader level={2}>The Venue</AnchorHeader>
+    <div className="grid--5col">
       <Markdown source={require("../content/venue.md")} />
+    </div>
+    <div className="grid--full">
       <Interactive
         id="components/VenueGallery.js"
         component={VenueGallery}
         containerProps={{ className: "venue-lightbox" }}
       />
+    </div>
 
-      <AnchorHeader level={2}>The Organizers</AnchorHeader>
+    <AnchorHeader level={2}>The Organizers</AnchorHeader>
+    <div className="grid--5col">
       <p>
         React Finland is organized as a community effort. All of us are
         developers and this shows in the conference.
       </p>
-      <Contacts
-        className="organizers"
-        items={content.organizers}
-        render={Organizer}
-      />
+    </div>
+    <div className="grid--full organizers">
+      <Contacts items={content.organizers} render={Organizer} />
+    </div>
+    <div className="grid--5col">
       <p>
         Our goal is to connect our valued speakers with our local community in
         the most fruitful way we can and provide Finnish hospitality to our
@@ -43,7 +49,7 @@ const AboutIndex = ({ section }) => (
         with speakers and visitors from all around the world.
       </p>
     </div>
-  </div>
+  </Fragment>
 );
 
 export default AboutIndex;

@@ -1,13 +1,13 @@
 import React from "react";
 
 const Keywords = ({ items }) => (
-  <div className="keywords">
+  <ul className="keywords">
     {items.map(keyword => (
-      <div className="keyword" key={keyword}>
+      <li className="keyword" key={keyword}>
         {keyword}
-      </div>
+      </li>
     ))}
-  </div>
+  </ul>
 );
 
 export default Keywords;

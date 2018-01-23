@@ -6,8 +6,9 @@ import {
   Contacts,
   ContactMini,
   Header,
+  Footer,
   Markdown,
-  SocialLinks,
+  Subscribe,
 } from "../components";
 
 const { partners, goldSponsors, silverSponsors, bronzeSponsors } = content;
@@ -15,7 +16,7 @@ const { partners, goldSponsors, silverSponsors, bronzeSponsors } = content;
 import "normalize.css/normalize.css";
 import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
-import "../styles/style.less";
+import "../styles/style.scss";
 
 const SiteBody = ({
   children,
@@ -25,55 +26,52 @@ const SiteBody = ({
 }) => (
   <AnchorContext>
     <main>
-      <section className="frontpage">
-        <Header pathname={pathname} title={title} />
-        <div className="main-container container">
-          <section className="post-block-wrap">
-            {children}
-            <div className="post-block post-block-full" id="social">
-              <SocialLinks />
+      <Header pathname={pathname} title={title} />
+      <div className="main-container container">
+        <section className="grid grid_6col">
+          {children}
+          <AnchorHeader level={2}>Sponsors</AnchorHeader>
+          <div className="grid--full">
+            <div className="sponsors sponsors_gold">
+              <h3 className="sponsors--heading">🥇 Gold</h3>
+              <section className="sponsors--list">
+                {goldSponsors.length ? (
+                  <Contacts items={goldSponsors} render={ContactMini} />
+                ) : (
+                  <a href="/for-sponsors/">Become a sponsor</a>
+                )}
+              </section>
             </div>
-            <div className="post-block post-block-full">
-              <AnchorHeader level={2}>Gold Sponsors</AnchorHeader>
-              {goldSponsors.length ? (
-                <Contacts
-                  className="gold sponsors"
-                  items={goldSponsors}
-                  render={ContactMini}
-                />
-              ) : (
-                <a href="/for-sponsors/">Become a sponsor</a>
-              )}
-              <AnchorHeader level={2}>Silver Sponsors</AnchorHeader>
-              {silverSponsors.length ? (
-                <Contacts
-                  className="silver sponsors"
-                  items={silverSponsors}
-                  render={ContactMini}
-                />
-              ) : (
-                <a href="/for-sponsors/">Become a sponsor</a>
-              )}
-              <AnchorHeader level={2}>Bronze Sponsors</AnchorHeader>
-              {bronzeSponsors.length ? (
-                <Contacts
-                  className="bronze sponsors"
-                  items={bronzeSponsors}
-                  render={ContactMini}
-                />
-              ) : (
-                <a href="/for-sponsors/">Become a sponsor</a>
-              )}
-              <AnchorHeader level={2}>Partners</AnchorHeader>
-              <Contacts
-                className="partners"
-                items={partners}
-                render={ContactMini}
-              />
+            <div className="sponsors sponsors_silver">
+              <h3 className="sponsors--heading">🥈 Silver</h3>
+              <section className="sponsors--list">
+                {silverSponsors.length ? (
+                  <Contacts items={silverSponsors} render={ContactMini} />
+                ) : (
+                  <a href="/for-sponsors/">Become a sponsor</a>
+                )}
+              </section>
             </div>
-          </section>
-        </div>
-      </section>
+            <div className="sponsors sponsors_bronze">
+              <h3 className="sponsors--heading">🥉 Bronze</h3>
+              <section className="sponsors--list">
+                {bronzeSponsors.length ? (
+                  <Contacts items={bronzeSponsors} render={ContactMini} />
+                ) : (
+                  <a href="/for-sponsors/">Become a sponsor</a>
+                )}
+              </section>
+            </div>
+          </div>
+
+          <AnchorHeader level={2}>Partners</AnchorHeader>
+          <div className="grid--full">
+            <Contacts items={partners} render={ContactMini} />
+          </div>
+        </section>
+      </div>
+      <Subscribe />
+      <Footer />
     </main>
   </AnchorContext>
 );

@@ -1,0 +1,20 @@
+.footer {
+  font-size: small;
+  color: rgba(255,255,255,0.5) !important;
+  background-color: $color-accent;
+
+  &--wrapper {
+    @extend .container;
+    @extend .grid;
+    @extend .grid_6col;
+    padding: 2em 0 0 !important;
+
+    @media (max-width: $mobile-breakpoint) {
+      display: block !important;
+    }
+  }
+
+  &--copyright {
+    grid-column-start: 6;
+  }
+}

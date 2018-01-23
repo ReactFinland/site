@@ -11,7 +11,7 @@ const TYPES = {
 const Talk = ({ speakers, title, description, type, headerLevel = 2 }) => (
   <div className="content-block">
     <AnchorHeader level={headerLevel}>
-      {title || "To be announced."} {TYPES[type]}
+      <span title={type}>{TYPES[type]}</span> {title || "To be announced."}
     </AnchorHeader>
 
     {description ? <Markdown source={description} /> : "To be announced."}

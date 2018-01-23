@@ -1,21 +1,17 @@
 import React from "react";
 import AnchorHeader from "./AnchorHeader";
-import Contacts from "./Contacts";
 import Markdown from "./Markdown";
+import SessionsSpeakers from "./SessionSpeakers";
 
 const Workshop = ({ speakers, title, description, headerLevel = 2 }) => (
-  <div className="content-block">
+  <div className="workshop">
     <AnchorHeader level={headerLevel}>
       {title || "To be announced."}
     </AnchorHeader>
 
-    {description ? <Markdown source={description} /> : "To be announced."}
+    <SessionsSpeakers speakers={speakers} />
 
-    <Contacts
-      className="speakers"
-      items={speakers}
-      renderProps={{ headerLevel: headerLevel + 1 }}
-    />
+    {description ? <Markdown source={description} /> : "To be announced."}
   </div>
 );
 
