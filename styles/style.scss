@@ -455,19 +455,16 @@ address {
 }
 
 .buy-button {
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  -webkit-appearance: none;
-  -webkit-appearance: normal;
-  outline: none;
-  background-color: transparent;
-  padding: $pu * 3;
+  padding: $pu * 3 $pu * 5;
   border-radius: 100px;
   background-color: white;
-  border: $pu $rf-blue solid;
   color: darken($rf-blue, 30%);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
   &:hover {
-    background-color: $rf-blue;
+    color: darken($rf-blue, 50%);
+    background-color: rgba(255,255,255,0.85);
   }
 }
 
