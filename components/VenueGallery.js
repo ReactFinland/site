@@ -2,28 +2,31 @@ import React from "react";
 import Gallery from "react-photo-gallery";
 import Lightbox from "react-images";
 
-const PHOTO_WIDTH = 100;
-const PHOTO_HEIGHT = 70;
 const PHOTOS = [
   {
+    src: require("assets/img/venue/confetti.jpg"),
+    width: 2,
+    height: 1,
+  },
+  {
     src: require("assets/img/venue/atmosphere.jpg"),
-    width: PHOTO_WIDTH,
-    height: PHOTO_HEIGHT,
+    width: 1,
+    height: 1,
   },
   {
     src: require("assets/img/venue/bar.jpg"),
-    width: PHOTO_WIDTH,
-    height: PHOTO_HEIGHT,
+    width: 1,
+    height: 1,
   },
   {
     src: require("assets/img/venue/dj.jpg"),
-    width: PHOTO_WIDTH,
-    height: PHOTO_HEIGHT,
+    width: 1.5,
+    height: 1,
   },
   {
     src: require("assets/img/venue/gig.jpg"),
-    width: PHOTO_WIDTH,
-    height: PHOTO_HEIGHT,
+    width: 1.5,
+    height: 1,
   },
 ];
 
