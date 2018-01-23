@@ -12,6 +12,7 @@ export { default as Schedule } from "./Schedule";
 export { default as Session } from "./Session";
 export { default as Subscribe } from "./Subscribe";
 export { default as Speaker } from "./Speaker";
+export { default as Sponsor } from "./Sponsor";
 export { default as Talk } from "./Talk";
 export { default as VenueGallery } from "./VenueGallery";
 export { default as Workshop } from "./Workshop";

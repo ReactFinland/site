@@ -4,10 +4,10 @@ import {
   AnchorContext,
   AnchorHeader,
   Contacts,
-  ContactMini,
   Header,
   Footer,
   Markdown,
+  Sponsor,
   Subscribe,
 } from "../components";
 
@@ -36,7 +36,7 @@ const SiteBody = ({
               <h3 className="sponsors--heading">🥇 Gold</h3>
               <section className="sponsors--list">
                 {goldSponsors.length ? (
-                  <Contacts items={goldSponsors} render={ContactMini} />
+                  <Contacts items={goldSponsors} render={Sponsor} />
                 ) : (
                   <a href="/for-sponsors/">Become a sponsor</a>
                 )}
@@ -46,7 +46,7 @@ const SiteBody = ({
               <h3 className="sponsors--heading">🥈 Silver</h3>
               <section className="sponsors--list">
                 {silverSponsors.length ? (
-                  <Contacts items={silverSponsors} render={ContactMini} />
+                  <Contacts items={silverSponsors} render={Sponsor} />
                 ) : (
                   <a href="/for-sponsors/">Become a sponsor</a>
                 )}
@@ -56,7 +56,7 @@ const SiteBody = ({
               <h3 className="sponsors--heading">🥉 Bronze</h3>
               <section className="sponsors--list">
                 {bronzeSponsors.length ? (
-                  <Contacts items={bronzeSponsors} render={ContactMini} />
+                  <Contacts items={bronzeSponsors} render={Sponsor} />
                 ) : (
                   <a href="/for-sponsors/">Become a sponsor</a>
                 )}
@@ -66,7 +66,7 @@ const SiteBody = ({
 
           <AnchorHeader level={2}>Partners</AnchorHeader>
           <div className="grid--full">
-            <Contacts items={partners} render={ContactMini} />
+            <Contacts items={partners} render={Sponsor} />
           </div>
         </section>
       </div>
