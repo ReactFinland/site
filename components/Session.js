@@ -4,7 +4,7 @@ import Contacts from "./Contacts";
 import Markdown from "./Markdown";
 
 const Session = ({ speakers, title, description, headerLevel = 2 }) => (
-  <div className="content-block">
+  <div className="session">
     <AnchorHeader level={headerLevel}>
       {title || "To be announced."}
     </AnchorHeader>

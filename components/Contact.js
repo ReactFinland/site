@@ -14,26 +14,30 @@ const Contact = ({
   headerLevel = 2,
   children,
 }) => (
-  <figure className="contact" key={name}>
+  <section className="contact" key={name}>
     <div className="contact--meta">
       <AnchorHeader
         level={headerLevel}
         anchor={name}
         className="contact--header"
       >
-        {name}
+        <img
+          className="contact--photo photo"
+          alt={about}
+          width={100}
+          height={100}
+          src={require(`@react-finland/content-2018/images/${image}`)}
+        />
 
-        <span className="country">
+        <span className="contact--name">{name}</span>
+
+        <span className="contact--country">
           <ReactCountryFlag code={location.country.code} svg />
         </span>
       </AnchorHeader>
 
       <div className="social">
-        {social.homepage && (
-          <a href={social.homepage}>
-            <i className="icon-home" />
-          </a>
-        )}
+        {social.homepage && <a href={social.homepage}>{social.homepage}</a>}
 
         {social.github && (
           <a href={`https://github.com/${social.github}`}>
@@ -56,20 +60,11 @@ const Contact = ({
     </div>
 
     <div className="content">
-      <img
-        className="photo"
-        alt={about}
-        width={100}
-        height={100}
-        src={require(`@react-finland/content-2018/images/${image}`)}
-      />
       {about ? <Markdown className="about" source={about} /> : "No bio yet."}
     </div>
 
-    {keywords && <Keywords items={keywords} />}
-
     {children}
-  </figure>
+  </section>
 );
 
 export default Contact;
