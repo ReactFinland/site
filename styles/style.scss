@@ -1,6 +1,7 @@
 @import "./variables.scss";
 @import "./utilities.scss";
 @import "./nav.scss";
+@import "./subscribe.scss";
 
 @font-face {
   font-family: "Finlandica";
@@ -54,10 +55,6 @@ body {
 
 a {
   color: $very-blue;
-}
-
-.social-links__header::after {
-  display: none;
 }
 
 h1,
@@ -285,57 +282,6 @@ address {
   width: 100px;
   height: 100px;
   float: right;
-}
-
-.social-links__header {
-  margin-top: 0;
-  text-align: center;
-}
-
-.social-links__tip {
-  margin-top: 0.5em;
-}
-
-.social-form__wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.social-form__input-container {
-  flex-grow: 1;
-}
-
-.social-form__input,
-.social-form__subscribe {
-  border: solid $pu / 2 $rf-deep-blue;
-}
-
-.social-form__input {
-  display: block;
-  width: 100%;
-  line-height: 2em;
-  border-top-left-radius: $pu2 * 2;
-  border-bottom-left-radius: $pu2 * 2;
-  padding-left: $pu;
-  border-right: none;
-}
-.social-form__subscribe-container input {
-  border-top-right-radius: $pu2 * 2;
-  border-bottom-right-radius: $pu2 * 2;
-}
-
-.social-form__subscribe {
-  line-height: 2em;
-  background-color: $rf-blue;
-  border-left: none;
-  padding-left: $pu2 * 2;
-  padding-right: $pu2 * 2;
-}
-
-.social-form__subscribe:hover {
-  background-color: $rf-deep-blue;
-  cursor: pointer;
 }
 
 .flex {

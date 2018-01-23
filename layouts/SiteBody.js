@@ -7,7 +7,7 @@ import {
   ContactMini,
   Header,
   Markdown,
-  SocialLinks,
+  Subscribe,
 } from "../components";
 
 const { partners, goldSponsors, silverSponsors, bronzeSponsors } = content;
@@ -31,7 +31,7 @@ const SiteBody = ({
           <section className="grid grid_6col">
             {children}
             <div className="grid--full" id="social">
-              <SocialLinks />
+              <Subscribe />
             </div>
             <div className="grid--full">
               <AnchorHeader level={2}>Gold Sponsors</AnchorHeader>

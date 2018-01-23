@@ -10,7 +10,7 @@ import Markdown from "./Markdown";
 import Organizer from "./Organizer";
 import Schedule from "./Schedule";
 import Session from "./Session";
-import SocialLinks from "./SocialLinks";
+import Subscribe from "./Subscribe";
 import Speaker from "./Speaker";
 import Talk from "./Talk";
 import VenueGallery from "./VenueGallery";
@@ -30,7 +30,7 @@ export {
   Schedule,
   Session,
   SessionLink,
-  SocialLinks,
+  Subscribe,
   Speaker,
   Talk,
   VenueGallery,

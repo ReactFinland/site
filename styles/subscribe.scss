@@ -1,0 +1,73 @@
+.subscribe {
+  @extend .header;
+  @extend .grid;
+  @extend .grid_6col;
+  padding: 2em 0 !important;
+
+  @media (max-width: $mobile-breakpoint) {
+    display: block !important;
+  }
+
+  &--header {
+    margin-top: 0;
+    font-size: 1.25em;
+    font-weight: normal;
+    @media (min-width: $mobile-breakpoint) {
+      grid-column: 2 / span 5;
+    }
+  }
+  &--form {
+    display: flex;
+    @media (min-width: $mobile-breakpoint) {
+      grid-column: 2 / span 4;
+      grid-row: 2;
+    }
+
+    &:focus-within {
+      button {
+        background-color: rgba(255, 2555, 255, 1);
+      }
+      input {
+        border-color: rgba(255, 2555, 255, 1);
+      }
+    }
+  }
+  &--input,
+  &--button {
+    //border: $pu / 2 solid $rf-deep-blue;
+    font-family: $fh;
+  }
+
+  &--input {
+    flex: 1 auto;
+    padding: $pu * 2 $pu * 3;
+    color: white;
+    border-top-left-radius: $pu2 * 3;
+    border-bottom-left-radius: $pu2 * 3;
+    border: 2px solid transparent;
+    border-right-width: 0;
+    background-color: rgba(255, 2555, 255, 0.25);
+    outline: none;
+    transition: border .25s;
+    &::placeholder {
+      color: rgba(255, 2555, 255, 0.5);
+    }
+  }
+
+  &--button {
+    flex: 0 auto;
+    padding: $pu * 2 $pu * 3;
+    font-weight: bold;
+    color: $very-blue;
+    background-color: rgba(255, 2555, 255, 0.5);
+    border: none;
+    outline: none;
+    border-top-right-radius: $pu2 * 3;
+    border-bottom-right-radius: $pu2 * 3;
+    transition: background .25s;
+  }
+
+  &--button:hover {
+    cursor: pointer;
+  }
+}
