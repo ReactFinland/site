@@ -4,6 +4,7 @@
 @import "./subscribe.scss";
 @import "./sponsors.scss";
 @import "./footer.scss";
+@import "./tito.scss";
 
 @font-face {
   font-family: "Finlandica";
@@ -130,7 +131,7 @@ dl {
 }
 
 dt {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   font-size: smaller;
 
   @media (min-width: $mobile-breakpoint) {
@@ -140,7 +141,7 @@ dt {
 
     &::after {
       position: absolute;
-      top: .75em;
+      top: 0.75em;
       left: 106px;
       height: 10px;
       width: 10px;
@@ -206,11 +207,14 @@ address {
   margin: 0;
   padding: 0;
   color: #f3f7f9;
-  background-image: linear-gradient(rgba(0, 81, 80, 0.95), rgba($color-accent, 0.99)),
+  background-image: linear-gradient(
+      rgba(0, 81, 80, 0.95),
+      rgba($color-accent, 0.99)
+    ),
     url("../assets/img/headers/front.svg");
   background-size: 100% 100%, $header-background-size $header-background-size;
   font-family: $fh;
-   //The animation is too slow so it's disabled unless we can find a performant way to do it
+  //The animation is too slow so it's disabled unless we can find a performant way to do it
   //animation: waveX 10s linear infinite, waveY 10s linear infinite;
 
   &--container {
@@ -437,7 +441,7 @@ address {
   font-size: larger;
   &:hover {
     color: darken($rf-blue, 50%);
-    background-color: rgba(255,255,255,0.85);
+    background-color: rgba(255, 255, 255, 0.85);
   }
 }
 
