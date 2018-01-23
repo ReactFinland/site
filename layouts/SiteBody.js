@@ -30,9 +30,6 @@ const SiteBody = ({
         <div className="main-container container">
           <section className="grid grid_6col">
             {children}
-            <div className="grid--full" id="social">
-              <Subscribe />
-            </div>
             <AnchorHeader level={2}>Sponsors</AnchorHeader>
             <div className="grid--full">
               <div className="sponsors sponsors_gold">
@@ -77,6 +74,7 @@ const SiteBody = ({
             </div>
           </section>
         </div>
+        <Subscribe />
       </section>
     </main>
   </AnchorContext>

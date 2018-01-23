@@ -1,11 +1,15 @@
 .subscribe {
   @extend .header;
-  @extend .grid;
-  @extend .grid_6col;
-  padding: 2em 0 !important;
 
-  @media (max-width: $mobile-breakpoint) {
-    display: block !important;
+  &--wrapper {
+    @extend .container;
+    @extend .grid;
+    @extend .grid_6col;
+    padding: 2em 0 !important;
+
+    @media (max-width: $mobile-breakpoint) {
+      display: block !important;
+    }
   }
 
   &--header {
