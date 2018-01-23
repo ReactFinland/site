@@ -23,10 +23,10 @@
     <% } %>
     <link rel='icon' type='image/png' href='/favicon.png'></link>
 
+    <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1.1" />
     <% for (var file of htmlWebpackPlugin.options.context.cssFiles) { %>
       <link href="<%= file %>" rel="stylesheet">
     <% } %>
-    <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1.1" />
 
     <script>
     document.addEventListener("DOMContentLoaded", function(event) {
