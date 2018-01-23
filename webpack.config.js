@@ -98,11 +98,7 @@ function developmentConfig() {
       rules: [
         {
           test: /\.s?css$/,
-          use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
-        },
-        {
-          test: /\.less$/,
-          use: ["style-loader", "css-loader", "postcss-loader", "less-loader"],
+          use: ["style-loader", "css-loader", "sass-loader"],
         },
       ],
     },
@@ -117,13 +113,6 @@ function buildConfig() {
           test: /\.s?css$/,
           use: ExtractTextPlugin.extract({
             use: ["css-loader", "postcss-loader", "sass-loader"],
-            fallback: "style-loader",
-          }),
-        },
-        {
-          test: /\.less$/,
-          use: ExtractTextPlugin.extract({
-            use: ["css-loader", "postcss-loader", "less-loader"],
             fallback: "style-loader",
           }),
         },
