@@ -118,10 +118,14 @@ blockquote {
 }
 
 .photo {
-  float: right;
-  margin-left: $pu * 3;
-  margin-bottom: $pu * 3;
+  //float: right;
+//  margin-left: $pu * 3;
+//  margin-bottom: $pu * 3;
   border-radius: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 dl {
@@ -362,18 +366,10 @@ address {
   vertical-align: top;
 }
 
-.organizers {
-  .contact {
-    display: inline-block;
-    width: 100%;
-  }
-}
-
-.speakers-mini {
-  text-align: center;
+.speakers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   .contact-mini {
     width: 100px;
     text-align: center;
@@ -414,10 +410,6 @@ address {
 
 .speaker-photos {
   display: inline;
-}
-
-.partners .contact-mini-logo {
-  border-radius: 0;
 }
 
 th,
@@ -469,13 +461,27 @@ td {
 }
 
 .organizers {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .organizer {
-  display: inline-block;
+  $size: 140px;
+  flex: 0 auto;
+  margin-bottom: 1em;
+  width: $size;
+
+  &--photo {
+    display: block;
+    margin-bottom: $pu;
+    width: $size;
+    height: $size;
+    filter: saturate(0);
+  }
 
   &--name {
     font-weight: bold;
+    font-size: large;
   }
 }
 

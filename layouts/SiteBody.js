@@ -66,11 +66,7 @@ const SiteBody = ({
 
           <AnchorHeader level={2}>Partners</AnchorHeader>
           <div className="grid--full">
-            <Contacts
-              className="partners"
-              items={partners}
-              render={ContactMini}
-            />
+            <Contacts items={partners} render={ContactMini} />
           </div>
         </section>
       </div>

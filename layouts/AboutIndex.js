@@ -34,12 +34,8 @@ const AboutIndex = ({ section }) => (
         developers and this shows in the conference.
       </p>
     </div>
-    <div className="grid--full">
-      <Contacts
-        className="organizers"
-        items={content.organizers}
-        render={Organizer}
-      />
+    <div className="grid--full organizers">
+      <Contacts items={content.organizers} render={Organizer} />
     </div>
     <div className="grid--5col">
       <p>

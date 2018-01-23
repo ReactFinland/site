@@ -8,12 +8,8 @@ const SiteIndex = ({ section }) => (
       <Markdown source={require("../content/intro.md")} />
     </div>
     <AnchorHeader level={2}>Speakers</AnchorHeader>
-    <div className="grid--full">
-      <Contacts
-        className="speakers-mini"
-        items={content.speakers}
-        render={ContactMini}
-      />
+    <div className="grid--full speakers">
+      <Contacts items={content.speakers} render={ContactMini} />
     </div>
     <AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="grid--full">

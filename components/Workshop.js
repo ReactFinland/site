@@ -11,11 +11,7 @@ const Workshop = ({ speakers, title, description, headerLevel = 2 }) => (
 
     {description ? <Markdown source={description} /> : "To be announced."}
 
-    <Contacts
-      className="speakers"
-      items={speakers}
-      renderProps={{ headerLevel: headerLevel + 1 }}
-    />
+    <Contacts items={speakers} renderProps={{ headerLevel: headerLevel + 1 }} />
   </div>
 );
 
