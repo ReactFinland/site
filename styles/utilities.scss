@@ -1,11 +1,3 @@
-.clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
 .site-name {
   text-decoration: none;
 }
@@ -13,5 +5,5 @@
 .container {
   max-width: 900px; // TODO: breakpoint
   margin: auto;
-  margin-top: @pu * 6;
+  margin-top: $pu * 6;
 }

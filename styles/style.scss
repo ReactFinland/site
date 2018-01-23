@@ -1,6 +1,6 @@
-@import "variables";
-@import "utilities";
-@import "nav";
+@import "./variables.scss";
+@import "./utilities.scss";
+@import "./nav.scss";
 
 @font-face {
   font-family: "Finlandica";
@@ -31,7 +31,7 @@
     background-position-x: 100%, 0;
   }
   100% {
-    background-position-x: 100%, @header-background-size;
+    background-position-x: 100%, $header-background-size;
   }
 }
 @keyframes waveY {
@@ -39,7 +39,7 @@
     background-position-y: 100%, 0;
   }
   0% {
-    background-position-y: 100%, @header-background-size;
+    background-position-y: 100%, $header-background-size;
   }
 }
 
@@ -48,12 +48,12 @@
 }
 
 body {
-  font: 14pt/1.5 @fh, sans-serif;
+  font: 14pt/1.5 $fh, sans-serif;
   background-color: white;
 }
 
 a {
-  color: @very-blue;
+  color: $very-blue;
 }
 
 .social-links__header::after {
@@ -66,9 +66,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: @fh;
-  margin-top: @pu * 8;
-  margin-bottom: @pu2;
+  font-family: $fh;
+  margin-top: $pu * 8;
+  margin-bottom: $pu2;
   line-height: 1.25;
 }
 
@@ -96,13 +96,13 @@ h6 {
 .post-block {
   width: 50%;
   min-width: 15em;
-  padding: @pu * 3;
+  padding: $pu * 3;
   & h2 {
-    margin-top: @pu * 4;
+    margin-top: $pu * 4;
   }
   & h3,
   h4 {
-    margin-top: @pu * 3;
+    margin-top: $pu * 3;
   }
 }
 
@@ -111,8 +111,8 @@ h6 {
 }
 
 blockquote {
-  padding: @pu2;
-  margin: @pu * 3;
+  padding: $pu2;
+  margin: $pu * 3;
   border: 1px solid #dae4e9;
   font-size: smaller;
 
@@ -134,13 +134,13 @@ blockquote {
 
 .photo {
   float: right;
-  margin-left: @pu * 3;
-  margin-bottom: @pu * 3;
+  margin-left: $pu * 3;
+  margin-bottom: $pu * 3;
   border-radius: 100%;
 }
 
 dl {
-  margin: 0 @pu2;
+  margin: 0 $pu2;
 }
 
 dt {
@@ -148,10 +148,10 @@ dt {
 }
 
 dd {
-  margin-left: @pu2;
-  margin-bottom: @pu2 * 3;
-  border-left: solid @pu / 2 black;
-  padding-left: @pu2;
+  margin-left: $pu2;
+  margin-bottom: $pu2 * 3;
+  border-left: solid $pu / 2 black;
+  padding-left: $pu2;
 }
 dd {
   h3 {
@@ -160,7 +160,7 @@ dd {
   }
   p {
     margin-top: 0;
-    margin-bottom: @pu2;
+    margin-bottom: $pu2;
   }
 }
 
@@ -183,13 +183,13 @@ address {
   color: #f3f7f9;
   background-image: linear-gradient(rgba(0, 81, 80, 0.9), rgba(0, 38, 135, 0.9)),
     url("../assets/img/headers/front.svg");
-  background-size: 100% 100%, @header-background-size @header-background-size;
-  font-family: @fh;
-  // The animation is too slow so it's disabled unless we can find a performant way to do it
+  background-size: 100% 100%, $header-background-size $header-background-size;
+  font-family: $fh;
+   //The animation is too slow so it's disabled unless we can find a performant way to do it
   //animation: waveX 10s linear infinite, waveY 10s linear infinite;
 
   &--container {
-    padding: @pu * 3 0 @pu * 8 0;
+    padding: $pu * 3 0 $pu * 8 0;
     margin: auto;
     align-items: center;
   }
@@ -261,7 +261,7 @@ address {
   }
   &_index {
     .header--container {
-      padding: @pu * 8 0;
+      padding: $pu * 8 0;
     }
     .header--logo {
       grid-column: span 4;
@@ -280,12 +280,11 @@ address {
 }
 
 .content-block {
-  .clearfix();
-  margin-bottom: @pu2 * 4;
+  margin-bottom: $pu2 * 4;
 }
 
 .react-image {
-  margin: @pu;
+  margin: $pu;
   width: 100px;
   height: 100px;
   float: right;
@@ -312,33 +311,33 @@ address {
 
 .social-form__input,
 .social-form__subscribe {
-  border: solid @pu / 2 @rf-deep-blue;
+  border: solid $pu / 2 $rf-deep-blue;
 }
 
 .social-form__input {
   display: block;
   width: 100%;
   line-height: 2em;
-  border-top-left-radius: @pu2 * 2;
-  border-bottom-left-radius: @pu2 * 2;
-  padding-left: @pu;
+  border-top-left-radius: $pu2 * 2;
+  border-bottom-left-radius: $pu2 * 2;
+  padding-left: $pu;
   border-right: none;
 }
 .social-form__subscribe-container input {
-  border-top-right-radius: @pu2 * 2;
-  border-bottom-right-radius: @pu2 * 2;
+  border-top-right-radius: $pu2 * 2;
+  border-bottom-right-radius: $pu2 * 2;
 }
 
 .social-form__subscribe {
   line-height: 2em;
-  background-color: @rf-blue;
+  background-color: $rf-blue;
   border-left: none;
-  padding-left: @pu2 * 2;
-  padding-right: @pu2 * 2;
+  padding-left: $pu2 * 2;
+  padding-right: $pu2 * 2;
 }
 
 .social-form__subscribe:hover {
-  background-color: @rf-deep-blue;
+  background-color: $rf-deep-blue;
   cursor: pointer;
 }
 
@@ -347,15 +346,15 @@ address {
 }
 
 .contact {
-  margin-bottom: @pu2;
+  margin-bottom: $pu2;
 
   .country {
     display: inline;
-    margin-left: @pu2;
+    margin-left: $pu2;
 
     span {
-      width: @pu2 * 3 !important; // XXX
-      height: @pu2 * 3 !important; // XXX
+      width: $pu2 * 3 !important; // XXX
+      height: $pu2 * 3 !important; // XXX
       border-radius: 100%;
       background-size: cover !important; // XXX
     }
@@ -371,23 +370,23 @@ address {
 }
 
 .session {
-  margin-top: @pu2;
-  margin-bottom: @pu2;
+  margin-top: $pu2;
+  margin-bottom: $pu2;
 }
 
 .keywords {
   font-size: smaller;
-  margin-top: @pu;
-  margin-bottom: @pu;
+  margin-top: $pu;
+  margin-bottom: $pu;
 }
 
 .keyword {
-  background-color: @rf-deep-blue;
+  background-color: $rf-deep-blue;
   color: white;
   display: inline;
-  margin: @pu;
-  padding: @pu;
-  border-radius: @pu;
+  margin: $pu;
+  padding: $pu;
+  border-radius: $pu;
 }
 .keyword:first-child {
   margin-left: 0;
@@ -395,7 +394,7 @@ address {
 
 .contact-mini {
   width: 100px;
-  margin: @pu * 5;
+  margin: $pu * 5;
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -426,7 +425,7 @@ address {
   }
 }
 
-@media (max-width: @mobile-breakpoint) {
+@media (max-width: $mobile-breakpoint) {
   .nav--link,
   .nav__selected__link {
     letter-spacing: 0;
@@ -440,7 +439,7 @@ address {
 }
 
 .buy {
-  margin-top: @pu * 8;
+  margin-top: $pu * 8;
 }
 
 .buy-button {
@@ -450,13 +449,13 @@ address {
   -webkit-appearance: normal;
   outline: none;
   background-color: transparent;
-  padding: @pu * 3;
+  padding: $pu * 3;
   border-radius: 100px;
   background-color: white;
-  border: @pu @rf-blue solid;
-  color: darken(@rf-blue, 30%);
+  border: $pu $rf-blue solid;
+  color: darken($rf-blue, 30%);
   &:hover {
-    background-color: @rf-blue;
+    background-color: $rf-blue;
   }
 }
 
@@ -470,10 +469,10 @@ address {
 
 th,
 td {
-  padding: @pu2;
+  padding: $pu2;
 }
 /* https://codepen.io/AllThingsSmitty/pen/MyqmdM */
-@media (max-width: @mobile-breakpoint) {
+@media (max-width: $mobile-breakpoint) {
   table {
     border: 0;
   }
@@ -528,5 +527,5 @@ td {
 }
 
 .contact--header {
-  display: inline; // XXX
+  display: inline;
 }
