@@ -1,7 +1,6 @@
 import React from "react";
 import { content } from "@react-finland/content-2018";
 import { Contacts, Speaker } from "../components";
-import description from "./description";
 
 const SpeakerIndex = ({ section }) => (
   <div className="flex">
@@ -14,7 +13,5 @@ const SpeakerIndex = ({ section }) => (
     </div>
   </div>
 );
-SpeakerIndex.description = description;
-SpeakerIndex.title = "Speakers";
 
 export default SpeakerIndex;

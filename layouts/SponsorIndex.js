@@ -1,6 +1,5 @@
 import React from "react";
 import { AnchorHeader, Contacts, Markdown } from "../components";
-import description from "./description";
 
 const SponsorIndex = ({ section }) => (
   <div className="flex">
@@ -9,7 +8,5 @@ const SponsorIndex = ({ section }) => (
     </div>
   </div>
 );
-SponsorIndex.description = description;
-SponsorIndex.title = "For Sponsors";
 
 export default SponsorIndex;

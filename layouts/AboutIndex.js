@@ -8,7 +8,6 @@ import {
   Organizer,
   VenueGallery,
 } from "../components";
-import description from "./description";
 
 const AboutIndex = ({ section }) => (
   <div className="flex">
@@ -46,7 +45,5 @@ const AboutIndex = ({ section }) => (
     </div>
   </div>
 );
-AboutIndex.description = description;
-AboutIndex.title = "About";
 
 export default AboutIndex;

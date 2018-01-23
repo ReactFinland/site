@@ -1,7 +1,6 @@
 import React from "react";
 import { content } from "@react-finland/content-2018";
 import { AnchorHeader, Contacts, ContactMini, Markdown } from "../components";
-import description from "./description";
 
 const SiteIndex = ({ section }) => (
   <div className="flex">
@@ -20,6 +19,5 @@ const SiteIndex = ({ section }) => (
     </div>
   </div>
 );
-SiteIndex.description = description;
 
 export default SiteIndex;

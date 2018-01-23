@@ -1,6 +1,5 @@
 import React from "react";
 import { AnchorHeader, Markdown } from "../components";
-import description from "./description";
 
 const ScheduleIndex = ({ section }) => (
   <div className="flex">
@@ -9,7 +8,5 @@ const ScheduleIndex = ({ section }) => (
     </div>
   </div>
 );
-ScheduleIndex.description = description;
-ScheduleIndex.title = "Schedule";
 
 export default ScheduleIndex;
