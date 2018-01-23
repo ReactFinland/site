@@ -1,38 +1,18 @@
-import AnchorContext from "./AnchorContext";
-import AnchorHeader from "./AnchorHeader";
-import Contacts from "./Contacts";
-import Contact from "./Contact";
-import ContactMini from "./ContactMini";
-import Header from "./Header";
-import Link from "./Link";
-import Navigation from "./Navigation";
-import Markdown from "./Markdown";
-import Organizer from "./Organizer";
-import Schedule from "./Schedule";
-import Session from "./Session";
-import Subscribe from "./Subscribe";
-import Speaker from "./Speaker";
-import Talk from "./Talk";
-import VenueGallery from "./VenueGallery";
-import Workshop from "./Workshop";
-
-export {
-  AnchorContext,
-  AnchorHeader,
-  Contacts,
-  Contact,
-  ContactMini,
-  Header,
-  Link,
-  Navigation,
-  Markdown,
-  Organizer,
-  Schedule,
-  Session,
-  SessionLink,
-  Subscribe,
-  Speaker,
-  Talk,
-  VenueGallery,
-  Workshop,
-};
+export { default as AnchorContext } from "./AnchorContext";
+export { default as AnchorHeader } from "./AnchorHeader";
+export { default as Contacts } from "./Contacts";
+export { default as Contact } from "./Contact";
+export { default as ContactMini } from "./ContactMini";
+export { default as Header } from "./Header";
+export { default as Link } from "./Link";
+export { default as Navigation } from "./Navigation";
+export { default as Markdown } from "./Markdown";
+export { default as Organizer } from "./Organizer";
+export { default as Schedule } from "./Schedule";
+export { default as Session } from "./Session";
+export { default as Subscribe } from "./Subscribe";
+export { default as Speaker } from "./Speaker";
+export { default as Talk } from "./Talk";
+export { default as VenueGallery } from "./VenueGallery";
+export { default as Workshop } from "./Workshop";
+export { default as Footer } from "./Footer";

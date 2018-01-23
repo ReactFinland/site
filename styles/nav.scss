@@ -8,15 +8,19 @@
   }
 }
 
-.nav__selected__link,
-.nav--link,
-.nav--toggle-label {
-  font-size: smaller;
-  text-transform: uppercase;
+footer {
+  .nav {
+    grid-column: 1 / span 5;
+
+    &--link {
+    }
+  }
 }
 
 .nav--link {
   display: inline-block;
+  font-size: smaller;
+  text-transform: uppercase;
 
   a {
     display: inline-block;
@@ -41,8 +45,4 @@
       cursor: default;
     }
   }
-}
-.nav--toggle {
-  /* this should probably be visible in mobile? */
-  display: none;
 }

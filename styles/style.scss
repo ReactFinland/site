@@ -3,6 +3,7 @@
 @import "./nav.scss";
 @import "./subscribe.scss";
 @import "./sponsors.scss";
+@import "./footer.scss";
 
 @font-face {
   font-family: "Finlandica";
@@ -167,7 +168,7 @@ address {
   margin: 0;
   padding: 0;
   color: #f3f7f9;
-  background-image: linear-gradient(rgba(0, 81, 80, 0.9), rgba(0, 38, 135, 0.9)),
+  background-image: linear-gradient(rgba(0, 81, 80, 0.95), rgba($color-accent, 0.99)),
     url("../assets/img/headers/front.svg");
   background-size: 100% 100%, $header-background-size $header-background-size;
   font-family: $fh;
@@ -373,9 +374,6 @@ address {
   .nav--link,
   .nav__selected__link {
     letter-spacing: 0;
-  }
-  .container {
-    max-width: 100%;
   }
 }
 
