@@ -22,10 +22,11 @@ const SpeakerNames = ({ speakers = [] }) => (
 
 const SpeakerPhotos = ({ speakers = [] }) => (
   <div className="speaker-photos">
-    {speakers.map(({ image }, i) => (
+    {speakers.map(({ about, image }, i) => (
       <img
         className="photo"
         key={i}
+        alt={about}
         width={40}
         height={40}
         src={require(`@react-finland/content-2018/images/${image}`)}

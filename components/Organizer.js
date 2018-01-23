@@ -7,7 +7,7 @@ import Keywords from "./Keywords";
 const Organizer = ({ name, image, about }) => (
   <figure className="organizer" key={name}>
     <img
-      title={about}
+      alt={about}
       className="organizer--photo"
       width={100}
       height={100}
