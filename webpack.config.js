@@ -116,7 +116,7 @@ function buildConfig() {
         {
           test: /\.s?css$/,
           use: ExtractTextPlugin.extract({
-            use: ["css-loader", "postcss-loader", "scss-loader"],
+            use: ["css-loader", "postcss-loader", "sass-loader"],
             fallback: "style-loader",
           }),
         },
