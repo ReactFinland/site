@@ -327,6 +327,21 @@ address {
   }
 }
 
+.intro {
+  grid-column-end: 6;
+  margin: 1em 0 0;
+  font-size: larger;
+  line-height: 2rem;
+
+  &--aside {
+    grid-column: 6 / span 1;
+    margin-top: 2rem;
+    font-size: smaller;
+    line-height: 2rem;
+    color: #888;
+  }
+}
+
 .react-image {
   margin: $pu;
   width: 100px;
