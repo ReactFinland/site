@@ -7,6 +7,9 @@ const Footer = ({ pathname }) => {
     <footer className="footer">
       <div className="footer--wrapper">
         <Navigation pathname={pathname} pages={navigationPages} />
+        <p className="footer--coc">
+          <a href="http://berlincodeofconduct.org/">Code of Conduct</a>
+        </p>
         <p className="footer--copyright">© React Finland, 2018</p>
       </div>
     </footer>
