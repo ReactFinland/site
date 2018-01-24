@@ -12,7 +12,7 @@ const SiteIndex = ({ section }) => (
       <Contacts items={content.speakers} render={ContactMini} />
     </div>
     <AnchorHeader level={2}>Tickets</AnchorHeader>
-    <div className="grid--full">
+    <div className="grid--5col">
       <tito-widget event="react-finland/2018" />
     </div>
   </Fragment>

@@ -1,14 +1,47 @@
 .tito-wrapper {
+  margin: 0;
+  padding: 0;
   background: none;
   border: none;
-  padding: none;
-  margin: none;
   font-family: inherit;
 }
 
-.tito-ticket-name-wrapper {
-  width: 60%;
+.tito-ticket.row {
+  margin: 0 !important;
+  border-bottom-color: #efefef !important;
 }
+
+.tito-ticket-name-wrapper {
+  width: 80%;
+}
+
 .tito-ticket-price-quantity-wrapper {
-  width: 40%;
+  width: 20%;
+}
+
+.tito-previous .tito-ticket-name-wrapper {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.tito-ticket-description,
+.tito-badge-link {
+  display: none;
+}
+
+.tito-submit-wrapper {
+  margin: $pu * 4 0 0;
+}
+
+.tito-submit {
+  padding: .5em 2em !important;
+  font-family: $fh;
+  font-size: 1em !important;
+  background-color: $color-accent !important;
+  border-radius: 3rem !important;
+  height: auto !important;
+  width: auto !important;
+  &:hover {
+    background-color: lighten($color-accent, 10%) !important;
+  }
 }
