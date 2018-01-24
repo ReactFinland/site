@@ -17,6 +17,10 @@ footer {
   }
 }
 
+.nav--break {
+  margin-right: $pu2 * 4;
+}
+
 .nav--link {
   display: inline-block;
   font-size: smaller;

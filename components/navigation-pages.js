@@ -23,6 +23,9 @@ export default [
       url: "/#tickets",
     },
     {
+      title: <span className="nav--break">&nbsp;</span>,
+    },
+    {
       title: (
         <a href="https://medium.com/react-finland">
           <i className="icon-medium" />
