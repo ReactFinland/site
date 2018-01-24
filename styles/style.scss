@@ -406,17 +406,11 @@ address {
 .speakers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   .contact-mini {
-    width: 100px;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    width: 100px;
-    margin: 0.5rem;
-    @media screen and (min-width: 480px) {
-      margin: 1.5rem; // or 2.5
-    }
+    width: 150px;
+    margin: $pu * 4 0;
   }
 }
 
