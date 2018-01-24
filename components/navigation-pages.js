@@ -36,6 +36,13 @@ export default [
         </a>
       ),
     },
+    {
+      title: (
+        <a href="https://github.com/ReactFinland">
+          <i className="icon-github-circled" />
+        </a>
+      ),
+    },
   ],
   [
     {
