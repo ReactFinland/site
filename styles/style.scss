@@ -218,7 +218,8 @@ address {
   //animation: waveX 10s linear infinite, waveY 10s linear infinite;
 
   &--container {
-    padding: $pu * 3 0 $pu * 8 0;
+    padding-top: $pu * 3;
+    padding-bottom: $pu * 8;
     margin: auto;
     align-items: center;
   }
@@ -306,7 +307,7 @@ address {
   }
   &_index {
     .header--container {
-      padding: $pu * 8 0;
+      padding-top: $pu * 8;
     }
     .header--logo {
       grid-column: span 4;

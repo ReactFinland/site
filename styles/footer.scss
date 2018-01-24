@@ -7,7 +7,8 @@
     @extend .container;
     @extend .grid;
     @extend .grid_6col;
-    padding: 2em 0 0 !important;
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
 
     @media (max-width: $mobile-breakpoint) {
       display: block !important;
