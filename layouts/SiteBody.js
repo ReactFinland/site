@@ -30,10 +30,11 @@ const SiteBody = ({
       <div className="main-container container">
         <section className="grid grid_6col">
           {children}
-          <AnchorHeader level={2}>Sponsors</AnchorHeader>
           <div className="grid--full">
             <div className="sponsors sponsors_gold">
-              <h3 className="sponsors--heading">🥇 Gold</h3>
+              <AnchorHeader className="sponsors--heading" level={2}>
+                🥇 Gold Sponsors
+              </AnchorHeader>
               <section className="sponsors--list">
                 {goldSponsors.length ? (
                   <Contacts items={goldSponsors} render={Sponsor} />
@@ -43,7 +44,9 @@ const SiteBody = ({
               </section>
             </div>
             <div className="sponsors sponsors_silver">
-              <h3 className="sponsors--heading">🥈 Silver</h3>
+              <AnchorHeader className="sponsors--heading" level={2}>
+                🥈 Silver Sponsors
+              </AnchorHeader>
               <section className="sponsors--list">
                 {silverSponsors.length ? (
                   <Contacts items={silverSponsors} render={Sponsor} />
@@ -53,7 +56,9 @@ const SiteBody = ({
               </section>
             </div>
             <div className="sponsors sponsors_bronze">
-              <h3 className="sponsors--heading">🥉 Bronze</h3>
+              <AnchorHeader className="sponsors--heading" level={2}>
+                🥉 Bronze Sponsors
+              </AnchorHeader>
               <section className="sponsors--list">
                 {bronzeSponsors.length ? (
                   <Contacts items={bronzeSponsors} render={Sponsor} />
@@ -65,8 +70,10 @@ const SiteBody = ({
           </div>
 
           <AnchorHeader level={2}>Partners</AnchorHeader>
-          <div className="grid--full">
-            <Contacts items={partners} render={Sponsor} />
+          <div className="sponsors sponsors_partners grid--full">
+            <section className="sponsors--list">
+              <Contacts items={partners} render={Sponsor} />
+            </section>
           </div>
         </section>
       </div>
