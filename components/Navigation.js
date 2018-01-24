@@ -7,7 +7,7 @@ const Navigation = ({ pages, pathname }) => (
     <ul>
       {pages.map((link, i) => {
         const linkClassNames = classnames("nav--link", {
-          "nav--link_selected": link.url === pathname,
+          "nav--link_selected": link.url && link.url === pathname,
         });
         return (
           <li key={`link-${i}`} className={linkClassNames}>
