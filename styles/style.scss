@@ -5,6 +5,7 @@
 @import "./sponsors.scss";
 @import "./footer.scss";
 @import "./tito.scss";
+@import "./intro.scss";
 
 @font-face {
   font-family: "Finlandica";
@@ -187,6 +188,7 @@ address {
 .grid {
   display: grid;
   grid-gap: 20px;
+  grid-row-gap: 0;
 
   &_6col {
     grid-template-columns: repeat(6, 1fr);
@@ -307,6 +309,7 @@ address {
   }
   &_index {
     .header--container {
+      grid-row-gap: 20px;
       padding-top: $pu * 8;
     }
     .header--logo {
@@ -324,21 +327,6 @@ address {
         display: block;
       }
     }
-  }
-}
-
-.intro {
-  grid-column-end: 6;
-  margin: 1em 0 0;
-  font-size: larger;
-  line-height: 2rem;
-
-  &--aside {
-    grid-column: 6 / span 1;
-    margin-top: 2rem;
-    font-size: smaller;
-    line-height: 2rem;
-    color: #888;
   }
 }
 

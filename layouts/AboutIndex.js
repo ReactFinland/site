@@ -11,9 +11,12 @@ import {
 
 const AboutIndex = ({ section }) => (
   <Fragment>
-    <div className="grid--5col">
-      <Markdown source={require("../content/about-intro.md")} />
-    </div>
+    <section className="intro intro_about">
+      <div className="intro--main">
+        <Markdown source={require("../content/about-intro.md")} />
+      </div>
+      <aside className="intro--aside" />
+    </section>
 
     <AnchorHeader level={2}>The Venue</AnchorHeader>
     <div className="grid--5col">

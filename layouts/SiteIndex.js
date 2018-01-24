@@ -4,14 +4,16 @@ import { AnchorHeader, Contacts, ContactMini, Markdown } from "../components";
 
 const SiteIndex = ({ section }) => (
   <Fragment>
-    <div className="grid--5col intro">
-      <Markdown source={require("../content/intro.md")} />
-    </div>
-    <aside className="intro--aside">
-      <Markdown
-        source={`By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduct.org/).`}
-      />
-    </aside>
+    <section className="intro intro_home">
+      <div className="intro--main">
+        <Markdown source={require("../content/intro.md")} />
+      </div>
+      <aside className="intro--aside">
+        <Markdown
+          source={`By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduct.org/).`}
+        />
+      </aside>
+    </section>
     <AnchorHeader level={2}>Speakers</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts items={content.speakers} render={ContactMini} />

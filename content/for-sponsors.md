@@ -1,5 +1,3 @@
-React Finland is the largest React conference in the Nordics arranged 24-26 of April, 2018 in Helsinki. The conference begins with a workshop day and the following conference days include topics ranging from state management to emerging topics such as ReactVR and ReasonML.
-
 ## International Speakers
 The twenty speakers of the conference have varying backgrounds and our roster includes many of the leading names from the community. The single track format allows our visitors to get most out of the experience and we also provide lightning talks and panels to generate spontaneous insights. In particular, we want to connect the speakers with the local community as well as possible.
 

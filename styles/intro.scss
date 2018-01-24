@@ -1,0 +1,64 @@
+.intro {
+  @extend .grid;
+  @extend .grid_6col;
+  grid-column: 1 / span 6;
+  position: relative;
+
+  p {
+    margin: 2rem 0;
+  }
+
+  &::after {
+    position: absolute;
+    left: 85%;
+    top: 2rem;
+    width: 200px;
+    height: 200px;
+    content: "";
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: $mobile-breakpoint) {
+      display: none;
+    }
+  }
+  &_home::after {
+    background-image: url('../assets/img/emojis/emoji-torillatavataan.png
+    ');
+  }
+  &_about::after {
+    background-image: url('../assets/img/emojis/emoji-kokko.png
+    ');
+  }
+  &_sponsors::after {
+    background-image: url('../assets/img/emojis/nordicfamily.png
+    ');
+  }
+&_schedule::after {
+    background-image: url('../assets/img/emojis/emoji-bear.png
+    ');
+  }
+
+  &--main {
+    grid-column: 2 / span 4;
+    margin: 2rem 0 0;
+    font-size: larger;
+    line-height: 2rem;
+    @media (max-width: $mobile-breakpoint) {
+      grid-column: 2 / span 5;
+    }
+  }
+
+  &--aside {
+    grid-column: 6 / span 1;
+    margin-top: 12rem;
+    font-size: smaller;
+    line-height: 2rem;
+    color: #888;
+    @media (max-width: $mobile-breakpoint) {
+      margin-top: 0;
+      grid-column: 2 / span 5;
+    }
+  }
+}
