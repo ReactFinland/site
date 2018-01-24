@@ -10,7 +10,9 @@ const Footer = ({ pathname }) => {
         <p className="footer--coc">
           <a href="http://berlincodeofconduct.org/">Code of Conduct</a>
         </p>
-        <p className="footer--copyright">© React Finland, 2018</p>
+        <p className="footer--copyright">
+          © React Finland, {new Date().getFullYear()}
+        </p>
       </div>
     </footer>
   );
