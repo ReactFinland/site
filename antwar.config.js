@@ -18,6 +18,14 @@ module.exports = () => ({
 
       return page;
     },
+    "for-attendees": () => {
+      const page = require("./layouts/AttendeeIndex").default;
+
+      page.description = description;
+      page.title = "For Attendees";
+
+      return page;
+    },
     "for-sponsors": () => {
       const page = require("./layouts/SponsorIndex").default;
 

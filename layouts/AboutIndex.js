@@ -1,13 +1,6 @@
 import React, { Fragment } from "react";
-import Interactive from "antwar-interactive";
 import { content } from "@react-finland/content-2018";
-import {
-  AnchorHeader,
-  Contacts,
-  Markdown,
-  Organizer,
-  VenueGallery,
-} from "../components";
+import { AnchorHeader, Contacts, Markdown, Organizer } from "../components";
 
 const AboutIndex = ({ section }) => (
   <Fragment>
@@ -17,18 +10,6 @@ const AboutIndex = ({ section }) => (
       </div>
       <aside className="intro--aside" />
     </section>
-
-    <AnchorHeader level={2}>The Venue</AnchorHeader>
-    <div className="grid--5col">
-      <Markdown source={require("../content/venue.md")} />
-    </div>
-    <div className="grid--full">
-      <Interactive
-        id="components/VenueGallery.js"
-        component={VenueGallery}
-        containerProps={{ className: "venue-lightbox" }}
-      />
-    </div>
 
     <AnchorHeader level={2}>The Organizers</AnchorHeader>
     <div className="grid--5col">
