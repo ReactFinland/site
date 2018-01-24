@@ -57,6 +57,10 @@ body {
   background-color: white;
 }
 
+main {
+  overflow: hidden; // Do not let bleeding images create horizontal scroll
+}
+
 a {
   color: $very-blue;
 }
