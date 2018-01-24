@@ -14,12 +14,12 @@ export default [
     url: "/speakers/",
   },
   {
-    title: "About",
-    url: "/about/",
-  },
-  {
     title: "For Sponsors",
     url: "/for-sponsors/",
+  },
+  {
+    title: "About",
+    url: "/about/",
   },
   {
     title: "Buy tickets",
