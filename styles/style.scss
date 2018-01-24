@@ -5,6 +5,7 @@
 @import "./sponsors.scss";
 @import "./footer.scss";
 @import "./tito.scss";
+@import "./intro.scss";
 
 @font-face {
   font-family: "Finlandica";
@@ -187,6 +188,7 @@ address {
 .grid {
   display: grid;
   grid-gap: 20px;
+  grid-row-gap: 0;
 
   &_6col {
     grid-template-columns: repeat(6, 1fr);
@@ -218,7 +220,8 @@ address {
   //animation: waveX 10s linear infinite, waveY 10s linear infinite;
 
   &--container {
-    padding: $pu * 3 0 $pu * 8 0;
+    padding-top: $pu * 3;
+    padding-bottom: $pu * 8;
     margin: auto;
     align-items: center;
   }
@@ -306,7 +309,8 @@ address {
   }
   &_index {
     .header--container {
-      padding: $pu * 8 0;
+      grid-row-gap: 20px;
+      padding-top: $pu * 8;
     }
     .header--logo {
       grid-column: span 4;
@@ -406,17 +410,11 @@ address {
 .speakers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   .contact-mini {
-    width: 100px;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    width: 100px;
-    margin: 0.5rem;
-    @media screen and (min-width: 480px) {
-      margin: 1.5rem; // or 2.5
-    }
+    width: 150px;
+    margin: $pu * 4 0;
   }
 }
 
@@ -451,7 +449,7 @@ address {
 
 th,
 td {
-  padding: $pu2;
+  padding: $pu2 0;
 }
 /* https://codepen.io/AllThingsSmitty/pen/MyqmdM */
 @media (max-width: $mobile-breakpoint) {
@@ -495,6 +493,10 @@ td {
   table td:last-child {
     border-bottom: 0;
   }
+}
+table thead th:not(:first-child) {
+  min-width: 100px;
+  text-align: left;
 }
 
 .organizers {

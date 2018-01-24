@@ -1,21 +1,17 @@
 import React from "react";
-import Markdown from "./Markdown";
-import Keywords from "./Keywords";
 
 const SponsorContent = ({ about, image, name }) => (
   <img
-    key="image"
-    alt="about"
-    className="sponsor--logo"
+    alt={name}
+    className="sponsors--logo"
     src={require(`@react-finland/content-2018/images/${image}`)}
-    width={100}
   />
 );
 
 const Sponsor = ({ name, about, social, image }) => (
-  <figure className="sponsor">
+  <figure className="sponsors--item">
     {resolveSocialLink(social) ? (
-      <a href={resolveSocialLink(social)} title={about}>
+      <a href={resolveSocialLink(social)} title={`${name}—${about}`}>
         <SponsorContent about={about} image={image} name={name} />
       </a>
     ) : (

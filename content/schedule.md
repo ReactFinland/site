@@ -1,5 +1,3 @@
-The schedule of the event has been carefully curated. In true Finnish style, we rather focus on quality than quantity. There is no call for papers and the speakers have been chosen with care.
-
 ## 24.04—Tuesday—[Workshops](/workshops/)
 
 Each session will take four hours and they are arranged twice so you have a chance to choose two. A session is capped to twenty people. The first sessions are from 9 to 13 and the second sessions are from 14 to 18.

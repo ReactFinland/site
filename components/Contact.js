@@ -2,7 +2,6 @@ import React from "react";
 import ReactCountryFlag from "react-country-flag";
 import Markdown from "./Markdown";
 import AnchorHeader from "./AnchorHeader";
-import Keywords from "./Keywords";
 
 const Contact = ({
   name,

@@ -1,27 +1,65 @@
 .sponsors {
   @extend .grid;
   @extend .grid_6col;
+  margin-bottom: 2em;
+
   &--heading {
     margin: 0;
-    text-align: right;
-    grid-column: 1 / span 1;
+    grid-column: 2 / span 5;
+    font-size: 2em;
     @media (max-width: $mobile-breakpoint) {
       margin-top: 1em;
-      text-align: left;
       grid-column: 1 / span 6;
     }
   }
   &--list {
-    grid-column: 2 / span 5;
+    grid-column: 1 / span 6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
     @media (max-width: $mobile-breakpoint) {
       grid-column: 1 / span 6;
     }
   }
-}
+  &--item {
+    flex: 0 1 auto;
+    margin: .5rem;
+  }
+  &--logo {
+    height: 100px;
+  }
 
-.sponsor {
-  width: 100px;
-  margin: $pu * 5;
-  display: inline-block;
-  vertical-align: middle;
+  &_gold {
+    .sponsors--heading {
+      color: #e79a00;
+    }
+    .sponsors--logo {
+      height: 150px;
+    }
+  }
+  &_silver {
+    .sponsors--heading {
+      color: #8f8f8f;
+    }
+    .sponsors--logo {
+      height: 100px;
+    }
+  }
+  &_bronze {
+    .sponsors--heading {
+      color: #942e00;
+    }
+    .sponsors--logo {
+      height: 70px;
+    }
+  }
+  &_partners {
+    .sponsors--list {
+      grid-column: 1 / span 6;
+    }
+    .sponsors--logo {
+      height: 70px;
+    }
+  }
 }
