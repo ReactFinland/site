@@ -449,7 +449,7 @@ address {
 
 th,
 td {
-  padding: $pu2;
+  padding: $pu2 0;
 }
 /* https://codepen.io/AllThingsSmitty/pen/MyqmdM */
 @media (max-width: $mobile-breakpoint) {
@@ -493,6 +493,10 @@ td {
   table td:last-child {
     border-bottom: 0;
   }
+}
+table thead th:not(:first-child) {
+  min-width: 100px;
+  text-align: left;
 }
 
 .organizers {
