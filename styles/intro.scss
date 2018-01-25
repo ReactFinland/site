@@ -24,20 +24,24 @@
     }
   }
   &_home::after {
-    background-image: url('../assets/img/emojis/emoji-torillatavataan.png
-    ');
+    background-image: url("../assets/img/emojis/emoji-torillatavataan.png
+    ");
   }
   &_about::after {
-    background-image: url('../assets/img/emojis/emoji-kokko.png
-    ');
+    background-image: url("../assets/img/emojis/emoji-kokko.png
+    ");
+  }
+  &_attendees::after {
+    background-image: url("../assets/img/emojis/emoji-waiting.png
+    ");
   }
   &_sponsors::after {
-    background-image: url('../assets/img/emojis/nordicfamily.png
-    ');
+    background-image: url("../assets/img/emojis/nordicfamily.png
+    ");
   }
-&_schedule::after {
-    background-image: url('../assets/img/emojis/emoji-bear.png
-    ');
+  &_schedule::after {
+    background-image: url("../assets/img/emojis/emoji-bear.png
+    ");
   }
 
   &--main {

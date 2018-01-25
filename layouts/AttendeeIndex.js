@@ -4,7 +4,7 @@ import { AnchorHeader, Contacts, Markdown, VenueGallery } from "../components";
 
 const AttendeeIndex = ({ section }) => (
   <Fragment>
-    <section className="intro intro_sponsors">
+    <section className="intro intro_attendees">
       <div className="intro--main">
         <Markdown source={require("../content/for-attendees-intro.md")} />
       </div>
