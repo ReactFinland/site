@@ -2,9 +2,9 @@ import React from "react";
 import classnames from "classnames";
 import Link from "./Link";
 
-const NavigationRow = ({ pages, pathname }) => (
-  <ul className="nav--row">
-    {pages.map((link, i) => {
+const NavigationRow = ({ links, pathname, ...props }) => (
+  <ul {...props} className={classnames("nav--row", props.className)}>
+    {links.map((link, i) => {
       const linkClassNames = classnames("nav--link", {
         "nav--link_selected": link.url && link.url === pathname,
       });
@@ -19,8 +19,8 @@ const NavigationRow = ({ pages, pathname }) => (
 
 const Navigation = ({ pages, pathname }) => (
   <nav className="nav">
-    {pages.map((rowPages, i) => (
-      <NavigationRow key={i} pages={rowPages} pathname={pathname} />
+    {pages.map(({ links, props }, i) => (
+      <NavigationRow key={i} links={links} pathname={pathname} {...props} />
     ))}
   </nav>
 );

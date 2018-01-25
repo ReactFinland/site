@@ -21,6 +21,16 @@ footer {
   margin-right: $pu2 * 4;
 }
 
+.nav--row {
+  display: inline;
+}
+.nav--social {
+  float: right;
+}
+.nav--secondary {
+  display: inherit;
+}
+
 .nav--link {
   display: inline-block;
   font-size: smaller;
