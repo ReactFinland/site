@@ -15,6 +15,9 @@
     }
   }
 
+  &--toolbox {
+    grid-column-start: 4;
+  }
   &--coc {
     grid-column-start: 5;
   }
