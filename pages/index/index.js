@@ -6,7 +6,7 @@ const SiteIndex = ({ section }) => (
   <Fragment>
     <section className="intro intro_home">
       <div className="intro--main">
-        <Markdown source={require("../content/intro.md")} />
+        <Markdown source={require("./intro.md")} />
       </div>
       <aside className="intro--aside">
         <Markdown

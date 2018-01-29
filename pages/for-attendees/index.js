@@ -6,13 +6,13 @@ const AttendeeIndex = ({ section }) => (
   <Fragment>
     <section className="intro intro_attendees">
       <div className="intro--main">
-        <Markdown source={require("../content/for-attendees-intro.md")} />
+        <Markdown source={require("./intro.md")} />
       </div>
       <aside className="intro--aside" />
     </section>
     <AnchorHeader level={2}>The Venue</AnchorHeader>
     <div className="grid--5col">
-      <Markdown source={require("../content/venue.md")} />
+      <Markdown source={require("./venue.md")} />
     </div>
     <div className="grid--full">
       <Interactive
@@ -22,7 +22,7 @@ const AttendeeIndex = ({ section }) => (
       />
     </div>
     <div className="grid--5col">
-      <Markdown source={require("../content/for-attendees.md")} />
+      <Markdown source={require("./content.md")} />
     </div>
   </Fragment>
 );

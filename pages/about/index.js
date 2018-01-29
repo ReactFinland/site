@@ -6,7 +6,7 @@ const AboutIndex = ({ section }) => (
   <Fragment>
     <section className="intro intro_about">
       <div className="intro--main">
-        <Markdown source={require("../content/about-intro.md")} />
+        <Markdown source={require("./intro.md")} />
       </div>
       <aside className="intro--aside" />
     </section>

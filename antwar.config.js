@@ -8,10 +8,10 @@ module.exports = () => ({
     file: path.resolve(__dirname, "templates/page.ejs"),
   },
   output: "build",
-  layout: () => require("./layouts/SiteBody").default,
+  layout: () => require("./pages/components/SiteBody").default,
   paths: {
     "/": () => {
-      const page = require("./layouts/SiteIndex").default;
+      const page = require("./pages/index").default;
 
       page.description = description;
       page.title = "Learn More about React, Explore Finland";
@@ -19,7 +19,7 @@ module.exports = () => ({
       return page;
     },
     "for-attendees": () => {
-      const page = require("./layouts/AttendeeIndex").default;
+      const page = require("./pages/for-attendees").default;
 
       page.description = description;
       page.title = "For Attendees";
@@ -27,7 +27,7 @@ module.exports = () => ({
       return page;
     },
     "for-sponsors": () => {
-      const page = require("./layouts/SponsorIndex").default;
+      const page = require("./pages/for-sponsors").default;
 
       page.description = description;
       page.title = "For Sponsors";
@@ -35,7 +35,7 @@ module.exports = () => ({
       return page;
     },
     about: () => {
-      const page = require("./layouts/AboutIndex").default;
+      const page = require("./pages/about").default;
 
       page.description = description;
       page.title = "About";
@@ -43,7 +43,7 @@ module.exports = () => ({
       return page;
     },
     schedule: () => {
-      const page = require("./layouts/ScheduleIndex").default;
+      const page = require("./pages/schedule").default;
 
       page.description = description;
       page.title = "Schedule";
@@ -51,7 +51,7 @@ module.exports = () => ({
       return page;
     },
     speakers: () => {
-      const page = require("./layouts/SpeakerIndex").default;
+      const page = require("./pages/speakers").default;
 
       page.description = description;
       page.title = "Speakers";
@@ -59,7 +59,7 @@ module.exports = () => ({
       return page;
     },
     workshops: () => {
-      const page = require("./layouts/WorkshopIndex").default;
+      const page = require("./pages/workshops").default;
 
       page.description = description;
       page.title = "Workshops";

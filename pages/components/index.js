@@ -10,6 +10,7 @@ export { default as Markdown } from "./Markdown";
 export { default as Organizer } from "./Organizer";
 export { default as Schedule } from "./Schedule";
 export { default as Session } from "./Session";
+export { default as SiteBody } from "./SiteBody";
 export { default as Subscribe } from "./Subscribe";
 export { default as Speaker } from "./Speaker";
 export { default as Sponsor } from "./Sponsor";
