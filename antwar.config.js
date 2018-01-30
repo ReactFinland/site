@@ -42,8 +42,8 @@ module.exports = () => ({
 
       return page;
     },
-    privacy: () => {
-      const page = require("./pages/privacy").default;
+    "privacy-policy": () => {
+      const page = require("./pages/privacy-policy").default;
 
       page.description = description;
       page.title = "Privacy Policy";
