@@ -42,6 +42,14 @@ module.exports = () => ({
 
       return page;
     },
+    imprint: () => {
+      const page = require("./pages/imprint").default;
+
+      page.description = description;
+      page.title = "Imprint";
+
+      return page;
+    },
     "privacy-policy": () => {
       const page = require("./pages/privacy-policy").default;
 

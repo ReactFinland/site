@@ -16,6 +16,9 @@
   }
 
   &--toolbox {
+    grid-column-start: 2;
+  }
+  &--imprint {
     grid-column-start: 3;
   }
   &--privacy-policy {
