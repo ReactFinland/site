@@ -12,5 +12,4 @@ export { default as SiteBody } from "./SiteBody";
 export { default as slugify } from "./slugify";
 export { default as Subscribe } from "./Subscribe";
 export { default as Sponsor } from "./Sponsor";
-export { default as Talk } from "./Talk";
 export { default as Footer } from "./Footer";

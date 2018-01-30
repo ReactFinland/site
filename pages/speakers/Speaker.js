@@ -1,6 +1,7 @@
 import React from "react";
-import { Contact, Contacts, Talk } from "../components";
+import { Contact, Contacts } from "../components";
 import SessionLink from "./SessionLink";
+import Talk from "./Talk.js";
 
 const Speaker = ({ talks, workshops, ...contact }) => (
   <Contact {...contact}>
