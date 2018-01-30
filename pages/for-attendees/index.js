@@ -16,7 +16,7 @@ const AttendeeIndex = ({ section }) => (
     </div>
     <div className="grid--full">
       <Interactive
-        id="components/VenueGallery.js"
+        id="pages/components/VenueGallery.js"
         component={VenueGallery}
         containerProps={{ className: "venue-lightbox" }}
       />
