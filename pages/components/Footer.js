@@ -10,6 +10,9 @@ const Footer = ({ pathname }) => {
         <p className="footer--toolbox">
           <a href="https://toolbox.finland.fi/">Finland Toolbox</a>
         </p>
+        <p className="footer--privacy-policy">
+          <a href="/privacy-policy/">Privacy Policy</a>
+        </p>
         <p className="footer--coc">
           <a href="http://berlincodeofconduct.org/">Code of Conduct</a>
         </p>
