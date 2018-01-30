@@ -13,5 +13,4 @@ export { default as slugify } from "./slugify";
 export { default as Subscribe } from "./Subscribe";
 export { default as Sponsor } from "./Sponsor";
 export { default as Talk } from "./Talk";
-export { default as VenueGallery } from "./VenueGallery";
 export { default as Footer } from "./Footer";
