@@ -82,6 +82,6 @@
     "webpack-merge": "^4.1.1"
   },
   "lint-staged": {
-    "*.{js,jsx,css,less,json}": ["prettier --write", "git add"]
+    "*.{js,jsx,css,scss,json}": ["prettier --write", "git add"]
   }
 }
