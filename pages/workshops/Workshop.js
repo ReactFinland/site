@@ -1,7 +1,5 @@
 import React from "react";
-import AnchorHeader from "./AnchorHeader";
-import Markdown from "./Markdown";
-import SessionsSpeakers from "./SessionSpeakers";
+import { AnchorHeader, Markdown, SessionSpeakers } from "../components";
 
 const Workshop = ({ speakers, title, description, headerLevel = 2 }) => (
   <div className="workshop">
@@ -9,7 +7,7 @@ const Workshop = ({ speakers, title, description, headerLevel = 2 }) => (
       {title || "To be announced."}
     </AnchorHeader>
 
-    <SessionsSpeakers speakers={speakers} />
+    <SessionSpeakers speakers={speakers} />
 
     {description ? <Markdown source={description} /> : "To be announced."}
   </div>

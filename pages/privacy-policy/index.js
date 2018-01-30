@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { content } from "@react-finland/content-2018";
-import { AnchorHeader, Contacts, Markdown, Organizer } from "../components";
+import { Markdown } from "../components";
 
 const PrivacyPolicy = ({ section }) => (
   <Fragment>

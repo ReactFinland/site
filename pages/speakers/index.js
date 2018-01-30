@@ -1,6 +1,7 @@
 import React from "react";
 import { content } from "@react-finland/content-2018";
-import { Contacts, Speaker } from "../components";
+import { Contacts } from "../components";
+import Speaker from "./Speaker";
 
 const SpeakerIndex = ({ section }) => (
   <div className="grid--5col" id="schedule">

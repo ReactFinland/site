@@ -1,6 +1,7 @@
 import React from "react";
 import { content } from "@react-finland/content-2018";
-import { Contacts, Workshop } from "../components";
+import { Contacts } from "../components";
+import Workshop from "./Workshop";
 
 const WorkshopIndex = ({ section }) => (
   <div className="grid grid--5col">
