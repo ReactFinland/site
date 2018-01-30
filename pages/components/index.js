@@ -2,7 +2,6 @@ export { default as AnchorContext } from "./AnchorContext";
 export { default as AnchorHeader } from "./AnchorHeader";
 export { default as Contacts } from "./Contacts";
 export { default as Contact } from "./Contact";
-export { default as ContactMini } from "./ContactMini";
 export { default as Header } from "./Header";
 export { default as Link } from "./Link";
 export { default as Navigation } from "./Navigation";

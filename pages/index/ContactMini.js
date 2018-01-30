@@ -1,6 +1,5 @@
 import React from "react";
-import Markdown from "./Markdown";
-import Keywords from "./Keywords";
+import { Markdown } from "../components";
 
 const ContactMiniContent = ({ about, image, name }) => [
   <img

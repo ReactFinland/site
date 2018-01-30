@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { content } from "@react-finland/content-2018";
-import { AnchorHeader, Contacts, ContactMini, Markdown } from "../components";
+import { AnchorHeader, Contacts, Markdown } from "../components";
+import ContactMini from "./ContactMini";
 
 const SiteIndex = ({ section }) => (
   <Fragment>
