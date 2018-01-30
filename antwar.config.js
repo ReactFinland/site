@@ -46,7 +46,7 @@ module.exports = () => ({
       const page = require("./pages/privacy").default;
 
       page.description = description;
-      page.title = "Privacy";
+      page.title = "Privacy Policy";
 
       return page;
     },
