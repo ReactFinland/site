@@ -221,7 +221,13 @@ address {
   background-size: 100% 100%, $header-background-size $header-background-size;
   font-family: $fh;
   //The animation is too slow so it's disabled unless we can find a performant way to do it
-  //animation: waveX 10s linear infinite, waveY 10s linear infinite;
+  // Enable animation only when hovering header
+  animation: waveX 10s linear infinite, waveY 10s linear infinite;
+  animation-play-state: paused;
+
+  &:hover {
+    animation-play-state: running;
+  }
 
   &--container {
     padding-top: $pu * 3;
