@@ -42,6 +42,14 @@ module.exports = () => ({
 
       return page;
     },
+    privacy: () => {
+      const page = require("./pages/privacy").default;
+
+      page.description = description;
+      page.title = "Privacy";
+
+      return page;
+    },
     schedule: () => {
       const page = require("./pages/schedule").default;
 
