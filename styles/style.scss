@@ -127,6 +127,14 @@ blockquote {
   border-radius: 100%;
 }
 
+.photo,
+.sponsors--logo {
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
 figure {
   margin: 0;
 }
