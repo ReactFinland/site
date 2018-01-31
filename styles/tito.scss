@@ -7,16 +7,28 @@
 }
 
 .tito-ticket.row {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
   margin: 0 !important;
   border-bottom-color: #efefef !important;
 }
 
 .tito-ticket-name-wrapper {
-  width: 80%;
+  width: 75%;
 }
 
 .tito-ticket-price-quantity-wrapper {
   width: 20%;
+}
+
+.tito-ticket-price-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .tito-previous .tito-ticket-name-wrapper {
@@ -34,7 +46,7 @@
 }
 
 .tito-submit {
-  padding: .5em 2em !important;
+  padding: 0.5em 2em !important;
   font-family: $fh;
   font-size: 1em !important;
   background-color: $color-accent !important;
