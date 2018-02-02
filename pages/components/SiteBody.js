@@ -11,12 +11,29 @@ import {
   Subscribe,
 } from "./";
 
-const { partners, goldSponsors, silverSponsors, bronzeSponsors } = content;
+let { partners, goldSponsors, silverSponsors, bronzeSponsors } = content;
 
 import "normalize.css/normalize.css";
 import "../../styles/fontello-codes.css";
 import "../../styles/fontello-embedded.css";
 import "../../styles/style.scss";
+
+// Tweak Rohea
+bronzeSponsors = bronzeSponsors.map(sponsor => {
+  if (sponsor.name === "Rohea") {
+    return {
+      ...sponsor,
+      logoProps: {
+        style: {
+          background: "black",
+          padding: "1em",
+        },
+      },
+    };
+  }
+});
+
+console.log(bronzeSponsors);
 
 const SiteBody = ({
   children,
