@@ -53,9 +53,8 @@ const SiteBody = ({
                 🥇 Gold Sponsors
               </AnchorHeader>
               <section className="sponsors--list">
-                {goldSponsors.length ? (
-                  <Contacts items={goldSponsors} render={Sponsor} />
-                ) : (
+                <Contacts items={goldSponsors} render={Sponsor} />
+                {goldSponsors.length < 2 && (
                   <a href="/for-sponsors/">Become a sponsor</a>
                 )}
               </section>
@@ -65,9 +64,8 @@ const SiteBody = ({
                 🥈 Silver Sponsors
               </AnchorHeader>
               <section className="sponsors--list">
-                {silverSponsors.length ? (
-                  <Contacts items={silverSponsors} render={Sponsor} />
-                ) : (
+                <Contacts items={silverSponsors} render={Sponsor} />
+                {silverSponsors.length < 3 && (
                   <a href="/for-sponsors/">Become a sponsor</a>
                 )}
               </section>
@@ -77,9 +75,8 @@ const SiteBody = ({
                 🥉 Bronze Sponsors
               </AnchorHeader>
               <section className="sponsors--list">
-                {bronzeSponsors.length ? (
-                  <Contacts items={bronzeSponsors} render={Sponsor} />
-                ) : (
+                <Contacts items={bronzeSponsors} render={Sponsor} />
+                {bronzeSponsors.length < 4 && (
                   <a href="/for-sponsors/">Become a sponsor</a>
                 )}
               </section>
