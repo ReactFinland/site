@@ -25,7 +25,7 @@ silverSponsors = silverSponsors.map(sponsor => {
       ...sponsor,
       logoProps: {
         style: {
-          background: "black",
+          background: "transparent",
           padding: "1em",
         },
       },
