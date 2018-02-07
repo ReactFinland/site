@@ -18,6 +18,24 @@ import "../../styles/fontello-codes.css";
 import "../../styles/fontello-embedded.css";
 import "../../styles/style.scss";
 
+// Tweak Nitor
+silverSponsors = silverSponsors.map(sponsor => {
+  if (sponsor.name === "Nitor") {
+    return {
+      ...sponsor,
+      logoProps: {
+        style: {
+          background: "black",
+          padding: "1.5em",
+          height: 175,
+        },
+      },
+    };
+  }
+
+  return sponsor;
+});
+
 // Tweak Rohea
 bronzeSponsors = bronzeSponsors.map(sponsor => {
   if (sponsor.name === "Rohea") {
@@ -31,6 +49,8 @@ bronzeSponsors = bronzeSponsors.map(sponsor => {
       },
     };
   }
+
+  return sponsor;
 });
 
 const SiteBody = ({
