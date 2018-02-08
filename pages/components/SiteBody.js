@@ -27,7 +27,6 @@ silverSponsors = silverSponsors.map(sponsor => {
         style: {
           background: "black",
           padding: "1.5em",
-          height: 175,
         },
       },
     };

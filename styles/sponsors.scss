@@ -37,6 +37,7 @@
     }
     .sponsors--logo {
       height: 150px;
+      max-width: 380px;
     }
   }
   &_silver {
@@ -44,7 +45,8 @@
       color: #8f8f8f;
     }
     .sponsors--logo {
-      height: 100px;
+      height: 140px;
+      max-width: 200px;
     }
   }
   &_bronze {
@@ -52,7 +54,7 @@
       color: #942e00;
     }
     .sponsors--logo {
-      height: 70px;
+      height: 60px;
     }
   }
   &_partners {
@@ -60,7 +62,7 @@
       grid-column: 1 / span 6;
     }
     .sponsors--logo {
-      height: 70px;
+      height: 40px;
     }
   }
 }
