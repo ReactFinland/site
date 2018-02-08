@@ -1,6 +1,7 @@
 .sponsors {
   @extend .grid;
   @extend .grid_6col;
+  margin-top: 2em;
   margin-bottom: 2em;
 
   &--heading {
