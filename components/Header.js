@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "./Link";
 import Navigation from "./Navigation";
 import logo from "assets/img/logo.svg";
 import navigationPages from "./navigation-pages";
@@ -9,7 +10,7 @@ const Header = ({ pathname, title }) => {
     <header className={isHomePage ? "header header_index" : "header"}>
       <div className="header--container container grid grid_6col">
         <Navigation pathname={pathname} pages={navigationPages} />
-        <a href="/" className="rubric site-name header--logo">
+        <Link to="/" className="rubric site-name header--logo">
           <h1 className="logo">
             <img
               src={logo}
@@ -23,7 +24,7 @@ const Header = ({ pathname, title }) => {
               <span className="logo--text logo--text-bottom">Finland</span>
             </span>
           </h1>
-        </a>
+        </Link>
 
         <h2 className="header--tagline">
           Learn More about React, Explore Finland.
@@ -37,9 +38,9 @@ const Header = ({ pathname, title }) => {
         </section>
 
         <section className="header--buy">
-          <a href="/#tickets" className="buy-button">
+          <Link to="/#tickets" className="buy-button">
             Buy tickets
-          </a>
+          </Link>
         </section>
       </div>
     </header>
@@ -47,7 +48,7 @@ const Header = ({ pathname, title }) => {
     <header className="header">
       <div className="header--container container grid grid_6col">
         <Navigation pathname={pathname} pages={navigationPages} />
-        <a href="/" className="rubric site-name header--logo">
+        <Link to="/" className="rubric site-name header--logo">
           <h1 className="logo">
             <img
               src={logo}
@@ -61,7 +62,7 @@ const Header = ({ pathname, title }) => {
               <span className="logo--text logo--text-bottom">Finland</span>
             </span>
           </h1>
-        </a>
+        </Link>
         <h2 className="header--pageTitle">{title}</h2>
       </div>
     </header>
