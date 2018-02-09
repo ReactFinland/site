@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import slugify from "./slugify";
+import { slugify } from "../utils";
 
 class AnchorContext extends React.Component {
   constructor() {

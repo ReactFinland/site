@@ -4,4 +4,4 @@ const slugify = idBase =>
     .replace(/`/g, "")
     .replace(/[^\w]+/g, "-");
 
-module.exports = slugify;
+export default slugify;

@@ -1,5 +1,5 @@
 import React from "react";
-import slugify from "./slugify";
+import { slugify } from "../utils";
 
 const SessionSpeakers = ({ speakers = [] }) => (
   <span className="session--speakers">
