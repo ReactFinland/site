@@ -3,16 +3,16 @@ import { content } from "@react-finland/content-2018";
 import { AnchorHeader, Contacts, Markdown } from "components";
 import ContactMini from "./ContactMini";
 
+const page = content.pages.find(({ id }) => id === "index");
+
 const SiteIndex = ({ section }) => (
   <Fragment>
     <section className="intro intro_home">
       <div className="intro--main">
-        <Markdown source={require("./intro.md")} />
+        <Markdown source={page.intro} />
       </div>
       <aside className="intro--aside">
-        <Markdown
-          source={`By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduct.org/).`}
-        />
+        <Markdown source={page.secondary} />
       </aside>
     </section>
     <AnchorHeader level={2}>Speakers</AnchorHeader>

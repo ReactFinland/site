@@ -3,11 +3,13 @@ import { content } from "@react-finland/content-2018";
 import { AnchorHeader, Contacts, Markdown } from "components";
 import Organizer from "./Organizer";
 
+const page = content.pages.find(({ id }) => id === "about");
+
 const AboutIndex = ({ section }) => (
   <Fragment>
     <section className="intro intro_about">
       <div className="intro--main">
-        <Markdown source={require("./intro.md")} />
+        <Markdown source={page.intro} />
       </div>
       <aside className="intro--aside" />
     </section>

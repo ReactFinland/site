@@ -1,4 +1,5 @@
 const path = require("path");
+const { content: { pages } } = require("@react-finland/content-2018");
 
 const description =
   "React Finland (24-26.4.2018, Helsinki) is a conference that comes with a workshop day and two days of talks.";
@@ -10,78 +11,16 @@ module.exports = () => ({
   output: "build",
   layout: () => require("./layouts/SiteBody").default,
   paths: {
-    "/": () => {
-      const page = require("./pages/index").default;
+    "/": page("index"),
+    "for-attendees": page("for-attendees"),
+    "for-sponsors": page("for-sponsors"),
+    about: page("about"),
+    imprint: page("imprint"),
+    "privacy-policy": page("privacy-policy"),
+    schedule: page("schedule"),
+    speakers: page("speakers"),
+    workshops: page("workshops"),
 
-      page.description = description;
-      page.title = "Learn More about React, Explore Finland";
-
-      return page;
-    },
-    "for-attendees": () => {
-      const page = require("./pages/for-attendees").default;
-
-      page.description = description;
-      page.title = "For Attendees";
-
-      return page;
-    },
-    "for-sponsors": () => {
-      const page = require("./pages/for-sponsors").default;
-
-      page.description = description;
-      page.title = "For Sponsors";
-
-      return page;
-    },
-    about: () => {
-      const page = require("./pages/about").default;
-
-      page.description = description;
-      page.title = "About";
-
-      return page;
-    },
-    imprint: () => {
-      const page = require("./pages/imprint").default;
-
-      page.description = description;
-      page.title = "Imprint";
-
-      return page;
-    },
-    "privacy-policy": () => {
-      const page = require("./pages/privacy-policy").default;
-
-      page.description = description;
-      page.title = "Privacy Policy";
-
-      return page;
-    },
-    schedule: () => {
-      const page = require("./pages/schedule").default;
-
-      page.description = description;
-      page.title = "Schedule";
-
-      return page;
-    },
-    speakers: () => {
-      const page = require("./pages/speakers").default;
-
-      page.description = description;
-      page.title = "Speakers";
-
-      return page;
-    },
-    workshops: () => {
-      const page = require("./pages/workshops").default;
-
-      page.description = description;
-      page.title = "Workshops";
-
-      return page;
-    },
     // Redirects
     // TODO: Push these to a webpack plugin
     organizers: {
@@ -101,3 +40,19 @@ module.exports = () => ({
     },
   },
 });
+
+function page(name) {
+  const ret = () => {
+    const pageComponent = require(`./pages/${name}`).default;
+    const pageData = pages.find(({ id }) => id === name);
+
+    pageComponent.description = pageData.description;
+    pageComponent.title = pageData.title;
+
+    return pageComponent;
+  };
+
+  ret.name = name;
+
+  return ret;
+}
