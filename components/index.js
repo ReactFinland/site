@@ -7,6 +7,7 @@ export { default as Header } from "./Header";
 export { default as Link } from "./Link";
 export { default as Navigation } from "./Navigation";
 export { default as Markdown } from "./Markdown";
+export { default as Meta } from "./Meta";
 export { default as Organizer } from "./Organizer";
 export { default as Schedule } from "./Schedule";
 export { default as SessionSpeakers } from "./SessionSpeakers";

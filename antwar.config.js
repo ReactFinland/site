@@ -5,6 +5,9 @@ module.exports = () => ({
   apiUrl: "http://api.react-finland.fi/graphql-2018",
   template: {
     file: path.resolve(__dirname, "templates/page.ejs"),
+    context: {
+      helmet: {},
+    },
   },
   renderPage: require("./utils/render-page"),
   output: "build",

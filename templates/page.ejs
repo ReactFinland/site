@@ -1,38 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" <%- htmlWebpackPlugin.options.context.helmet.htmlAttributes %>>
   <head>
-    <meta charset="UTF-8">
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
-    <meta
-      name="description"
-      content="<%= htmlWebpackPlugin.options.context.description %>" />
-    <meta
-      name="keywords"
-      content="<%= htmlWebpackPlugin.options.context.keywords %>" />
-    <meta property="og:site_name" content="React Finland" />
-    <meta property="og:title" content="<%= htmlWebpackPlugin.options.context.title %>" />
-    <meta property="og:description" content="<%= htmlWebpackPlugin.options.context.description %>" />
-    <meta property="og:image" content="/meta-image.png" />
-    <meta name="twitter:title" content="<%= htmlWebpackPlugin.options.context.title %>" />
-    <meta name="twitter:description" content="<%= htmlWebpackPlugin.options.context.description %>" />
-    <meta name="twitter:site" content="@ReactFinland" />
-    <meta name="twitter:image" content="./meta-image.png" />
-    <title>React Finland - <%= htmlWebpackPlugin.options.context.title %></title>
-    <% if (htmlWebpackPlugin.options.context.rss) { %>
-    <link rel="alternate" type="application/atom+xml" href="<%= htmlWebpackPlugin.options.context.rss.href %>" title="<%= htmlWebpackPlugin.options.context.rss.title %>">
-    <% } %>
-    <link rel='icon' type='image/png' href='/favicon.png'></link>
-
+    <%- htmlWebpackPlugin.options.context.helmet.title %>
+    <%- htmlWebpackPlugin.options.context.helmet.meta %>
+    <%- htmlWebpackPlugin.options.context.helmet.link %>
+    <%- htmlWebpackPlugin.options.context.helmet.style %>
     <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1.1" />
     <% for (var file of htmlWebpackPlugin.options.context.cssFiles) { %>
       <link href="<%= file %>" rel="stylesheet">
     <% } %>
   </head>
-  <body>
+  <body <%- htmlWebpackPlugin.options.context.helmet.bodyAttributes %>>
     <%- webpackConfig.html %>
 
+    <%- htmlWebpackPlugin.options.context.helmet.noscript %>
+    <%- htmlWebpackPlugin.options.context.helmet.script %>
     <script src="https://js.tito.io/v1" async></script>
     <% for (var script of htmlWebpackPlugin.options.context.jsFiles) { %>
       <script src="<%= script %>" type="text/javascript"></script>

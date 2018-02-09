@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const AnchorHeader = ({ level, anchor, children }, { getId }) => {
-  let id = getId(anchor, children);
+  let id = getId && getId(anchor, children);
 
   return React.createElement(`h${level}`, { className: "heading" }, [
     <a className="heading--anchor" href={`#${id}`} id={id} key="anchor" />,
