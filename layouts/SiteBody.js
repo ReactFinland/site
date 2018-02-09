@@ -1,8 +1,8 @@
 import React from "react";
 import { content } from "@react-finland/content-2018";
 import {
-  AnchorContext,
   AnchorHeader,
+  AnchorProvider,
   Contacts,
   Header,
   Footer,
@@ -58,7 +58,7 @@ const SiteBody = ({
   location: { pathname },
   page: { file: { title } },
 }) => (
-  <AnchorContext>
+  <AnchorProvider>
     <main>
       <Header pathname={pathname} title={title} />
       <div className="main-container container">
@@ -111,7 +111,7 @@ const SiteBody = ({
       <Subscribe />
       <Footer />
     </main>
-  </AnchorContext>
+  </AnchorProvider>
 );
 
 export default SiteBody;

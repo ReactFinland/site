@@ -1,5 +1,5 @@
-export { default as AnchorContext } from "./AnchorContext";
 export { default as AnchorHeader } from "./AnchorHeader";
+export { default as AnchorProvider } from "./AnchorProvider";
 export { default as Contacts } from "./Contacts";
 export { default as Contact } from "./Contact";
 export { default as Header } from "./Header";

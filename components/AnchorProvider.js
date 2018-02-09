@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { slugify } from "../utils";
 
-class AnchorContext extends React.Component {
+class AnchorProvider extends React.Component {
   constructor() {
     super();
 
@@ -34,8 +34,8 @@ class AnchorContext extends React.Component {
     return this.props.children;
   }
 }
-AnchorContext.childContextTypes = {
+AnchorProvider.childContextTypes = {
   getId: PropTypes.func,
 };
 
-export default AnchorContext;
+export default AnchorProvider;
