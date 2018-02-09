@@ -1,6 +1,6 @@
 import React from "react";
 import ReactCountryFlag from "react-country-flag";
-import { AnchorHeader, Keywords, Markdown } from "../components";
+import { AnchorHeader, Keywords, Markdown } from "components";
 
 const Organizer = ({ name, image, about }) => (
   <figure className="organizer" key={name}>

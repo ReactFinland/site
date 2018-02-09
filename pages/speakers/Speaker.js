@@ -1,5 +1,5 @@
 import React from "react";
-import { Contact, Contacts } from "../components";
+import { Contact, Contacts } from "components";
 import SessionLink from "./SessionLink";
 import Talk from "./Talk.js";
 

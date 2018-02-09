@@ -1,5 +1,5 @@
 import React from "react";
-import { AnchorHeader, Markdown } from "../components";
+import { AnchorHeader, Markdown } from "components";
 
 const TYPES = {
   keynote: "🗝",

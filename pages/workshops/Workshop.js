@@ -1,5 +1,5 @@
 import React from "react";
-import { AnchorHeader, Markdown, SessionSpeakers } from "../components";
+import { AnchorHeader, Markdown, SessionSpeakers } from "components";
 
 const Workshop = ({ speakers, title, description, headerLevel = 2 }) => (
   <div className="workshop">

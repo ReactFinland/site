@@ -9,14 +9,14 @@ import {
   Markdown,
   Sponsor,
   Subscribe,
-} from "./";
+} from "../components";
 
 let { partners, goldSponsors, silverSponsors, bronzeSponsors } = content;
 
 import "normalize.css/normalize.css";
-import "../../styles/fontello-codes.css";
-import "../../styles/fontello-embedded.css";
-import "../../styles/style.scss";
+import "../styles/fontello-codes.css";
+import "../styles/fontello-embedded.css";
+import "../styles/style.scss";
 
 // Tweak Nitor
 silverSponsors = silverSponsors.map(sponsor => {

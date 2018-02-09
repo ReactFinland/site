@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { content } from "@react-finland/content-2018";
-import { AnchorHeader, Contacts, Markdown } from "../components";
+import { AnchorHeader, Contacts, Markdown } from "components";
 import Organizer from "./Organizer";
 
 const AboutIndex = ({ section }) => (

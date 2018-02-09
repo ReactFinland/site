@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { AnchorHeader, Contacts, Markdown } from "../components";
+import { AnchorHeader, Contacts, Markdown } from "components";
 
 const SponsorIndex = ({ section }) => (
   <Fragment>

@@ -68,6 +68,7 @@ function commonConfig() {
     resolve: {
       alias: {
         assets: path.resolve(__dirname, "assets"),
+        components: path.resolve(__dirname, "components"),
       },
     },
   };

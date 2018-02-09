@@ -8,7 +8,7 @@ module.exports = () => ({
     file: path.resolve(__dirname, "templates/page.ejs"),
   },
   output: "build",
-  layout: () => require("./pages/components/SiteBody").default,
+  layout: () => require("./layouts/SiteBody").default,
   paths: {
     "/": () => {
       const page = require("./pages/index").default;

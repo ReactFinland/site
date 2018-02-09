@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Markdown } from "../components";
+import { Markdown } from "components";
 
 const ScheduleIndex = ({ section }) => (
   <Fragment>

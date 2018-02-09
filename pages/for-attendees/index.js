@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Interactive from "antwar-interactive";
-import { AnchorHeader, Markdown } from "../components";
+import { AnchorHeader, Markdown } from "components";
 import VenueGallery from "./VenueGallery";
 
 const AttendeeIndex = ({ section }) => (

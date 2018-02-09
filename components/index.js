@@ -8,7 +8,6 @@ export { default as Navigation } from "./Navigation";
 export { default as Markdown } from "./Markdown";
 export { default as Schedule } from "./Schedule";
 export { default as SessionSpeakers } from "./SessionSpeakers";
-export { default as SiteBody } from "./SiteBody";
 export { default as slugify } from "./slugify";
 export { default as Subscribe } from "./Subscribe";
 export { default as Sponsor } from "./Sponsor";
