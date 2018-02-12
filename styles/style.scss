@@ -80,6 +80,16 @@ h6 {
 h2 {
   font-size: 2em;
 }
+h2::after {
+  position: relative;
+  display: block;
+  height: $pu / 4;
+  width: 100%;
+  margin-top: $pu;
+  margin-bottom: $pu;
+  background-color: $rf-light-blue;
+  content: "";
+}
 
 h3 {
   font-size: 1.25em;
@@ -88,16 +98,22 @@ h3 {
 .heading {
   @extend .grid--5col;
   &--anchor {
-    position: relative;
-    color: inherit;
+    display: block;
     text-decoration: none;
+    top: -75px;
+    visibility: hidden;
+  }
 
-    &:hover::before {
-      position: absolute;
-      left: -1em;
-      color: #ccc;
-      content: "#";
-    }
+  &--anchor-select {
+    visibility: hidden;
+    padding-left: $pu;
+    text-decoration: none;
+    color: #ccc;
+    border-bottom: $pu solid $rf-light-blue;
+  }
+
+  &:hover &--anchor-select {
+    visibility: visible;
   }
 }
 
