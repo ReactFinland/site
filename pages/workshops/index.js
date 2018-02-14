@@ -1,12 +1,21 @@
 import React from "react";
-import { content } from "@react-finland/content-2018";
-import { Contacts } from "components";
+import { Contacts, connect } from "components";
 import Workshop from "./Workshop";
 
-const WorkshopIndex = ({ section }) => (
+const Workshops = ({ workshops }) => (
   <div className="grid grid--5col">
-    <Contacts items={content.workshops} render={Workshop} />
+    <Contacts items={workshops} render={Workshop} />
   </div>
 );
 
-export default WorkshopIndex;
+export default connect(`
+{
+  workshops {
+    speakers {
+      name, about, image
+    }
+    title,
+    description
+  }
+}
+`)(Workshops);

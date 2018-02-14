@@ -1,5 +1,4 @@
 import React from "react";
-import { content } from "@react-finland/content-2018";
 import {
   AnchorHeader,
   AnchorProvider,
@@ -9,54 +8,22 @@ import {
   Markdown,
   Sponsor,
   Subscribe,
+  connect,
 } from "../components";
-
-let { partners, goldSponsors, silverSponsors, bronzeSponsors } = content;
 
 import "normalize.css/normalize.css";
 import "../styles/fontello-codes.css";
 import "../styles/fontello-embedded.css";
 import "../styles/style.scss";
 
-// Tweak Nitor
-silverSponsors = silverSponsors.map(sponsor => {
-  if (sponsor.name === "Nitor") {
-    return {
-      ...sponsor,
-      logoProps: {
-        style: {
-          background: "black",
-          padding: "1.5em",
-        },
-      },
-    };
-  }
-
-  return sponsor;
-});
-
-// Tweak Rohea
-bronzeSponsors = bronzeSponsors.map(sponsor => {
-  if (sponsor.name === "Rohea") {
-    return {
-      ...sponsor,
-      logoProps: {
-        style: {
-          background: "black",
-          padding: "1em",
-        },
-      },
-    };
-  }
-
-  return sponsor;
-});
-
 const SiteBody = ({
   children,
-  section,
   location: { pathname },
   page: { file: { title } },
+  partners = [],
+  goldSponsors = [],
+  silverSponsors = [],
+  bronzeSponsors = [],
 }) => (
   <AnchorProvider>
     <main>
@@ -114,4 +81,50 @@ const SiteBody = ({
   </AnchorProvider>
 );
 
-export default SiteBody;
+function tweakSilverSponsors(sponsors) {
+  // Tweak Nitor
+  return sponsors.map(sponsor => {
+    if (sponsor.name === "Nitor") {
+      return {
+        ...sponsor,
+        logoProps: {
+          style: {
+            background: "black",
+            padding: "1.5em",
+          },
+        },
+      };
+    }
+
+    return sponsor;
+  });
+}
+
+function tweakBronzeSponsors(sponsors) {
+  // Tweak Rohea
+  return sponsors.map(sponsor => {
+    if (sponsor.name === "Rohea") {
+      return {
+        ...sponsor,
+        logoProps: {
+          style: {
+            background: "black",
+            padding: "1em",
+          },
+        },
+      };
+    }
+
+    return sponsor;
+  });
+}
+
+const sponsorQuery = `{ name, social { homepage }, about, image }`;
+export default connect(`
+{
+  partners ${sponsorQuery},
+  goldSponsors ${sponsorQuery},
+  silverSponsors ${sponsorQuery},
+  bronzeSponsors ${sponsorQuery},
+}
+`)(SiteBody);

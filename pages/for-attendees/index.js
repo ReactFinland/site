@@ -1,12 +1,9 @@
 import React, { Fragment } from "react";
 import Interactive from "antwar-interactive";
-import { content } from "@react-finland/content-2018";
-import { AnchorHeader, Markdown } from "components";
+import { AnchorHeader, Markdown, connect } from "components";
 import VenueGallery from "./VenueGallery";
 
-const page = content.pages.find(({ id }) => id === "for-attendees");
-
-const AttendeeIndex = ({ section }) => (
+const ForAttendees = ({ page = {} }) => (
   <Fragment>
     <section className="intro intro_attendees">
       <div className="intro--main">
@@ -31,4 +28,10 @@ const AttendeeIndex = ({ section }) => (
   </Fragment>
 );
 
-export default AttendeeIndex;
+export default connect(`
+{
+  page(id: "for-attendees") {
+    intro, secondary, main
+  }
+}
+`)(ForAttendees);

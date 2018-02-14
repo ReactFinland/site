@@ -1,11 +1,8 @@
 import React, { Fragment } from "react";
-import { content } from "@react-finland/content-2018";
-import { AnchorHeader, Contacts, Markdown } from "components";
+import { AnchorHeader, Contacts, Markdown, connect } from "components";
 import Organizer from "./Organizer";
 
-const page = content.pages.find(({ id }) => id === "about");
-
-const AboutIndex = ({ section }) => (
+const About = ({ page = {}, organizers }) => (
   <Fragment>
     <section className="intro intro_about">
       <div className="intro--main">
@@ -22,7 +19,7 @@ const AboutIndex = ({ section }) => (
       </p>
     </div>
     <div className="grid--full organizers">
-      <Contacts items={content.organizers} render={Organizer} />
+      <Contacts items={organizers} render={Organizer} />
     </div>
     <div className="grid--5col">
       <p>
@@ -39,4 +36,13 @@ const AboutIndex = ({ section }) => (
   </Fragment>
 );
 
-export default AboutIndex;
+export default connect(`
+{
+  organizers {
+    name, image, about
+  },
+  page(id: "about") {
+    intro
+  }
+}
+`)(About);

@@ -1,17 +1,20 @@
 import React, { Fragment } from "react";
-import { content } from "@react-finland/content-2018";
-import { Markdown } from "components";
+import { Markdown, connect } from "components";
 
-const page = content.pages.find(({ id }) => id === "imprint");
-
-const Imprint = ({ section }) => (
+const Imprint = ({ page: { main } }) => (
   <Fragment>
     <section className="intro intro_about">
       <div className="intro--main">
-        <Markdown source={page.main} />
+        <Markdown source={main} />
       </div>
     </section>
   </Fragment>
 );
 
-export default Imprint;
+export default connect(`
+{
+  page(id: "imprint") {
+    main
+  }
+}
+`)(Imprint);

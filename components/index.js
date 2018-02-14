@@ -11,3 +11,4 @@ export { default as SessionSpeakers } from "./SessionSpeakers";
 export { default as Subscribe } from "./Subscribe";
 export { default as Sponsor } from "./Sponsor";
 export { default as Footer } from "./Footer";
+export { default as connect } from "./connect";

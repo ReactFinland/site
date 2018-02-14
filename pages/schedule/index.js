@@ -1,10 +1,7 @@
 import React, { Fragment } from "react";
-import { content } from "@react-finland/content-2018";
-import { Markdown } from "components";
+import { Markdown, connect } from "components";
 
-const page = content.pages.find(({ id }) => id === "schedule");
-
-const ScheduleIndex = ({ section }) => (
+const Schedule = ({ page = {} }) => (
   <Fragment>
     <section className="intro intro_schedule">
       <div className="intro--main">
@@ -18,4 +15,10 @@ const ScheduleIndex = ({ section }) => (
   </Fragment>
 );
 
-export default ScheduleIndex;
+export default connect(`
+{
+  page(id: "schedule") {
+    intro, main
+  }
+}
+`)(Schedule);

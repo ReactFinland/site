@@ -13,10 +13,11 @@ antwar[environment]({
   antwar: require("./antwar.config"),
   webpack: require("./webpack.config"),
 })
-  .then(
-    () =>
-      environment !== "build" && console.log("Surf to http://localhost:3000")
-  )
+  .then(() => {
+    if (environment !== "build") {
+      console.log("Surf to http://localhost:3000");
+    }
+  })
   .catch(err => {
     console.error(err);
 

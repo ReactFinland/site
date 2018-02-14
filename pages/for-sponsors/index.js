@@ -1,10 +1,7 @@
 import React, { Fragment } from "react";
-import { content } from "@react-finland/content-2018";
-import { AnchorHeader, Contacts, Markdown } from "components";
+import { AnchorHeader, Contacts, Markdown, connect } from "components";
 
-const page = content.pages.find(({ id }) => id === "for-sponsors");
-
-const SponsorIndex = ({ section }) => (
+const ForSponsors = ({ page = {} }) => (
   <Fragment>
     <section className="intro intro_sponsors">
       <div className="intro--main">
@@ -18,4 +15,10 @@ const SponsorIndex = ({ section }) => (
   </Fragment>
 );
 
-export default SponsorIndex;
+export default connect(`
+{
+  page(id: "for-sponsors") {
+    intro, main
+  }
+}
+`)(ForSponsors);
