@@ -15,11 +15,7 @@ const ForAttendees = ({ page = {} }) => (
       <Markdown source={page.secondary} />
     </div>
     <div className="grid--full">
-      <Interactive
-        id="components/VenueGallery.js"
-        component={VenueGallery}
-        containerProps={{ className: "venue-lightbox" }}
-      />
+      <Interactive id="components/VenueGallery.js" component={VenueGallery} />
     </div>
     <div className="grid--5col">
       <Markdown source={page.main} />
