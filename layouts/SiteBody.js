@@ -1,4 +1,5 @@
 import React from "react";
+import { hot } from "react-hot-loader";
 import {
   AnchorHeader,
   AnchorProvider,
@@ -120,11 +121,13 @@ function tweakBronzeSponsors(sponsors) {
 }
 
 const sponsorQuery = `{ name, social { homepage }, about, image }`;
-export default connect(`
+export default hot(module)(
+  connect(`
 {
   partners ${sponsorQuery},
   goldSponsors ${sponsorQuery},
   silverSponsors ${sponsorQuery},
   bronzeSponsors ${sponsorQuery},
 }
-`)(SiteBody);
+`)(SiteBody)
+);

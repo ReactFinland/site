@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import {
   AnchorHeader,
   Contacts,
@@ -8,7 +8,7 @@ import {
 } from "components";
 
 const About = ({ page = {}, organizers }) => (
-  <Fragment>
+  <>
     <section className="intro intro_about">
       <div className="intro--main">
         <Markdown source={page.intro} />
@@ -38,7 +38,7 @@ const About = ({ page = {}, organizers }) => (
         with speakers and visitors from all around the world.
       </p>
     </div>
-  </Fragment>
+  </>
 );
 
 export default connect(`

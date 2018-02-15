@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { graphqlSync } from "graphql";
 import { schema } from "@react-finland/content-2018";
 

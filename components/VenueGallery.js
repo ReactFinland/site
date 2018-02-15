@@ -1,6 +1,6 @@
 import React from "react";
 import Gallery from "react-photo-gallery";
-import Lightbox from "react-images";
+import Lightbox from "react-image-lightbox";
 
 const PHOTOS = [
   {
@@ -36,27 +36,25 @@ const PHOTOS = [
 ];
 
 class VenueGallery extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = { currentImage: 0 };
     this.closeLightbox = this.closeLightbox.bind(this);
     this.openLightbox = this.openLightbox.bind(this);
-    this.gotoNext = this.gotoNext.bind(this);
-    this.gotoPrevious = this.gotoPrevious.bind(this);
   }
   render() {
+    const currentImage = this.state.currentImage;
+
     return (
       <div>
         <Gallery photos={PHOTOS} onClick={this.openLightbox} />
-        <Lightbox
-          images={PHOTOS}
-          onClose={this.closeLightbox}
-          onClickPrev={this.gotoPrevious}
-          onClickNext={this.gotoNext}
-          currentImage={this.state.currentImage}
-          isOpen={this.state.lightboxIsOpen}
-        />
+        {this.state.lightboxIsOpen && (
+          <Lightbox
+            mainSrc={PHOTOS[currentImage].src}
+            onCloseRequest={this.closeLightbox}
+          />
+        )}
       </div>
     );
   }
@@ -68,18 +66,7 @@ class VenueGallery extends React.Component {
   }
   closeLightbox() {
     this.setState(() => ({
-      currentImage: 0,
       lightboxIsOpen: false,
-    }));
-  }
-  gotoPrevious() {
-    this.setState(previousState => ({
-      currentImage: previousState.currentImage - 1,
-    }));
-  }
-  gotoNext() {
-    this.setState(previousState => ({
-      currentImage: previousState.currentImage + 1,
     }));
   }
 }

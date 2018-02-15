@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import {
   AnchorHeader,
   Contacts,
@@ -8,7 +8,7 @@ import {
 } from "components";
 
 const Index = ({ page = {}, speakers }) => (
-  <Fragment>
+  <>
     <section className="intro intro_home">
       <div className="intro--main">
         <Markdown source={page.intro} />
@@ -25,7 +25,7 @@ const Index = ({ page = {}, speakers }) => (
     <div className="grid--full">
       <tito-widget event="react-finland/2018" />
     </div>
-  </Fragment>
+  </>
 );
 
 export default connect(`

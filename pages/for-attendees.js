@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Interactive from "antwar-interactive";
 import { AnchorHeader, Markdown, VenueGallery, connect } from "components";
 
 const ForAttendees = ({ page = {} }) => (
-  <Fragment>
+  <>
     <section className="intro intro_attendees">
       <div className="intro--main">
         <Markdown source={page.intro} />
@@ -16,7 +16,7 @@ const ForAttendees = ({ page = {} }) => (
     </div>
     <div className="grid--full">
       <Interactive
-        id="pages/for-attendees/VenueGallery.js"
+        id="components/VenueGallery.js"
         component={VenueGallery}
         containerProps={{ className: "venue-lightbox" }}
       />
@@ -24,7 +24,7 @@ const ForAttendees = ({ page = {} }) => (
     <div className="grid--5col">
       <Markdown source={page.main} />
     </div>
-  </Fragment>
+  </>
 );
 
 export default connect(`

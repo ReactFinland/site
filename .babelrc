@@ -1,16 +1,17 @@
 {
   "presets": [
     [
-      "es2015",
+      "@babel/preset-env",
       {
         "modules": false
       }
     ],
-    "react"
+    "@babel/preset-react"
   ],
   "plugins": [
-    "syntax-object-rest-spread",
-    "transform-object-rest-spread"
+    "@babel/plugin-syntax-object-rest-spread",
+    "@babel/plugin-proposal-object-rest-spread",
+    "react-hot-loader/babel"
   ],
   "env": {
     "start": {

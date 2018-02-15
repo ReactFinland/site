@@ -21,7 +21,7 @@ function commonConfig() {
     module: {
       rules: [
         {
-          test: /\.(js|jsx)$/,
+          test: /\.js$/,
           use: "babel-loader",
           include: [
             path.join(__dirname, "components"),
@@ -31,13 +31,15 @@ function commonConfig() {
           ],
         },
         {
-          test: /\.woff(2)?$/,
-          use:
-            "url-loader?prefix=font/&limit=5000&mimetype=application/font-woff",
-        },
-        {
-          test: /\.ttf$|\.eot$/,
-          use: "file-loader?prefix=font/",
+          test: /\.woff(2)?|\.ttf$|\.eot$/,
+          use: [
+            {
+              loader: "url-loader",
+              options: {
+                limit: 5000,
+              },
+            },
+          ],
         },
         {
           test: /\.gif$/,
