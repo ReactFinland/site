@@ -1,6 +1,5 @@
 import React from "react";
-import { Contacts, connect } from "components";
-import Workshop from "./Workshop";
+import { Contacts, Workshop, connect } from "components";
 
 const Workshops = ({ workshops }) => (
   <div className="grid grid--5col">

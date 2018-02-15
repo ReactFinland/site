@@ -1,6 +1,5 @@
 import React from "react";
-import { Contacts, connect } from "components";
-import Speaker from "./Speaker";
+import { Contacts, Speaker, connect } from "components";
 
 const Speakers = ({ speakers }) => (
   <div className="grid--5col" id="schedule">

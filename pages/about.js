@@ -1,6 +1,11 @@
 import React, { Fragment } from "react";
-import { AnchorHeader, Contacts, Markdown, connect } from "components";
-import Organizer from "./Organizer";
+import {
+  AnchorHeader,
+  Contacts,
+  Markdown,
+  Organizer,
+  connect,
+} from "components";
 
 const About = ({ page = {}, organizers }) => (
   <Fragment>

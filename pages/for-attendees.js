@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import Interactive from "antwar-interactive";
-import { AnchorHeader, Markdown, connect } from "components";
-import VenueGallery from "./VenueGallery";
+import { AnchorHeader, Markdown, VenueGallery, connect } from "components";
 
 const ForAttendees = ({ page = {} }) => (
   <Fragment>

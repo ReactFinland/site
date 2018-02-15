@@ -1,6 +1,11 @@
 import React, { Fragment } from "react";
-import { AnchorHeader, Contacts, Markdown, connect } from "components";
-import ContactMini from "./ContactMini";
+import {
+  AnchorHeader,
+  Contacts,
+  ContactMini,
+  Markdown,
+  connect,
+} from "components";
 
 const Index = ({ page = {}, speakers }) => (
   <Fragment>
