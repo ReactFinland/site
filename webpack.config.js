@@ -1,6 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const RedirectWebpackPlugin = require("redirect-webpack-plugin");
 const merge = require("webpack-merge");
 
 module.exports = env => {
@@ -128,6 +129,13 @@ function buildConfig() {
       }),
       new webpack.DefinePlugin({
         window: `false`,
+      }),
+      new RedirectWebpackPlugin({
+        redirects: {
+          organizers: "/about/",
+          presentations: "/speakers/",
+          talks: "/speakers/",
+        },
       }),
     ],
   };

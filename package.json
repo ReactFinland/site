@@ -76,6 +76,7 @@
     "raw-loader": "^0.5.1",
     "react-hot-loader": "^4.0.0-beta.22",
     "react-router": "^4.2.0",
+    "redirect-webpack-plugin": "^0.1.1",
     "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
     "sitemap-static": "^0.4.2",

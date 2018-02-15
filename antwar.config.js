@@ -17,24 +17,6 @@ module.exports = () => ({
     schedule: page("schedule"),
     speakers: page("speakers"),
     workshops: page("workshops"),
-
-    // Redirects
-    // TODO: Push these to a webpack plugin
-    organizers: {
-      redirects: {
-        "/": "/about/",
-      },
-    },
-    presentations: {
-      redirects: {
-        "/": "/talks/",
-      },
-    },
-    talks: {
-      redirects: {
-        "/": "/speakers/",
-      },
-    },
   },
 });
 
