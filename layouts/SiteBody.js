@@ -49,7 +49,10 @@ const SiteBody = ({
                 🥈 Silver Sponsors
               </AnchorHeader>
               <section className="sponsors--list">
-                <Contacts items={silverSponsors} render={Sponsor} />
+                <Contacts
+                  items={tweakSilverSponsors(silverSponsors)}
+                  render={Sponsor}
+                />
                 {silverSponsors.length < 3 && (
                   <a href="/for-sponsors/">Become a sponsor</a>
                 )}
@@ -60,7 +63,10 @@ const SiteBody = ({
                 🥉 Bronze Sponsors
               </AnchorHeader>
               <section className="sponsors--list">
-                <Contacts items={bronzeSponsors} render={Sponsor} />
+                <Contacts
+                  items={tweakBronzeSponsors(bronzeSponsors)}
+                  render={Sponsor}
+                />
                 {bronzeSponsors.length < 4 && (
                   <a href="/for-sponsors/">Become a sponsor</a>
                 )}
