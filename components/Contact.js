@@ -39,19 +39,19 @@ const Contact = ({
         {social.homepage && <a href={social.homepage}>{social.homepage}</a>}
 
         {social.github && (
-          <a href={`https://github.com/${social.github}`}>
+          <a href={social.github}>
             <i className="icon-github-circled" />
           </a>
         )}
 
         {social.twitter && (
-          <a href={`https://twitter.com/${social.twitter}`}>
+          <a href={social.twitter}>
             <i className="icon-twitter" />
           </a>
         )}
 
         {social.linkedin && (
-          <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
+          <a href={social.linkedin}>
             <i className="icon-linkedin-squared" />
           </a>
         )}

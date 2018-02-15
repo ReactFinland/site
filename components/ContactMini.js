@@ -27,13 +27,7 @@ const ContactMini = ({ name, about, social, image }) => (
 );
 
 function resolveSocialLink(social) {
-  if (social.homepage) {
-    return social.homepage;
-  }
-
-  if (social.twitter) {
-    return `https://twitter.com/${social.twitter}`;
-  }
+  return social.homepage || social.twitter;
 }
 
 export default ContactMini;

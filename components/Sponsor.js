@@ -11,34 +11,15 @@ const SponsorContent = ({ about, image, name, props }) => (
 
 const Sponsor = ({ name, about, social, image, logoProps }) => (
   <figure className="sponsors--item">
-    {resolveSocialLink(social) ? (
-      <a href={resolveSocialLink(social)} title={`${name}—${about}`}>
-        <SponsorContent
-          about={about}
-          image={image}
-          name={name}
-          props={logoProps}
-        />
-      </a>
-    ) : (
+    <a href={social.homepage} title={`${name} — ${about}`}>
       <SponsorContent
         about={about}
         image={image}
         name={name}
         props={logoProps}
       />
-    )}
+    </a>
   </figure>
 );
-
-function resolveSocialLink(social) {
-  if (social.homepage) {
-    return social.homepage;
-  }
-
-  if (social.twitter) {
-    return `https://twitter.com/${social.twitter}`;
-  }
-}
 
 export default Sponsor;

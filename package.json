@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@react-finland/content-2018": "^11.6.2",
+    "@react-finland/content-2018": "^12.0.0",
     "antwar": "^0.22.1",
     "antwar-interactive": "^0.21.0",
     "classnames": "^2.2.5",
