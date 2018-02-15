@@ -1,6 +1,6 @@
 import React from "react";
 
-const Subscribe = ({ type }) => {
+const Subscribe = () => {
   return (
     <section className="subscribe">
       <div className="subscribe--wrapper">

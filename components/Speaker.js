@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Contact, Contacts } from "components";
 import SessionLink from "./SessionLink";
 import Talk from "./Talk.js";
@@ -22,5 +23,10 @@ const Speaker = ({ talks, workshops, ...contact }) => (
       )}
   </Contact>
 );
+Speaker.propTypes = {
+  talks: PropTypes.array,
+  workshops: PropTypes.array,
+  contact: PropTypes.object,
+};
 
 export default Speaker;

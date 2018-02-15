@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import AnchorHeader from "./AnchorHeader";
 import Markdown from "./Markdown";
 import Keywords from "./Keywords";
@@ -27,5 +28,8 @@ const Schedule = ({ items: { intervals } }) => (
     ])}
   </dl>
 );
+Schedule.propTypes = {
+  items: PropTypes.object,
+};
 
 export default Schedule;

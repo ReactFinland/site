@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // Needed for JSX compilation to work
 require("@babel/register");
 

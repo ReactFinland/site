@@ -1,9 +1,10 @@
 import React from "react";
 import classnames from "classnames";
+import PropTypes from "prop-types";
 import Link from "./Link";
 
-const NavigationRow = ({ links, pathname, ...props }) => (
-  <ul {...props} className={classnames("nav--row", props.className)}>
+const NavigationRow = ({ links, pathname, className, ...props }) => (
+  <ul {...props} className={classnames("nav--row", className)}>
     {links.map((link, i) => {
       const linkClassNames = classnames("nav--link", {
         "nav--link_selected": link.url && link.url === pathname,
@@ -16,6 +17,12 @@ const NavigationRow = ({ links, pathname, ...props }) => (
     })}
   </ul>
 );
+NavigationRow.propTypes = {
+  links: PropTypes.array,
+  pathname: PropTypes.string,
+  className: PropTypes.string,
+  props: PropTypes.object,
+};
 
 const Navigation = ({ pages, pathname }) => (
   <nav className="nav">
@@ -24,5 +31,9 @@ const Navigation = ({ pages, pathname }) => (
     ))}
   </nav>
 );
+Navigation.propTypes = {
+  pages: PropTypes.array,
+  pathname: PropTypes.string,
+};
 
 export default Navigation;

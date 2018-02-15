@@ -1,27 +1,9 @@
+/* eslint-disable react/display-name, react/prop-types */
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import PropTypes from "prop-types";
 import AnchorHeader from "./AnchorHeader";
 import Schedule from "./Schedule";
-
-function parseCustomQuote(token, match, className) {
-  if (token.type === "paragraph") {
-    const text = token.text;
-
-    if (text.indexOf(match) === 0) {
-      const icon =
-        className === "tip" ? "icon-attention-circled" : "icon-attention";
-
-      return {
-        type: "html",
-        text: `<blockquote class="${className}"><i class="${icon}"></i>${text
-          .slice(2)
-          .trim()}</blockquote>`,
-      };
-    }
-  }
-
-  return null;
-}
 
 const Tip = ({ text }) => (
   <blockquote className="tip">
@@ -29,6 +11,9 @@ const Tip = ({ text }) => (
     {text.slice(2)}
   </blockquote>
 );
+Tip.propTypes = {
+  text: PropTypes.string,
+};
 
 const Warning = ({ text }) => (
   <blockquote className="warning">
@@ -36,6 +21,9 @@ const Warning = ({ text }) => (
     {text.slice(2)}
   </blockquote>
 );
+Warning.propTypes = {
+  text: PropTypes.string,
+};
 
 const renderers = {
   heading: ({ level, children }) => (
@@ -88,7 +76,7 @@ const renderers = {
     }
 
     // Example: {schedule:@react-finland/content-2018/schedules/25-04-2018}
-    if (/\{schedule\:[a-zA-Z@\/\-0-9]*\}/.test(text)) {
+    if (/\{schedule:[a-zA-Z@/\-0-9]*\}/.test(text)) {
       const importPath = text.slice(0, -1).split(":")[1];
       const scheduleName = importPath.split(
         "@react-finland/content-2018/src/schedules/"
@@ -109,5 +97,9 @@ const renderers = {
 const Markdown = ({ source, ...props }) => (
   <ReactMarkdown source={source} renderers={renderers} {...props} />
 );
+Markdown.propTypes = {
+  source: PropTypes.string,
+  props: PropTypes.object,
+};
 
 export default Markdown;

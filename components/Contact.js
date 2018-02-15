@@ -1,5 +1,6 @@
 import React from "react";
 import ReactCountryFlag from "react-country-flag";
+import PropTypes from "prop-types";
 import Markdown from "./Markdown";
 import AnchorHeader from "./AnchorHeader";
 
@@ -9,7 +10,6 @@ const Contact = ({
   social,
   location,
   about,
-  keywords,
   headerLevel = 2,
   children,
 }) => (
@@ -65,5 +65,14 @@ const Contact = ({
     {children}
   </section>
 );
+Contact.propTypes = {
+  name: PropTypes.string,
+  image: PropTypes.string,
+  social: PropTypes.object,
+  location: PropTypes.object,
+  about: PropTypes.string,
+  headerLevel: PropTypes.number,
+  children: PropTypes.node,
+};
 
 export default Contact;

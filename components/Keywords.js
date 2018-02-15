@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Keywords = ({ items }) => (
   <ul className="keywords">
@@ -9,5 +10,8 @@ const Keywords = ({ items }) => (
     ))}
   </ul>
 );
+Keywords.propTypes = {
+  items: PropTypes.array,
+};
 
 export default Keywords;

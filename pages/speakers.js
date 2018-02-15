@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Contacts, Speaker, connect } from "components";
 
 const Speakers = ({ speakers }) => (
@@ -6,6 +7,9 @@ const Speakers = ({ speakers }) => (
     <Contacts className="speakers" items={speakers} render={Speaker} />
   </div>
 );
+Speakers.propTypes = {
+  speakers: PropTypes.array,
+};
 
 export default connect(`
 {

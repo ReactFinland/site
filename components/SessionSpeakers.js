@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { slugify } from "../utils";
 
 const SessionSpeakers = ({ speakers = [] }) => (
@@ -24,5 +25,8 @@ const SessionSpeakers = ({ speakers = [] }) => (
     ])}
   </span>
 );
+SessionSpeakers.propTypes = {
+  speakers: PropTypes.array,
+};
 
 export default SessionSpeakers;

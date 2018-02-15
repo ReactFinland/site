@@ -1,7 +1,7 @@
 import React from "react";
-import { Markdown } from "components";
+import PropTypes from "prop-types";
 
-const ContactMiniContent = ({ about, image, name }) => [
+const ContactMiniContent = ({ image, name }) => [
   <img
     key="image"
     alt="about"
@@ -13,6 +13,10 @@ const ContactMiniContent = ({ about, image, name }) => [
     {name}
   </figcaption>,
 ];
+ContactMiniContent.propTypes = {
+  image: PropTypes.string,
+  name: PropTypes.string,
+};
 
 const ContactMini = ({ name, about, social, image }) => (
   <figure className="contact-mini">
@@ -25,6 +29,12 @@ const ContactMini = ({ name, about, social, image }) => (
     )}
   </figure>
 );
+ContactMini.propTypes = {
+  name: PropTypes.string,
+  about: PropTypes.string,
+  social: PropTypes.object,
+  image: PropTypes.string,
+};
 
 function resolveSocialLink(social) {
   return social.homepage || social.twitter;

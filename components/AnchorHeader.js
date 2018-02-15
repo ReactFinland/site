@@ -17,5 +17,10 @@ const AnchorHeader = ({ level, anchor, children }, { getId }) => {
 AnchorHeader.contextTypes = {
   getId: PropTypes.func,
 };
+AnchorHeader.propTypes = {
+  level: PropTypes.number,
+  anchor: PropTypes.string,
+  children: PropTypes.node,
+};
 
 export default AnchorHeader;

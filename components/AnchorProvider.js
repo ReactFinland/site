@@ -37,5 +37,8 @@ class AnchorProvider extends React.Component {
 AnchorProvider.childContextTypes = {
   getId: PropTypes.func,
 };
+AnchorProvider.propTypes = {
+  children: PropTypes.node,
+};
 
 export default AnchorProvider;

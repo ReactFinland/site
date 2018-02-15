@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Contacts, Workshop, connect } from "components";
 
 const Workshops = ({ workshops }) => (
@@ -6,6 +7,9 @@ const Workshops = ({ workshops }) => (
     <Contacts items={workshops} render={Workshop} />
   </div>
 );
+Workshops.propTypes = {
+  workshops: PropTypes.array,
+};
 
 export default connect(`
 {

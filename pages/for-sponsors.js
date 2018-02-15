@@ -1,5 +1,5 @@
 import React from "react";
-import { AnchorHeader, Contacts, Markdown, connect } from "components";
+import { Markdown, connect } from "components";
 
 const ForSponsors = ({ page = {} }) => (
   <>

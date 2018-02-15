@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Navigation from "./Navigation";
 import navigationPages from "./navigation-pages";
 
@@ -25,6 +26,9 @@ const Footer = ({ pathname }) => {
       </div>
     </footer>
   );
+};
+Footer.propTypes = {
+  pathname: PropTypes.string,
 };
 
 export default Footer;

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Markdown, connect } from "components";
 
 const PrivacyPolicy = ({ page: { main } }) => (
@@ -8,6 +9,9 @@ const PrivacyPolicy = ({ page: { main } }) => (
     </div>
   </section>
 );
+PrivacyPolicy.propTypes = {
+  page: PropTypes.object,
+};
 
 export default connect(`
 {

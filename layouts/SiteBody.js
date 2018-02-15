@@ -1,12 +1,12 @@
 import React from "react";
 import { hot } from "react-hot-loader";
+import PropTypes from "prop-types";
 import {
   AnchorHeader,
   AnchorProvider,
   Contacts,
   Header,
   Footer,
-  Markdown,
   Sponsor,
   Subscribe,
   connect,
@@ -87,6 +87,15 @@ const SiteBody = ({
     </main>
   </AnchorProvider>
 );
+SiteBody.propTypes = {
+  children: PropTypes.node,
+  location: PropTypes.object,
+  page: PropTypes.object,
+  partners: PropTypes.array,
+  goldSponsors: PropTypes.array,
+  silverSponsors: PropTypes.array,
+  bronzeSponsors: PropTypes.array,
+};
 
 function tweakSilverSponsors(sponsors) {
   // Tweak Nitor

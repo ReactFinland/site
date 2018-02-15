@@ -10,7 +10,7 @@
       "rimraf ./build && node ./antwar.bootstrap.js build && npm run sitemap && npm run copy:all",
     "build:netlify": "npm run build",
     "deploy": "gh-pages -d build",
-    "lint": "eslint . --ext js --ext jsx --ignore-path .gitignore --cache",
+    "lint": "eslint . --ignore-path .gitignore --fix",
     "test": "npm run lint",
     "sitemap":
       "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
@@ -62,6 +62,7 @@
     "eslint": "^4.17.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.6.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",
     "gh-pages": "^1.1.0",

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Link from "./Link";
 import Navigation from "./Navigation";
 import logo from "assets/img/logo.svg";
@@ -67,6 +68,10 @@ const Header = ({ pathname, title }) => {
       </div>
     </header>
   );
+};
+Header.propTypes = {
+  pathname: PropTypes.string,
+  title: PropTypes.string,
 };
 
 export default Header;
