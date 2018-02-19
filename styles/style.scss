@@ -534,9 +534,13 @@ table thead th:not(:first-child) {
 
 .organizers {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
+@media (max-width: $tablet-breakpoint) {
+  .organizers {
+    flex-wrap: wrap;
+  }
+}
+
 .organizer {
   $size: 140px;
   flex: 0 auto;
