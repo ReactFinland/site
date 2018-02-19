@@ -35,6 +35,13 @@ export default [
     links: [
       {
         title: (
+          <a href="https://vimeo.com/reactfinland">
+            <i className="icon-vimeo" />
+          </a>
+        ),
+      },
+      {
+        title: (
           <a href="https://medium.com/react-finland">
             <i className="icon-medium" />
           </a>

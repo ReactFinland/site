@@ -43,9 +43,18 @@
 .icon-github-circled:before {
   content: "\f09b";
 } /* '' */
+.icon-youtube-play:before {
+  content: "\f16a";
+} /* '' */
 .icon-medium:before {
   content: "\f23a";
 } /* '' */
+.icon-vimeo:before {
+  content: "\f27d";
+} /* '' */
+.icon-facebook-squared:before {
+  content: "\f308";
+} /* '' */
 .icon-linkedin-squared:before {
   content: "\f30c";
 } /* '' */
