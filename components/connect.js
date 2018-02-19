@@ -1,21 +1,31 @@
 import React from "react";
-import { graphqlSync } from "graphql";
-import { schema } from "@react-finland/content-2018";
-
-const executableSchema = schema.executable();
+import { request } from "graphql-request";
+import config from "config";
 
 function connect(query) {
   return component => {
-    class Connect extends React.Component {
-      constructor() {
-        super();
+    let queryCache = {};
 
-        this.state = graphqlSync(executableSchema, query);
+    class Connect extends React.Component {
+      constructor(props) {
+        super(props);
+
+        this.state = { data: queryCache || {} };
+      }
+      componentDidMount() {
+        this.fetchData().then(data => this.setState(() => data));
       }
       render() {
         return React.createElement(component, {
           ...this.props,
           ...this.state.data,
+        });
+      }
+      fetchData() {
+        return request(config.apiUrl, query).then(data => {
+          queryCache = data;
+
+          return { data };
         });
       }
     }
