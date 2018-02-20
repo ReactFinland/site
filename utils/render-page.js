@@ -11,6 +11,6 @@ module.exports = function renderDefault({ location, content: component }, cb) {
   );
 
   getDataFromTree(page)
-    .then(() => cb(null, ReactDOMServer.renderToStaticMarkup(page)))
+    .then(() => cb(null, { html: ReactDOMServer.renderToStaticMarkup(page) }))
     .catch(cb);
 };
