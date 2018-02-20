@@ -80,16 +80,6 @@ h6 {
 h2 {
   font-size: 2em;
 }
-h2::after {
-  position: relative;
-  display: block;
-  height: $pu / 4;
-  width: 100%;
-  margin-top: $pu;
-  margin-bottom: $pu;
-  background-color: $rf-light-blue;
-  content: "";
-}
 
 h3 {
   font-size: 1.25em;
