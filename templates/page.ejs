@@ -29,16 +29,6 @@
     <% for (var file of htmlWebpackPlugin.options.context.cssFiles) { %>
       <link href="<%= file %>" rel="stylesheet">
     <% } %>
-
-    <script>
-    document.addEventListener("DOMContentLoaded", function(event) {
-      window.scrollTo(0, localStorage.getItem('scrollY'));
-
-      document.body.onscroll = function() {
-        localStorage.setItem('scrollY', window.scrollY);
-      }
-    });
-    </script>
   </head>
   <body>
     <%- webpackConfig.html %>
