@@ -524,22 +524,19 @@ table thead th:not(:first-child) {
 
 .organizers {
   display: flex;
-}
-@media (max-width: $tablet-breakpoint) {
-  .organizers {
-    flex-wrap: wrap;
-  }
+  flex-wrap: wrap;
 }
 
 .organizer {
   $size: 140px;
-  flex: 0 auto;
+  flex-basis: 25%;
+  text-align: center;
   margin-bottom: 1em;
   width: $size;
 
   &--photo {
     display: block;
-    margin-bottom: $pu;
+    margin: 0 auto $pu auto;
     width: $size;
     height: $size;
     filter: saturate(0);
@@ -548,5 +545,9 @@ table thead th:not(:first-child) {
   &--name {
     font-weight: bold;
     font-size: large;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    flex-basis: 50%;
   }
 }
