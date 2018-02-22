@@ -41,6 +41,15 @@
   display: none;
 }
 
+.tito-tickets-remaining {
+  display: table !important;
+  margin-left: initial !important;
+  margin-top: 1.5% !important;
+  padding: $pu $pu2 !important;
+  border: none !important;
+  border-radius: 3rem !important;
+}
+
 .tito-submit-wrapper {
   margin: $pu * 4 0 0;
 }
