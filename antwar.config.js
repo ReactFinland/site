@@ -2,7 +2,7 @@ const path = require("path");
 const { content: { pages } } = require("@react-finland/content-2018");
 
 module.exports = () => ({
-  apiUrl: "http://api.react-finland.fi/graphql-2018",
+  apiUrl: "https://api.react-finland.fi/graphql-2018",
   template: {
     file: path.resolve(__dirname, "templates/page.ejs"),
     context: {
