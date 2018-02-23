@@ -13,6 +13,10 @@ module.exports = {
   output: "build",
   layout: () => require("./layouts/SiteBody").default,
   paths: {
+    "404.html": page("404", {
+      description: "Page was not found",
+      title: "Page not found",
+    }),
     "/": page("index"),
     "for-attendees": page("for-attendees"),
     "for-sponsors": page("for-sponsors"),
@@ -25,13 +29,13 @@ module.exports = {
   },
 };
 
-function page(name) {
+function page(name, meta) {
   const ret = () => {
     const pageComponent = require(`./pages/${name}`).default;
-    const pageData = pages.find(({ id }) => id === name);
+    const pageData = pages.find(({ id }) => id === name) || {};
 
-    pageComponent.description = pageData.description;
-    pageComponent.title = pageData.title;
+    pageComponent.description = pageData.description || meta.description;
+    pageComponent.title = pageData.title || meta.title;
 
     return pageComponent;
   };
