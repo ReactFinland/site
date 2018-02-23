@@ -3,20 +3,30 @@
 require("@babel/register");
 
 const antwar = require("antwar");
+const request = require("request");
+const antwarConfig = require("./antwar.config.js");
 const environment = process.argv[2];
 
-antwar[environment]({
-  environment,
-  antwar: require("./antwar.config"),
-  webpack: require("./webpack.config"),
-})
-  .then(() => {
-    if (environment !== "build") {
-      console.log("Surf to http://localhost:3000");
-    }
-  })
-  .catch(err => {
-    console.error(err);
+// Check that the API is up before starting
+request
+  .get(antwarConfig.apiUrl)
+  .on("response", () => {
+    antwar[environment]({
+      environment,
+      antwar: antwarConfig,
+      webpack: require("./webpack.config"),
+    })
+      .then(() => {
+        if (environment !== "build") {
+          console.log("Surf to http://localhost:3000");
+        }
+      })
+      .catch(err => {
+        console.error(err);
 
-    process.exit(1);
+        process.exit(1);
+      });
+  })
+  .on("error", function(err) {
+    console.error(err);
   });
