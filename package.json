@@ -16,6 +16,8 @@
       "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
     "copy:all": "npm run copy:extra",
     "copy:extra": "cp -rfv assets/extra/* build",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
     "precommit": "lint-staged"
   },
   "repository": {
@@ -80,6 +82,7 @@
     "raw-loader": "^0.5.1",
     "react-hot-loader": "^4.0.0-rc.0",
     "react-router": "^4.2.0",
+    "react-styleguidist": "^6.2.5",
     "redirect-webpack-plugin": "^0.1.1",
     "request": "^2.83.0",
     "rimraf": "^2.6.2",
