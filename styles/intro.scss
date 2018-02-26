@@ -23,6 +23,18 @@
       display: none;
     }
   }
+  &_not_found::after {
+    background-image: url("../assets/img/emojis/emoji-perkele.png
+    ");
+  }
+  &_imprint::after {
+    background-image: url("../assets/img/emojis/emoji-handshake.png
+    ");
+  }
+  &_privacy::after {
+    background-image: url("../assets/img/emojis/emoji-out_of_office.png
+    ");
+  }
   &_home::after {
     background-image: url("../assets/img/emojis/emoji-torillatavataan.png
     ");
