@@ -78,8 +78,10 @@ const SiteBody = (
                 </section>
               </div>
 
-              <AnchorHeader level={2}>Partners</AnchorHeader>
-              <div className="sponsors sponsors_partners grid--full">
+              <div className="sponsors sponsors_bronze">
+                <AnchorHeader className="sponsors--heading" level={2}>
+                  🥉 Bronze Sponsors
+                </AnchorHeader>
                 <section className="sponsors--list">
                   <Contacts
                     items={tweakSponsors.bronze(bronzeSponsors)}
