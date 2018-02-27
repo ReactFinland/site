@@ -47,11 +47,12 @@
     "react-apollo": "^2.0.4",
     "react-country-flag": "^0.1.12",
     "react-dom": "^16.2.0",
-    "react-image-lightbox": "^4.5.0",
     "react-helmet-async": "0.0.5",
+    "react-image-lightbox": "^4.5.0",
     "react-markdown": "^3.2.1",
     "react-photo-gallery": "^6.0.22",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "timediff": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.40",
