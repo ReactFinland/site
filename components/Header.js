@@ -5,6 +5,8 @@ import Navigation from "./Navigation";
 import logo from "assets/img/logo.svg";
 import navigationPages from "./navigation-pages";
 import Countdown from "./Countdown";
+import Interactive from "antwar-interactive";
+
 const Header = ({ pathname, title }) => {
   const isHomePage = pathname === "/";
   return isHomePage ? (
@@ -36,9 +38,13 @@ const Header = ({ pathname, title }) => {
             24-26 April 2018
           </time>
           <address className="header--location">Helsinki, Finland</address>
-          <Countdown initialDate="2018-04-24" className="header--date" />
         </section>
-
+        <Interactive
+          id="components/Countdown.js"
+          component={Countdown}
+          initialDate="2018-04-24"
+          className="grid--full"
+        />
         <section className="header--buy">
           <Link to="/#tickets" className="buy-button">
             Buy tickets
