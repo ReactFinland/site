@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import timediff from "timediff";
-import "../styles/countdown.scss";
 
 class Countdown extends React.Component {
   constructor(props) {
