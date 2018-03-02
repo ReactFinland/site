@@ -6,55 +6,42 @@ class Countdown extends React.Component {
   constructor(props) {
     super(props);
     this.updateCountdown = this.updateCountdown.bind(this);
-    this.dateToCountDownTo = props.initialDate;
-    this.currentDate = Date.now();
-    this.Difference = this.getDifferenceInDates();
     this.state = {
-      days: this.Difference.days,
-      hours: this.Difference.hours,
-      minutes: this.Difference.minutes,
-      seconds: this.Difference.seconds,
+      currentDate: Date.now(),
     };
   }
 
   componentDidMount() {
-    setInterval(this.updateCountdown, 1000);
+    this.interval = setInterval(this.updateCountdown, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
   }
 
   updateCountdown() {
-    this.currentDate = Date.now();
-    this.Difference = this.getDifferenceInDates();
-    this.updateState();
-  }
-
-  updateState() {
-    //days, hours, minutes and seconds left until the dateToCountDownTo
-    this.setState({
-      days: this.Difference.days,
-      hours: this.Difference.hours,
-      minutes: this.Difference.minutes,
-      seconds: this.Difference.seconds,
-    });
-  }
-
-  getDifferenceInDates() {
-    return timediff(this.currentDate, this.dateToCountDownTo, "D:H:m:S");
+    this.setState({ currentDate: Date.now() });
   }
 
   render() {
+    const { days, hours, minutes, seconds } = timediff(
+      this.state.currentDate,
+      this.props.toDate,
+      "D:H:m:S"
+    );
     return (
       <div>
-        <div class="countdown">
-          <p>{this.state.days} Days&#160;</p>
+        <div className="countdown">
+          <p>{days} Days&#160;</p>
         </div>
-        <div class="countdown">
-          <p>{this.state.hours} Hours&#160;</p>
+        <div className="countdown">
+          <p>{hours} Hours&#160;</p>
         </div>
-        <div class="countdown">
-          <p>{this.state.minutes} Minutes&#160;</p>
+        <div className="countdown">
+          <p>{minutes} Minutes&#160;</p>
         </div>
-        <div class="countdown">
-          <p>{this.state.seconds} seconds</p>
+        <div className="countdown">
+          <p>{seconds} seconds</p>
         </div>
       </div>
     );

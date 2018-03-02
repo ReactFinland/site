@@ -42,7 +42,7 @@ const Header = ({ pathname, title }) => {
         <Interactive
           id="components/Countdown.js"
           component={Countdown}
-          initialDate="2018-04-24"
+          toDate="2018-04-24"
           className="grid--full"
         />
         <section className="header--buy">
