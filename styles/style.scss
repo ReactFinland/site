@@ -551,3 +551,7 @@ table thead th:not(:first-child) {
     flex-basis: 50%;
   }
 }
+
+.venue--location {
+  max-width: 100%;
+}
