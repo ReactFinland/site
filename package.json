@@ -18,7 +18,8 @@
     "copy:extra": "cp -rfv assets/extra/* build",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepush": "npm run build"
   },
   "repository": {
     "type": "git",
