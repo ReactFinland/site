@@ -1,5 +1,9 @@
 const path = require("path");
-const { content: { pages } } = require("@react-finland/content-2018");
+const {
+  content: { pages },
+} = require("@react-finland/content-2018");
+const render = require("preact-render-to-string");
+const { h } = require("preact");
 
 module.exports = {
   apiUrl: "https://api.react-finland.fi/graphql-2018",
@@ -9,7 +13,12 @@ module.exports = {
       helmet: {},
     },
   },
-  renderPage: require("./utils/render-page"),
+  render: {
+    page: require("./utils/render-page"),
+    interactive({ component, props }) {
+      return render(h(component, props));
+    },
+  },
   output: "build",
   layout: () => require("./layouts/SiteBody").default,
   paths: {

@@ -1,6 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const MiniCSSExtractPlugin = require("mini-css-extract-plugin");
 const RedirectWebpackPlugin = require("redirect-webpack-plugin");
 const merge = require("webpack-merge");
 
@@ -18,6 +18,7 @@ module.exports = env => {
 
 function commonConfig() {
   return {
+    mode: "development",
     stats: "minimal",
     module: {
       rules: [
@@ -81,24 +82,22 @@ function commonConfig() {
 
 function interactiveConfig() {
   return {
+    mode: "production",
     resolve: {
       alias: {
-        react: "preact-compat/dist/preact-compat.min.js",
-        "react-dom": "preact-compat/dist/preact-compat.min.js",
+        react: "preact-compat",
+        "react-dom": "preact-compat",
       },
     },
-    plugins: [
-      new webpack.optimize.UglifyJsPlugin({
-        compress: {
-          warnings: false,
-        },
-      }),
-    ],
   };
 }
 
 function developmentConfig() {
   return {
+    // https://stackoverflow.com/a/48082383/228885
+    externals: {
+      "node-fetch": "fetch",
+    },
     module: {
       rules: [
         {
@@ -112,21 +111,23 @@ function developmentConfig() {
 
 function buildConfig() {
   return {
+    mode: "production",
     module: {
       rules: [
         {
           test: /\.s?css$/,
-          use: ExtractTextPlugin.extract({
-            use: ["css-loader", "postcss-loader", "sass-loader"],
-            fallback: "style-loader",
-          }),
+          use: [
+            MiniCSSExtractPlugin.loader,
+            "css-loader",
+            "postcss-loader",
+            "sass-loader",
+          ],
         },
       ],
     },
     plugins: [
-      new ExtractTextPlugin({
-        filename: "[name].[chunkhash].css",
-        allChunks: true,
+      new MiniCSSExtractPlugin({
+        filename: "[name].[contenthash].css",
       }),
       new webpack.DefinePlugin({
         window: `false`,

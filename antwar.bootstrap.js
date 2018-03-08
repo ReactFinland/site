@@ -13,6 +13,7 @@ request
   .on("response", () => {
     antwar[environment]({
       environment,
+      configPath: require.resolve("./antwar.config"),
       antwar: antwarConfig,
       webpack: require("./webpack.config"),
     })
