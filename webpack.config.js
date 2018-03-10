@@ -1,6 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 const MiniCSSExtractPlugin = require("mini-css-extract-plugin");
+const nodeExternals = require("webpack-node-externals");
 const RedirectWebpackPlugin = require("redirect-webpack-plugin");
 const merge = require("webpack-merge");
 
@@ -18,7 +19,6 @@ module.exports = env => {
 
 function commonConfig() {
   return {
-    mode: "development",
     stats: "minimal",
     module: {
       rules: [
@@ -82,7 +82,6 @@ function commonConfig() {
 
 function interactiveConfig() {
   return {
-    mode: "production",
     resolve: {
       alias: {
         react: "preact-compat",
@@ -111,7 +110,6 @@ function developmentConfig() {
 
 function buildConfig() {
   return {
-    mode: "production",
     module: {
       rules: [
         {
@@ -125,6 +123,13 @@ function buildConfig() {
         },
       ],
     },
+    externals: [
+      // XXXXX: Figure out why "Cannot read property 'htmlAttributes' of undefined"
+      // appears or fix GraphQL somehow so this isn't needed.
+      nodeExternals({
+        whitelist: ["normalize.css/normalize.css"],
+      }),
+    ],
     plugins: [
       new MiniCSSExtractPlugin({
         filename: "[name].[contenthash].css",

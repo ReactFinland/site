@@ -4,7 +4,7 @@ require("@babel/register");
 
 const antwar = require("antwar");
 const request = require("request");
-const antwarConfig = require("./antwar.config.js");
+const antwarConfig = require("./antwar.config.js")();
 const environment = process.argv[2];
 
 // Check that the API is up before starting
@@ -13,9 +13,10 @@ request
   .on("response", () => {
     antwar[environment]({
       environment,
-      configPath: require.resolve("./antwar.config"),
-      antwar: antwarConfig,
-      webpack: require("./webpack.config"),
+      configurationPaths: {
+        antwar: require.resolve("./antwar.config"),
+        webpack: require.resolve("./webpack.config"),
+      },
     })
       .then(() => {
         if (environment !== "build") {

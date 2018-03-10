@@ -5,7 +5,7 @@ const {
 const render = require("preact-render-to-string");
 const { h } = require("preact");
 
-module.exports = {
+module.exports = () => ({
   apiUrl: "https://api.react-finland.fi/graphql-2018",
   template: {
     file: path.resolve(__dirname, "templates/page.ejs"),
@@ -36,7 +36,7 @@ module.exports = {
     speakers: page("speakers"),
     workshops: page("workshops"),
   },
-};
+});
 
 function page(name, meta) {
   const ret = () => {
