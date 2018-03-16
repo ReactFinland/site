@@ -82,7 +82,7 @@
     "preact-compat": "^3.18.0",
     "prettier": "^1.10.2",
     "raw-loader": "^0.5.1",
-    "react-hot-loader": "^4.0.0-rc.0",
+    "react-hot-loader": "^4.0.0",
     "react-router": "^4.2.0",
     "react-styleguidist": "^6.2.5",
     "redirect-webpack-plugin": "^0.1.1",
