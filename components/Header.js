@@ -43,7 +43,7 @@ const Header = ({ pathname, title }) => {
           id="components/Countdown.js"
           component={Countdown}
           toDate="2018-04-24"
-          className="grid--full"
+          containerProps={{ className: "countdown--container" }}
         />
         {/*<section className="header--buy">
           <Link to="/#tickets" className="buy-button">

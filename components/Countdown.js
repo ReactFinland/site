@@ -31,24 +31,18 @@ class Countdown extends React.Component {
     );
     return (
       <div>
-        <div className="countdown">
-          <p>{days} Days&#160;</p>
-        </div>
-        <div className="countdown">
-          <p>{hours} Hours&#160;</p>
-        </div>
-        <div className="countdown">
-          <p>{minutes} Minutes&#160;</p>
-        </div>
-        <div className="countdown">
-          <p>{seconds} seconds</p>
-        </div>
+        <h3 className="countdown--header">Till the event:</h3>
+        <div className="countdown--item">{days} days</div>
+        <div className="countdown--item">{hours}h</div>
+        <div className="countdown--item">{minutes}m</div>
+        <div className="countdown--item">{seconds}s</div>
       </div>
     );
   }
 }
 Countdown.propTypes = {
   initialDate: PropTypes.string,
+  toDate: PropTypes.string,
 };
 
 export default Countdown;

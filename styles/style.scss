@@ -555,3 +555,16 @@ table thead th:not(:first-child) {
 .venue--location {
   max-width: 100%;
 }
+
+.countdown--container {
+  grid-column: 5 / span 2;
+
+  .countdown--header {
+    margin-top: 0;
+  }
+
+  .countdown--item {
+    display: inline;
+    margin-right: 0.5em;
+  }
+}
