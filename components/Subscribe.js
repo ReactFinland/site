@@ -1,12 +1,12 @@
 import React from "react";
 
-const Subscribe = () => {
+const Subscribe = ({
+  children = "Subscribe to get React Finland related news to your mail.",
+}) => {
   return (
     <section className="subscribe">
       <div className="subscribe--wrapper">
-        <h2 className="subscribe--header">
-          Subscribe to get React Finland related news to your mail.
-        </h2>
+        <h2 className="subscribe--header">{children}</h2>
 
         <form
           action="//react-finland.us16.list-manage.com/subscribe/post?u=a940d62db3f360204bf40b1c4&amp;amp;id=8c82fd10b8"

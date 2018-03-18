@@ -45,11 +45,11 @@ const Header = ({ pathname, title }) => {
           toDate="2018-04-24"
           className="grid--full"
         />
-        <section className="header--buy">
+        {/*<section className="header--buy">
           <Link to="/#tickets" className="buy-button">
             Buy tickets
           </Link>
-        </section>
+        </section>*/}
       </div>
     </header>
   ) : (
