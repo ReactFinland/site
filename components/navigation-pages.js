@@ -22,10 +22,10 @@ export default [
         title: "About",
         url: "/about/",
       },
-      /*{
+      {
         title: "Buy tickets",
         url: "/#tickets",
-      },*/
+      },
     ],
   },
   {

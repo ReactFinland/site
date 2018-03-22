@@ -15,6 +15,7 @@
 
     <%- htmlWebpackPlugin.options.context.helmet.noscript %>
     <%- htmlWebpackPlugin.options.context.helmet.script %>
+    <script src="https://js.tito.io/v1" async></script>
     <% for (var script of htmlWebpackPlugin.options.context.jsFiles) { %>
       <script src="<%= script %>" type="text/javascript"></script>
     <% } %>

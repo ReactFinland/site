@@ -4,7 +4,6 @@ import {
   Contacts,
   ContactMini,
   Markdown,
-  Subscribe,
   connect,
 } from "components";
 
@@ -23,11 +22,10 @@ const Index = ({ page = {}, speakers }) => (
       <Contacts items={speakers} render={ContactMini} />
     </div>
     <AnchorHeader level={2}>Tickets</AnchorHeader>
-    <div className="grid--5col">
-      <Subscribe>
-        We sold out for 2018. We'll let you know when 2019 tickets become
-        available!
-      </Subscribe>
+    <div className="grid--full">
+      <tito-widget event="react-finland/2018">
+        Loading. Patience my padawan!
+      </tito-widget>
     </div>
   </>
 );
