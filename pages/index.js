@@ -23,9 +23,7 @@ const Index = ({ page = {}, speakers }) => (
     </div>
     <AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="grid--full">
-      <tito-widget event="react-finland/2018">
-        Loading. Patience my padawan!
-      </tito-widget>
+      No more tickets for 2018. See you next year!
     </div>
   </>
 );
