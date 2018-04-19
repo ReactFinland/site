@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/ReactFinland/site#readme",
   "dependencies": {
-    "@react-finland/content-2018": "^12.9.0",
+    "@react-finland/content-2018": "^12.9.1",
     "antwar": "^0.26.0",
     "antwar-interactive": "^0.21.0",
     "apollo-client": "^2.2.5",
