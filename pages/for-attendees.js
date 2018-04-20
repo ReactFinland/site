@@ -24,6 +24,18 @@ const ForAttendees = ({ page = {} }) => (
         src={require("assets/img/venue-location.png")}
         alt="Valkoinen Sali in Helsinki"
       />
+      <ul>
+        <li>
+          Blue star - Valkoinen Sali, the main venue and first workshop
+          location, Aleksanterinkatu 16
+        </li>
+        <li>
+          Green heart - Elisa Appelsiini, second workshop location, Kaarlenkatu
+          11
+        </li>
+        <li>Red train - Main railway station</li>
+        <li>Yellow swimmer - Allas Sea Pool</li>
+      </ul>
     </div>
     <div className="grid--5col">
       <Markdown source={page.main} />
