@@ -18,7 +18,12 @@ export default connect(`
       name, about, image
     }
     title,
-    description
+    description,
+    location {
+      name,
+      address,
+      city
+    }
   }
 }
 `)(Workshops);

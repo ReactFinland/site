@@ -2,7 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { AnchorHeader, Markdown, SessionSpeakers } from "components";
 
-const Workshop = ({ speakers, title, description, headerLevel = 2 }) => (
+const Workshop = ({
+  speakers,
+  title,
+  description,
+  location,
+  headerLevel = 2,
+}) => (
   <div className="workshop">
     <AnchorHeader level={headerLevel}>
       {title || "To be announced."}
@@ -11,6 +17,12 @@ const Workshop = ({ speakers, title, description, headerLevel = 2 }) => (
     <SessionSpeakers speakers={speakers} />
 
     {description ? <Markdown source={description} /> : "To be announced."}
+
+    <AnchorHeader level={headerLevel + 1}>Location</AnchorHeader>
+
+    <div>
+      {location.name} - {location.address}, {location.city}
+    </div>
   </div>
 );
 Workshop.propTypes = {
@@ -18,6 +30,7 @@ Workshop.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   headerLevel: PropTypes.number,
+  location: PropTypes.object,
 };
 
 export default Workshop;
