@@ -19,10 +19,10 @@ const ForAttendees = ({ page = {} }) => (
     </div>
     <AnchorHeader level={3}>The Venue Location</AnchorHeader>
     <div className="grid--full">
-      <img
-        className="venue--location"
-        src={require("assets/img/venue-location.png")}
-        alt="Valkoinen Sali in Helsinki"
+      <iframe
+        src="https://www.google.com/maps/d/embed?mid=1TtRyfUF_tBBpKPf4MolkhdaN_3HHcG_9"
+        width="100%"
+        height="480"
       />
       <ul>
         <li>
