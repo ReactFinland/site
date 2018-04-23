@@ -23,18 +23,20 @@ const ForAttendees = ({ page = {} }) => (
         src="https://www.google.com/maps/d/embed?mid=1TtRyfUF_tBBpKPf4MolkhdaN_3HHcG_9"
         width="100%"
         height="480"
+        frameBorder="0"
       />
       <ul>
         <li>
           Blue star - Valkoinen Sali, the main venue and first workshop
-          location, Aleksanterinkatu 16
+          location. Aleksanterinkatu 16
         </li>
         <li>
-          Green heart - Elisa Appelsiini, second workshop location, Kaarlenkatu
+          Green heart - Elisa Appelsiini, second workshop location. Kaarlenkatu
           11
         </li>
         <li>Red train - Main railway station</li>
         <li>Yellow swimmer - Allas Sea Pool</li>
+        <li>Maroon drink - Sea Life Helsinki (afterparty). Tivolikuja 10</li>
       </ul>
     </div>
     <div className="grid--5col">
