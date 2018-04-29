@@ -1,6 +1,6 @@
 import React from "react";
 import { request } from "graphql-request";
-import config from "config";
+import config from "antwar-config";
 
 function connect(query) {
   return component => {
