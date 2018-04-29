@@ -50,7 +50,7 @@
     "react-country-flag": "^0.2.0",
     "react-dom": "^16.3.2",
     "react-helmet-async": "0.0.5",
-    "react-image-lightbox": "^5.0.0",
+    "react-image-lightbox": "^4.5.0",
     "react-markdown": "^3.3.0",
     "react-photo-gallery": "^6.0.25",
     "react-router-dom": "^4.2.2",

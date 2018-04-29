@@ -24,7 +24,17 @@ function commonConfig() {
       rules: [
         {
           test: /\.js$/,
-          use: "babel-loader",
+          use: {
+            loader: "babel-loader",
+            options: {
+              presets: ["@babel/preset-env", "@babel/preset-react"],
+              plugins: [
+                require("@babel/plugin-syntax-object-rest-spread").default,
+                require("@babel/plugin-proposal-object-rest-spread").default,
+                require("react-hot-loader/babel"),
+              ],
+            },
+          },
           include: [
             path.join(__dirname, "components"),
             path.join(__dirname, "layouts"),
