@@ -16,7 +16,10 @@ export default connect(`
   speakers {
     name,
     talks {
-      title, description, type
+      title, description, type,
+      urls {
+        slides
+      }
     },
     workshops {
       title

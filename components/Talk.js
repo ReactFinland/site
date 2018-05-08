@@ -8,10 +8,20 @@ const TYPES = {
   presentation: "🎙",
 };
 
-const Talk = ({ title, description, type, headerLevel = 2 }) => (
+const Talk = ({
+  title,
+  description,
+  urls: { slides },
+  type,
+  headerLevel = 2,
+}) => (
   <div className="content-block">
     <AnchorHeader level={headerLevel}>
       <span title={type}>{TYPES[type]}</span> {title || "To be announced."}
+      <span style={{ marginLeft: "1em" }}>&nbsp;</span>
+      <a href={slides} style={{ fontSize: "small" }} target="_blank">
+        Slides
+      </a>
     </AnchorHeader>
 
     {description ? <Markdown source={description} /> : "To be announced."}
@@ -20,6 +30,9 @@ const Talk = ({ title, description, type, headerLevel = 2 }) => (
 Talk.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
+  urls: PropTypes.shape({
+    slides: PropTypes.string,
+  }),
   type: PropTypes.oneOf(Object.keys(TYPES)),
   headerLevel: PropTypes.number,
 };
