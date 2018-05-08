@@ -26,7 +26,9 @@ const SiteBody = (
   {
     children,
     location: { pathname },
-    page: { file: { title, description, keywords } },
+    page: {
+      file: { title, description, keywords },
+    },
     partners = [],
     goldSponsors = [],
     silverSponsors = [],

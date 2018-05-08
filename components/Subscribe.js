@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Subscribe = ({
   children = "Subscribe to get React Finland related news to your mail.",
@@ -51,6 +52,9 @@ const Subscribe = ({
       </div>
     </section>
   );
+};
+Subscribe.propTypes = {
+  children: PropTypes.element,
 };
 
 export default Subscribe;

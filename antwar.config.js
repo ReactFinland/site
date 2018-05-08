@@ -1,5 +1,7 @@
 const path = require("path");
-const { content: { pages } } = require("@react-finland/content-2018");
+const {
+  content: { pages },
+} = require("@react-finland/content-2018");
 
 module.exports = {
   apiUrl: "https://api.react-finland.fi/graphql-2018",
