@@ -18,7 +18,8 @@ export default connect(`
     talks {
       title, description, type,
       urls {
-        slides
+        slides,
+        web
       }
     },
     workshops {

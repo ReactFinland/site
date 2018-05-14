@@ -11,7 +11,7 @@ const TYPES = {
 const Talk = ({
   title,
   description,
-  urls: { slides },
+  urls: { slides, web },
   type,
   headerLevel = 2,
 }) => (
@@ -19,9 +19,17 @@ const Talk = ({
     <AnchorHeader level={headerLevel}>
       <span title={type}>{TYPES[type]}</span> {title || "To be announced."}
       <span style={{ marginLeft: "1em" }}>&nbsp;</span>
-      <a href={slides} style={{ fontSize: "small" }} target="_blank">
-        Slides
-      </a>
+      {slides && (
+        <a href={slides} style={{ fontSize: "small" }} target="_blank">
+          Slides (PDF)
+        </a>
+      )}
+      <span style={{ marginLeft: "1em" }}>&nbsp;</span>
+      {web && (
+        <a href={web} style={{ fontSize: "small" }} target="_blank">
+          Slides (web)
+        </a>
+      )}
     </AnchorHeader>
 
     {description ? <Markdown source={description} /> : "To be announced."}
