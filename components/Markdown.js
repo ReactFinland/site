@@ -82,6 +82,7 @@ const renderers = {
         "@react-finland/content-2018/src/schedules/"
       )[1];
 
+      // XXXXX: Bad coupling. Fetch through GraphQL instead.
       return (
         <Schedule
           key={scheduleName}
