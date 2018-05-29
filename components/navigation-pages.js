@@ -7,25 +7,17 @@ export default [
     },
     links: [
       {
-        title: "Schedule",
-        url: "/schedule/",
-      },
-      {
-        title: "Workshops",
-        url: "/workshops/",
-      },
-      {
-        title: "Speakers",
-        url: "/speakers/",
+        title: "2018",
+        url: "/2018/",
       },
       {
         title: "About",
         url: "/about/",
       },
-      {
+      /*{
         title: "Buy tickets",
         url: "/#tickets",
-      },
+      },*/
     ],
   },
   {
@@ -37,13 +29,6 @@ export default [
         title: (
           <a href="https://www.youtube.com/channel/UCYRsLerK8J8uGWXFaprYa2A">
             <i className="icon-youtube-play" />
-          </a>
-        ),
-      },
-      {
-        title: (
-          <a href="https://vimeo.com/reactfinland">
-            <i className="icon-vimeo" />
           </a>
         ),
       },

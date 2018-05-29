@@ -20,14 +20,18 @@ module.exports = {
       title: "Page not found",
     }),
     "/": page("index"),
+    "2018": page("2018", {
+      description: "React Finland 2018",
+      title: "React Finland 2018",
+    }),
     "for-attendees": page("for-attendees"),
     "for-sponsors": page("for-sponsors"),
     about: page("about"),
     imprint: page("imprint"),
     "privacy-policy": page("privacy-policy"),
-    schedule: page("schedule"),
-    speakers: page("speakers"),
-    workshops: page("workshops"),
+    "2018/schedule": page("schedule"),
+    "2018/speakers": page("speakers"),
+    "2018/workshops": page("workshops"),
   },
 };
 

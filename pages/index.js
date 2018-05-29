@@ -17,7 +17,7 @@ const Index = ({ page = {}, speakers }) => (
         <Markdown source={page.secondary} />
       </aside>
     </section>
-    <AnchorHeader level={2}>Speakers</AnchorHeader>
+    <AnchorHeader level={2}>Past Speakers</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts items={speakers} render={ContactMini} />
     </div>
