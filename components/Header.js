@@ -34,18 +34,18 @@ const Header = ({ pathname, title }) => {
         </h2>
 
         <section className="header--dates">
-          <time dateTime="2018-04-24/2018-04-26" className="header--date">
-            24-26 April 2018
+          <time dateTime="2018-05-28/2018-06-12" className="header--date">
+            May/June 2019
           </time>
           <address className="header--location">Helsinki, Finland</address>
         </section>
-        <Interactive
+        {/*<Interactive
           id="components/Countdown.js"
           component={Countdown}
           toDate="2018-04-24"
           containerProps={{ className: "countdown--container" }}
         />
-        {/*<section className="header--buy">
+        <section className="header--buy">
           <Link to="/#tickets" className="buy-button">
             Buy tickets
           </Link>
