@@ -4,8 +4,8 @@ import Link from "./Link";
 import Navigation from "./Navigation";
 import logo from "assets/img/logo.svg";
 import navigationPages from "./navigation-pages";
-import Countdown from "./Countdown";
-import Interactive from "antwar-interactive";
+/*import Countdown from "./Countdown";
+import Interactive from "antwar-interactive";*/
 
 const Header = ({ pathname, title }) => {
   const isHomePage = pathname === "/";
