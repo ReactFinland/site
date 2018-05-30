@@ -27,7 +27,7 @@ export default [
     links: [
       {
         title: (
-          <a href="https://www.youtube.com/channel/UCYRsLerK8J8uGWXFaprYa2A">
+          <a href="https://www.youtube.com/c/ReactFinland">
             <i className="icon-youtube-play" />
           </a>
         ),
