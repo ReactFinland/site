@@ -7,8 +7,8 @@ export default [
     },
     links: [
       {
-        title: "2018",
-        url: "/2018/",
+        title: "GraphQL Finland",
+        url: "https://graphql-finland.fi/",
       },
       {
         title: "About",
@@ -67,6 +67,10 @@ export default [
       {
         title: "For Sponsors",
         url: "/for-sponsors/",
+      },
+      {
+        title: "2018",
+        url: "/2018/",
       },
     ],
   },
