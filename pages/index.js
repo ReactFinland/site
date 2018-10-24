@@ -21,10 +21,6 @@ const Index = ({ page = {}, speakers }) => (
     <div className="grid--full speakers">
       <Contacts items={speakers} render={ContactMini} />
     </div>
-    <AnchorHeader level={2}>Tickets</AnchorHeader>
-    <div className="grid--full">
-      No more tickets for 2018. See you next year!
-    </div>
   </>
 );
 
