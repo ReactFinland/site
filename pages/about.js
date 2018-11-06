@@ -7,11 +7,17 @@ import {
   connect,
 } from "components";
 
-const About = ({ page = {}, organizers }) => (
+const intro = `
+Our goal is to connect our valued speakers with our local community in the most fruitful way we can and provide Finnish hospitality to our conference visitors.
+
+We hope to create something unique by combining our northern traditions with speakers and visitors from all around the world.
+`;
+
+const About = ({ organizers }) => (
   <>
     <section className="intro intro_about">
       <div className="intro--main">
-        <Markdown source={page.intro} />
+        <Markdown source={intro} />
       </div>
       <aside className="intro--aside" />
     </section>
@@ -42,12 +48,16 @@ const About = ({ page = {}, organizers }) => (
 );
 
 export default connect(`
-{
-  organizers {
-    name, image, about
-  },
-  page(id: "about") {
-    intro
+query PageQuery($conferenceId: ID!) {
+  conference(id: $conferenceId) {
+    organizers {
+      name
+      image {
+        url
+      }
+      about
+    }
   }
 }
+
 `)(About);
