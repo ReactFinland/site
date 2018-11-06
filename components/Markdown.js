@@ -29,6 +29,8 @@ const renderers = {
   heading: ({ level, children }) => (
     <AnchorHeader level={level}>{children}</AnchorHeader>
   ),
+  // TODO: This should assume all images are remote as the API should handle them
+  // -> process markdown at the API even
   image: ({ alt, src }) => {
     const srcParts = alt ? alt.split("|") : [];
     alt = srcParts[0] || "";
@@ -73,22 +75,6 @@ const renderers = {
     // Example: W>
     if (text.startsWith && text.startsWith("W> ")) {
       return <Warning text={text} />;
-    }
-
-    // Example: {schedule:@react-finland/content-2018/schedules/25-04-2018}
-    if (/\{schedule:[a-zA-Z@/\-0-9]*\}/.test(text)) {
-      const importPath = text.slice(0, -1).split(":")[1];
-      const scheduleName = importPath.split(
-        "@react-finland/content-2018/src/schedules/"
-      )[1];
-
-      // XXXXX: Bad coupling. Fetch through GraphQL instead.
-      return (
-        <Schedule
-          key={scheduleName}
-          items={require(`@react-finland/content-2018/src/schedules/${scheduleName}`)}
-        />
-      );
     }
 
     return <p>{children}</p>;
