@@ -18,7 +18,7 @@ const SessionSpeakers = ({ speakers = [] }) => (
           key={i}
           width={32}
           height={32}
-          src={require(`@react-finland/content-2018/images/${image}`)}
+          src={image.url}
         />
         {name}
       </a>,
