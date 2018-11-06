@@ -10,6 +10,7 @@ export { default as Markdown } from "./Markdown";
 export { default as Meta } from "./Meta";
 export { default as Organizer } from "./Organizer";
 export { default as Schedule } from "./Schedule";
+export { default as ScheduleLegend } from "./ScheduleLegend";
 export { default as SessionSpeakers } from "./SessionSpeakers";
 export { default as Subscribe } from "./Subscribe";
 export { default as Speaker } from "./Speaker";

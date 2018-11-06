@@ -568,3 +568,84 @@ table thead th:not(:first-child) {
     margin-right: 0.5em;
   }
 }
+
+#schedule {
+  .legend {
+    label {
+      margin-right: 1.5em;
+      display: inline-block;
+
+      .title {
+        white-space: nowrap;
+      }
+    }
+
+    abbr {
+      margin-right: 0.25em;
+    }
+  }
+}
+
+.schedule {
+  position: relative;
+
+  &--title {
+    margin-bottom: 0.5em;
+    font-size: smaller;
+
+    @media (min-width: $mobile-breakpoint) {
+      position: absolute;
+      left: -130px;
+      line-height: 2rem;
+
+      &::after {
+        position: absolute;
+        top: 0.75em;
+        left: 106px;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: #ddd;
+        box-shadow: 0 0 0 2px #fff;
+        content: "";
+        z-index: 1;
+      }
+    }
+    &.workshop::after,
+    &.keynote::after,
+    &.panel::after,
+    &.talk::after {
+      background-color: $color-accent;
+    }
+    &.breakfast::after,
+    &.lunch::after,
+    &.coffee_break::after {
+      background-color: brown;
+    }
+    &.lightning_talk::after {
+      background-color: yellow;
+    }
+    &.party::after,
+    &.organizational::after {
+      background-color: blue;
+    }
+  }
+
+  &--definition {
+    position: relative;
+    margin: 0;
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: $pu2;
+    }
+  }
+
+  abbr {
+    margin-right: 0.5em;
+  }
+}
