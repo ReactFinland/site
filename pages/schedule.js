@@ -7,6 +7,7 @@ The schedule of the event has been carefully curated. In true Finnish style, we 
 > [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2018.ics). You can import it to your Google Calendar for example.
 `;
 
+// TODO: Rework to render schedules against the API
 const main = `
 ## 24.04—Tuesday—[Workshops](/workshops/)
 
