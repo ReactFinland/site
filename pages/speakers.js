@@ -15,8 +15,9 @@ Speakers.propTypes = {
   conference: PropTypes.object,
 };
 
-export default connect(
-  `
+export default ({ conferenceId }) =>
+  connect(
+    `
 query PageQuery($conferenceId: ID!) {
   conference(id: $conferenceId) {
     speakers {
@@ -38,8 +39,7 @@ query PageQuery($conferenceId: ID!) {
   }
 }
 `,
-  () => ({
-    // TODO: Get this from a prop so the page can be used in different contexts
-    conferenceId: "react-finland-2018",
-  })
-)(Speakers);
+    () => ({
+      conferenceId,
+    })
+  )(Speakers);

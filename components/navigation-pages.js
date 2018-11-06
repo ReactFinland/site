@@ -14,6 +14,14 @@ export default [
         title: "About",
         url: "/about/",
       },
+      {
+        title: "Schedule",
+        url: "/schedule/",
+      },
+      {
+        title: "Workshops",
+        url: "/workshops/",
+      },
       /*{
         title: "Buy tickets",
         url: "/#tickets",
@@ -60,6 +68,10 @@ export default [
       className: "nav--secondary",
     },
     links: [
+      {
+        title: "Speakers",
+        url: "/speakers/",
+      },
       {
         title: "For Attendees",
         url: "/for-attendees/",

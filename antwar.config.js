@@ -46,24 +46,76 @@ module.exports = {
       title: "Privacy Policy",
       description: `What is the privacy policy of ${EVENT_NAME}?`,
     }),
-    "2018/schedule": page("schedule", {
-      title: "Schedule",
-      description: `What is the schedule of ${EVENT_NAME}?`,
-    }),
-    "2018/speakers": page("speakers", {
-      title: "Speakers",
-      speakers: `Who is going to speak at ${EVENT_NAME}?`,
-    }),
-    "2018/workshops": page("workshops", {
-      title: "Workshops",
-      description: `Which workshops will be held at ${EVENT_NAME}?`,
-    }),
+    schedule: page(
+      "schedule",
+      {
+        title: "Schedule",
+        description: `What is the schedule of ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2019",
+      }
+    ),
+    "2018/schedule": page(
+      "schedule",
+      {
+        title: "Schedule",
+        description: `What is the schedule of ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2018",
+      }
+    ),
+    speakers: page(
+      "speakers",
+      {
+        title: "Speakers",
+        speakers: `Who is going to speak at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2019",
+      }
+    ),
+    "2018/speakers": page(
+      "speakers",
+      {
+        title: "Speakers",
+        speakers: `Who is going to speak at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2018",
+      }
+    ),
+    workshops: page(
+      "workshops",
+      {
+        title: "Workshops",
+        description: `Which workshops will be held at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2019",
+      }
+    ),
+    "2018/workshops": page(
+      "workshops",
+      {
+        title: "Workshops",
+        description: `Which workshops will be held at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2018",
+      }
+    ),
   },
 };
 
-function page(name, meta = {}) {
+function page(name, meta = {}, parameters) {
   const ret = () => {
-    const pageComponent = require(`./pages/${name}`).default;
+    let pageComponent = require(`./pages/${name}`).default;
+
+    if (parameters) {
+      pageComponent = pageComponent(parameters);
+    }
 
     pageComponent.description = meta.description;
     pageComponent.title = meta.title;

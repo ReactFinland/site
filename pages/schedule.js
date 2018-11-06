@@ -38,8 +38,9 @@ const Schedule = ({ conference }) => {
   );
 };
 
-export default connect(
-  `
+export default ({ conferenceId }) =>
+  connect(
+    `
 query PageQuery($conferenceId: ID!) {
   conference(id: $conferenceId) {
     schedules {
@@ -79,8 +80,7 @@ query PageQuery($conferenceId: ID!) {
   }
 }
 `,
-  () => ({
-    // TODO: Get this from a prop so the page can be used in different contexts
-    conferenceId: "react-finland-2018",
-  })
-)(Schedule);
+    () => ({
+      conferenceId,
+    })
+  )(Schedule);
