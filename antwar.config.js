@@ -4,7 +4,8 @@ const {
 } = require("@react-finland/content-2018");
 
 module.exports = {
-  apiUrl: "https://api.react-finland.fi/graphql-2018",
+  apiUrl: "https://api.react-finland.fi/graphql",
+  conferenceId: "react-finland-2019",
   template: {
     file: path.resolve(__dirname, "templates/page.ejs"),
     context: {

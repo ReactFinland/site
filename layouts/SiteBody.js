@@ -1,5 +1,4 @@
 import React from "react";
-import { hot } from "react-hot-loader";
 import PropTypes from "prop-types";
 import { HelmetProvider } from "react-helmet-async";
 import {
@@ -29,10 +28,12 @@ const SiteBody = (
     page: {
       file: { title, description, keywords },
     },
-    partners = [],
-    goldSponsors = [],
-    silverSponsors = [],
-    bronzeSponsors = [],
+    conference: { partners, goldSponsors, silverSponsors, bronzeSponsors } = {
+      partners: [],
+      goldSponsors: [],
+      silverSponsors: [],
+      bronzeSponsors: [],
+    },
   },
   { router }
 ) => (
@@ -111,20 +112,41 @@ SiteBody.propTypes = {
   children: PropTypes.node,
   location: PropTypes.object,
   page: PropTypes.object,
-  partners: PropTypes.array,
-  goldSponsors: PropTypes.array,
-  silverSponsors: PropTypes.array,
-  bronzeSponsors: PropTypes.array,
+  conference: PropTypes.shape({
+    partners: PropTypes.array,
+    goldSponsors: PropTypes.array,
+    silverSponsors: PropTypes.array,
+    bronzeSponsors: PropTypes.array,
+  }),
 };
 
-const sponsorQuery = `{ name, social { homepage }, about, image }`;
-export default hot(module)(
-  connect(`
-{
-  partners ${sponsorQuery},
-  goldSponsors ${sponsorQuery},
-  silverSponsors ${sponsorQuery},
-  bronzeSponsors ${sponsorQuery},
-}
-`)(SiteBody)
-);
+export default connect(`
+  query SponsorQuery($conferenceId: ID!) {
+    conference(id: $conferenceId) {
+      partners {
+        ...SponsorFragment
+      }
+      goldSponsors {
+        ...SponsorFragment
+      }
+      silverSponsors {
+        ...SponsorFragment
+      }
+      bronzeSponsors {
+        ...SponsorFragment
+      }
+    }
+  }
+
+  fragment SponsorFragment on Contact {
+    name
+    social {
+      homepage
+    }
+    about
+    image {
+      url
+    }
+  }
+
+`)(SiteBody);
