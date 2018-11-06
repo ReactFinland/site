@@ -6,7 +6,7 @@ const ContactMiniContent = ({ image, name }) => [
     key="image"
     alt="about"
     className="contact-mini-logo photo"
-    src={require(`@react-finland/content-2018/images/${image}`)}
+    src={image.url}
     width={100}
   />,
   <figcaption key="name" className="contact-mini-name">
@@ -14,7 +14,7 @@ const ContactMiniContent = ({ image, name }) => [
   </figcaption>,
 ];
 ContactMiniContent.propTypes = {
-  image: PropTypes.string,
+  image: PropTypes.object,
   name: PropTypes.string,
 };
 
@@ -33,7 +33,7 @@ ContactMini.propTypes = {
   name: PropTypes.string,
   about: PropTypes.string,
   social: PropTypes.object,
-  image: PropTypes.string,
+  image: PropTypes.object,
 };
 
 function resolveSocialLink(social) {

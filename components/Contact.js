@@ -8,7 +8,7 @@ const Contact = ({
   name,
   image,
   social,
-  location,
+  country,
   about,
   headerLevel = 2,
   children,
@@ -25,13 +25,13 @@ const Contact = ({
           alt={about}
           width={100}
           height={100}
-          src={require(`@react-finland/content-2018/images/${image}`)}
+          src={image.url}
         />
 
         <span className="contact--name">{name}</span>
 
         <span className="contact--country">
-          <ReactCountryFlag code={location.country.code} svg />
+          <ReactCountryFlag code={country.code} svg />
         </span>
       </AnchorHeader>
 
@@ -67,9 +67,9 @@ const Contact = ({
 );
 Contact.propTypes = {
   name: PropTypes.string,
-  image: PropTypes.string,
+  image: PropTypes.object,
   social: PropTypes.object,
-  location: PropTypes.object,
+  country: PropTypes.object,
   about: PropTypes.string,
   headerLevel: PropTypes.number,
   children: PropTypes.node,

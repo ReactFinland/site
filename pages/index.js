@@ -17,7 +17,7 @@ const secondary = `
 By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduct.org/).
 `;
 
-const Index = ({ speakers }) => (
+const Index = ({ conference }) => (
   <>
     <section className="intro intro_home">
       <div className="intro--main">
@@ -29,7 +29,10 @@ const Index = ({ speakers }) => (
     </section>
     <AnchorHeader level={2}>Past Speakers</AnchorHeader>
     <div className="grid--full speakers">
-      <Contacts items={speakers} render={ContactMini} />
+      <Contacts
+        items={conference && conference.speakers}
+        render={ContactMini}
+      />
     </div>
   </>
 );
