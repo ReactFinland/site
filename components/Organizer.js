@@ -8,7 +8,7 @@ const Organizer = ({ name, image, about }) => (
       className="organizer--photo"
       width={100}
       height={100}
-      src={image.src}
+      src={image.url}
     />
 
     <figcaption className="organizer--name">{name}</figcaption>
