@@ -17,7 +17,7 @@ const Schedule = ({ conference }) => {
           <Markdown
             source={`The schedule of the event has been carefully curated. In true Finnish style, we rather focus on quality than quantity. There is no call for papers and the speakers have been chosen with care.
 
-[Subscribe to the conference calendar](https://api.react-finland.fi/calendar/react-finland). You can import it to your Google Calendar for example.
+[Subscribe to the conference calendar](https://api.react-finland.fi/calendar/react-finland-2019). You can import it to your Google Calendar for example.
 `}
           />
         </div>
