@@ -27,7 +27,7 @@ const Index = ({ conference }) => (
         <Markdown source={secondary} />
       </aside>
     </section>
-    <AnchorHeader level={2}>Past Speakers</AnchorHeader>
+    <AnchorHeader level={2}>Speakers</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
         items={conference && conference.speakers}
@@ -58,6 +58,6 @@ query PageQuery($conferenceId: ID!) {
 }
 `,
   () => ({
-    conferenceId: "react-finland-2018",
+    conferenceId: "react-finland-2019",
   })
 )(Index);
