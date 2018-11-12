@@ -42,11 +42,6 @@ We are offering the perfect spot for companies to promote their knowledge and pr
 | Item in the goodie bag | | | &#10003;
 | Attendance for the speaker events (e.g. the speakers dinner) | | &#9786; | &#9786; &#9786;
 | Special requests | | | &#10003;
-| Speaker visiting your office* | | &#10003; | &#10003;
-
-### Speaker visiting your office*
-
-Our Sponsors will get a speaker visiting your office to have a small tech session and mingle with your employees. This is possible only at Helsinki Region, since the speakers will be flying to Helsinki-Vantaa airport.
 
 ## How to Sponsor?
 
