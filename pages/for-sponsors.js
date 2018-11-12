@@ -28,7 +28,7 @@ We are offering the perfect spot for companies to promote their knowledge and pr
 
 | | BRONZE | SILVER | GOLD
 | - | - | - |
-| Cost | 3.000 € | 6.000 € | 13.000 €
+| Cost | 3.000 € | 7.500 € | 15.000 €
 | Available | 4 | 3 | 2
 | Conference tickets | 2 x &#9786; | 4 x &#9786; | 6 x &#9786;
 | Visibility on social media and website | &#9786; | &#9786; &#9786; | &#9786; &#9786; &#9786;
