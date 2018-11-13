@@ -1,6 +1,5 @@
 import React from "react";
-import Interactive from "antwar-interactive";
-import { AnchorHeader, Markdown, VenueGallery } from "components";
+import { AnchorHeader, Markdown } from "components";
 
 const intro =
   "There are several things you must know before coming to React Finland. Read on to learn more.";
@@ -15,18 +14,21 @@ const main = `
 
 ## How to Get to the Venue?
 
-There's a direct train from the airport to Helsinki center. HSL operates the local public transport system. You can find a city bike system as well.
+There's a direct train from the airport to Helsinki center. HSL operates the local public transport system. You can find a city bike system as well. From city center, take a tram or metro to Hakaniemi.
+
+To get to the center for airport, you can use train, Finnair buses or taxi. It seems that nowadays there might be some fake taxis, so use reliable taxi services like TaksiHelsinki, Lahitaksi, Kovanen or FixuTaxi. Note that taxis are very expensive in Helsinki.
 
 ## What to Take with You?
 
-* A swimming suit.
-* A towel.
+1. A swimming suit.
+2. A towel.
+3. A laptop. The first two are needed only if you go to sauna and swim.
 
 ## How to Follow the Conference Program?
 
 1. Use the site [schedule](/schedule/).
 2. Use the mobile applications (Android, iPhone).
-3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2018.ics). You can import it to your Google Calendar for example.
+3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2019.ics). You can import it to your Google Calendar for example.
 
 ## What Should I Know About Finland?
 
@@ -38,7 +40,7 @@ There's a direct train from the airport to Helsinki center. HSL operates the loc
 `;
 
 const secondary = `
-The conference will be held at [Valkoinen Sali](https://www.valkoinensali.com/) (White Hall). The venue is right in the center of historical area of Helsinki and it is one of the few ballrooms kept in its original form in Finland. The space fits up to 450 people and there's a separate bar in addition to the main space.
+The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House. On 24th, several meeting rooms will be used for the workshops. On 25th and 26th, the big congress hall will be the main conference location.
 `;
 
 const ForAttendees = () => (
@@ -51,10 +53,14 @@ const ForAttendees = () => (
     </section>
     <AnchorHeader level={2}>The Venue</AnchorHeader>
     <div className="grid--5col">
+      <img
+        alt="Paasitorni"
+        style={{ width: "100%" }}
+        src={
+          "https://www.paasitorni.fi/app/uploads/2017/12/IMG_2411-1-1000x667.jpg"
+        }
+      />
       <Markdown source={secondary} />
-    </div>
-    <div className="grid--full">
-      <Interactive id="components/VenueGallery.js" component={VenueGallery} />
     </div>
     <AnchorHeader level={3}>The Venue Location</AnchorHeader>
     <div className="grid--full">
@@ -65,17 +71,9 @@ const ForAttendees = () => (
         frameBorder="0"
       />
       <ul>
-        <li>
-          Blue star - Valkoinen Sali, the main venue and first workshop
-          location. Aleksanterinkatu 16
-        </li>
-        <li>
-          Green heart - Elisa Appelsiini, second workshop location. Kaarlenkatu
-          11
-        </li>
+        <li>Blue star - Paasitorni, Paasivuorenkatu 5 A</li>
         <li>Red train - Main railway station</li>
         <li>Yellow swimmer - Allas Sea Pool</li>
-        <li>Maroon drink - Sea Life Helsinki (afterparty). Tivolikuja 10</li>
       </ul>
     </div>
     <div className="grid--5col">
