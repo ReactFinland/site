@@ -36,7 +36,7 @@ To get to the center for airport, you can use train, Finnair buses or taxi. It s
 * We use euro as our currency.
 * Finland is generally considered a safe country. Do **not** try to go past people in the grill queue, through, as that's a common way to find yourself in a trouble.
 * Finland has about 5.5 million residents. That's about 1.6 times the population of Berlin spread around a big area. Whole Germany has roughly the same land area.
-* Some Finns don't like if you tell them Finland is a part of Scandinavia. Technically a small part in the north is but some consider Finland as a culturally separate entity. The more inclusive term to use might be *fennoscandia* (Finland and the rest).
+* Some Finns don't like if you tell them Finland is a part of Scandinavia. Technically a small part in the north is but some consider Finland as a culturally separate entity. The more inclusive term to use might be *Nordic countries* (Finland and the rest).
 `;
 
 const secondary = `
