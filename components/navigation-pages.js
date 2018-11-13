@@ -7,10 +7,6 @@ export default [
     },
     links: [
       {
-        title: "GraphQL Finland",
-        url: "https://graphql-finland.fi/",
-      },
-      {
         title: "About",
         url: "/about/",
       },
@@ -83,6 +79,10 @@ export default [
       {
         title: "2018",
         url: "/2018/",
+      },
+      {
+        title: "GraphQL Finland",
+        url: "https://graphql-finland.fi/",
       },
     ],
   },
