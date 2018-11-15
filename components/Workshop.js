@@ -16,7 +16,11 @@ const Workshop = ({
 
     <SessionSpeakers speakers={speakers} />
 
-    {description ? <Markdown source={description} /> : "To be announced."}
+    {description ? (
+      <Markdown source={description} />
+    ) : (
+      <div>To be announced.</div>
+    )}
 
     <AnchorHeader level={headerLevel + 1}>Location</AnchorHeader>
 
