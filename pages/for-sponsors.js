@@ -26,8 +26,8 @@ We are offering the perfect spot for companies to promote their knowledge and pr
 
 | | BRONZE | SILVER | GOLD
 | - | - | - |
-| Cost | 3.000 € | 7.500 € | 15.000 €
-| Available | 4 | 3 | 2
+| Cost* | 2.000 € | 5.000 € | 10.000 €
+| Available | 8 | 6 | 4
 | Conference tickets | 2 x &#9786; | 4 x &#9786; | 6 x &#9786;
 | Visibility on social media and website | &#9786; | &#9786; &#9786; | &#9786; &#9786; &#9786;
 | Logo size on website and app | &#9786; | &#9786; &#9786; | &#9786; &#9786; &#9786;
@@ -41,6 +41,8 @@ We are offering the perfect spot for companies to promote their knowledge and pr
 | Item in the goodie bag | | | &#10003;
 | Attendance for the speaker events (e.g. the speakers dinner) | | | &#9786;
 | Special requests | | | &#10003;
+
+* For sponsors from Finland, a VAT of 24% will be charged on top of sponsor package price.
 
 ## How to Sponsor?
 
