@@ -67,3 +67,9 @@
     background-color: lighten($color-accent, 10%) !important;
   }
 }
+
+/* React Finland 2019 hacks */
+.tito-ticket.row:first-child,
+.tito-ticket.row:nth-child(7) {
+  border-bottom: 0.2em solid #777 !important;
+}

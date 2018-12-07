@@ -34,6 +34,12 @@ const Index = ({ conference }) => (
         render={ContactMini}
       />
     </div>
+    <AnchorHeader level={2}>Tickets</AnchorHeader>
+    <div className="grid--full">
+      <tito-widget event="react-finland/2019">
+        Loading. Patience my padawan!
+      </tito-widget>
+    </div>
   </>
 );
 

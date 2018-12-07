@@ -18,10 +18,10 @@ export default [
         title: "Workshops",
         url: "/workshops/",
       },
-      /*{
+      {
         title: "Buy tickets",
         url: "/#tickets",
-      },*/
+      },
     ],
   },
   {
