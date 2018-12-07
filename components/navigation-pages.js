@@ -19,7 +19,7 @@ export default [
         url: "/workshops/",
       },
       {
-        title: "Buy tickets",
+        title: <b>Buy tickets</b>,
         url: "/#tickets",
       },
     ],
