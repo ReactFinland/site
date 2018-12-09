@@ -87,13 +87,6 @@ h3 {
 
 .heading {
   @extend .grid--5col;
-  &--anchor {
-    display: block;
-    text-decoration: none;
-    top: -75px;
-    visibility: hidden;
-  }
-
   &--anchor-select {
     visibility: hidden;
     padding-left: $pu;
@@ -571,18 +564,16 @@ table thead th:not(:first-child) {
 
 #schedule {
   .legend {
-    label {
+    &--label {
       margin-right: 1.5em;
       display: inline-block;
-
-      .title {
-        white-space: nowrap;
-      }
     }
-
-    abbr {
-      margin-right: 0.25em;
+    &--title {
+      white-space: nowrap;
     }
+  }
+  .icon-abbr {
+    margin-right: 0.25em;
   }
 }
 

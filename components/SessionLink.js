@@ -4,7 +4,12 @@ import { slugify } from "utils";
 
 const PrefixedSessionLink = prefix => {
   const SessionLink = ({ title }) => (
-    <a href={`/${prefix}/#${slugify(title)}`}>👩‍💻{title}</a>
+    <a href={`/${prefix}/#${slugify(title)}`}>
+      <span role="img" aria-label="Technologist">
+        👩‍💻
+      </span>
+      {title}
+    </a>
   );
   SessionLink.propTypes = {
     title: PropTypes.string,

@@ -69,6 +69,7 @@ const ForAttendees = () => (
         width="100%"
         height="480"
         frameBorder="0"
+        title="Google maps"
       />
       <ul>
         <li>Blue star - Paasitorni, Paasivuorenkatu 5 A</li>

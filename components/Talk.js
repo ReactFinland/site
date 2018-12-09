@@ -20,13 +20,23 @@ const Talk = ({
       <span title={type}>{TYPES[type]}</span> {title || "To be announced."}
       <span style={{ marginLeft: "1em" }}>&nbsp;</span>
       {slides && (
-        <a href={slides} style={{ fontSize: "small" }} target="_blank">
+        <a
+          href={slides}
+          style={{ fontSize: "small" }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Slides (PDF)
         </a>
       )}
       <span style={{ marginLeft: "1em" }}>&nbsp;</span>
       {web && (
-        <a href={web} style={{ fontSize: "small" }} target="_blank">
+        <a
+          href={web}
+          style={{ fontSize: "small" }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Slides (web)
         </a>
       )}

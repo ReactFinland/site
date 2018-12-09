@@ -6,14 +6,12 @@
   "private": true,
   "scripts": {
     "start": "node ./antwar.bootstrap.js develop",
-    "build":
-      "rimraf ./build && node ./antwar.bootstrap.js build && npm run sitemap && npm run copy:all",
+    "build": "rimraf ./build && node ./antwar.bootstrap.js build && npm run sitemap && npm run copy:all",
     "build:netlify": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint . --ignore-path .gitignore --fix",
     "test": "npm run lint",
-    "sitemap":
-      "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
+    "sitemap": "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
     "copy:all": "npm run copy:extra",
     "copy:extra": "cp -rfv assets/extra/* build",
     "styleguide": "styleguidist server",
@@ -70,6 +68,7 @@
     "css-loader": "^0.28.10",
     "eslint": "^4.18.1",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
     "extract-text-webpack-plugin": "^3.0.2",
@@ -97,6 +96,9 @@
     "webpack-merge": "^4.1.2"
   },
   "lint-staged": {
-    "*.{js,jsx,css,scss,json}": ["prettier --write", "git add"]
+    "*.{js,jsx,css,scss,json}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

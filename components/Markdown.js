@@ -3,7 +3,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import PropTypes from "prop-types";
 import AnchorHeader from "./AnchorHeader";
-import Schedule from "./Schedule";
+// import Schedule from "./Schedule";
 
 const Tip = ({ text }) => (
   <blockquote className="tip">

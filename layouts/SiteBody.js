@@ -57,7 +57,10 @@ const SiteBody = (
             <div className="grid--full">
               <div className="sponsors sponsors_gold">
                 <AnchorHeader className="sponsors--heading" level={2}>
-                  🥇 Gold Sponsors
+                  <span role="img" aria-label="First place medal">
+                    🥇
+                  </span>
+                  Gold Sponsors
                 </AnchorHeader>
                 <section className="sponsors--list">
                   <Contacts items={goldSponsors} render={Sponsor} />
@@ -68,7 +71,10 @@ const SiteBody = (
               </div>
               <div className="sponsors sponsors_silver">
                 <AnchorHeader className="sponsors--heading" level={2}>
-                  🥈 Silver Sponsors
+                  <span role="img" aria-label="Second place medal">
+                    🥈
+                  </span>
+                  Silver Sponsors
                 </AnchorHeader>
                 <section className="sponsors--list">
                   <Contacts items={silverSponsors} render={Sponsor} />
@@ -80,7 +86,10 @@ const SiteBody = (
 
               <div className="sponsors sponsors_bronze">
                 <AnchorHeader className="sponsors--heading" level={2}>
-                  🥉 Bronze Sponsors
+                  <span role="img" aria-label="Third place medal">
+                    🥉
+                  </span>
+                  Bronze Sponsors
                 </AnchorHeader>
                 <section className="sponsors--list">
                   <Contacts
