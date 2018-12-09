@@ -7,10 +7,10 @@ const ScheduleLegend = () => (
     <legend>Legend</legend>
 
     {Object.keys(scheduleTypes).map(type => (
-      <label key={`icon-${type}`}>
+      <div className="legend--label" key={`icon-${type}`}>
         <ScheduleIcon type={type} />
-        <span className="title">{scheduleTypes[type].title}</span>
-      </label>
+        <span className="legend--title">{scheduleTypes[type].title}</span>
+      </div>
     ))}
   </fieldset>
 );
