@@ -87,13 +87,6 @@ h3 {
 
 .heading {
   @extend .grid--5col;
-  &--anchor {
-    display: block;
-    text-decoration: none;
-    top: -75px;
-    visibility: hidden;
-  }
-
   &--anchor-select {
     visibility: hidden;
     padding-left: $pu;

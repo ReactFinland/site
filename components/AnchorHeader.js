@@ -5,8 +5,7 @@ const AnchorHeader = ({ level, anchor, children }, { getId }) => {
   let id = getId && getId(anchor, children);
 
   return React.createElement(`h${level}`, { className: "heading" }, [
-    <a className="heading--anchor" href={`#${id}`} id={id} key="anchor" />,
-    <span className="text" key="anchor-text">
+    <span className="text" key="anchor-text" id={id}>
       {children}
     </span>,
     <a className="heading--anchor-select" href={`#${id}`} key="anchor-select">
