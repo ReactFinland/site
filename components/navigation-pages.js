@@ -32,28 +32,28 @@ export default [
       {
         title: (
           <a href="https://www.youtube.com/c/ReactFinland">
-            <i className="icon-youtube-play" />
+            <i className="icon-youtube-play" aria-label="Youtube" />
           </a>
         ),
       },
       {
         title: (
           <a href="https://medium.com/react-finland">
-            <i className="icon-medium" />
+            <i className="icon-medium" aria-label="Medium" />
           </a>
         ),
       },
       {
         title: (
           <a href="https://twitter.com/ReactFinland">
-            <i className="icon-twitter" />
+            <i className="icon-twitter" aria-label="Twitter" />
           </a>
         ),
       },
       {
         title: (
           <a href="https://github.com/ReactFinland">
-            <i className="icon-github-circled" />
+            <i className="icon-github-circled" aria-label="Github" />
           </a>
         ),
       },
