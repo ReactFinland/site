@@ -25,6 +25,7 @@ const Subscribe = ({
             className="subscribe--input"
             id="mce-EMAIL"
             required
+            aria-label="email"
           />
           <div
             style={{
