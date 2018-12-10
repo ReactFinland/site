@@ -22,7 +22,7 @@ const Contact = ({
       >
         <img
           className="contact--photo photo"
-          alt={about}
+          alt={about || name}
           width={100}
           height={100}
           src={image.url}
@@ -40,19 +40,19 @@ const Contact = ({
 
         {social.github && (
           <a href={social.github}>
-            <i className="icon-github-circled" />
+            <i className="icon-github-circled" aria-label="Github" />
           </a>
         )}
 
         {social.twitter && (
           <a href={social.twitter}>
-            <i className="icon-twitter" />
+            <i className="icon-twitter" aria-label="Twitter" />
           </a>
         )}
 
         {social.linkedin && (
           <a href={social.linkedin}>
-            <i className="icon-linkedin-squared" />
+            <i className="icon-linkedin-squared" aria-label="Linkedin" />
           </a>
         )}
       </div>
