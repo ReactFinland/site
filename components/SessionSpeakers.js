@@ -14,7 +14,7 @@ const SessionSpeakers = ({ speakers = [] }) => (
       >
         <img
           className="speaker-name--photo photo"
-          alt={about}
+          alt={about || name}
           key={i}
           width={32}
           height={32}
