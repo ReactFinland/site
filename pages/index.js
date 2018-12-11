@@ -27,6 +27,20 @@ const Index = ({ conference }) => (
         <Markdown source={secondary} />
       </aside>
     </section>
+    <AnchorHeader level={2}>MCs</AnchorHeader>
+    <div className="grid--full speakers">
+      <Contacts items={conference && conference.mcs} render={ContactMini} />
+    </div>
+    <AnchorHeader level={2}>Workshop Instructors</AnchorHeader>
+    <div className="grid--full speakers">
+      <Contacts
+        items={
+          conference &&
+          [].concat(...conference.workshops.map(workshop => workshop.speakers))
+        }
+        render={ContactMini}
+      />
+    </div>
     <AnchorHeader level={2}>Speakers</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
@@ -45,20 +59,32 @@ const Index = ({ conference }) => (
 
 export default connect(
   `
+fragment SpeakerFragment on Contact {
+  name
+  about
+  social {
+    homepage
+    github
+    twitter
+    linkedin
+  }
+  image {
+    url
+  }
+}
+
 query PageQuery($conferenceId: ID!) {
   conference(id: $conferenceId) {
+    mcs {
+      ...SpeakerFragment
+    }
+    workshops {
+      speakers {
+        ...SpeakerFragment
+      }
+    }
     speakers {
-      name
-      about
-      social {
-        homepage
-        github
-        twitter
-        linkedin
-      }
-      image {
-        url
-      }
+      ...SpeakerFragment
     }
   }
 }
