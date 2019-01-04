@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  AnchorHeader,
   Markdown,
   Schedule as ScheduleComp,
   ScheduleLegend,
@@ -27,9 +28,9 @@ const Schedule = ({ conference }) => {
         {conference.schedules && <ScheduleLegend />}
         {conference.schedules.map(({ day, description, intervals }) => (
           <React.Fragment key={day}>
-            <h2>
+            <AnchorHeader level={2}>
               {day} {" - "} {description}
-            </h2>
+            </AnchorHeader>
             <ScheduleComp intervals={intervals} />
           </React.Fragment>
         ))}
