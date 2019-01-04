@@ -6,12 +6,14 @@
   "private": true,
   "scripts": {
     "start": "node ./antwar.bootstrap.js develop",
-    "build": "rimraf ./build && node ./antwar.bootstrap.js build && npm run sitemap && npm run copy:all",
+    "build":
+      "rimraf ./build && node ./antwar.bootstrap.js build && npm run sitemap && npm run copy:all",
     "build:netlify": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint . --ignore-path .gitignore --fix",
     "test": "npm run lint",
-    "sitemap": "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
+    "sitemap":
+      "cd build && sitemap-static --prefix=https://react-finland.fi/ > sitemap.xml",
     "copy:all": "npm run copy:extra",
     "copy:extra": "cp -rfv assets/extra/* build",
     "styleguide": "styleguidist server",
@@ -39,6 +41,7 @@
     "graphql": "^0.13.2",
     "graphql-request": "^1.5.2",
     "graphql-tools": "^3.0.0",
+    "is-object": "^1.0.1",
     "moment": "^2.20.1",
     "normalize.css": "^8.0.0",
     "prettier": "^1.12.1",
@@ -96,9 +99,6 @@
     "webpack-merge": "^4.1.2"
   },
   "lint-staged": {
-    "*.{js,jsx,css,scss,json}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,jsx,css,scss,json}": ["prettier --write", "git add"]
   }
 }

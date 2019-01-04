@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import isObject from "is-object";
 import { slugify } from "../utils";
 
 class AnchorProvider extends React.Component {
@@ -14,7 +15,10 @@ class AnchorProvider extends React.Component {
     return {
       getId: (anchor, children) => {
         let id = slugify(
-          anchor || (Array.isArray(children) ? children : [children]).join()
+          anchor ||
+            (Array.isArray(children) ? children : [children])
+              .filter(c => !isObject(c))
+              .join()
         );
 
         // Check for duplicate id
