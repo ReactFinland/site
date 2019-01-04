@@ -49,6 +49,7 @@ query PageQuery($conferenceId: ID!) {
       intervals {
         begin
         end
+        title
         sessions {
           type
           interval {

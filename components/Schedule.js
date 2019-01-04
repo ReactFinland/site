@@ -9,11 +9,14 @@ import slugify from "../utils/slugify";
 
 const Schedule = ({ intervals }) => (
   <dl className="schedule">
-    {intervals.map(({ begin, end, sessions }, i) => [
+    {intervals.map(({ begin, end, sessions, title: sessionTitle }, i) => [
       <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
         {begin}–{end}
       </dt>,
       <dd className="schedule--definition" key={`dd-${i}`}>
+        {sessionTitle && (
+          <AnchorTitle key={`title-${i}`} title={sessionTitle} />
+        )}
         {sessions.map(({ title, type, description, speakers, keywords }, i) => (
           <div className="session" key={`session-${i}`}>
             {type === "WORKSHOP" ? (
@@ -29,6 +32,7 @@ const Schedule = ({ intervals }) => (
                 title={title}
                 type={type}
                 speakers={speakers}
+                level={sessionTitle ? 4 : 3}
               />
             )}
             {type !== "WORKSHOP" &&
@@ -71,8 +75,8 @@ const WorkshopTitle = ({ title, type, speakers }) => (
 );
 WorkshopTitle.propTypes = titlePropTypes;
 
-const AnchorTitle = ({ title, type, speakers }) => (
-  <AnchorHeader level={3} anchor={title}>
+const AnchorTitle = ({ title, type, speakers, level = 3 }) => (
+  <AnchorHeader level={level} anchor={title}>
     <ScheduleIcon type={type} />
     {title} {title && speakers && "—"}{" "}
     {speakers && <SessionSpeakers key={`speaker-names`} speakers={speakers} />}
