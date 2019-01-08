@@ -101,13 +101,15 @@ const SiteBody = (
                   )}
                 </section>
               </div>
-            </div>
 
-            <AnchorHeader level={2}>Partners</AnchorHeader>
-            <div className="sponsors sponsors_partners grid--full">
-              <section className="sponsors--list">
-                <Contacts items={partners} render={Sponsor} />
-              </section>
+              <div className="sponsors sponsors_partners">
+                <AnchorHeader className="sponsors--heading" level={2}>
+                  Partners
+                </AnchorHeader>
+                <section className="sponsors--list">
+                  <Contacts items={partners} render={Sponsor} />
+                </section>
+              </div>
             </div>
           </section>
         </div>
