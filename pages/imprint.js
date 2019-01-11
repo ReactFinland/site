@@ -4,8 +4,8 @@ import { Markdown } from "components";
 const main = `
 \`\`\`
 React Finland ry
-Lehdokkipolku 2 A 2
-00930 Helsinki
+Lauttasaarentie 16 A 17
+00200 Helsinki
 \`\`\`
 
 info <at> react-finland.fi
