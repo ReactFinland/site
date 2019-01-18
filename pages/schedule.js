@@ -29,7 +29,8 @@ const Schedule = ({ conference }) => {
         {conference.schedules.map(({ day, description, intervals }) => (
           <React.Fragment key={day}>
             <AnchorHeader level={2}>
-              {day} {" - "} {description}
+              {day}
+              {description && ` - ${description}`}
             </AnchorHeader>
             <ScheduleComp intervals={intervals} />
           </React.Fragment>
@@ -53,27 +54,12 @@ query PageQuery($conferenceId: ID!) {
         title
         sessions {
           type
-          interval {
-            begin
-            end
-          }
           title
           description
-
-          ... on Workshop {
-            speakers {
-              name
-              image {
-                url
-              }
-            }
-          }
-          ... on Talk {
-            speakers {
-              name
-              image {
-                url
-              }
+          speakers {
+            name
+            image {
+              url
             }
           }
         }

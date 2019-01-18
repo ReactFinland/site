@@ -78,8 +78,11 @@ WorkshopTitle.propTypes = titlePropTypes;
 const AnchorTitle = ({ title, type, speakers, level = 3 }) => (
   <AnchorHeader level={level} anchor={title}>
     <ScheduleIcon type={type} />
-    {title} {title && speakers && "—"}{" "}
-    {speakers && <SessionSpeakers key={`speaker-names`} speakers={speakers} />}
+    {title} {title && speakers && speakers.length > 0 && "—"}{" "}
+    {speakers &&
+      speakers.length > 0 && (
+        <SessionSpeakers key={`speaker-names`} speakers={speakers} />
+      )}
   </AnchorHeader>
 );
 AnchorTitle.propTypes = titlePropTypes;
