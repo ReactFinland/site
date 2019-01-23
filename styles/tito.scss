@@ -69,7 +69,7 @@
 }
 
 /* React Finland 2019 hacks */
-.tito-ticket.row:first-child,
-.tito-ticket.row:nth-child(8) {
+.tito-ticket.row:nth-child(2),
+.tito-ticket.row:nth-child(9) {
   border-bottom: 0.2em solid #777 !important;
 }
