@@ -11,7 +11,7 @@ const TYPES = {
 const Talk = ({
   title,
   description,
-  urls: { slides, web },
+  urls: { slides, web } = {},
   type,
   headerLevel = 2,
 }) => (

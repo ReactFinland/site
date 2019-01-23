@@ -82,7 +82,12 @@ h2 {
 }
 
 h3 {
+  margin-top: $pu * 6;
   font-size: 1.25em;
+}
+
+h4 {
+  margin-top: $pu * 4;
 }
 
 .heading {

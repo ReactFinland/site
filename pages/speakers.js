@@ -22,6 +22,16 @@ query PageQuery($conferenceId: ID!) {
   conference(id: $conferenceId) {
     speakers {
       name
+      talks {
+        title
+        type
+        description
+      }
+      workshops {
+        title
+        type
+        description
+      }
       about
       social {
         homepage
