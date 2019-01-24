@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import { AnchorHeader, Markdown } from "components";
 
 const TYPES = {
-  keynote: "🗝",
-  lightningTalk: "⚡️",
-  presentation: "🎙",
+  KEYNOTE: "🗝",
+  LIGHTNING_TALK: "⚡️",
+  TALK: "🎙",
 };
 
 const Talk = ({
