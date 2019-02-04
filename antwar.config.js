@@ -30,6 +30,10 @@ module.exports = {
       title: "For Attendees",
       description: `What should I know as a ${EVENT_NAME} attendee`,
     }),
+    "for-speakers": page("for-speakers", {
+      title: "For Speakers",
+      description: `What should I know as a ${EVENT_NAME} speaker?`,
+    }),
     "for-sponsors": page("for-sponsors", {
       title: "For Sponsors",
       description: `What should I know as a ${EVENT_NAME} sponsor?`,
