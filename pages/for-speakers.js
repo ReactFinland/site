@@ -21,7 +21,7 @@ const ForSpeakers = () => (
         }
       />
       <Markdown
-        source={`The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House. On 18th, several meeting rooms would be used for the workshops. On 19th, the big congress hall will be the main conference location. For speakers, there is gonna be a top floor speaker room on 19th.`}
+        source={`The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House. On 24th, several meeting rooms will be used for the workshops. On 25th and 26th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference.`}
       />
     </div>
     <div className="grid--5col">
