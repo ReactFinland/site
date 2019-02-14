@@ -72,6 +72,7 @@ h4,
 h5,
 h6 {
   font-family: $fh;
+  font-weight: normal;
   margin-top: $pu * 8;
   margin-bottom: $pu2;
   line-height: 1.25;
@@ -287,7 +288,6 @@ address {
   display: flex;
   margin: 0;
   padding: 0;
-  font-weight: bold;
 
   &--image {
     display: block;
@@ -297,7 +297,6 @@ address {
   &--title {
     margin-top: 0.25em;
     font-size: 1.25em;
-    font-weight: bold;
     line-height: 1.125;
   }
 
