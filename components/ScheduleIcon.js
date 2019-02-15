@@ -4,7 +4,7 @@ import scheduleTypes from "./schedule-types";
 
 const ScheduleIcon = ({ type }) =>
   scheduleTypes[type] ? (
-    <abbr className="icon-abbr" title={scheduleTypes[type].title}>
+    <abbr className="icon-abbr" title={scheduleTypes[type].title} aria-hidden="true">
       {scheduleTypes[type].icon}
     </abbr>
   ) : null;
