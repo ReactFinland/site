@@ -226,10 +226,7 @@ address {
   margin: 0;
   padding: 0;
   color: #f3f7f9;
-  background-image: linear-gradient(
-      rgba(0, 81, 80, 0.95),
-      rgba($color-accent, 0.99)
-    ),
+  background-image: linear-gradient(#002fa9, rgba(82, 151, 233, 0.79)),
     url("../assets/img/headers/front.svg");
   background-size: 100% 100%, $header-background-size $header-background-size;
   font-family: $fh;
