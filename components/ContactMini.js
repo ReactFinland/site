@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { slugify } from "../utils";
 
 const ContactMiniContent = ({ image, name }) => [
   <img
@@ -18,26 +19,17 @@ ContactMiniContent.propTypes = {
   name: PropTypes.string,
 };
 
-const ContactMini = ({ name, about, social, image }) => (
+const ContactMini = ({ name, about, image }) => (
   <figure className="contact-mini">
-    {resolveSocialLink(social) ? (
-      <a href={resolveSocialLink(social)} title={about}>
-        <ContactMiniContent about={about} image={image} name={name} />
-      </a>
-    ) : (
+    <a href={`/speakers/#${slugify(name)}`} title={about}>
       <ContactMiniContent about={about} image={image} name={name} />
-    )}
+    </a>
   </figure>
 );
 ContactMini.propTypes = {
   name: PropTypes.string,
   about: PropTypes.string,
-  social: PropTypes.object,
   image: PropTypes.object,
 };
-
-function resolveSocialLink(social) {
-  return social.homepage || social.twitter;
-}
 
 export default ContactMini;
