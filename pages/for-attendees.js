@@ -30,6 +30,10 @@ To get to the center for airport, you can use train, Finnair buses or taxi. It s
 2. Use the mobile applications (Android, iPhone).
 3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2019.ics). You can import it to your Google Calendar for example.
 
+## When Can I Register?
+
+Registration is possible in any of the conference days. The desk will be close to the entrance of the venue.
+
 ## What Should I Know About Finland?
 
 * We speak Finnish, English, and Swedish (poorly most often). [Check out our brief guide to Finnish](https://medium.com/react-finland/brief-guide-to-finnish-7f43f37d5017) in order to surprise the locals.
