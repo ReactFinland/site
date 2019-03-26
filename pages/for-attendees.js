@@ -76,9 +76,14 @@ const ForAttendees = () => (
         title="Google maps"
       />
       <ul>
-        <li>Blue star - Paasitorni, Paasivuorenkatu 5 A</li>
-        <li>Red train - Main railway station</li>
-        <li>Yellow swimmer - Allas Sea Pool</li>
+        <li>Blue star - Paasitorni, Paasivuorenkatu 5 A - Main venue</li>
+        <li>
+          Red train - Main railway station - Likely you will arrive here from
+          the airport
+        </li>
+        <li>
+          Purple drink - Tiivistämö, Kaasutehtaankatu 1 - Friday afterparty
+        </li>
       </ul>
     </div>
     <div className="grid--5col">
