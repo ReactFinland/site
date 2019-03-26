@@ -52,6 +52,14 @@ query PageQuery($conferenceId: ID!) {
         begin
         end
         title
+        location {
+          name
+          social {
+            googleMaps
+          }
+          address
+          city
+        }
         sessions {
           type
           title
@@ -62,6 +70,7 @@ query PageQuery($conferenceId: ID!) {
               url
             }
           }
+          keywords
         }
       }
     }

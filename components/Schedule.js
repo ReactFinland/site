@@ -9,45 +9,47 @@ import slugify from "../utils/slugify";
 
 const Schedule = ({ intervals }) => (
   <dl className="schedule">
-    {intervals.map(({ begin, end, sessions, title: sessionTitle }, i) => [
-      <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
-        {begin}–{end}
-      </dt>,
-      <dd className="schedule--definition" key={`dd-${i}`}>
-        {sessionTitle && (
-          <AnchorTitle key={`title-${i}`} title={sessionTitle} />
-        )}
-        {sessions.map(({ title, type, description, speakers, keywords }, i) => (
-          <div className="session" key={`session-${i}`}>
-            {type === "WORKSHOP" ? (
-              <WorkshopTitle
-                key={i}
-                title={title}
-                type={type}
-                speakers={speakers}
-              />
-            ) : (
-              <AnchorTitle
-                key={i}
-                title={title}
-                type={type}
-                speakers={speakers}
-                level={sessionTitle ? 4 : 3}
-              />
-            )}
-            {type !== "WORKSHOP" &&
-              description && (
-                <Markdown
-                  key={`description-${i}`}
-                  source={description}
-                  escapeHtml={false}
-                />
-              )}
-            {keywords && <Keywords key={`keywords-${i}`} items={keywords} />}
-          </div>
-        ))}
-      </dd>,
-    ])}
+    {intervals.map(
+      ({ begin, end, sessions, title: sessionTitle, location }, i) => [
+        <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
+          {begin}–{end}
+        </dt>,
+        <dd className="schedule--definition" key={`dd-${i}`}>
+          {sessionTitle && (
+            <AnchorTitle key={`title-${i}`} title={sessionTitle} />
+          )}
+          {sessions.map(
+            ({ title, type, description, speakers, keywords }, i) => (
+              <div className="session" key={`session-${i}`}>
+                {type === "WORKSHOP" ? (
+                  <WorkshopTitle key={i} title={title} type={type} />
+                ) : (
+                  <AnchorTitle
+                    key={i}
+                    title={title}
+                    type={type}
+                    speakers={speakers}
+                    level={sessionTitle ? 4 : 3}
+                  />
+                )}
+                {type !== "WORKSHOP" &&
+                  description && (
+                    <Markdown
+                      key={`description-${i}`}
+                      source={description}
+                      escapeHtml={false}
+                    />
+                  )}
+                {location && <Location {...location} />}
+                {keywords && (
+                  <Keywords key={`keywords-${i}`} items={keywords} />
+                )}
+              </div>
+            )
+          )}
+        </dd>,
+      ]
+    )}
   </dl>
 );
 Schedule.propTypes = {
@@ -59,18 +61,29 @@ function getType(sessions) {
   return sessions.length && sessions[0].type.toLowerCase();
 }
 
+function Location({ name, social: { googleMaps }, address, city }) {
+  return (
+    <div>
+      <div>
+        {name} {address}, {city}
+      </div>
+      <div>
+        <a href={googleMaps}>Google Maps</a>
+      </div>
+    </div>
+  );
+}
+
 const titlePropTypes = {
   title: PropTypes.string,
   type: PropTypes.string,
   speakers: PropTypes.array,
 };
 
-const WorkshopTitle = ({ title, type, speakers }) => (
+const WorkshopTitle = ({ title, type }) => (
   <AnchorHeader level={3} anchor={title}>
     <ScheduleIcon type={type} />
     <a href={`/workshops#${slugify(title)}`}>{title}</a>{" "}
-    {title && speakers && "—"}{" "}
-    {speakers && <SessionSpeakers key={`speaker-names`} speakers={speakers} />}
   </AnchorHeader>
 );
 WorkshopTitle.propTypes = titlePropTypes;
