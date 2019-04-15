@@ -21,7 +21,9 @@ const ForSpeakers = () => (
         }
       />
       <Markdown
-        source={`The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House. On 24th, several meeting rooms will be used for the workshops. On 25th and 26th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference.`}
+        source={`The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House.
+
+On 24th, several meeting rooms will be used for the workshops. On 25th and 26th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference.`}
       />
     </div>
     <div className="grid--5col">
@@ -35,8 +37,17 @@ We booked you all at [Scandic Paasi](https://www.scandichotels.com/hotels/finlan
 
 If you want to use public transport, we recommend train or Finnair bus to railway station. From there you need to take tram 9 to Hakaniemi.
 
-Alternatively, you can take a taxi. Save the receipt so we can reimburse you. There are several taxis in the airport, take reputable one like Taksi Helsinki. Note that it's not cheap, expect 50 euros.
-
+Alternatively, you can take a taxi. Save the receipt so we can reimburse you. There are several taxis in the airport, take reputable one like Taksi Helsinki. Note that it's not cheap, expect 50 euros.`}
+      />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.1274086421402!2d24.945750416227373!3d60.17862334967814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bd360b9d6b9%3A0xcf348ada4853086d!2sScandic+Paasi!5e0!3m2!1sen!2sat!4v1555326003236!5m2!1sen!2sat"
+        width="100%"
+        height="480"
+        frameBorder="0"
+        title="Google maps"
+      />
+      <Markdown
+        source={`
 ## Workshops
 
 The workshops will also be held at Paasitorni, but in smaller rooms. There will be lunch and two breaks with some pastries during the workshop day, so make sure to have breaks at that time. Breaks will be held at the restaurant an it will be an additional opportunity to mingle between the workshop participant. The schedule for the workshops is:
@@ -53,16 +64,27 @@ The speakers' dinner will be held after the workshops.
 
 ## Talks
 
-I'll remind you, but please do sound/equipment check on a break before your talk. The talks are divided into sessions. Depending on the session, you'll have between an hour and 1.5 hours to split between other speakers in the session. Please coordinate on how to handle the timing with other speakers on the session. There's buffer between sessions (usually 30 min break) so the time limit isn't absolutely strict but preferred.
+I'll remind you, but please do sound/equipment check on a break before your talk. The talks are divided into sessions. Depending on the session, you'll have between an hour and 1.5 hours to split between other speakers in the session.
+
+Please coordinate on how to handle the timing with other speakers on the session. There's buffer between sessions (usually 30 min break) so the time limit isn't absolutely strict but preferred.
 
 There won't be Q&A during the talks nor a panel at the end. However, we want to do a Q&A thingie that will happen after the talk. So on the next break after talk, I wonder if you could come to an informal Q&A session at the entrance foyer (I'll remind you about that too).
 
 ## Speakers' dinner
 
-[Scandic Paasi](https://www.scandichotels.com/hotels/finland/helsinki/scandic-paasi?cmpid=ppc_BH2nd&gclid=Cj0KCQjw6fvdBRCbARIsABGZ-vR4KRNmrnasn45hHa-ekzL1kAtPWXVo_gfnkVIq2Ah-dsZT7IuFyk4aArTkEALw_wcB)
 
-Speakers' dinner will be held on 24th at **a place to be decided** starting from 20:00. If the weather is good, we'll walk together to the restaurant from the hotel. We'll be meeting at 19:30 in front of the hotel. If the weather is bad, we'll get a taxi for us all from the hotel. Otherwise, see you at the venue.
-
+Speakers' dinner will be held on 24th at [Flavour Studio](https://goo.gl/maps/f8vnqn1rsJU2) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
+`}
+      />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9778.487190159685!2d24.963769157556634!3d60.19136540726725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692097a464b7503%3A0xfd9497641cb9a910!2sFlavour+Studio!5e0!3m2!1sen!2sat!4v1555325607518!5m2!1sen!2sat"
+        width="100%"
+        height="480"
+        frameBorder="0"
+        title="Google maps"
+      />
+      <Markdown
+        source={`
 ## What Should I Know About Finland?
 
 * We speak Finnish, English, and Swedish (poorly most often). [Check out our brief guide to Finnish](https://medium.com/react-finland/brief-guide-to-finnish-7f43f37d5017) in order to surprise the locals.
