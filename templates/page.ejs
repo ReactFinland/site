@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" <%- htmlWebpackPlugin.options.context.helmet.htmlAttributes %>
-  >
-  <head>
-    <%- htmlWebpackPlugin.options.context.helmet.title %> <%-
+<html lang="en" <%- htmlWebpackPlugin.options.context.helmet.htmlAttributes %>>
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css"
+    integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
+    integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+  <%- htmlWebpackPlugin.options.context.helmet.title %> <%-
     htmlWebpackPlugin.options.context.helmet.meta %> <%-
     htmlWebpackPlugin.options.context.helmet.link %> <%-
     htmlWebpackPlugin.options.context.helmet.style %>
-    <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1.1" />
-    <% for (var file of htmlWebpackPlugin.options.context.cssFiles) { %>
-    <link href="<%= file %>" rel="stylesheet" />
-    <% } %>
-  </head>
-  <body <%- htmlWebpackPlugin.options.context.helmet.bodyAttributes %>
-    > <%- webpackConfig.html %> <%-
+  <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1.1" />
+  <% for (var file of htmlWebpackPlugin.options.context.cssFiles) { %>
+  <link href="<%= file %>" rel="stylesheet" />
+  <% } %>
+</head>
+
+<body <%- htmlWebpackPlugin.options.context.helmet.bodyAttributes %>> <%- webpackConfig.html %> <%-
     htmlWebpackPlugin.options.context.helmet.noscript %> <%-
     htmlWebpackPlugin.options.context.helmet.script %>
-    <script src="https://js.tito.io/v1" async></script>
-    <% for (var script of htmlWebpackPlugin.options.context.jsFiles) { %>
-    <script src="<%= script %>" type="text/javascript"></script>
-    <% } %>
-  </body>
+  <script src="https://js.tito.io/v1" async></script>
+  <% for (var script of htmlWebpackPlugin.options.context.jsFiles) { %>
+  <script src="<%= script %>" type="text/javascript"></script>
+  <% } %>
+</body>
+
 </html>

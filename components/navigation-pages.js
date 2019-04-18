@@ -32,28 +32,35 @@ export default [
       {
         title: (
           <a href="https://www.youtube.com/c/ReactFinland">
-            <i className="icon-youtube-play" aria-label="Youtube" />
+            <i className="fab fa-youtube" aria-label="Youtube" />
           </a>
         ),
       },
       {
         title: (
           <a href="https://medium.com/react-finland">
-            <i className="icon-medium" aria-label="Medium" />
+            <i className="fab fa-medium" aria-label="Medium" />
           </a>
         ),
       },
       {
         title: (
           <a href="https://twitter.com/ReactFinland">
-            <i className="icon-twitter" aria-label="Twitter" />
+            <i className="fab fa-twitter" aria-label="Twitter" />
+          </a>
+        ),
+      },
+      {
+        title: (
+          <a href="https://join.slack.com/t/react-finland/shared_invite/enQtMzQ0NDM1ODczMjE2LTJlZmUxNDEyMThkYzYxNDI0OTQ5ZDc5MTQ0N2Q5OGMwZmM1ZmI0ZDlkMzgxNDk5YTEzMDJiOGY2MjFlNzAxOD">
+            <i className="fab fa-slack" aria-label="Slack" />
           </a>
         ),
       },
       {
         title: (
           <a href="https://github.com/ReactFinland">
-            <i className="icon-github-circled" aria-label="Github" />
+            <i className="fab fa-github" aria-label="Github" />
           </a>
         ),
       },

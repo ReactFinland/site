@@ -15,8 +15,6 @@ import {
 import * as tweakSponsors from "./tweak-sponsors";
 
 import "normalize.css/normalize.css";
-import "../styles/fontello-codes.css";
-import "../styles/fontello-embedded.css";
 import "../styles/style.scss";
 
 const siteName = "React Finland";
