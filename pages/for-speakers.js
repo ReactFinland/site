@@ -73,11 +73,11 @@ There won't be Q&A during the talks nor a panel at the end. However, we want to 
 ## Speakers' dinner
 
 
-Speakers' dinner will be held on 24th at [Flavour Studio](https://goo.gl/maps/f8vnqn1rsJU2) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
+Speakers' dinner will be held on 24th at [Restaurant Juuri](https://juuri.fi/en/) (Korkeavuorenkatu 27) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
 `}
       />
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9778.487190159685!2d24.963769157556634!3d60.19136540726725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692097a464b7503%3A0xfd9497641cb9a910!2sFlavour+Studio!5e0!3m2!1sen!2sat!4v1555325607518!5m2!1sen!2sat"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.019162021747!2d24.945076143228633!3d60.16386163418337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc8506d8a65%3A0xb7607b6188ddec2e!2sLuomus+Ravintolat+Oy!5e0!3m2!1sen!2sde!4v1555594669560!5m2!1sen!2sde"
         width="100%"
         height="480"
         frameBorder="0"
