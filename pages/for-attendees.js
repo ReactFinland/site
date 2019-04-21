@@ -38,9 +38,9 @@ Registration is possible in any of the conference days. The desk will be close t
 
 * We speak Finnish, English, and Swedish (poorly most often). [Check out our brief guide to Finnish](https://medium.com/react-finland/brief-guide-to-finnish-7f43f37d5017) in order to surprise the locals.
 * We use euro as our currency.
+* Our electricity network standard voltage is 230 V (50 Hz). The socket style is type F (Schuko) (symmetrical and looks like pig snout). It accepts plug C and E too.
 * Finland is generally considered a safe country. Do **not** try to go past people in the grill queue, through, as that's a common way to find yourself in a trouble.
-* Finland has around 5.5 million residents. To give you a comparison point, that's about 70% of the population of Berlin spread around the area of whole Finland (roughly the size of Germany).
-* Some Finns don't like if you tell them Finland is a part of Scandinavia. Technically a small part in the north is but some consider Finland as a culturally separate entity. The more inclusive term to use might be *Nordic countries* (Finland and the rest).
+* Finland has around 5.5 million residents. To give you a comparison point, that's about 1.5 times the population of Berlin spread around the area of whole Finland (roughly the size of Germany).
 `;
 
 const secondary = `

@@ -35,7 +35,9 @@ We booked you all at [Scandic Paasi](https://www.scandichotels.com/hotels/finlan
 
 ## How to Get to the hotel?
 
-If you want to use public transport, we recommend train or Finnair bus to railway station. From there you need to take tram 9 to Hakaniemi.
+If you want to use public transport, we recommend bus 615 to Hakaniemi. It's a short walk (about 100 meters) from there to the hotel.
+
+Another option is to take a train or Finnair bus to railway station. From there you need to take tram 9 to Hakaniemi.
 
 Alternatively, you can take a taxi. Save the receipt so we can reimburse you. There are several taxis in the airport, take reputable one like Taksi Helsinki. Note that it's not cheap, expect 50 euros.`}
       />
@@ -89,8 +91,9 @@ Speakers' dinner will be held on 24th at [Restaurant Juuri](https://juuri.fi/en/
 
 * We speak Finnish, English, and Swedish (poorly most often). [Check out our brief guide to Finnish](https://medium.com/react-finland/brief-guide-to-finnish-7f43f37d5017) in order to surprise the locals.
 * We use euro as our currency.
+* Our electricity network standard voltage is 230 V (50 Hz). The socket style is type F (Schuko) (symmetrical and looks like pig snout). It accepts plug C and E too.
 * Finland is generally considered a safe country. Do **not** try to go past people in the grill queue, through, as that's a common way to find yourself in a trouble.
-* Finland has around 5.5 million residents. To give you a comparison point, that's about 70% of the population of Berlin spread around the area of whole Finland (roughly the size of Germany).`}
+* Finland has around 5.5 million residents. To give you a comparison point, that's about 1.5 times the population of Berlin spread around the area of whole Finland (roughly the size of Germany).`}
       />
     </div>
   </>
