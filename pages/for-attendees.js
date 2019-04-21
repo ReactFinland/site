@@ -30,6 +30,18 @@ To get to the center for airport, you can use train, Finnair buses or taxi. It s
 2. Use the mobile applications (Android, iPhone).
 3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2019.ics). You can import it to your Google Calendar for example.
 
+## How to Prepare for a Workshop?
+
+To start your workshop as quick and as smooth as possible, it's a good idea to spend some time beforehand. Make sure to install at least the following software to your laptop:
+
+* [Git](https://git-scm.com/) 2.0, or newer
+* [Node.js](https://nodejs.org/) 10.0, or newer
+* [npm](https://www.npmjs.com/) 6.0, or newer. Consider using either [n](https://github.com/tj/n) or [nvm](https://github.com/creationix/nvm) for managing the version.
+
+> Run \`git --version\`, \`node --version\`, and \`npm --version\` to check versions you have installed.
+
+You should check your workshop requirements for any further requirements. Usually a workshop has a Git repository related to it. [Check the workshop description](/workshops/) for a link. If there's one, make sure you set it up while you perform the work above.
+
 ## When Can I Register?
 
 Registration is possible in any of the conference days. The desk will be close to the entrance of the venue.
