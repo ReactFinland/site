@@ -40,19 +40,19 @@ const Contact = ({
 
         {social.github && (
           <a href={social.github}>
-            <i className="icon-github-circled" aria-label="Github" />
+            <i className="fab fa-github" aria-label="Github" />
           </a>
         )}
 
         {social.twitter && (
           <a href={social.twitter}>
-            <i className="icon-twitter" aria-label="Twitter" />
+            <i className="fab fa-twitter" aria-label="Twitter" />
           </a>
         )}
 
         {social.linkedin && (
           <a href={social.linkedin}>
-            <i className="icon-linkedin-squared" aria-label="Linkedin" />
+            <i className="fab fa-linkedin" aria-label="Linkedin" />
           </a>
         )}
       </div>
