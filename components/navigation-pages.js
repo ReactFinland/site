@@ -80,6 +80,10 @@ export default [
         url: "/for-attendees/",
       },
       {
+        title: "For Speakers",
+        url: "/for-speakers/",
+      },
+      {
         title: "For Sponsors",
         url: "/for-sponsors/",
       },
