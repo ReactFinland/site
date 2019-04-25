@@ -12,7 +12,7 @@ export default [
       },
       {
         title: "Schedule",
-        url: "/schedule/",
+        url: "/schedule/#2019-04-26-second-conference-day",
       },
       {
         title: "Workshops",
