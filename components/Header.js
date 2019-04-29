@@ -10,7 +10,7 @@ import Interactive from "antwar-interactive";
 const Header = ({ pathname, title }) => {
   const isHomePage = pathname === "/";
   return isHomePage ? (
-    <header className={isHomePage ? "header header_index" : "header"}>
+    <header className={"header header_index"}>
       <div className="header--container container grid grid_6col">
         <Navigation pathname={pathname} pages={navigationPages} />
         <Link to="/" className="rubric site-name header--logo">
