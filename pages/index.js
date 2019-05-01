@@ -1,8 +1,8 @@
 import React from "react";
 import {
   AnchorHeader,
-  Contacts,
-  ContactMini,
+  //Contacts,
+  //ContactMini,
   Markdown,
   connect,
 } from "components";
@@ -12,7 +12,7 @@ React Finland combines the Finnish React community with international flavor. Th
 
 In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community. In addition to enjoying the event, this is your chance to explore Finland.
 
-[Read seven reasons why you should come to React Finland 2019!](https://medium.com/react-finland/seven-reasons-to-visit-2019-d290d3417b67)
+[Read seven reasons why you should come to React Finland!](https://medium.com/react-finland/seven-reasons-to-visit-2019-d290d3417b67)
 `;
 
 const secondary = `
@@ -31,7 +31,7 @@ const Index = ({ conference }) => (
         <Markdown source={secondary} />
       </aside>
     </section>
-    <AnchorHeader level={2}>MCs</AnchorHeader>
+    {/*<AnchorHeader level={2}>MCs</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts items={conference && conference.mcs} render={ContactMini} />
     </div>
@@ -51,14 +51,14 @@ const Index = ({ conference }) => (
         items={conference && conference.speakers}
         render={ContactMini}
       />
-    </div>
-    <AnchorHeader level={2}>Tickets</AnchorHeader>
+    </div>*/}
+    {/*<AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="grid--full">
       Not available at the moment.
-      {/*<tito-widget event="react-finland/2019">
+      <tito-widget event="react-finland/2019">
         Loading. Patience my padawan!
-      </tito-widget>*/}
-    </div>
+      </tito-widget>
+    </div>*/}
   </>
 );
 

@@ -53,8 +53,16 @@ const SiteBody = (
           <section className="grid grid_6col">
             {children}
             <div className="grid--full">
+              <div className="sponsors">
+                <AnchorHeader
+                  className="sponsors--heading visually-hidden"
+                  level={2}
+                >
+                  Sponsors of 2019
+                </AnchorHeader>
+              </div>
               <div className="sponsors sponsors_gold">
-                <AnchorHeader className="sponsors--heading" level={2}>
+                <AnchorHeader className="sponsors--heading" level={3}>
                   <span role="img" aria-label="First place medal">
                     🥇
                   </span>
@@ -68,7 +76,7 @@ const SiteBody = (
                 </section>
               </div>
               <div className="sponsors sponsors_silver">
-                <AnchorHeader className="sponsors--heading" level={2}>
+                <AnchorHeader className="sponsors--heading" level={3}>
                   <span role="img" aria-label="Second place medal">
                     🥈
                   </span>
@@ -83,7 +91,7 @@ const SiteBody = (
               </div>
 
               <div className="sponsors sponsors_bronze">
-                <AnchorHeader className="sponsors--heading" level={2}>
+                <AnchorHeader className="sponsors--heading" level={3}>
                   <span role="img" aria-label="Third place medal">
                     🥉
                   </span>
@@ -101,7 +109,7 @@ const SiteBody = (
               </div>
 
               <div className="sponsors sponsors_partners">
-                <AnchorHeader className="sponsors--heading" level={2}>
+                <AnchorHeader className="sponsors--heading" level={3}>
                   Partners
                 </AnchorHeader>
                 <section className="sponsors--list">

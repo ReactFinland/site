@@ -26,6 +26,10 @@ module.exports = {
       description: "React Finland 2018",
       title: "React Finland 2018",
     }),
+    "2019": page("2019", {
+      description: "React Finland 2019",
+      title: "React Finland 2019",
+    }),
     "for-attendees": page("for-attendees", {
       title: "For Attendees",
       description: `What should I know as a ${EVENT_NAME} attendee`,
@@ -64,10 +68,20 @@ module.exports = {
       "schedule",
       {
         title: "Schedule",
-        description: `What is the schedule of ${EVENT_NAME}?`,
+        description: `What was the schedule of ${EVENT_NAME}?`,
       },
       {
         conferenceId: "react-finland-2018",
+      }
+    ),
+    "2019/schedule": page(
+      "schedule",
+      {
+        title: "Schedule",
+        description: `What was the schedule of ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2019",
       }
     ),
     speakers: page(
@@ -84,10 +98,20 @@ module.exports = {
       "speakers",
       {
         title: "Speakers",
-        speakers: `Who is going to speak at ${EVENT_NAME}?`,
+        speakers: `Who spoke at ${EVENT_NAME}?`,
       },
       {
         conferenceId: "react-finland-2018",
+      }
+    ),
+    "2019/speakers": page(
+      "speakers",
+      {
+        title: "Speakers",
+        speakers: `Who spoke at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2019",
       }
     ),
     workshops: page(
@@ -104,10 +128,20 @@ module.exports = {
       "workshops",
       {
         title: "Workshops",
-        description: `Which workshops will be held at ${EVENT_NAME}?`,
+        description: `Which workshops were held at ${EVENT_NAME}?`,
       },
       {
         conferenceId: "react-finland-2018",
+      }
+    ),
+    "2019/workshops": page(
+      "workshops",
+      {
+        title: "Workshops",
+        description: `Which workshops were held at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2019",
       }
     ),
   },

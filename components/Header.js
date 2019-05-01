@@ -4,8 +4,8 @@ import Link from "./Link";
 import Navigation from "./Navigation";
 import logo from "assets/img/logo.svg";
 import navigationPages from "./navigation-pages";
-import Countdown from "./Countdown";
-import Interactive from "antwar-interactive";
+//import Countdown from "./Countdown";
+//import Interactive from "antwar-interactive";
 
 const Header = ({ pathname, title }) => {
   const isHomePage = pathname === "/";
@@ -35,20 +35,20 @@ const Header = ({ pathname, title }) => {
 
         <section className="header--dates">
           <time dateTime="2019-04-24/2019-04-26" className="header--date">
-            24-26.4.2019
+            April/May 2020
           </time>
           <address className="header--location">Helsinki, Finland</address>
         </section>
-        <Interactive
+        {/*<Interactive
           id="components/Countdown.js"
           component={Countdown}
           toDate="2019-04-24"
           containerProps={{ className: "countdown--container" }}
-        />
+        />*/}
         <section className="header--buy">
-          <Link to="/#tickets" className="buy-button">
+          {/*<Link to="/#tickets" className="buy-button">
             Buy tickets
-          </Link>
+  </Link>*/}
         </section>
       </div>
     </header>

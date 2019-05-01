@@ -18,10 +18,10 @@ export default [
         title: "Workshops",
         url: "/workshops/",
       },
-      {
+      /*{
         title: <b>Buy tickets</b>,
         url: "/#tickets",
-      },
+      },*/
     ],
   },
   {
@@ -90,6 +90,10 @@ export default [
       {
         title: "2018",
         url: "/2018/",
+      },
+      {
+        title: "2019",
+        url: "/2019/",
       },
       {
         title: "GraphQL Finland",
