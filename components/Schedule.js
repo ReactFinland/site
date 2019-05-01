@@ -19,7 +19,7 @@ const Schedule = ({ intervals }) => (
             <AnchorTitle key={`title-${i}`} title={sessionTitle} />
           )}
           {sessions.map(
-            ({ title, type, description, speakers, keywords }, i) => (
+            ({ title, type, description, speakers, keywords, urls }, i) => (
               <div className="session" key={`session-${i}`}>
                 {type === "WORKSHOP" ? (
                   <WorkshopTitle key={i} title={title} type={type} />
@@ -32,6 +32,33 @@ const Schedule = ({ intervals }) => (
                     level={sessionTitle ? 4 : 3}
                   />
                 )}
+                <p>
+                  {urls &&
+                    urls.slides && (
+                      <a
+                        href={urls.slides}
+                        style={{ fontSize: "small" }}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Slides (PDF)
+                      </a>
+                    )}
+                  {urls &&
+                    urls.web && (
+                      <>
+                        <span style={{ marginLeft: "1em" }}>&nbsp;</span>
+                        <a
+                          href={urls.web}
+                          style={{ fontSize: "small" }}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Slides (web)
+                        </a>
+                      </>
+                    )}
+                </p>
                 {type !== "WORKSHOP" &&
                   description && (
                     <Markdown

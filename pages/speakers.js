@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Contacts, Speaker, connect } from "components";
+import { Contacts, Speaker, connect } from "../components";
 
 const Speakers = ({ conference }) => (
   <div className="grid--5col" id="schedule">
@@ -26,6 +26,10 @@ query PageQuery($conferenceId: ID!) {
         title
         type
         description
+        urls {
+          slides
+          web
+        }
       }
       workshops {
         title

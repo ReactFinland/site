@@ -11,6 +11,22 @@ export default [
         url: "/about/",
       },
       /*{
+        title: "Speakers",
+        url: "/speakers/",
+      },*/
+      {
+        title: "For Attendees",
+        url: "/for-attendees/",
+      },
+      {
+        title: "For Speakers",
+        url: "/for-speakers/",
+      },
+      {
+        title: "For Sponsors",
+        url: "/for-sponsors/",
+      },
+      /*{
         title: "Schedule",
         url: "/schedule/#2019-04-26-second-conference-day",
       },
@@ -71,22 +87,6 @@ export default [
       className: "nav--secondary",
     },
     links: [
-      /*{
-        title: "Speakers",
-        url: "/speakers/",
-      },*/
-      {
-        title: "For Attendees",
-        url: "/for-attendees/",
-      },
-      {
-        title: "For Speakers",
-        url: "/for-speakers/",
-      },
-      {
-        title: "For Sponsors",
-        url: "/for-sponsors/",
-      },
       {
         title: "2018",
         url: "/2018/",

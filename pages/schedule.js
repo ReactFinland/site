@@ -5,7 +5,7 @@ import {
   Schedule as ScheduleComp,
   ScheduleLegend,
   connect,
-} from "components";
+} from "../components";
 
 const Schedule = ({ conference }) => {
   if (!conference) {
@@ -71,6 +71,10 @@ query PageQuery($conferenceId: ID!) {
             }
           }
           keywords
+          urls {
+            slides
+            web
+          }
         }
       }
     }
