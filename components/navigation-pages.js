@@ -10,7 +10,7 @@ export default [
         title: "About",
         url: "/about/",
       },
-      {
+      /*{
         title: "Schedule",
         url: "/schedule/#2019-04-26-second-conference-day",
       },
@@ -18,7 +18,7 @@ export default [
         title: "Workshops",
         url: "/workshops/",
       },
-      /*{
+      {
         title: <b>Buy tickets</b>,
         url: "/#tickets",
       },*/
@@ -71,10 +71,10 @@ export default [
       className: "nav--secondary",
     },
     links: [
-      {
+      /*{
         title: "Speakers",
         url: "/speakers/",
-      },
+      },*/
       {
         title: "For Attendees",
         url: "/for-attendees/",
