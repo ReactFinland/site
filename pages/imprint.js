@@ -8,7 +8,8 @@ Lauttasaarentie 16 A 17
 00200 Helsinki
 \`\`\`
 
-info <at> react-finland.fi
+* info <at> react-finland.fi
+* Business ID: 2873394-3
 `;
 
 const Imprint = () => (
