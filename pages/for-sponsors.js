@@ -2,7 +2,7 @@ import React from "react";
 import { Markdown } from "components";
 
 const intro = `
-React Finland is the largest React conference in the Nordics arranged 24-26 of April, 2019 in Helsinki. The conference begins with a workshop day and the following conference days include topics ranging from state management to emerging topics such as ReactVR and ReasonML.
+React Finland is the largest React conference in the Nordics arranged 12-15 of May, 2020 in Helsinki. The conference begins with a workshop day and the following conference days include topics ranging from state management to emerging topics such as ReactVR and ReasonML.
 `;
 
 const main = `
@@ -12,7 +12,7 @@ The twenty speakers of the conference have varying backgrounds and our roster in
 
 ## Focused Audience
 
-We expect the audience to contain plenty of international flavor. Our target is to reach between 250 and 300 attendees. Based on the early sales this goal is viable as we’ve almost sold our hundred early bird tickets in three weeks with four months of sales remaining.
+We expect the audience to contain plenty of international flavor. Our target is to reach between 300 and 400 attendees. Usually 20-30% of our attendees are from abroad.
 
 ## National and International Visibility
 

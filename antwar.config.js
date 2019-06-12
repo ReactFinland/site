@@ -3,7 +3,7 @@ const EVENT_NAME = "React Finland";
 
 module.exports = {
   apiUrl: "https://api.react-finland.fi/graphql",
-  conferenceId: "react-finland-2019",
+  conferenceId: "react-finland-2020",
   template: {
     file: path.resolve(__dirname, "templates/page.ejs"),
     context: {
@@ -61,7 +61,7 @@ module.exports = {
         description: `What is the schedule of ${EVENT_NAME}?`,
       },
       {
-        conferenceId: "react-finland-2019",
+        conferenceId: "react-finland-2020",
       }
     ),
     "2018/schedule": page(
@@ -91,7 +91,7 @@ module.exports = {
         speakers: `Who is going to speak at ${EVENT_NAME}?`,
       },
       {
-        conferenceId: "react-finland-2019",
+        conferenceId: "react-finland-2020",
       }
     ),
     "2018/speakers": page(
@@ -121,7 +121,7 @@ module.exports = {
         description: `Which workshops will be held at ${EVENT_NAME}?`,
       },
       {
-        conferenceId: "react-finland-2019",
+        conferenceId: "react-finland-2020",
       }
     ),
     "2018/workshops": page(
