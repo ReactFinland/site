@@ -8,7 +8,7 @@ import {
 } from "components";
 
 const intro = `
-React Finland combines the Finnish React community with international flavor. The first of its kind in Finland, the event consists of two days of workshops and two days of talks around the topic.
+React Finland combines the Finnish React community with international flavor. The workshops take place 12-13.05 while the actual conference is between 14-15.05.
 
 In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community. In addition to enjoying the event, this is your chance to explore Finland.
 
