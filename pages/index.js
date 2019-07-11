@@ -26,6 +26,14 @@ const Index = ({ conference }) => (
     <section className="intro intro_home">
       <div className="intro--main">
         <Markdown source={intro} />
+        <AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
+        <iframe
+          src="https://www.youtube.com/embed/BO_osndeLII"
+          width="100%"
+          height="400"
+          frameBorder="0"
+          title="React Finland 2019"
+        />
       </div>
       <aside className="intro--aside">
         <Markdown source={secondary} />
