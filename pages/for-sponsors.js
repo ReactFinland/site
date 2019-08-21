@@ -2,7 +2,7 @@ import React from "react";
 import { Markdown } from "components";
 
 const intro = `
-React Finland is the largest React conference in the Nordics arranged 12-15 of May, 2020 in Helsinki. The conference begins with a workshop day and the following conference days include topics ranging from state management to emerging topics such as ReactVR and ReasonML.
+React Finland is the largest React conference in the Nordics arranged 26-29 of May, 2020 in Helsinki. The conference begins with a workshop day and the following conference days include topics ranging from state management to emerging topics such as ReactVR and ReasonML.
 `;
 
 const main = `
