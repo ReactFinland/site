@@ -7,3 +7,5 @@ build/
 node_modules/
 styles-old
 yarn.lock
+# Local Netlify folder
+.netlify
