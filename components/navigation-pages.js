@@ -99,6 +99,10 @@ export default [
         title: "GraphQL Finland",
         url: "https://graphql-finland.fi/",
       },
+      {
+        title: "Freezing Edge",
+        url: "https://freezing-edge.fi/",
+      },
     ],
   },
 ];
