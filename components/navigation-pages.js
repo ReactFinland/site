@@ -80,6 +80,13 @@ export default [
           </a>
         ),
       },
+      {
+        title: (
+          <a href="https://www.flickr.com/photos/react-finland">
+            <i className="fab fa-flickr" aria-label="Flickr" />
+          </a>
+        ),
+      },
     ],
   },
   {
