@@ -33,7 +33,6 @@ We are offering the perfect spot for companies to promote their knowledge and pr
 | Logo size on website and app | &#9786; | &#9786; &#9786; | &#9786; &#9786; &#9786;
 | Banner in conference | &#10003; | &#10003; | &#10003;
 | Banner on stage | | | &#10003;
-| Speaker area access | &#10003; | &#10003; | &#10003;
 | Logo on slides between the talks | &#10003; | &#10003; | &#10003;
 | Job announcements | | &#10003; | &#10003;
 | Area in sponsor lounge for booths / promotion | | &#10003; | &#10003;
