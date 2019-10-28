@@ -7,6 +7,7 @@ import ScheduleIcon from "./ScheduleIcon";
 import SessionSpeakers from "./SessionSpeakers";
 import slugify from "../utils/slugify";
 
+// TODO: Handle sessions inside sessions
 const Schedule = ({ intervals }) => (
   <dl className="schedule">
     {intervals.map(

@@ -30,11 +30,11 @@ export default [
         title: "Schedule",
         url: "/schedule/",
       },
-      /*{
+      {
         title: "Workshops",
         url: "/workshops/",
       },
-      {
+      /*{
         title: <b>Buy tickets</b>,
         url: "/#tickets",
       },*/

@@ -75,6 +75,22 @@ query PageQuery($conferenceId: ID!) {
             slides
             web
           }
+          sessions {
+            type
+            title
+            description
+            speakers {
+              name
+              image {
+                url
+              }
+            }
+            keywords
+            urls {
+              slides
+              web
+            }
+          }
         }
       }
     }
