@@ -43,16 +43,8 @@ const Index = ({ conference }) => (
     <div className="grid--full speakers">
       <Contacts items={conference && conference.mcs} render={ContactMini} />
     </div>
-    <AnchorHeader level={2}>Workshop Instructors</AnchorHeader>
-    <div className="grid--full speakers">
-      <Contacts
-        items={
-          conference &&
-          [].concat(...conference.workshops.map(workshop => workshop.speakers))
-        }
-        render={ContactMini}
-      />
-      </div>*/}
+    <AnchorHeader level={2}>Workshop Instructors</AnchorHeader>*/}
+
     <AnchorHeader level={2}>Speakers</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
@@ -60,6 +52,23 @@ const Index = ({ conference }) => (
         render={ContactMini}
       />
     </div>
+
+    <AnchorHeader level={2}>Lightning Talk Speakers</AnchorHeader>
+    <div className="grid--full speakers">
+      <Contacts
+        items={conference && conference.lightningTalkSpeakers}
+        render={ContactMini}
+      />
+    </div>
+
+    <AnchorHeader level={2}>Workshop Instructors</AnchorHeader>
+    <div className="grid--full speakers">
+      <Contacts
+        items={conference && conference.workshopInstructors}
+        render={ContactMini}
+      />
+    </div>
+
     {/*<AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="grid--full">
       Not available at the moment.
@@ -91,12 +100,13 @@ query PageQuery($conferenceId: ID!) {
     mcs {
       ...SpeakerFragment
     }
-    workshops {
-      speakers {
-        ...SpeakerFragment
-      }
-    }
     speakers {
+      ...SpeakerFragment
+    }
+    lightningTalkSpeakers {
+      ...SpeakerFragment
+    }
+    workshopInstructors {
       ...SpeakerFragment
     }
   }
