@@ -6,7 +6,7 @@ const Speakers = ({ conference }) => (
   <div className="grid--5col" id="schedule">
     <Contacts
       className="speakers"
-      items={conference && conference.speakers}
+      items={conference && conference.allSpeakers}
       render={Speaker}
     />
   </div>
@@ -20,7 +20,7 @@ export default ({ conferenceId }) =>
     `
 query PageQuery($conferenceId: ID!) {
   conference(id: $conferenceId) {
-    speakers {
+    allSpeakers {
       name
       talks {
         title
