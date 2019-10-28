@@ -45,7 +45,15 @@ const Index = ({ conference }) => (
     </div>
     <AnchorHeader level={2}>Workshop Instructors</AnchorHeader>*/}
 
-    <AnchorHeader level={2}>Speakers</AnchorHeader>
+    <AnchorHeader level={2}>Keynotes</AnchorHeader>
+    <div className="grid--full speakers">
+      <Contacts
+        items={conference && conference.keynoteSpeakers}
+        render={ContactMini}
+      />
+    </div>
+
+    <AnchorHeader level={2}>Full talks</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
         items={conference && conference.speakers}
@@ -53,7 +61,7 @@ const Index = ({ conference }) => (
       />
     </div>
 
-    <AnchorHeader level={2}>Lightning Talk Speakers</AnchorHeader>
+    <AnchorHeader level={2}>Lightning Talks</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
         items={conference && conference.lightningTalkSpeakers}
@@ -61,7 +69,7 @@ const Index = ({ conference }) => (
       />
     </div>
 
-    <AnchorHeader level={2}>Workshop Instructors</AnchorHeader>
+    <AnchorHeader level={2}>Workshops</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
         items={conference && conference.workshopInstructors}
@@ -98,6 +106,9 @@ fragment SpeakerFragment on Contact {
 query PageQuery($conferenceId: ID!) {
   conference(id: $conferenceId) {
     mcs {
+      ...SpeakerFragment
+    }
+    keynoteSpeakers {
       ...SpeakerFragment
     }
     speakers {
