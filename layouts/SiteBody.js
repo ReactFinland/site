@@ -102,7 +102,7 @@ const SiteBody = (
                     items={tweakSponsors.bronze(bronzeSponsors)}
                     render={Sponsor}
                   />
-                  {bronzeSponsors.length < 8 && (
+                  {bronzeSponsors.length < 6 && (
                     <a href="/for-sponsors/">Become a sponsor</a>
                   )}
                 </section>
