@@ -1,11 +1,10 @@
 .sponsors {
   @extend .grid;
   @extend .grid_6col;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 
   &--heading {
-    margin: 0 0 1em 0;
+    margin: 1em 0 0 0;
     grid-column: 2 / span 5;
     font-size: 2em;
     @media (max-width: $mobile-breakpoint) {
@@ -44,8 +43,8 @@
       color: #e79a00;
     }
     .sponsors--logo {
-      max-height: 150px;
-      max-width: 300px;
+      max-height: 100px;
+      max-width: 250px;
       width: auto;
     }
   }
@@ -54,12 +53,14 @@
       color: #8f8f8f;
     }
     .sponsors--logo {
-      max-height: 100px;
+      max-height: 70px;
       max-width: 250px;
       width: auto;
     }
   }
   &_bronze {
+    margin: 1em;
+
     .sponsors--heading {
       color: #942e00;
     }
