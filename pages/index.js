@@ -8,7 +8,7 @@ import {
 } from "components";
 
 const intro = `
-React Finland combines the Finnish React community with international flavor. The workshops take place 26-27.05 while the actual conference is between 28-29.05.
+React Finland combines the Finnish React community with international flavor. The workshops take place 25-27.05 while the actual conference is between 28-29.05.
 
 In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community. In addition to enjoying the event, this is your chance to explore Finland.
 

@@ -23,7 +23,7 @@ const ForSpeakers = () => (
       <Markdown
         source={`The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House.
 
-On 24th, several meeting rooms will be used for the workshops. On 25th and 26th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference.`}
+From 25th to 27th, several meeting rooms will be used for the workshops. On 28th and 29th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference.`}
       />
     </div>
     <div className="grid--5col">
@@ -75,7 +75,7 @@ There won't be Q&A during the talks nor a panel at the end. However, we want to 
 ## Speakers' dinner
 
 
-Speakers' dinner will be held on 24th at [Restaurant Juuri](https://juuri.fi/en/) (Korkeavuorenkatu 27) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
+Speakers' dinner will be held on 26th at [Restaurant Juuri](https://juuri.fi/en/) (Korkeavuorenkatu 27) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
 `}
       />
       <iframe

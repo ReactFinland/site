@@ -56,7 +56,7 @@ Registration is possible in any of the conference days. The desk will be close t
 `;
 
 const secondary = `
-The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House. On 24th, several meeting rooms will be used for the workshops. On 25th and 26th, the big congress hall will be the main conference location.
+The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House. On 25th to 27th, several meeting rooms will be used for the workshops. On 28th and 29th, the big congress hall will be the main conference location.
 `;
 
 const ForAttendees = () => (
