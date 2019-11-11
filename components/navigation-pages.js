@@ -34,10 +34,11 @@ export default [
         title: "Workshops",
         url: "/workshops/",
       },
-      /*{
+      {
         title: <b>Buy tickets</b>,
-        url: "/#tickets",
-      },*/
+        url:
+          "https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117",
+      },
     ],
   },
   {

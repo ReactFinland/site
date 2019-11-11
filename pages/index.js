@@ -44,7 +44,6 @@ const Index = ({ conference }) => (
       <Contacts items={conference && conference.mcs} render={ContactMini} />
     </div>
     <AnchorHeader level={2}>Workshop Instructors</AnchorHeader>*/}
-
     <AnchorHeader level={2}>Keynotes</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
@@ -52,7 +51,6 @@ const Index = ({ conference }) => (
         render={ContactMini}
       />
     </div>
-
     <AnchorHeader level={2}>Full talks</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
@@ -60,7 +58,6 @@ const Index = ({ conference }) => (
         render={ContactMini}
       />
     </div>
-
     <AnchorHeader level={2}>Lightning Talks</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
@@ -68,7 +65,6 @@ const Index = ({ conference }) => (
         render={ContactMini}
       />
     </div>
-
     <AnchorHeader level={2}>Workshops</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
@@ -76,14 +72,14 @@ const Index = ({ conference }) => (
         render={ContactMini}
       />
     </div>
-
-    {/*<AnchorHeader level={2}>Tickets</AnchorHeader>
-    <div className="grid--full">
-      Not available at the moment.
-      <tito-widget event="react-finland/2019">
-        Loading. Patience my padawan!
-      </tito-widget>
-    </div>*/}
+    <div className="buy-container">
+      <a
+        className="buy-button"
+        href="https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117"
+      >
+        Buy tickets
+      </a>
+    </div>
   </>
 );
 

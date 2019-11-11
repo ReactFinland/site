@@ -19,7 +19,7 @@
 <body <%- htmlWebpackPlugin.options.context.helmet.bodyAttributes %>> <%- webpackConfig.html %> <%-
     htmlWebpackPlugin.options.context.helmet.noscript %> <%-
     htmlWebpackPlugin.options.context.helmet.script %>
-  <script src="https://js.tito.io/v1" async></script>
+  <script src="https://fienta.com/embed.js"></script>
   <% for (var script of htmlWebpackPlugin.options.context.jsFiles) { %>
   <script src="<%= script %>" type="text/javascript"></script>
   <% } %>

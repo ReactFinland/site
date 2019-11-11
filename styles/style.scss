@@ -4,7 +4,6 @@
 @import "./subscribe.scss";
 @import "./sponsors.scss";
 @import "./footer.scss";
-@import "./tito.scss";
 @import "./intro.scss";
 
 @font-face {
@@ -450,6 +449,7 @@ address {
 
 .buy-button {
   padding: $pu * 3 $pu * 5;
+  border: solid 1px darken($rf-blue, 50%);
   border-radius: 100px;
   background-color: white;
   color: darken($rf-blue, 30%);
@@ -651,4 +651,10 @@ table thead th:not(:first-child) {
   abbr {
     margin-right: 0.5em;
   }
+}
+
+.buy-container {
+  margin-top: 4em;
+  grid-column: 3 / span 2;
+  text-align: center;
 }

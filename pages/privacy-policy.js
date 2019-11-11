@@ -45,9 +45,9 @@ Depending on what features and services you use we store different data.
 
 The website is hosted via the service Netlify. By visiting the website Netlify stores access logs including the IP addresses, stored for less than 30 days. Learn more in [Netlify Privacy Statement](https://www.netlify.com/privacy/).
 
-### Tito
+### Fienta
 
-We use Tito to manage and process the tickets of the conference. An up to date compilation of the personal data they collect and for how long they retain it can be found in their [Tito Privacy Statement](https://ti.to/privacy).
+We use Fienta to manage and process the tickets of the conference. An up to date compilation of the personal data they collect and for how long they retain it can be found in their [Fienta Privacy Statement](https://fienta.com/privacy).
 
 ### Stripe
 
