@@ -75,9 +75,17 @@ const Index = ({ conference }) => (
     <AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="intro--main">
       <p>
-        The tickets for Freezing Edge begin from 199 eur (VAT included). The
+        The tickets for React Finland begin from 299 eur (VAT included). The
         ticket includes access to the one day conference, lunch, snacks during
         the breaks, and an afterparty.
+      </p>
+      <p>
+        The pricing is similar for workshops (one workshop begins from 149 eur!)
+        and you can participate in up to three full day workshops.
+      </p>
+      <p>
+        Note that if you buy more than one ticket, you will get a special
+        discount depending on the amount.
       </p>
     </div>
     <div className="buy-container">
