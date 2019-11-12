@@ -14,7 +14,7 @@ React Finland will be followed by a future-oriented live coding conference, [Fre
 
 ![Getting ready for a workshop day](assets/img/getting-ready.jpg)
 
-As with the previous editions of React Finland, this time we'll follow single track format as well. The event will take place in [Paasitorni](paasitorni.fi). We've capped the amount of people to 400 to keep the conference relatively small as the size gives the conference its own flavor. Technically we could fit more but it's a good amount regardless.
+As with the previous editions of React Finland, this time we'll follow single track format as well. The event will take place in [Paasitorni](https://www.paasitorni.fi). We've capped the amount of people to 400 to keep the conference relatively small as the size gives the conference its own flavor. Technically we could fit more but it's a good amount regardless.
 
 ## Three Days of Workshops
 
