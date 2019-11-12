@@ -10,9 +10,13 @@ React Finland will be followed by a future-oriented live coding conference, [Fre
 
 ## Single Track
 
+![Getting ready for a workshop day](assets/img/getting-ready.jpg)
+
 As with the previous editions of React Finland, this time we'll follow single track format as well. The event will take place in [Paasitorni](paasitorni.fi). We've capped the amount of people to 400 to keep the conference relatively small as the size gives the conference its own flavor. Technically we could fit more but it's a good amount regardless.
 
 ## Three Days of Workshops
+
+![At a workshop with David Khourshid](assets/img/workshop.jpg)
 
 Compared to the previous year, this year we'll have three days of workshops. Three of them has been designed as a design systems trilogy so you can go from close to zero experience with design systems into someone who can begin to implement them in practice. I've listed the highlights of the setup below:
 
@@ -26,6 +30,8 @@ Compared to the previous year, this year we'll have three days of workshops. Thr
 I believe the setup we have lets you tailor a curriculum that fits your needs. Often a workshop is run twice so you'll have more flexibility should you want to participate in a specific one. As with the conference, we follow tiered pricing based on demand so if you buy early, you'll get your tickets cheaper.
 
 ## Two Main Themes, 20 Speakers
+
+![We'll serve Finnish coffee all day](assets/img/finnish-coffee.jpg)
 
 Themed sessions is one of the ingredients that makes React Finland the conference it is. In 2020, we're going one step further by theming entire days. The first day of the conference will be legacy themed while the second day is focused on the future.
 
@@ -76,6 +82,18 @@ At the same time with the lightning talks, we'll run panels with the speakers of
 
 Doing this lets us to get panels back to the conference and I believe it helps us to interact with our valued speakers in a meaningful manner as we won't run QA for the talks. Instead, we expect panels and long breaks address the need for interaction with speakers.
 
+## 2 Parties
+
+![Expect an alcohol free show like last year](assets/img/smoosh.jpg)
+
+To follow the convention from the last year, we'll organize an alcohol free show after the first day. All I can say is that it will be something developers will appreciate.
+
+The afterparty following the second day of the conference will have alcohol free options available and we'll do our best to provide good space for different kinds of people again as some of us might not enjoy loud music and such.
+
 ## Conclusion
 
 I believe React Finland 2020 will be a great event. We are taking the same format with careful tweaks and hope to push it a notch further. The pricing begins from 299€ and you can [buy tickets now](https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117).
+
+If one conference isn't enough, [check out Freezing Edge 2020](https://freezing-edge.fi). It's a live coding focused conference held right after React Finland on 1st of June. Technically the scope is far broader and you should expect to learn what's coming while learning more about other domains of development.
+
+![Come join us in React Finland 2020 by [Nick Tulinen](http://nicktulinen.com)](assets/img/come-join.jpg)
