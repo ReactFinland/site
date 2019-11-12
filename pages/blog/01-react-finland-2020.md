@@ -4,6 +4,8 @@ date: 2019-11-12
 keywords: ["announcement"]
 ---
 
+> TL;DR; [The tickets are here.](https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117)
+
 The third edition of React Finland will take place 25-29.05.2020. The workshops take place from 25th to 27th of May while the two day conference is held between 28th and 29th. The week will end in an afterparty and most likely the local community will arrange side events during the workshop days so you have unofficial program at side.
 
 React Finland will be followed by a future-oriented live coding conference, [Freezing Edge](https://freezing-edge.fi), that will be held for the first time. Compared to React Finland, the scope is broader and the approach is different. Like React Finland, Freezing Edge is a single conference as well but it's more experimental by its nature while it aims to bridge developers across different domains while showing the future of development.
