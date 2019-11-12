@@ -39,29 +39,29 @@ As a developer, I often find myself working with legacy systems. That said, ofte
 
 The second day of the conference takes a look at the future and tries to imagine what React development might look like tomorrow.
 
-Within these overall themes, we'll still have themed sessions as usual. We still haven't specified them exactly but as usual, they'll become clear as the conference approaches. In contrast to other conferences, we choose speakers, not topics (no CFP) and then design the program to fit the roster.
+Within these overall themes, we'll still have themed sessions as usual. We still haven't specified them exactly, but they'll become clear as the conference approaches. In contrast to other conferences, we choose speakers, not topics (no CFP) and then design the program to fit the roster.
 
-So far we've confirmed 19 of 20 speakers we aim to have and I'll give you a rough idea of what to expect from our full slot (30 minutes) speakers:
+So far we've confirmed 19 of 20 speakers we aim to have. We haven't fixed exact topics yet but you can learn about our speakers below:
 
 - [Rachel Nabors](/speakers/#rachel-nabors) - You might know Rachel from her animation work. These days she works in React core team.
 - [Kent C. Dodds](/speakers/#kent-c-dodds) - Kent C. Dodds is one of the better known React educators. If you have ever used [react-testing-library](https://www.npmjs.com/package/@testing-library/react), you know who I'm talking about.
 - [Nader Dabit](/speakers/#nader-dabit) - Nader is one of the regular faces in the React community. Most likely he'll show us the future of [JAMStack](https://jamstack.org).
-- [David Khourshid](/speakers/#david-khourshid) - David has the rare honor of taking part in React Finland for third time as a speaker. As usual, I expect him to blow our minds with something related to statecharts!
+- [David Khourshid](/speakers/#david-khourshid) - David has the rare honor of taking part in React Finland for the third time as a speaker. As usual, I expect him to blow our minds with something related to statecharts!
 - [Farzad Yz](/speakers/#farzad-yz) - Farzad, a local developer, will show us how to tame UI complexity using finite state machines.
 - [Jared Palmer](/speakers/#jared-palmer) - Jared is perhaps most well known for developing [Formik](https://www.npmjs.com/package/formik), a form solution for React. He has developed numerous other packages as well and you might recognize him from those.
 - [Nik Graf](/speakers/#nik-graf) - I've heard Finland is one of Nik's favorite countries so I'm happy to welcome him back to React Finland.
 - [Tejas Kumar](/speakers/#tejas-kumar) - Tejas is a well known figure in the React community and after stunning Finland in 2019 now he is coming back!
-- [Tae'lur Alexis](/speakers/#tae-lur-alexis) - Tae'lur is the founder of [Code Everyday](https://codeeveryday.io) and the exact topic is still a mystery. I would expect something accessibility related perhaps.
+- [Tae'lur Alexis](/speakers/#tae-lur-alexis) - Tae'lur is the founder of [Code Everyday](https://codeeveryday.io).
 - [Jeremy Wagner](/speakers/#jeremy-wagner) - [Jeremy](https://jeremy.codes) has heavy focus on performance in his work and in his endnote, he'll show us how to make it boring!
 - [Rebecca Hill](/speakers/#rebecca-hill) - Although we spend plenty of time debugging, often we don't spend time learning the tools. Rebecca will show us how to debug effectively with React.
 - [Monica Lent](/speakers/#monica-lent) - Monica gave [a stunning talk in the previous React Finland](https://www.youtube.com/watch?v=brMZLmZ1HR0) and now she is back. I would expect an amazing session again.
-- [Laura González](/speakers/#laura-gonz-lez) - Laura is a developer at Facebook. Although the exact topic isn't clear yet, it's likely related to React Native somehow.
+- [Laura González](/speakers/#laura-gonz-lez) - Laura is a developer at Facebook.
 - [Madalyn Rose Parker](/speakers/#madalyn-rose-parker) - Madalyn from Gatsby will discuss accessibility in the context of React.
 - [Kenigbolo Meya Stephen](/speakers/#kenigbolo-meya-stephen) - Kenigbolo, a local developer, will likely give a legacy system related talk.
 - [Ivan Orlov](/speakers/#ivan-orlov) - Ivan is the main developer of [FuseBox](https://fuse-box.org) bundler. It has first class support for TypeScript and the tool represents the new wave of bundlers.
 - [Vivek Nayyar](/speakers/#vivek-nayyar) - Vivek will show us how to keep a codebase up to date with the power of codemods.
-- [Emma Wedekind](/speakers/#emma-wedekind) - Emma is a well-known figure in the React community. I am not sure of the exact topic yet but sometimes it's better to have surprises in store!
-- [Isa Silveira](/speakers/#isa-silveira) - Isa will deliver the endnote of the conference but I'll keep that one as a surprise as well.
+- [Emma Wedekind](/speakers/#emma-wedekind) - Emma is a well-known figure in the React community.
+- [Isa Silveira](/speakers/#isa-silveira) - Isa will deliver the endnote of the conference but I'll keep that one as a surprise.
 
 As mentioned earlier, the exact themes and topics will emerge over time. Especially with a technology like React, it's better to fix these things rather later than sooner given changes can happen so fast.
 
