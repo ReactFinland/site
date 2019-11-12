@@ -65,7 +65,7 @@ So far we've confirmed 19 of 20 speakers we aim to have. We haven't fixed exact 
 
 As mentioned earlier, the exact themes and topics will emerge over time. Especially with a technology like React, it's better to fix these things rather later than sooner given changes can happen so fast.
 
-## 8 Lightning Talks
+## Eight Lightning Talks
 
 In contrast to earlier years, now we'll run lightning talks during the breaks in parallel with panels. Doing this addresses a couple of problems we've encountered so far:
 
@@ -76,13 +76,13 @@ In contrast to earlier years, now we'll run lightning talks during the breaks in
 
 To make this possible, we'll do slightly longer breaks (45 minutes over 30 minutes) but in return you can either hangout at the sponsor lounges, check out lightning talks, or participate in the panels.
 
-## 4 Panels
+## Four Panels
 
 At the same time with the lightning talks, we'll run panels with the speakers of the previous session. We'll do this in collaboration with the [webbidevaus podcast](https://webbidevaus.fi) and it's going to be a podcast recording held live!
 
 Doing this lets us to get panels back to the conference and I believe it helps us to interact with our valued speakers in a meaningful manner as we won't run QA for the talks. Instead, we expect panels and long breaks address the need for interaction with speakers.
 
-## 2 Parties
+## Two Parties
 
 ![Expect an alcohol free show like last year](assets/img/smoosh.jpg)
 
