@@ -110,4 +110,4 @@ To get an idea of what React Finland 2020 will be like, consider the mood video 
   height="400"
   frameBorder="0"
   title="React Finland 2019"
-/>
+></iframe>
