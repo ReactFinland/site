@@ -1,3 +1,4 @@
+const _ = require("lodash");
 const path = require("path");
 const EVENT_NAME = "React Finland";
 
@@ -144,8 +145,48 @@ module.exports = {
         conferenceId: "react-finland-2019",
       }
     ),
+    blog: {
+      content: () => require.context("./pages/blog", false, /^\.\/.*\.md$/),
+      index: () => {
+        const index = require("./layouts/BlogIndex").default;
+
+        index.title = "Blog";
+        index.description = "";
+
+        return index;
+      },
+      layout: () => require("./layouts/BlogPage").default,
+      transform: pages =>
+        generateAdjacent(_.sortBy(pages, "file.attributes.date")).reverse(),
+      url: ({ sectionName, fileName }) =>
+        `/${sectionName}/${cleanBlogPostName(fileName)}/`,
+    },
   },
 };
+
+function cleanBlogPostName(resourcePath) {
+  const parts = resourcePath.split("/");
+  const beginning = parts.slice(0, -1);
+  const end = _.trimStart(parts.slice(-1)[0], "0123456789-_");
+
+  return beginning
+    .concat(end)
+    .join("/")
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/_/g, "-");
+}
+
+function generateAdjacent(pages) {
+  return pages.map((page, i) => {
+    const ret = _.cloneDeep(page); // Avoid mutation
+
+    ret.previous = i > 0 && pages[i - 1];
+    ret.next = i < pages.length - 1 && pages[i + 1];
+
+    return ret;
+  });
+}
 
 function page(name, meta = {}, parameters) {
   const ret = () => {

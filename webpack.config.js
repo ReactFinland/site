@@ -64,7 +64,7 @@ function commonConfig() {
         },
         {
           test: /\.md$/,
-          use: "raw-loader",
+          use: "page-loader",
         },
       ],
     },
@@ -74,6 +74,11 @@ function commonConfig() {
         config: path.resolve(__dirname, "antwar.config.js"), // XXX: styleguidist
         components: path.resolve(__dirname, "components"),
         utils: path.resolve(__dirname, "utils"),
+      },
+    },
+    resolveLoader: {
+      alias: {
+        "page-loader": path.resolve(__dirname, "loaders/page-loader.js"),
       },
     },
   };

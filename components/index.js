@@ -18,4 +18,7 @@ export { default as Sponsor } from "./Sponsor";
 export { default as Footer } from "./Footer";
 export { default as VenueGallery } from "./VenueGallery";
 export { default as Workshop } from "./Workshop";
+export { default as Moment } from "./Moment";
+export { default as Author } from "./Author";
+export { default as PrevNext } from "./PrevNext";
 export { default as connect } from "./connect";

@@ -658,3 +658,16 @@ table thead th:not(:first-child) {
   grid-column: 3 / span 2;
   text-align: center;
 }
+
+.image {
+  max-width: 100%;
+}
+
+figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+figcaption {
+  font-weight: bold;
+}
