@@ -99,3 +99,15 @@ I believe React Finland 2020 will be a great event. We are taking the same forma
 If one conference isn't enough, [check out Freezing Edge 2020](https://freezing-edge.fi). It's a live coding focused conference held right after React Finland on 1st of June. Technically the scope is far broader and you should expect to learn what's coming while learning more about other domains of development.
 
 ![Come join us in React Finland 2020 by [Nick Tulinen](http://nicktulinen.com)](assets/img/come-join.jpg)
+
+## React Finland 2019 - Mood Video
+
+To get an idea of what React Finland 2020 will be like, consider the mood video from 2019:
+
+<iframe
+  src="https://www.youtube.com/embed/BO_osndeLII"
+  width="100%"
+  height="400"
+  frameBorder="0"
+  title="React Finland 2019"
+/>
