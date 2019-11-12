@@ -12,7 +12,9 @@ React Finland combines the Finnish React community with international flavor. Th
 
 In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community. In addition to enjoying the event, this is your chance to explore Finland.
 
-[Read seven reasons why you should come to React Finland!](https://medium.com/react-finland/seven-reasons-to-visit-2019-d290d3417b67)
+[See the React Finland 2020 announcement post](/blog/react-finland-2020).
+
+[Read seven reasons why you should come to React Finland!](https://medium.com/react-finland/seven-reasons-to-visit-2019-d290d3417b67).
 `;
 
 const secondary = `
