@@ -671,3 +671,13 @@ figure {
 figcaption {
   font-weight: bold;
 }
+
+.heading-anchor-select {
+  display: none;
+  margin-left: 0.25em;
+}
+
+.heading:active .heading-anchor-select,
+.heading:hover .heading-anchor-select {
+  display: inline;
+}
