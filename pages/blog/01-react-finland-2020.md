@@ -88,7 +88,9 @@ Doing this lets us to get panels back to the conference and I believe it helps u
 
 To follow the convention from the last year, we'll organize an alcohol free show after the first day. All I can say is that it will be something developers will appreciate.
 
-The afterparty following the second day of the conference will have alcohol free options available and we'll do our best to provide good space for different kinds of people again as some of us might not enjoy loud music and such.
+The afterparty following the second day of the conference will have alcoholic and non-alcoholic options and we'll do our best to provide good space for different kinds of people again as some of us might not enjoy loud music and such.
+
+![To continue the tradition, there will be React themed beer](assets/img/bear-with-me.jpg)
 
 ## Conclusion
 
