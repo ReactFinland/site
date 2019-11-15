@@ -448,6 +448,7 @@ address {
 }
 
 .buy-button {
+  white-space: nowrap;
   padding: $pu * 3 $pu * 5;
   border: solid 1px darken($rf-blue, 50%);
   border-radius: 100px;
