@@ -47,16 +47,13 @@ export default [
     },
     links: [
       {
-        title: (
-          <a href="https://www.youtube.com/c/ReactFinland">
-            <i className="fab fa-youtube" aria-label="Youtube" />
-          </a>
-        ),
+        title: "Blog",
+        url: "/blog/",
       },
       {
         title: (
-          <a href="https://medium.com/react-finland">
-            <i className="fab fa-medium" aria-label="Medium" />
+          <a href="https://www.youtube.com/c/ReactFinland">
+            <i className="fab fa-youtube" aria-label="Youtube" />
           </a>
         ),
       },
