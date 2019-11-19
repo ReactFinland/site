@@ -47,7 +47,7 @@ function commonConfig() {
           use: "file-loader",
         },
         {
-          test: /\.jpg$/,
+          test: /\.(jpg|jpeg)$/,
           use: "file-loader",
         },
         {
@@ -71,6 +71,7 @@ function commonConfig() {
     resolve: {
       alias: {
         assets: path.resolve(__dirname, "assets"),
+        img: path.resolve(__dirname, "assets/img"),
         config: path.resolve(__dirname, "antwar.config.js"), // XXX: styleguidist
         components: path.resolve(__dirname, "components"),
         utils: path.resolve(__dirname, "utils"),
