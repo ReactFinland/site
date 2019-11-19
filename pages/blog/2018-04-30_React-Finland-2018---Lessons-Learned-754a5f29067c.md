@@ -6,7 +6,7 @@ description: >-
 date: "2018-04-30T11:55:59.323Z"
 categories: []
 keywords: []
-slug: /@bebraw/react-finland-2018-lessons-learned-754a5f29067c
+slug: /React-Finland/react-finland-2018-lessons-learned-754a5f29067c
 ---
 
 React Finland 2018 is a wrap. It was the first time that we organized a conference. Although we were well prepared, there are always those unknown unknowns you learn about only after you hit the conference days. Fortunately we were able to adapt and fix several issues during the conference itself. We are now even more prepared for the next edition of React Finland!
@@ -68,7 +68,7 @@ On the second day we realized it’s a good idea to move the mic to the person a
 
 #### Mobile App
 
-Perhaps surprisingly, people found [the conference app](https://medium.com/react-finland/react-finland-app-what-is-it-and-how-we-built-it-273b34144b69). In its current state is roughly a mirror of [the conference site](https://react-finland.fi/). There’s potential for further development as we can add notifications about schedule changes, enable gathering feedback and questions, make it easier to connect with other people to mention several development directions.
+Perhaps surprisingly, people found [the conference app](/blog/react-finland-app-what-is-it). In its current state is roughly a mirror of [the conference site](https://react-finland.fi/). There’s potential for further development as we can add notifications about schedule changes, enable gathering feedback and questions, make it easier to connect with other people to mention several development directions.
 
 Although it’s debatable whether a conference should have an app or not, I think I see the value now. A good app can be much better than a site especially when you provide unique functionality not possible to develop on the web.
 
