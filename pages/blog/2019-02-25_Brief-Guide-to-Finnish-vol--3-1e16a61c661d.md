@@ -11,7 +11,7 @@ slug: /@bebraw/brief-guide-to-finnish-vol-3-1e16a61c661d
 
 ![Smoke sauna ([Pixabay](https://pixabay.com/photos/open-the-door-smoke-sauna-size-image-1901567/))](img/1__x2vhxOc1C4dkqVfKA0U5SQ.jpeg)
 
-If you thought Finnish is an easy language to learn, think again. I’ll prove it in this part of our ([React Finland](https://react-finland.fi/), 24–26.04) brief guides to the language. [In the previous one we learned about “kuuluu](https://medium.com/react-finland/brief-guide-to-finnish-vol-2-a72607379e4c)”, now we are going to learn about “terve” and its variants.
+If you thought Finnish is an easy language to learn, think again. I’ll prove it in this part of our ([React Finland](https://react-finland.fi/), 24–26.04) brief guides to the language. [In the previous one we learned about “kuuluu](/blog/brief-guide-to-finnish-vol--2-a72607379e4c/)”, now we are going to learn about “terve” and its variants.
 
 #### If you are saying hello
 
@@ -85,6 +85,6 @@ If you want to specify it’s best regards from you, adjust as follows:
 
 The rule here is that you should use that “i” if your name ends in a consonant, otherwise you should skip it as it will sound weird.
 
-[Learn about boots in the next part of the series.](https://medium.com/react-finland/brief-guide-to-finnish-vol-4-a99d6eb1034f)
+[Learn about boots in the next part of the series.](/blog/brief-guide-to-finnish-vol--4---saapas-a99d6eb1034f/)
 
 > It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.

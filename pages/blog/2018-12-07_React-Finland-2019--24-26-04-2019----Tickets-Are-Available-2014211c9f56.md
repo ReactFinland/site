@@ -11,7 +11,7 @@ slug: /@bebraw/2019-tickets-available-2014211c9f56
 
 ![There will be breaks and time to discuss](img/1__FPGz5UNa__bL__8yQ4oeyzUg.jpeg)
 
-It’s React Finland time again. The goal of React Finland 2019 is to [continue where we left off the first time](https://medium.com/react-finland/react-finland-2018-lessons-learned-754a5f29067c) and go further. The format will be close to the same as the first time with several improvements:
+It’s React Finland time again. The goal of React Finland 2019 is to [continue where we left off the first time](/blog/react-finland-2018---lessons-learned-754a5f29067c/) and go further. The format will be close to the same as the first time with several improvements:
 
 - The conference will be held 24–26.04.2019. We considered doing two workshop days but for this event, we’ll keep the same format (1+2) for now.
 - We’ll use [Paasitorni](https://www.paasitorni.fi/), the venue familiar from [GraphQL Finland](https://graphql-finland.fi/)

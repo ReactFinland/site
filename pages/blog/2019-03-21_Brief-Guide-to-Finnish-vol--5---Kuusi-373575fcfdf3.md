@@ -11,7 +11,7 @@ slug: /@bebraw/brief-guide-to-finnish-vol-5-373575fcfdf3
 
 ![Typical Finnish landscape, don’t expect mountains ([Pixabay](https://pixabay.com/photos/finland-lake-fir-reflection-907408/))](img/1__kHgUtx5I0e028CiTgi0jkg.jpeg)
 
-[In the previous edition of our brief guide go Finnish](https://medium.com/react-finland/brief-guide-to-finnish-vol-4-a99d6eb1034f), you learned about “saapas”. This time it’s time to learn something about trees, numbers, the moon, and tools.
+[In the previous edition of our brief guide go Finnish](/blog/brief-guide-to-finnish-vol--4---saapas-a99d6eb1034f/), you learned about “saapas”. This time it’s time to learn something about trees, numbers, the moon, and tools.
 
 #### If you are saying there’s a fir over there
 

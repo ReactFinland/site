@@ -11,7 +11,7 @@ slug: /@bebraw/react-finland-2018-lessons-learned-754a5f29067c
 
 React Finland 2018 is a wrap. It was the first time that we organized a conference. Although we were well prepared, there are always those unknown unknowns you learn about only after you hit the conference days. Fortunately we were able to adapt and fix several issues during the conference itself. We are now even more prepared for the next edition of React Finland!
 
-I had [made some personal observations from a speaker perspective](https://medium.com/react-finland/conference-dos-and-donts-56973b82229a) and had some idea of what a good conference might look like. Mostly we were fairly inexperienced and learned as we went.
+I had [made some personal observations from a speaker perspective](/blog/conference-dos-and-don-ts-56973b82229a/) and had some idea of what a good conference might look like. Mostly we were fairly inexperienced and learned as we went.
 
 In this post, I’ll reflect on what I feel worked and what didn’t. I believe each conference has a formula and I think we found one for React Finland. Despite rough edges it felt like a good event that can become a great one when certain issues are fixed.
 

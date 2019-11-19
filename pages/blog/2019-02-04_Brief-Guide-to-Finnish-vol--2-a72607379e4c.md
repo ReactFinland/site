@@ -11,7 +11,7 @@ slug: /@bebraw/brief-guide-to-finnish-vol-2-a72607379e4c
 
 ![Finnish cookies ([Pixabay](https://pixabay.com/en/gingerbread-cookie-flag-of-finland-3023207/))](img/1__copWTZQ4r2y9RD0fKmrkbw.jpeg)
 
-While preparing for the upcoming [React Finland](https://react-finland.fi/) (24–26.04) conference, you may have spent some time learning the [basics of the Finnish language](https://medium.com/react-finland/brief-guide-to-finnish-7f43f37d5017). This time we’ll leap to advanced level — all done by using only a single phrase.
+While preparing for the upcoming [React Finland](https://react-finland.fi/) (24–26.04) conference, you may have spent some time learning the [basics of the Finnish language](/blog/brief-guide-to-finnish-vol--1---basics-7f43f37d5017/). This time we’ll leap to advanced level — all done by using only a single phrase.
 
 I’ll demonstrate you five quite common scenarios of daily life in Finland. And how we‘re able to survive from almost every situation by using a simple language rule called “kysymysliitepartikkeli” (“question suffix particle”).
 
@@ -87,6 +87,6 @@ And the Finn will repeat the answer:
 
 _The above is possible because “kuu” (moon) and “luu” (bone) can be combined into a single word “kuuluu” (moon bone) which happens to overlap with other usages._
 
-[Learn to say “hi” in the next part of the guide.](https://medium.com/react-finland/brief-guide-to-finnish-vol-3-1e16a61c661d)
+[Learn to say “hi” in the next part of the guide.](/blog/brief-guide-to-finnish-vol--3-1e16a61c661d/)
 
 > It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.

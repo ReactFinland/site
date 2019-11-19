@@ -14,7 +14,7 @@ In this single track event you will learn more about React and surrounding topic
 
 [See the React Finland 2020 announcement post](/blog/react-finland-2020/).
 
-[Read seven reasons why you should come to React Finland!](https://medium.com/react-finland/seven-reasons-to-visit-2019-d290d3417b67).
+[Read seven reasons why you should come to React Finland!](/blog/seven-reasons-to-visit-react-finland-2019-d290d3417b67/).
 `;
 
 const secondary = `

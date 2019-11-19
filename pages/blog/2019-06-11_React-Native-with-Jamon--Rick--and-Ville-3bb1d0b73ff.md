@@ -21,7 +21,7 @@ On retrospect, putting the React Native session to the beginning of the second c
 
 If you haven’t heard of [Ignite](https://github.com/infinitered/ignite) yet and you develop React Native, then you are in it for a treat. Ignite is a CLI designed to make it easier to develop React Native applications without having to dig for the best practices.
 
-In his talk, Jamon Holmgren discusses how his company grew the project and built a community around it. In this way it’s related to [Michel’s talk about MobX from the first day](https://medium.com/react-finland/state-management-with-michel-david-luca-and-farzad-6543fcc2e601) and it bridged the days together unintentionally.
+In his talk, Jamon Holmgren discusses how his company grew the project and built a community around it. In this way it’s related to [Michel’s talk about MobX from the first day](/blog/state-management-with-michel--david--luca--and-farzad-6543fcc2e601/) and it bridged the days together unintentionally.
 
 - [Online slides](https://infinite-red.slides.com/infinitered/react-finland-2019?token=m2ZLCaid)
 - [pdf slides](https://slides.react-finland.fi/2019/jamon-holmgren.pdf)

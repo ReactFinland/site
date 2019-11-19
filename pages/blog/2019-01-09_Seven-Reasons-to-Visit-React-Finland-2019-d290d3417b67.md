@@ -15,7 +15,7 @@ Given there are so many conferences out there already, why would you visit [Reac
 
 Each conference has its own identity and I believe after arranging two last year, we have found something that makes sense for us. As an experienced speaker, I have seen many different setups and I think we found a good compromise for our events.
 
-[Although the older reasons still apply](https://medium.com/react-finland/why-to-visit-react-finland-6cef6d2655aa), I’ve tried to list seven more specific reasons below.
+[Although the older reasons still apply](/blog/why-visit-react-finland--6cef6d2655aa/), I’ve tried to list seven more specific reasons below.
 
 #### Full Day Workshops
 

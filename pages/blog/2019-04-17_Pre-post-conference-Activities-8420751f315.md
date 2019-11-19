@@ -15,7 +15,7 @@ Often when you go to a conference and have some free time, it can be difficult t
 
 To facilitate this, I’ve gathered the current activity ideas to post to give you a starting point. You can also reach the other attendees through the conference Slack and there’s a specific channel, **#react-get-together**, for getting organized.
 
-I have listed [the main parties and conference events in the previous post](https://medium.com/react-finland/2019-parties-and-community-events-e7a22af12ea6). You can also [refer to the schedule](https://react-finland.fi/schedule/) for up to date information.
+I have listed [the main parties and conference events in the previous post](/blog/parties-and-community-events-e7a22af12ea6/). You can also [refer to the schedule](https://react-finland.fi/schedule/) for up to date information.
 
 > If you cannot access Slack for a reason or another, send us email (info <at> react-finland.fi) and we’ll add you there.
 

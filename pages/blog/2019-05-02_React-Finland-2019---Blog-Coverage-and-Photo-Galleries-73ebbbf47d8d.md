@@ -11,7 +11,7 @@ slug: /@bebraw/react-finland-2019-blog-coverage-and-photo-galleries-73ebbbf47d8d
 
 ![I dare you to try Finnish coffee](img/1__GQl43DfLpSgJpQ0GTxS__CQ.jpeg)
 
-[Like in the previous year](https://medium.com/react-finland/react-finland-2018-blog-coverage-e65bcece8946), [React Finland](https://react-finland.fi) has inspired bloggers to take up their virtual pens and write about the event. I’ll cover the posts I am aware of in this post so you can learn more about the conference.
+[Like in the previous year](/blog/react-finland-2018---blog-coverage-e65bcece8946/), [React Finland](https://react-finland.fi) has inspired bloggers to take up their virtual pens and write about the event. I’ll cover the posts I am aware of in this post so you can learn more about the conference.
 
 To get idea of the atmosphere of the event, check the video I produced below (thanks to [Glenn Reyes](https://twitter.com/glnnrys) for shooting the last bit):
 
