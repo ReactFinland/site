@@ -9,7 +9,7 @@ keywords: []
 slug: /@bebraw/sponsors-of-react-finland-2018-8dfa06cced99
 ---
 
-You might recall [React Finland had a call for sponsors](https://medium.com/react-finland/call-for-sponsors-b193c561fa5) mid-January. There was more demand for sponsoring than we had sponsorship slots and sadly we had to turn companies down.
+You might recall [React Finland had a call for sponsors](/blog/react-finland-2018---call-for-sponsors-b193c561fa5/) mid-January. There was more demand for sponsoring than we had sponsorship slots and sadly we had to turn companies down.
 
 We used a Mersenne Twister and judgment to determine which companies to choose and I believe we have an excellent group of sponsors supporting the first iteration of the event.
 

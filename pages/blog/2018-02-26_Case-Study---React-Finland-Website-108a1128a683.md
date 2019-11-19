@@ -21,7 +21,7 @@ The site would have benefitted from a designer early on but having content was a
 
 After I had the initial copywriting done, I began to work on the site structure and figured out the basic concepts (schedule, speakers, workshops, and so on). The process became valuable later on as I modeled a data schema for the GraphQL API of the event.
 
-> To see how the content looked originally, see early revisions of the site: [\[1\]](https://59fddcb08198760e2a9941cd--react-finland.netlify.com/), [\[2\]](https://5a006850df995339562abfdb--react-finland.netlify.com/), [\[3\]](https://5a4e4219a114770c1bf21b79--react-finland.netlify.com/), [\[4\]](https://5a65b2cda6188f6f41f79626--react-finland.netlify.com/). Read [Technology behind React Finland](https://medium.com/react-finland/the-technology-behind-react-finland-5d944cc6e438) for the technology choices.
+> To see how the content looked originally, see early revisions of the site: [\[1\]](https://59fddcb08198760e2a9941cd--react-finland.netlify.com/), [\[2\]](https://5a006850df995339562abfdb--react-finland.netlify.com/), [\[3\]](https://5a4e4219a114770c1bf21b79--react-finland.netlify.com/), [\[4\]](https://5a65b2cda6188f6f41f79626--react-finland.netlify.com/). Read [Technology behind React Finland](/blog/the-technology-behind-react-finland-5d944cc6e438/) for the technology choices.
 
 ![One of the early designs](img/1__5X8QAgunoLAxiSozJJL5gg.png)
 

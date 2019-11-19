@@ -45,4 +45,4 @@ Since the grammar is the size of Godzilla and it would take a long post to expla
 
 The nice thing is that you don’t have to learn Finnish in order to [participate in React Finland](https://react-finland.fi/)! We will speak English with our beautiful Finnish accent (also known as tankero or [rally English](https://www.youtube.com/watch?v=yM8Gkw8oMyY)) with you.
 
-If you want to know more about the language, [continue to part two](https://medium.com/react-finland/brief-guide-to-finnish-vol-2-a72607379e4c).
+If you want to know more about the language, [continue to part two](/blog/brief-guide-to-finnish-vol--2-a72607379e4c/).

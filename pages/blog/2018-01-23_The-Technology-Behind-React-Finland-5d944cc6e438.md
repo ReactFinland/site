@@ -11,7 +11,7 @@ slug: /@bebraw/the-technology-behind-react-finland-5d944cc6e438
 
 ![[Teamwork](https://pixabay.com/en/idea-teamwork-thinking-working-3085367/)](img/1__Zi7djJhTv1CoCXcPyLPlRg.jpeg)
 
-When you organize a developer conference such as [React Finland](https://react-finland.fi/) and [the organizers are developers themselves](https://medium.com/react-finland/from-devs-to-devs-a807f8d41949), you’ll get a lot of software development as a result. In this case we’ve developed the site, a mobile application, an API, and a content infrastructure.
+When you organize a developer conference such as [React Finland](https://react-finland.fi/) and [the organizers are developers themselves](/blog/react-finland-is-from-devs-to-devs-a807f8d41949/), you’ll get a lot of software development as a result. In this case we’ve developed the site, a mobile application, an API, and a content infrastructure.
 
 ### Website
 
@@ -23,13 +23,9 @@ I decided to use the same stack for [the React Finland site](https://react-finla
 
 The site uses a LESS for styling at the time of writing. It’s not a popular choice but rather something that our designer picked and it stuck then.
 
-#### Tito for Ticket Sales
+#### Fienta for Ticket Sales
 
-We decided to go with [Tito for ticket sales](https://ti.to/). It doesn’t fit our requirements perfectly but it was a good enough fit and has proven to be a good choice. At the time of writing, it’s missing grouping functionality and as a result the user interface is cluttered while a certain amount of manual work is required to manage it.
-
-#### Medium for Blog
-
-It would have been simple to maintain this blog on top of the site but we decided to go with [a Medium based blog instead](https://medium.com/react-finland) since it has a potentially better reach within our target audience. Running a blog of your own is more of a long term strategy although it gives you more control and flexibility.
+We decided to go with [Fienta for ticket sales](https://fienta.com/). It fits our requirements by most parts and they are willing to work on the rest.
 
 #### Syncing Content
 
