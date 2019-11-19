@@ -3,21 +3,19 @@ title: Interview — TypeScript with Michel Weststrate
 description: >-
   Michel Weststrate is one of the keynote speakers of React Finland 2019
   (24–26.04). He’ll hold a workshop about TypeScript for React…
-date: '2019-02-07T10:59:39.737Z'
+date: "2019-02-07T10:59:39.737Z"
 categories: []
 keywords: []
 slug: /@bebraw/interview-typescript-with-michel-weststrate-8afd7fd24b32
 ---
 
 ![Types. Get it? ([Pixabay](https://pixabay.com/en/printing-plate-letters-font-type-1030849/))](img/1__pAx0kXuMzT__VcapgAD4IVw.jpeg)
-Types. Get it? ([Pixabay](https://pixabay.com/en/printing-plate-letters-font-type-1030849/))
 
 [Michel Weststrate](http://twitter.com/mweststrate/) is one of the keynote speakers of [React Finland 2019 (24–26.04)](https://react-finland.fi/). He’ll hold [a workshop about TypeScript for React developers](https://react-finland.fi/workshops/#typescript-for-react-developers) on the first day of the event.
 
 #### Can you tell a bit about yourself?
 
 ![Michel Weststrate](img/1__RJ7icNUSIy8teCvF__uYO8g.jpeg)
-Michel Weststrate
 
 Hi! My name is Michel. (That’s; not Michael, but since that is how many people call me, that works as well. But it sounds more like “Michelle” in the Obama version).
 
@@ -36,8 +34,7 @@ In return, you will have a much quicker feedback loop on a lot of errors. And yo
 
 #### How does TypeScript work?
 
-![Medium posts need images to look good! ([Pixabay](https://pixabay.com/en/out-of-the-ordinary-kermit-frog-1523747/))](img/1__PLWF__aB4iOEmljSWAZ4t8g.jpeg)
-Medium posts need images to look good! ([Pixabay](https://pixabay.com/en/out-of-the-ordinary-kermit-frog-1523747/))
+![Blog posts need images to look good! ([Pixabay](https://pixabay.com/en/out-of-the-ordinary-kermit-frog-1523747/))](img/1__PLWF__aB4iOEmljSWAZ4t8g.jpeg)
 
 TypeScript works slightly different than most people are used to from compilers like Java and C#. TypeScript checks types during compilation and then strips all the type stuff from the code, and what is left is JavaScript. As a result, the output is quite literally the original code.
 
@@ -74,7 +71,6 @@ TypeScript is eating the world. The fact that Facebook projects like Yarn and Je
 #### Any last remarks?
 
 ![Sauna. ([Pixabay](https://pixabay.com/en/sauna-sauna-cabin-old-turf-roof-1476232/))](img/1__Vd11SE1xBHrmix2TGxtf6w.jpeg)
-Sauna. ([Pixabay](https://pixabay.com/en/sauna-sauna-cabin-old-turf-roof-1476232/))
 
 Who needs saunas? A vague TypeScript compile error will make you sweat just as well.
 

@@ -3,7 +3,7 @@ title: React Finland 2019 Keynotes + Workshop on TypeScript
 description: >-
   React Finland 2019 (24–26.04) will have keynotes by Michel Weststrate and Rick
   Hanlon. Michel will also hold a full day workshop about…
-date: '2019-01-04T13:23:48.208Z'
+date: "2019-01-04T13:23:48.208Z"
 categories: []
 keywords: []
 slug: /@bebraw/2019-keynotes-d7f77a22d178
@@ -27,7 +27,6 @@ Given the language is becoming a mainstream option, this workshop is a good choi
 #### Rick Hanlon — React Native
 
 ![Rick Hanlon](img/1__PIYtdLaP2LBYd__3faTsdfg.jpeg)
-Rick Hanlon
 
 [Rick Hanlon](https://react-finland.fi/speakers/#rick-hanlon) from Facebook will discuss React Native and where it’s going in his keynote for the second day.
 

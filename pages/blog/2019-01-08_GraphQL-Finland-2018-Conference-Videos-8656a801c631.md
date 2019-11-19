@@ -3,14 +3,13 @@ title: GraphQL Finland 2018 Conference Videos
 description: >-
   Although it’s a while since we organized GraphQL Finland, it’s not too late to
   recap the presentations of the conference.
-date: '2019-01-08T13:52:27.503Z'
+date: "2019-01-08T13:52:27.503Z"
 categories: []
 keywords: []
 slug: /@bebraw/2018-conference-videos-8656a801c631
 ---
 
 ![GraphQL Finland 2018 in progress](img/1__Fw77gTcsoHxSrEd7nDrRnw.jpeg)
-GraphQL Finland 2018 in progress
 
 Although it’s a while since we organized GraphQL Finland, it’s not too late to recap the presentations of the conference.
 

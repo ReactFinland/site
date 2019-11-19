@@ -3,14 +3,13 @@ title: Seven Reasons to Visit React Finland 2019
 description: >-
   Given there are so many conferences out there already, why would you visit
   React Finland (24–26.04) specifically? Spoiler: not for weather.
-date: '2019-01-09T10:10:47.441Z'
+date: "2019-01-09T10:10:47.441Z"
 categories: []
 keywords: []
 slug: /@bebraw/seven-reasons-to-visit-2019-d290d3417b67
 ---
 
 ![The venue is an old union building. Believe it or not.](img/1__z__UXmWAtFw91toTScbv1lQ.jpeg)
-The venue is an old union building. Believe it or not.
 
 Given there are so many conferences out there already, why would you visit [React Finland](https://react-finland.fi/) specifically? Spoiler: not for weather.
 

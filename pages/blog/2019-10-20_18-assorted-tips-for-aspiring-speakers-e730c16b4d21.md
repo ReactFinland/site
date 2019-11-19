@@ -3,14 +3,13 @@ title: 18 assorted tips for aspiring speakers
 description: >-
   Although I’m more on the conference organizer side, I’ve been a public speaker
   for years. I still do it occasionally but it’s not the…
-date: '2019-10-20T10:29:21.717Z'
+date: "2019-10-20T10:29:21.717Z"
 categories: []
 keywords: []
 slug: /@bebraw/18-assorted-tips-for-aspiring-speakers-e730c16b4d21
 ---
 
 ![React Finland 2019. Photo by [Nick Tulinen](http://nicktulinen.com).](img/1__D3FFNbADI8uoMUKs3kDyDg.jpeg)
-React Finland 2019. Photo by [Nick Tulinen](http://nicktulinen.com).
 
 Although I’m more on the conference organizer side, I’ve been a public speaker for years. I still do it occasionally but it’s not the primary focus. That said, I’ve managed to gain experience on the topic during this time and I thought it would be a good time to put them to a post as a friend of mine that’s starting his career as a speaker brought up the topic.
 
@@ -53,4 +52,3 @@ I am sure there are more points to bring up but I feel the above have served me 
 > To have another take on the topic, [read the tips from the legendary Gary Bernhardt](https://www.deconstructconf.com/blog/how-to-prepare-a-talk). [Gant Laborde has a nice take on it too](https://hackernoon.com/5-conference-speaking-tips-from-tech-gurus-2f7d1a250af3).
 
 ![React Finland 2019. Photo by [Nick Tulinen](http://nicktulinen.com).](img/1__7qHfDJwyBpUcpmvi2QUdHw.jpeg)
-React Finland 2019. Photo by [Nick Tulinen](http://nicktulinen.com).

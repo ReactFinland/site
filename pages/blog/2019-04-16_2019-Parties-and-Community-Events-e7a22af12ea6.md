@@ -3,14 +3,13 @@ title: 2019 Parties and Community Events
 description: >-
   Whenever there’s a bigger conference in town, it has an electrifying effect as
   it encourages people to set up their own events. It’s a…
-date: '2019-04-16T09:47:11.888Z'
+date: "2019-04-16T09:47:11.888Z"
 categories: []
 keywords: []
 slug: /@bebraw/2019-parties-and-community-events-e7a22af12ea6
 ---
 
 ![Nerd parties are best parties](img/1__sqBFzSmf02WuHKMOedm8KQ.jpeg)
-Nerd parties are best parties
 
 Whenever there’s a bigger conference in town, it has an electrifying effect as it encourages people to set up their own events. It’s a great chance to meet the local developers and go sauna with them.
 

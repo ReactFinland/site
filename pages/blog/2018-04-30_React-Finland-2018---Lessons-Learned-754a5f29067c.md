@@ -3,7 +3,7 @@ title: React Finland 2018 — Lessons Learned
 description: >-
   React Finland 2018 is a wrap. It was the first time that we organized a
   conference. Although we were well prepared, there are always those…
-date: '2018-04-30T11:55:59.323Z'
+date: "2018-04-30T11:55:59.323Z"
 categories: []
 keywords: []
 slug: /@bebraw/react-finland-2018-lessons-learned-754a5f29067c
@@ -21,7 +21,6 @@ It will be a great conference day.
 #### Workshops
 
 ![We had Jaffa cookies, bananas, and other goodies for our workshop students.](img/1__E2rLy8BY5lmeJGRFwPUKYg.jpeg)
-We had Jaffa cookies, bananas, and other goodies for our workshop students.
 
 The conference began with a day of workshops on topics related to React and web development. The workshops were held in two locations and most were half-day long except for Michel’s one on state management.
 
@@ -30,14 +29,12 @@ In retrospect, it would have been better to focus on full day workshops and have
 #### Venue
 
 ![The venue was blue as Finland.](img/1__wz1hAARpuRrOYUQIGlAf__Q.jpeg)
-The venue was blue as Finland.
 
 The venue, [Valkoinen Sali](http://www.valkoinensali.com/), was a good pick for the first edition of React Finland. The space looks amazing and it was just about enough for our 300 attendees although there weren’t enough chairs in the beginning. We fixed the situation for the second day.
 
 It was a good idea to have a dedicated space for the conference sponsors. The advantage of doing this is that then people can choose to go there and they have their private space where to discuss and pitch. In addition, the view from the balcony area was great and a good reason alone to visit the sponsors.
 
 ![The balcony was reserved for our sponsors.](img/1__GAqrw1XMgdNdsAfTk__YqPA.jpeg)
-The balcony was reserved for our sponsors.
 
 I think we’ll want to grow the conference by hundred people for the next year. This year we sold out far too early, two months before the conference. It’s a positive problem but I feel we should be able to sell more last minute tickets as it doesn’t feel good to leave interested people out.
 
@@ -46,14 +43,12 @@ Price-wise we can go up a notch although we should still remain in 400 euro rang
 #### Food
 
 ![A smoothie to start the first conference day.](img/1__34wNixshnoIw8s5ZqlyK9g.jpeg)
-A smoothie to start the first conference day.
 
 At least from my perspective, we did mostly well with food and it was quite tasty. The main problems were that we didn’t have anything substantial for the afternoon break and the vegetarian main option wasn’t communicated clearly enough.
 
 #### Schedule
 
 ![There was coffee. Finnish style.](img/1____EKRi4fdzhwVBd7wq__9A6g.jpeg)
-There was coffee. Finnish style.
 
 This was the first time we scheduled a conference. Although we managed to stay on time and avoid serious technical issues, especially during the first day there was sometimes too much time between the presentations.
 
@@ -66,7 +61,6 @@ We also squeezed the schedule for the second day by 30 minutes and dropped one l
 We could have communicated the change better through announcements and having notifications through our mobile app. Surprisingly many people were using it so it feels like a natural place to improve.
 
 ![The mixing table was rather heavy duty.](img/1__zCAj5seQkNbli39bs0ogQQ.jpeg)
-The mixing table was rather heavy duty.
 
 Given it’s tricky to get a Finnish audience to ask questions, we should prepare a few beforehand to get it going. It’s better the host asks something first as then the audience might be more willing to follow.
 
@@ -81,7 +75,6 @@ Although it’s debatable whether a conference should have an app or not, I thin
 #### Presentations
 
 ![Christian Alfoni starting his presentation.](img/1__Bbz5AXnUoiqbvb9kX1Mj__w.jpeg)
-Christian Alfoni starting his presentation.
 
 The presentations of the two day conference were varied and we did some experimentation with the program. The first day was more like what you might expect from a normal conference. The only major difference was two longer breaks late in the day.
 
@@ -90,19 +83,16 @@ The second day started from Ken Wheeler’s presentation about the future of Rea
 I believe pairing and connecting presentations like this should become an important part of the identity of React Finland. It seems having complementary presentations is a good idea as it allows you to see the concepts from different angles. Having both theory and practice helps to enforce the points.
 
 ![Nik Graf showed us that there’s reason behind ReasonML.](img/1__ob943W__Nd__92xTBQgle5Ng.jpeg)
-Nik Graf showed us that there’s reason behind ReasonML.
 
 #### Keynotes
 
 ![It’s Ken in his city look before heading to the stage.](img/1__rJeyhu1qOz6q__A__DW1516g.jpeg)
-It’s Ken in his city look before heading to the stage.
 
 We chose Jani Eväkallio and Ken Wheeler as our keynote speakers. I don’t regret this choice as they set the tone for each day. Ken’s talk even referred to Jani’s. The talks were more inspirational by nature and I feel that’s a good way to go with keynotes. They are supposed to give something to think about and this is something to retain in the next year’s edition of React Finland.
 
 #### Sponsors
 
 ![Solita hearts React and we do too.](img/1__jk0VirJgZvJD5LM6R7b7Jw.jpeg)
-Solita hearts React and we do too.
 
 We had more demand for sponsoring than we had sponsor slots. Mersenne Twister solved the problem. Restricting the amount seemed to work as then the chosen sponsors receive better value for their investment.
 
@@ -119,7 +109,6 @@ One thing to note is that we had too many volunteers. Instead of twenty, fifteen
 #### Speakers
 
 ![Kasia Jastrzębska getting ready.](img/1__vRyazvXpNXcqhc6gH8jmwA.jpeg)
-Kasia Jastrzębska getting ready.
 
 We had speakers from around the world. A few from the US, Israel, and plenty more around Europe. In retrospect, it may have been a good idea to have more local speakers.
 
@@ -134,7 +123,6 @@ It would be nice to have a more organized trip for our speakers next year but yo
 #### Afterparty
 
 ![It’s a big fish. We call it “mureena” in Finnish.](img/1__ur4651t6W__J__v9z6Ua3F8Q.jpeg)
-It’s a big fish. We call it “mureena” in Finnish.
 
 Our initial plan was to have two afterparties, one after each conference day. Due to budget constraints, we could afford only one after the second day. As a result we improvized on the first one and let interested companies provide multiple options.
 
@@ -149,7 +137,6 @@ The large amount of people expected led to another problem —lack of food. We t
 Although I was skeptical first, Sea Life aquarium seemed to work well for an afterparty as people could form groups around it and mingle. It wasn’t loud like a bar and you had a unique chance too see the fish up close without the normal crowd around you.
 
 ![The conference had its own beer! Thanks to [EsaMatti](https://twitter.com/esamatti) for the photo.](img/1__tglOtx6icFNlueDWjypOKA.jpeg)
-The conference had its own beer! Thanks to [EsaMatti](https://twitter.com/esamatti) for the photo.
 
 #### Allas Sea Pool
 
@@ -158,7 +145,6 @@ Given one of the things that makes Finland the country it is, we arranged our at
 #### Conclusion
 
 ![The venue was right next to the main attractions of Helsinki.](img/1__3W1tDzg0qVe1a9eKp7xyAQ.jpeg)
-The venue was right next to the main attractions of Helsinki.
 
 I feel the first edition of React Finland was a success. People seemed to enjoy it and despite its rough edges, we did well overall. Now that we have some experience under the belt, we can improve in the next edition. Somehow React and Finnish awkwardness work together.
 

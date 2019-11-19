@@ -1,9 +1,9 @@
 ---
-title: 'Case Studies with Kadi, Glenn, and Dustin'
+title: "Case Studies with Kadi, Glenn, and Dustin"
 description: >-
   To get idea into how people are using React, I wanted to have a session about
   case studies. In the end, the session was more mixed than…
-date: '2019-06-03T09:06:09.606Z'
+date: "2019-06-03T09:06:09.606Z"
 categories: []
 keywords: []
 slug: /@bebraw/case-studies-with-kadi-glenn-and-dustin-734e241d97bc
@@ -17,37 +17,34 @@ To get idea into how people are using React, I wanted to have a session about ca
 #### Kadi Kraman — All aboard the type train
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1____xfL26W16zYT5HssIkegJA.png)
-Sketch notes by [David Leuliette](https://davidl.fr/)
 
 I was skeptical of TypeScript for years. It was only last year that I began to see the value of it although I can see it’s not a complete solution. I think what happened is that it opened the eyes of many developers to the value of typing. For me, it was a welcome return to thinking in types as I did in the beginning of my career with C.
 
 In her talk, Kadi Kraman discusses the typing and why you might want to adopt it in your codebase. You’ll also learn about the differences in type systems.
 
-*   To hear Kadi’s thoughts about the topic, [go to 27:45 at the podcast](https://webbidevaus.fi/47).
-*   [pdf slides](https://slides.react-finland.fi/2019/kadi-kraman.pdf)
+- To hear Kadi’s thoughts about the topic, [go to 27:45 at the podcast](https://webbidevaus.fi/47).
+- [pdf slides](https://slides.react-finland.fi/2019/kadi-kraman.pdf)
 
 #### Glenn Reyes — Drawing the line between 3rd party and handcrafted components
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__yw8EwaE__tHrjG3AC8KYGBA.png)
-Sketch notes by [David Leuliette](https://davidl.fr/)
 
 When developing, you often have to make a call between developing something on your own versus consuming what you need from a 3rd party source such as npm. Both approaches have their pros and cons. It’s this topic into which Glenn Reyes delves into in his his talk.
 
-*   To hear Glenn’s thoughts on the topic, [go to 40:02 at the podcast](https://webbidevaus.fi/45).
-*   [Online slides](https://speakerdeck.com/glennreyes/drawing-the-line-between-3rd-party-and-handcrafted-code)
-*   [pdf slides](https://slides.react-finland.fi/2019/glenn-reyes.pdf)
+- To hear Glenn’s thoughts on the topic, [go to 40:02 at the podcast](https://webbidevaus.fi/45).
+- [Online slides](https://speakerdeck.com/glennreyes/drawing-the-line-between-3rd-party-and-handcrafted-code)
+- [pdf slides](https://slides.react-finland.fi/2019/glenn-reyes.pdf)
 
 #### Dustin Schau — Gatsby + Themes: The Future of Gatsby
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__9i1MqXdiip__WnNL____xv34w.png)
-Sketch notes by [David Leuliette](https://davidl.fr/)
 
 Gatsby, a static site generator, took the world of web development by storm. It has become popular especially in the React community and it’s still growing. One of the upcoming features is what they call themes.
 
 A theme is an entity that encapsulates a portion of a Gatsby site. In his talk, Dustin shows how the new feature works while applying it against React Finland site!
 
-*   [Online slides](https://dschau.dev/gatsbythemes)
-*   [pdf slides](https://slides.react-finland.fi/2019/dustin-schau.pdf)
+- [Online slides](https://dschau.dev/gatsbythemes)
+- [pdf slides](https://slides.react-finland.fi/2019/dustin-schau.pdf)
 
 #### Conclusion
 

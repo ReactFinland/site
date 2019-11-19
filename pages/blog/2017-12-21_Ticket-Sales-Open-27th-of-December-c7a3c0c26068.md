@@ -3,14 +3,13 @@ title: Ticket Sales Open 27th of December
 description: >-
   The time has come to open ticket sales for React Finland (24–26.4.2018,
   Helsinki). The event has one day for workshops and two days for…
-date: '2017-12-21T14:51:16.490Z'
+date: "2017-12-21T14:51:16.490Z"
 categories: []
 keywords: []
 slug: /@bebraw/ticket-sales-open-27th-of-december-c7a3c0c26068
 ---
 
 ![We don’t like to wear shoes inside buildings.](img/1__clyERp4CjFvqyl0EHKr3cQ.jpeg)
-We don’t like to wear shoes inside buildings.
 
 The time has come to open ticket sales for [React Finland](https://react-finland.fi/) (24–26.4.2018, Helsinki). The event has one day for workshops and two days for presentations (single track).
 

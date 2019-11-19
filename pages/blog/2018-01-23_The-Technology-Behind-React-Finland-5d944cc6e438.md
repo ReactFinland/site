@@ -3,14 +3,13 @@ title: The Technology Behind React Finland
 description: >-
   When you organize a developer conference such as React Finland and the
   organizers are developers themselves, you’ll get a lot of software…
-date: '2018-01-23T10:54:59.662Z'
+date: "2018-01-23T10:54:59.662Z"
 categories: []
 keywords: []
 slug: /@bebraw/the-technology-behind-react-finland-5d944cc6e438
 ---
 
 ![[Teamwork](https://pixabay.com/en/idea-teamwork-thinking-working-3085367/)](img/1__Zi7djJhTv1CoCXcPyLPlRg.jpeg)
-[Teamwork](https://pixabay.com/en/idea-teamwork-thinking-working-3085367/)
 
 When you organize a developer conference such as [React Finland](https://react-finland.fi/) and [the organizers are developers themselves](https://medium.com/react-finland/from-devs-to-devs-a807f8d41949), you’ll get a lot of software development as a result. In this case we’ve developed the site, a mobile application, an API, and a content infrastructure.
 

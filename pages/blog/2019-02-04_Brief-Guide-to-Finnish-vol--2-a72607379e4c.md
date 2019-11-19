@@ -3,14 +3,13 @@ title: Brief Guide to Finnish vol. 2
 description: >-
   While preparing for the upcoming React Finland (24–26.04) conference, you may
   have spent some time learning the basics of the Finnish…
-date: '2019-02-04T10:18:30.273Z'
+date: "2019-02-04T10:18:30.273Z"
 categories: []
 keywords: []
 slug: /@bebraw/brief-guide-to-finnish-vol-2-a72607379e4c
 ---
 
 ![Finnish cookies ([Pixabay](https://pixabay.com/en/gingerbread-cookie-flag-of-finland-3023207/))](img/1__copWTZQ4r2y9RD0fKmrkbw.jpeg)
-Finnish cookies ([Pixabay](https://pixabay.com/en/gingerbread-cookie-flag-of-finland-3023207/))
 
 While preparing for the upcoming [React Finland](https://react-finland.fi/) (24–26.04) conference, you may have spent some time learning the [basics of the Finnish language](https://medium.com/react-finland/brief-guide-to-finnish-7f43f37d5017). This time we’ll leap to advanced level — all done by using only a single phrase.
 
@@ -19,7 +18,6 @@ I’ll demonstrate you five quite common scenarios of daily life in Finland. And
 #### If you’re having a presentation
 
 ![Random presenter ([Pixabay](https://pixabay.com/en/conference-public-speaking-2705706/))](img/1__qEsLz60cp__O1dwHhZC1hDw.jpeg)
-Random presenter ([Pixabay](https://pixabay.com/en/conference-public-speaking-2705706/))
 
 Standing in front of a crowd may be a stressful situation. A situation where the speaker needs to break the ice and win the confidence of an audience. The easiest way is to test whether the microphone merely works by asking:
 
@@ -32,7 +30,6 @@ And if the mic is on, the audience will reply:
 #### If you’re having dinner
 
 ![Dinner. But where’s the food? ([Pixabay](https://pixabay.com/en/restaurant-wine-glasses-served-449952/))](img/1__FPpz__vC3KNP4hDTUCSBCIg.jpeg)
-Dinner. But where’s the food? ([Pixabay](https://pixabay.com/en/restaurant-wine-glasses-served-449952/))
 
 Manners on a dinner table in Finland follow the standard rules, but sometimes people get confused with all the utensils.
 
@@ -47,7 +44,6 @@ And then the waitress will reply:
 #### If you’re having a small talk
 
 ![Small talk. ([Pixabay](https://pixabay.com/en/young-man-male-boy-japanese-anime-3818482/))](img/1__Tj9TieZBvejCBVY2pdl2ow.jpeg)
-Small talk. ([Pixabay](https://pixabay.com/en/young-man-male-boy-japanese-anime-3818482/))
 
 When it comes to small talk, Finns love talking about two topics. The first one is the weather. The second one is any possible topic **while being in a sauna**.
 
@@ -64,7 +60,6 @@ And because Finns always tell the truth by default, he’ll reply:
 #### If you’re going too far with the conversation
 
 ![The conversation went too far. ([Pixabay](https://pixabay.com/en/talk-telephone-communication-phone-845619/))](img/1__GSCVwnK1mU96AayUlW1xnQ.jpeg)
-The conversation went too far. ([Pixabay](https://pixabay.com/en/talk-telephone-communication-phone-845619/))
 
 You should be aware that Finns have strict personal space and some topics should not be discussed of at all.
 
@@ -79,7 +74,6 @@ You have to keep a solid line and reply:
 #### If you’re playing a game
 
 ![Game not over! ([Pixabay](https://pixabay.com/en/children-win-success-video-game-593313/))](img/1__Qxz__AwMSypWEHpIIwcCmzQ.jpeg)
-Game not over! ([Pixabay](https://pixabay.com/en/children-win-success-video-game-593313/))
 
 If you’ve ended up this far and fellow Finn wants to challenge you to a board or card game, you’re doing it very well.
 

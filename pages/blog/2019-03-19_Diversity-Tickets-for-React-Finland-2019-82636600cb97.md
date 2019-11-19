@@ -3,14 +3,13 @@ title: Diversity Tickets for React Finland 2019
 description: >-
   I was recently discussing with a developer from a country nearby to Finland.
   After a while, I figured out that due to the difference of…
-date: '2019-03-19T10:02:41.404Z'
+date: "2019-03-19T10:02:41.404Z"
 categories: []
 keywords: []
 slug: /@bebraw/diversity-tickets-for-react-finland-2019-82636600cb97
 ---
 
 ![Not all apples are the same ([Pixabay](https://pixabay.com/photos/apple-fruit-selection-especially-1594742/))](img/1__GMr54NOSXiGSttSdAGFQMg.jpeg)
-Not all apples are the same ([Pixabay](https://pixabay.com/photos/apple-fruit-selection-especially-1594742/))
 
 I was recently discussing with a developer from a country nearby to Finland. After a while, I figured out that due to the difference of the economies, the acceptable ticket price for him would be around 40 euros especially given his employer wouldn’t cover the trip.
 
@@ -38,10 +37,10 @@ We’ve also paid attention to have a diverse group of speakers and topics prese
 
 I know we are a little late with the diversity tickets this time around. Here is what we are considering for the next event:
 
-*   Offer full diversity scholarships including travel and accommodation since these are major costs.
-*   Offer “buy one, give one” kind of diversity tickets where buying one ticket, you’ll give a diversity ticket for free to someone.
-*   Figure out a way to support local diversity movements through collaboration and financial support.
-*   Figure out a way to deliver diversity tickets faster. We don’t want to make people wait for a specific date and instead it would likely be better to decide on applications as we get them till we run out of diversity tickets.
+- Offer full diversity scholarships including travel and accommodation since these are major costs.
+- Offer “buy one, give one” kind of diversity tickets where buying one ticket, you’ll give a diversity ticket for free to someone.
+- Figure out a way to support local diversity movements through collaboration and financial support.
+- Figure out a way to deliver diversity tickets faster. We don’t want to make people wait for a specific date and instead it would likely be better to decide on applications as we get them till we run out of diversity tickets.
 
 #### Conclusion
 

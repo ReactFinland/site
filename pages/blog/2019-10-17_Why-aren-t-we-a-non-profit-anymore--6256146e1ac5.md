@@ -3,14 +3,13 @@ title: Why aren’t we a non-profit anymore?
 description: >-
   What do Webshaped, Tampere Goes Agile, and AgileJkl have in common? They
   are/were volunteer run developer conferences in Finland. I…
-date: '2019-10-17T15:05:37.922Z'
+date: "2019-10-17T15:05:37.922Z"
 categories: []
 keywords: []
 slug: /@bebraw/why-arent-we-a-non-profit-anymore-6256146e1ac5
 ---
 
 ![React Finland 2019 finale. Photo by [Nick Tulinen](http://nicktulinen.com)](img/1__qIQlJky4s2bdf18aB8AgQw.jpeg)
-React Finland 2019 finale. Photo by [Nick Tulinen](http://nicktulinen.com)
 
 What do [Webshaped](http://webshaped.fi), [Tampere Goes Agile](http://tamperegoesagile.fi), and [AgileJkl](https://twitter.com/AgileJkl) have in common? They are/were volunteer run developer conferences in Finland. I participated in the latter two as a participant and I even gave one of my first public technical presentations at AgileJkl in my home town. The conferences were successes in terms of experience but not sustainable as they relied on volunteer effort.
 
@@ -21,7 +20,6 @@ By bringing people to a single place, you are compressing time and especially th
 #### History of React Finland
 
 ![Selfie time at React Finland 2019 afterparty. Photo by [Nick Tulinen](http://nicktulinen.com)](img/1__9sEUxAIOAmFBa83fmBqN3g.jpeg)
-Selfie time at React Finland 2019 afterparty. Photo by [Nick Tulinen](http://nicktulinen.com)
 
 React Finland started against this background. [Samuli Hakoniemi](https://twitter.com/zvona) initiated the first edition of React Finland by getting in touch with me and several other Finnish developers. We wanted to give back to the local community as we felt there was need for an event that would help us unity the locals with the global React community.
 
@@ -56,7 +54,6 @@ The point is not to make anyone rich. But we don’t feel it’s morally wrong t
 #### Who are behind React Finland?
 
 ![React Finland 2019 in action. Photo by [Nick Tulinen](http://nicktulinen.com)](img/1__koRcT1S1qixq3JeG7wHRLQ.jpeg)
-React Finland 2019 in action. Photo by [Nick Tulinen](http://nicktulinen.com)
 
 React Finland isn’t backed by a single corporate entity. All organizers work at different companies and we are not paid by those companies to run the conferences. Especially the ones running our own businesses, the conference work can provide supplemental income allowing us to focus more on organizing while not jeopardizing livelihood.
 
@@ -69,7 +66,6 @@ Even though for-profit has a different connotation than non-profit, it doesn’t
 #### Giving back to the speakers
 
 ![Last time we gave our speakers rocks (sauna stones). True story! Photo by [Nick Tulinen](http://nicktulinen.com)](img/1__ts4TFmY1Ic1Y6Fg8thICDQ.jpeg)
-Last time we gave our speakers rocks (sauna stones). True story! Photo by [Nick Tulinen](http://nicktulinen.com)
 
 We want to experiment in paying our speakers. We already pay accommodation and travel expenses, including extra days beyond the conference, for all speakers and workshop instructors. In addition, we split workshop revenue 50/50 with the hosts.
 
@@ -84,4 +80,3 @@ Moving to a co-operative opens a new chapter for our organization and I think th
 Our core is still oriented towards serving the Finnish developer community and I feel moving to a co-operative was the right long term move for us.
 
 ![Our events are from developers, to developers. Photo by [Nick Tulinen](http://nicktulinen.com)](img/1__ytxuOu93lHlG5OY7q__JPGQ.jpeg)
-Our events are from developers, to developers. Photo by [Nick Tulinen](http://nicktulinen.com)

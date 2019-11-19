@@ -3,7 +3,7 @@ title: Case Study — React Finland Website
 description: >-
   A website is often the primary entry point of people to a conference. For this
   reason, it is important to get it right as it a significant…
-date: '2018-02-26T11:23:44.150Z'
+date: "2018-02-26T11:23:44.150Z"
 categories: []
 keywords: []
 slug: /@bebraw/case-study-react-finland-website-108a1128a683
@@ -24,7 +24,6 @@ After I had the initial copywriting done, I began to work on the site structure 
 > To see how the content looked originally, see early revisions of the site: [\[1\]](https://59fddcb08198760e2a9941cd--react-finland.netlify.com/), [\[2\]](https://5a006850df995339562abfdb--react-finland.netlify.com/), [\[3\]](https://5a4e4219a114770c1bf21b79--react-finland.netlify.com/), [\[4\]](https://5a65b2cda6188f6f41f79626--react-finland.netlify.com/). Read [Technology behind React Finland](https://medium.com/react-finland/the-technology-behind-react-finland-5d944cc6e438) for the technology choices.
 
 ![One of the early designs](img/1__5X8QAgunoLAxiSozJJL5gg.png)
-One of the early designs
 
 #### Design is About Presentation
 
@@ -43,7 +42,6 @@ We sat down together, designed a brand identity and implemented it. Some of the 
 As it happens, this was an excellent decision as illustrated by the sales graph below:
 
 ![The conference sold well in the beginning, after re-design (middle), and the end](img/1__njCZxE2vffyybJvMUUdRlw.png)
-The conference sold well in the beginning, after re-design (middle), and the end
 
 You can see three distinct peaks. Incidentally, one is exactly after we re-designed the site. The work made the site, and as a result the conference, more credible.
 
@@ -52,7 +50,6 @@ I believe this collaboration made a significant impact on the conference. It is 
 > See Andrey’s post [Redesigning react-finland.fi](https://medium.com/@okonetchnikov/redesigning-react-finland-fi-7f2dd6b5b487) to gain his perspective on the topic. To see how the design work progressed, see [\[1\]](https://5a66134181987604bc6828a5--react-finland.netlify.com/), [\[2\]](https://5a71938aa6188f2be2d22167--react-finland.netlify.com/), and [the final result](https://react-finland.fi/).
 
 ![The resulting design](img/1__DhRYGnHVB15BmYkARbyrVg.png)
-The resulting design
 
 #### Conclusion
 

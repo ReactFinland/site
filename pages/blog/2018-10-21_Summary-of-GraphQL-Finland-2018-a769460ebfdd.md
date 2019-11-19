@@ -3,7 +3,7 @@ title: Summary of GraphQL Finland 2018
 description: >-
   After React Finland, we had a conference organization in place, and we had
   some idea on how to organize events. Mikhail, one of our…
-date: '2018-10-21T13:15:21.996Z'
+date: "2018-10-21T13:15:21.996Z"
 categories: []
 keywords: []
 slug: /@bebraw/summary-of-graphql-finland-2018-a769460ebfdd
@@ -16,7 +16,6 @@ We set it up on a rather tight timeframe as the planning begun in May. In effect
 #### Paasitorni — The Venue
 
 ![Paasitorni was spacious](img/1__f1EeO3KT082qO8lZMvpNew.jpeg)
-Paasitorni was spacious
 
 One of the benefits of choosing Paasitorni as the new venue was the availability of a live stream based on YouTube. You can see the recording on the video service already. Official, cut videos will be available within a week or two as they require some time to produce.
 
@@ -25,12 +24,10 @@ The venue had plenty of space, and it can fit a much bigger one. We had some iss
 The venue has two restaurants within so we were able to provide authentic Finnish lunch experience to our guests. There was also coffee made famous by the president of France available during the breaks.
 
 ![Lanyards were handmade and I crafted the design (with CSS and React of course)](img/1__2mHylzaFJgLYdvMd6XyxGw.jpeg)
-Lanyards were handmade and I crafted the design (with CSS and React of course)
 
 #### Workshops of GraphQL Finland
 
 ![Marc-André’s workshop in progress](img/1__HTo3XXrjH1SpPV7WuTwntQ.jpeg)
-Marc-André’s workshop in progress
 
 This time around, we decided to organize four full-day workshops targeted on different levels. We had two beginner workshops (one was for diversity) and two more advanced ones. Surprisingly many people bought tickets for all, and they were close to sold out.
 
@@ -41,19 +38,16 @@ To reward our workshop teachers for their efforts, we’ll split the profit with
 #### Speakers’ Dinner
 
 ![I think we were joking about Germans. Sorry Germans!](img/1__vPiMgLUh9eBQP55d2HyUhA.jpeg)
-I think we were joking about Germans. Sorry Germans!
 
 Usually, the highlights of a conference for the speakers are the dinner and the afterparty (or parties), so we tried our best. This time around, we took our speakers to the restaurant Passio for a six-course dinner. There were various wines available, and you could also get beer if the wines weren’t your thing.
 
 I felt people were enjoying their time and they got a taste of Finland in the form of a variety of fish, meat, and vegetable-based foods. Sadly no mämmi was available.
 
 ![We don’t cook like this at home.](img/1__x__zkJSb2sMh2g1GDaphksg.jpeg)
-We don’t cook like this at home.
 
 #### The Conference Day
 
 ![The venue was a massive, 110 years old building built by the unions](img/1____XPFFREABrkifELO9yJfzg.jpeg)
-The venue was a massive, 110 years old building built by the unions
 
 As with React Finland, we had someone to design the program and invite speakers for it. This time around, it was up to Mikhail to figure out what might make sense. He felt we would have to be vendor neutral. That’s fitting given the history of Finland. We’ve always been between the east and the west and as such, forced to be the epitome of neutrality.
 
@@ -68,7 +62,6 @@ I learned a lot from the talks, and I’ll likely restructure my workshop as a r
 #### The Afterparty
 
 ![Afterparty in the 80s style](img/1__MTHNsN2ZJTIu5__dgzYZZAg.jpeg)
-Afterparty in the 80s style
 
 Gofore organized the afterparty of the conference and I feel they did an excellent job at it. Although there was music, it wasn’t too loud, and there was space to discuss with people. I also gave away some special goodies for those that were around long enough.
 

@@ -3,14 +3,13 @@ title: Why Visit React Finland?
 description: >-
   Finland might not be the most obvious place in the world to visit. It can be
   difficult to reach as it’s out of the way but that said, there…
-date: '2018-01-18T10:30:23.264Z'
+date: "2018-01-18T10:30:23.264Z"
 categories: []
 keywords: []
 slug: /@bebraw/why-to-visit-react-finland-6cef6d2655aa
 ---
 
 ![You can tell it’s from Finland given it looks like Finland](img/1__D8tSAbFmsy9gz0nwqdV__Tg.jpeg)
-You can tell it’s from Finland given it looks like Finland
 
 Finland might not be the most obvious place in the world to visit. It can be difficult to reach as it’s out of the way but that said, there are affordable flights from across the Europe and Asia even.
 

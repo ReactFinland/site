@@ -3,14 +3,13 @@ title: React Finland 2018 — Sold out! Workshops left
 description: >-
   React Finland 2018 has officially been sold out. And this happened two months
   before the conference! I expected this to take far longer and…
-date: '2018-02-26T16:33:22.389Z'
+date: "2018-02-26T16:33:22.389Z"
 categories: []
 keywords: []
 slug: /@bebraw/react-finland-2018-sold-out-workshops-left-a83cb91ac52f
 ---
 
 ![[Moomin house in the Winter.](https://pixabay.com/en/winter-snowing-moomin-world-moomin-2438791/) Don’t worry, we won’t have scary moomins in React Finland!](img/1__PEDpKSvEA75WLst4cgJ1Hw.jpeg)
-[Moomin house in the Winter.](https://pixabay.com/en/winter-snowing-moomin-world-moomin-2438791/) Don’t worry, we won’t have scary moomins in React Finland!
 
 React Finland 2018 has officially been sold out. And this happened two months before the conference! I expected this to take far longer and the strong demand was a surprise.
 

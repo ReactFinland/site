@@ -3,14 +3,13 @@ title: React Finland 2019 — Blog Coverage and Photo Galleries
 description: >-
   Like in the previous year, React Finland has inspired bloggers to take up
   their virtual pens and write about the event. I’ll cover the…
-date: '2019-05-02T12:13:12.128Z'
+date: "2019-05-02T12:13:12.128Z"
 categories: []
 keywords: []
 slug: /@bebraw/react-finland-2019-blog-coverage-and-photo-galleries-73ebbbf47d8d
 ---
 
 ![I dare you to try Finnish coffee](img/1__GQl43DfLpSgJpQ0GTxS__CQ.jpeg)
-I dare you to try Finnish coffee
 
 [Like in the previous year](https://medium.com/react-finland/react-finland-2018-blog-coverage-e65bcece8946), [React Finland](https://react-finland.fi) has inspired bloggers to take up their virtual pens and write about the event. I’ll cover the posts I am aware of in this post so you can learn more about the conference.
 
@@ -36,8 +35,8 @@ We did podcasts! More information to come.
 
 There are multiple summaries of the event online, check out the following:
 
-*   [Artem Sapegin’s summary](https://blog.sapegin.me/all/react-finland-2019/) — Artem seems to be a great fan of the conference and the summaries get to the point!
-*   Boris Serdiuk’s summaries of [day 1](https://gist.github.com/just-boris/c5489afd181bb0bbd2501cfbbe9f56b7) and [day 2](https://gist.github.com/just-boris/2080a0595464c1554ea8b03005984f09) — Again, great summaries with a bit more detail.
+- [Artem Sapegin’s summary](https://blog.sapegin.me/all/react-finland-2019/) — Artem seems to be a great fan of the conference and the summaries get to the point!
+- Boris Serdiuk’s summaries of [day 1](https://gist.github.com/just-boris/c5489afd181bb0bbd2501cfbbe9f56b7) and [day 2](https://gist.github.com/just-boris/2080a0595464c1554ea8b03005984f09) — Again, great summaries with a bit more detail.
 
 #### Tatu Tamminen’s Recap of React Finland 2019
 
@@ -48,7 +47,6 @@ I agree with him in that we should have had a couple of future looking talks and
 #### Post-Conference Breakdown by Kenneth Sutherland
 
 ![React hooks APA by Kenneth Sutherland](img/1__8iL0G5xC2QRlzRBJraCFLg.jpeg)
-React hooks APA by Kenneth Sutherland
 
 Kenneth Sutherland wrote [a favorable review of React Finland](http://www.kennethsutherland.com/off-topic/react-finland-post-conference-breakdown/). He likes the friendly nature of the conference and the evening events where you can connect with other developers. Also the conference format (single track with themed sessions) is something he likes.
 
@@ -67,7 +65,6 @@ Matti Petrelius was a speaker at Serverless Days while having a chance to visit 
 #### React Finland 2019 tapahtumakatsaus by Herkko Huttunen
 
 ![Meiko crew at Nik’s workshop](img/1__7YX1BmzKa__e__rTJAcn3S3g.jpeg)
-Meiko crew at Nik’s workshop
 
 In this [conference report by Herkko Hukkunen of Meiko (Finnish only)](https://meiko.fi/blogi/react-finland-2019-tapahtumakatsaus), he mentions they came to the event with seven developers. In addition to participating in the workshops, they enjoyed the main event and networking aspects of the conference.
 
@@ -78,14 +75,13 @@ In this [conference report by Herkko Hukkunen of Meiko (Finnish only)](https://m
 #### React Finland Photo Galleries
 
 ![Bear with me — one of the conference bears/beers](img/1__0kjyBJoc3OeU__XwvjpdVjw.jpeg)
-Bear with me — one of the conference bears/beers
 
 People took plenty of photos during the event. I’ve listed the galleries I’m aware of below:
 
-*   [The official conference photos at Flickr](https://www.flickr.com/photos/react-finland/sets/72157680132693308)
-*   [Community photos at Google Photos](https://photos.app.goo.gl/4tJskvEd1haKyBX1A)
-*   [Artem Sapegin’s photo gallery](https://photos.google.com/share/AF1QipMS_0I7KwhWK4QPIVK-_0djKkMQMMb63Db187j8dVYpbk8VYLAf3R1ottnUtG_wWw?key=Uzh6TGZnc19lRUdjTkM2emRmRnBJRTlUMXlBOHN3)
-*   [Kenneth Sutherland’s photo gallery](https://www.flickr.com/photos/_delp_/albums/72157706773305931)
+- [The official conference photos at Flickr](https://www.flickr.com/photos/react-finland/sets/72157680132693308)
+- [Community photos at Google Photos](https://photos.app.goo.gl/4tJskvEd1haKyBX1A)
+- [Artem Sapegin’s photo gallery](https://photos.google.com/share/AF1QipMS_0I7KwhWK4QPIVK-_0djKkMQMMb63Db187j8dVYpbk8VYLAf3R1ottnUtG_wWw?key=Uzh6TGZnc19lRUdjTkM2emRmRnBJRTlUMXlBOHN3)
+- [Kenneth Sutherland’s photo gallery](https://www.flickr.com/photos/_delp_/albums/72157706773305931)
 
 There are still photos to come but the above should give you some idea of the conference.
 

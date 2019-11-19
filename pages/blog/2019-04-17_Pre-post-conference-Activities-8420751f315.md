@@ -3,14 +3,13 @@ title: Pre/post-conference Activities
 description: >-
   Often when you go to a conference and have some free time, it can be difficult
   to figure out what to do. One thing that happened…
-date: '2019-04-17T10:21:22.179Z'
+date: "2019-04-17T10:21:22.179Z"
 categories: []
 keywords: []
 slug: /@bebraw/pre-post-conference-activities-8420751f315
 ---
 
 ![Inside Temppeliaukio church in Helsinki](img/1__ZXtCx5fbToIGRzChkzVfSw.jpeg)
-Inside Temppeliaukio church in Helsinki
 
 Often when you go to a conference and have some free time, it can be difficult to figure out what to do. One thing that happened spontaneously in our previous event, [GraphQL Finland](https://graphql-finland.fi), was what we call a get-together in which some of the people coming to the conference literally get together and then do something (i.e. go to a bar, swimming, museum, you name it).
 

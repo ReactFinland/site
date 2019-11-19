@@ -3,14 +3,13 @@ title: Brief Guide to Finnish vol. 4 — Saapas
 description: >-
   In the previous edition of our language guide, we learned how to say “hi” in
   Finnish. Now we are going to learn something about boots…
-date: '2019-03-20T12:10:32.895Z'
+date: "2019-03-20T12:10:32.895Z"
 categories: []
 keywords: []
 slug: /@bebraw/brief-guide-to-finnish-vol-4-a99d6eb1034f
 ---
 
 ![Boots ([Pixabay](https://pixabay.com/photos/brown-shoes-lace-up-shoes-1150071/))](img/1__JQcprsHCEMLfIXh274YCvw.jpeg)
-Boots ([Pixabay](https://pixabay.com/photos/brown-shoes-lace-up-shoes-1150071/))
 
 [In the previous edition of our language guide](https://medium.com/react-finland/brief-guide-to-finnish-vol-3-1e16a61c661d), we learned how to say “hi” in Finnish. Now we are going to learn something about boots, arguing, and Italy, one of my favorite countries.
 
@@ -27,7 +26,6 @@ If you like walking around in your new boots, you could say
 #### If you start arguing with your friend about Prettier
 
 ![Swans like Finland for some weird reason ([Pixabay](https://pixabay.com/photos/swans-winter-lake-frozen-cold-1991829/))](img/1__r64xZXCMZZs3UDmI0ah9Gg.jpeg)
-Swans like Finland for some weird reason ([Pixabay](https://pixabay.com/photos/swans-winter-lake-frozen-cold-1991829/))
 
 Let’s say after a while you get into an argument with your friend. You are arguing whether or not it’s valid to use [Prettier](https://prettier.io/) for formatting your code. Your friend might argue like this:
 
@@ -44,7 +42,6 @@ If your friend repeats the argument, reply with the magic word “saapas” unti
 #### If you start arguing with your friend about whether your colleague can use TypeScript
 
 ![TypeScript user in action ([Pixabay](https://pixabay.com/photos/technology-equipment-aerial-analog-3230663/))](img/1__43dWDPRr__2EGgoeLRGNX7Q.jpeg)
-TypeScript user in action ([Pixabay](https://pixabay.com/photos/technology-equipment-aerial-analog-3230663/))
 
 You’ve recently learned there’s someone in the company using TypeScript. Your friend is doubtful if they can really use it, though. They might argue like this:
 
@@ -67,7 +64,6 @@ The reason why “osaapas” works is because it’s derived from the verb “os
 #### If you want to make fun of Italy in a friendly manner
 
 ![Italy ([Pixabay](https://pixabay.com/illustrations/italy-state-island-history-1911694/))](img/1__LVB0wRh3VZfXquoG13FsfA.png)
-Italy ([Pixabay](https://pixabay.com/illustrations/italy-state-island-history-1911694/))
 
 If you use a little bit of imagination, Italy looks a tiny bit like a boot. It’s clearly kicking something but it’s difficult to tell what.
 

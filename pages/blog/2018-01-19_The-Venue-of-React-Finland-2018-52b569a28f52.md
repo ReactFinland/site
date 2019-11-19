@@ -3,7 +3,7 @@ title: The Venue of React Finland 2018
 description: >-
   The venue of React Finland 2018 is a unique hall right in the old imperial
   center of Helsinki. Valkoinen Sali (White Hall in English) has…
-date: '2018-01-19T08:57:24.316Z'
+date: "2018-01-19T08:57:24.316Z"
 categories: []
 keywords: []
 slug: /@bebraw/the-venue-of-react-finland-2018-52b569a28f52
