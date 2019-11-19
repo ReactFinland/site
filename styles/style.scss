@@ -682,3 +682,14 @@ figcaption {
 .heading:hover .heading-anchor-select {
   display: inline;
 }
+
+.new-prevnext__prev,
+.new-prevnext__next {
+  display: flex;
+}
+.new-prevnext {
+  margin-top: 1em;
+}
+.new-prevnext__info {
+  width: 7em;
+}
