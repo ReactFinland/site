@@ -13,7 +13,7 @@ slug: /@bebraw/testing-with-juha-maaret-and-manuel-5b7a10b925d5
 
 Testing is one those topics that tends to divide developers. Some see it as an integral part of the process, for others it’s an afterthought. In React Finland 2019, we had three speakers delving into the topic: [Juha Linnanen](https://twitter.com/pillar15), [Maaret Pyhäjärvi](https://maaretp.com), and [Manuel Matuzović](https://www.matuzo.at).
 
-#### Juha Linnanen — CI/CD for React Native
+## Juha Linnanen  —  CI/CD for React Native
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1__kuOIOHYVG86DiP9sziOJgQ.jpeg)
 
@@ -27,7 +27,9 @@ Juha Linnanen’s talk addresses especially the development and release process 
 - [pdf slides](https://slides.react-finland.fi/2019/juha-linnanen.pdf)
 - [react-native-ci](https://github.com/solinor/react-native-ci)
 
-#### Maaret Pyhäjärvi — Intersection of Automation and Exploratory Testing
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Lid-2xFU4vg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Maaret Pyhäjärvi  —  Intersection of Automation and Exploratory Testing
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1__exaW6x3LkEprvG0HJkWeGQ.jpeg)
 
@@ -41,7 +43,9 @@ Exploratory testing can be especially valuable when you are working with a legac
 - [Online slides](https://www.slideshare.net/maaretp/react-finland-intersection-of-automation-and-exploratory-testing)
 - [pdf slides](https://slides.react-finland.fi/2019/maaret-pyhajarvi.pdf)
 
-#### Manuel Matuzović — 12 Tips For More Accessible React Apps
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Dg4JawCeNhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Manuel Matuzović  —  12 Tips For More Accessible React Apps
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1__J09MJ8ultNBVPr__HaeYEIg.jpeg)
 
@@ -57,6 +61,8 @@ In Manuel’s talk, you’ll learn about eight (not 12!) tips you can apply in y
 - [Online slides](https://www.matuzo.at/blog/12-tips-for-more-accessible-react-apps-slides-react-finland-2019/)
 - [pdf slides](https://slides.react-finland.fi/2019/manuel-matuzovic.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/NL6XKcX4sxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 Testing is a complex topic but it can have great returns when applied correctly. For developers, the biggest win might be in applying testing as a thinking tool as hinted by Maaret. Putting time and effort into automation can leave time for more important things as evidenced by Juha’s talk. And as mentioned by Manuel, it doesn’t take much effort to get started with accessibility.

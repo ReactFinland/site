@@ -15,7 +15,7 @@ A mystery badge was found at the beginning of the tooling session
 
 When it comes to technologies like React, the core library itself isn’t huge but there’s a lot of tooling around it. The purpose of the tooling session of [React Finland](https://react-finland.fi) 2019 was to cover some of that ground.
 
-#### Tejas Kumar — Scalable (Design) Systems with TypeScript
+## Tejas Kumar  —  Scalable (Design) Systems with TypeScript
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__VFzeqE7FwxHq__fXNkSMgpQ.png)
 
@@ -29,7 +29,9 @@ I hope Tejas’ work will find its way to Styleguidist one day!
 - [pdf slides](https://slides.react-finland.fi/2019/tejas-kumar.pdf)
 - [contiamo/operational-ui](https://github.com/contiamo/operational-ui)
 
-#### Bohdan Liashenko — Codecrumbs in React
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ZsBW4S8hYMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Bohdan Liashenko  —  Codecrumbs in React
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__icPl2pBJcknYay7zkE7U6A.png)
 
@@ -42,7 +44,9 @@ The basic idea is that you’ll annotate how a specific path of code through wor
 - [Online slides](https://docs.google.com/presentation/d/1Uj_5wyafZnp-BaSHzEne02gSxKJgmmjQK9M6mG1fi3k/edit#slide=id.p)
 - [pdf slides](https://slides.react-finland.fi/2019/bohdan-liashenko.pdf)
 
-#### Tomáš Konrády — React Union: Write once, plug anywhere
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/S_1-1jzLxm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Tomáš Konrády  —  React Union: Write once, plug anywhere
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__g6gcZjA4fKAL__4exuhWKBQ.png)
 
@@ -51,7 +55,9 @@ Although developers often use React to develop single page apps, and increasingl
 - [Online slides](https://finland-2019.firebaseapp.com/)
 - [pdf slides](https://slides.react-finland.fi/2019/tomas-konrady.pdf)
 
-#### Christoffer Niska — Releasing a library written in TypeScript on NPM
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/gGzGzpaNlx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Christoffer Niska  —  Releasing a library written in TypeScript on NPM
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__RAoUB5mdW4qklv2BbB46gw.png)
 
@@ -59,6 +65,8 @@ Given there are so many moving bits these days, the question is, what to publish
 
 - [pdf slides](https://slides.react-finland.fi/2019/christoffer-niska.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/T_4CCdkN468" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 I feel a lot of complexity of React comes from the tooling around it. That said, the situation is clearer now that create-react-app and other technologies have become the standard for many users. As shown by the session, there’s still innovation going on and I expect the tooling become more mature in the coming years as the community accepts new practices.

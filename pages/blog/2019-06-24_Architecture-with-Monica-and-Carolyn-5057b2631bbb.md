@@ -15,7 +15,7 @@ Even not having or thinking about architecture, means you’ll end up with one. 
 
 The question is, how to create architectures that last time and to develop tools that are more than just “intuitive”.
 
-#### Monica Lent — Building resilient frontend architecture
+## Monica Lent  —  Building resilient frontend architecture
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__vjvxktj16lX49nzBPEgvaw.png)
 
@@ -24,7 +24,9 @@ Why do we rewrite software? What’s the cost of refactoring? How to develop arc
 - To hear Monica’s thoughts about the topic, [go to 59:53 at the podcast](https://webbidevaus.fi/47).
 - [pdf slides](https://slides.react-finland.fi/2019/monica-lent.pdf)
 
-#### Carolyn Stransky — “Intuitive” Tooling
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/brMZLmZ1HR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Carolyn Stransky  —  “Intuitive” Tooling
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__WLOvwUwBQxTd25g6NOKgEg.png)
 
@@ -33,6 +35,8 @@ A lot of tooling we use is marketed as intuitive. But what does that mean in the
 - To hear Carolyn’s thoughts about the topic, [go to 59:53 at the podcast](https://webbidevaus.fi/47).
 - [pdf slides](https://slides.react-finland.fi/2019/carolyn-stransky.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/nBy8y39Pvp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 For me, having an architecture session at the end was the perfect way to finish the conference. There’s a lot to be learned from Monica’s and Carolyn’s talks and in some ways it boils down to being pragmatic and empathetic when developing software. Everyone was a beginner at some point.

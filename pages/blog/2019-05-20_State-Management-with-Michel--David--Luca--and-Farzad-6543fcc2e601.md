@@ -15,7 +15,7 @@ We collaborated with the [Webbidevaus podcast](https://webbidevaus.fi) (primaril
 
 In this post, I’ll cover the state management session in which we had Michel Weststrate, Luca Matteis, David Khourshid, and Farzad Yz.
 
-#### Michel Weststrate — MobX — The Journey
+## Michel Weststrate  —  MobX — The Journey
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1__qiR__6Zj__x66uyHa__zFaBMg.png)
 
@@ -27,9 +27,9 @@ You should watch the talk especially if you want to grow your open source librar
 - [Online slides](https://docs.google.com/presentation/d/12Dd8iYxcA8Wl2yaOE_FNb-MaB7cktUE82JFXVlrO-6U/edit#slide=id.p)
 - [pdf slides](https://slides.react-finland.fi/2019/michel-weststrate.pdf)
 
-Michel Weststrate on his journey with MobX
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/MIh1qSHi_Fc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Luca Matteis — Append-only development with React
+## Luca Matteis  —  Append-only development with React
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1__vEUinixD9t81RlbwpxO5BQ.png)
 
@@ -41,7 +41,9 @@ There are still questions about the scalability of the approach and better tooli
 - [Online slides](https://lmatteis.github.io/finland-talk/assets/player/KeynoteDHTMLPlayer.html)
 - [pdf slides](https://slides.react-finland.fi/2019/luca-matteis.pdf)
 
-#### David Khourshid — Mind-Reading with Adaptive and Intelligent UIs in React
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/cXuvCMG21Ss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## David Khourshid  —  Mind-Reading with Adaptive and Intelligent UIs in React
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1____o5jk7PLESIRuYLzm2YbbQ.png)
 
@@ -50,7 +52,9 @@ What if you could construct the user interface your user needs as they use the a
 - [David’s portion begins 14:37 at the podcast.](https://webbidevaus.fi/43)
 - [Online slides](https://slides.com/davidkhourshid/mind-reading-react-finland#/)
 
-#### Farzad Yz — Abstract component modeling in React
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ppvi09LIUnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Farzad Yz  —  Abstract component modeling in React
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1__i8oZKoQLKRMXbwolqit__kQ.png)
 
@@ -60,7 +64,9 @@ Farzad Yz discussed how to extract state management from your application while 
 - [Online slides](https://abstract-component-modeling.netlify.com/)
 - [pdf slides](https://slides.react-finland.fi/2019/farzad-yz.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/AVb5dURO6q0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 Especially developments, like state charts, seem to be the bleeding edge at the moment. It would not surprise me, though, if techniques like this became more popular during the next years as people discover the benefits.
 

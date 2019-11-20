@@ -13,7 +13,7 @@ slug: /@bebraw/design-systems-with-andrey-and-varya-bc8ae922cab0
 
 To continue on React Finland 2019 sessions, this time we’ll cover design systems. [Andrey Okonetchnikov](http://okonet.ru) and [Varya Stepanova](https://varya.me) spoke about the topic. Andrey also held a workshop during the first day of the event.
 
-#### Andrey Okonetchnikov — A Common Design Language. Let Designers and Developers talk to each other
+## Andrey Okonetchnikov  —  A Common Design Language. Let Designers and Developers talk to each other
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__q4rUj63HjeefZv7YN1q46Q.jpeg)
 
@@ -27,7 +27,9 @@ Andrey’s talk was all about this split and how to deal with it. His proposal i
 - [Online slides](https://speakerdeck.com/okonet/a-common-design-language)
 - [pdf slides](https://slides.react-finland.fi/2019/andrey-okonetchnikov.pdf)
 
-#### Varya Stepanova — A practical guide to building your design system infrastructure
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/a6DtiGhKMdk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Varya Stepanova  —  A practical guide to building your design system infrastructure
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__yCdZlB3U8I6vOcxMm__txgQ.jpeg)
 
@@ -39,7 +41,9 @@ Although you could pick up a solution like Styleguidist like Storybook, there’
 - [Online slides](https://varya.me/react-finland-2019/)
 - [pdf slides](https://slides.react-finland.fi/2019/varya-stepanova.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/5_lYTicLUbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 For me, it feels like the time has come for design systems to go mainstream in web development. The technical solutions are getting more mature and people are starting to get a better hang of the approach and the value it provides.
 

@@ -13,7 +13,7 @@ slug: /@bebraw/performance-with-anna-and-sven-e4544d87e7d6
 
 Performance can be a concern when working with bigger applications. Sometimes issues can come up when a low latency in the UI is required. It’s for this reason why I wanted to have a performance session in [React Finland](https://react-finland.fi) 2019.
 
-#### Anna Doubková — Practical Performance for React (Native)
+## Anna Doubková  —  Practical Performance for React (Native)
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__xRezi604__WJ__Sp1zBPBB8g.png)
 
@@ -24,7 +24,9 @@ When it comes to React and React Native, the basic rules of optimization apply. 
 - [pdf slides](https://slides.react-finland.fi/2019/anna-doubkova.pdf)
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
-#### Sven Sauleau — WebAssembly — The Next Big Platform
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/W2a5_Qn2jVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Sven Sauleau  —  WebAssembly — The Next Big Platform
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1____LYrs4__VqoiQRzFH3FyvOg.png)
 
@@ -34,6 +36,8 @@ For CPU bound tasks, it’s possible to push calculation to WebAssembly side of 
 
 - [pdf slides](https://slides.react-finland.fi/2019/sven-sauleau.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/8xhLsVVqchg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 Even with the improvements in React, performance can remain an issue. It’s important to at least learn how to measure before doing blind changes. Often in software architecture, there can be trade-offs to be made so that the desired level of performance can be reached.

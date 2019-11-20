@@ -13,7 +13,7 @@ slug: /@bebraw/styling-with-artem-and-artem-d690f7563187
 
 Ever since the introduction of React, styling has been a contentious topic. Since then, a variety of solutions have appeared and finally the community has begun to gravitate towards certain practices that hide some of the technical complexity. In our styling session with Artem Sapegin and Artem Zakharchenko, we got a taste of what’s to come.
 
-#### Artem Sapegin — Custom CSS is the path to inconsistent UI
+## Artem Sapegin  —  Custom CSS is the path to inconsistent UI
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1__KZ9sYBulSXVnh2NWsn1pjg.png)
 
@@ -27,7 +27,9 @@ Although it will take time to develop the primitives, you’ll gain consistency 
 - [pdf slides](https://slides.react-finland.fi/2019/artem-sapegin.pdf)
 - To hear Artem’s thoughts about the topic, [go to 48:58 at the podcast](https://webbidevaus.fi/46).
 
-#### Artem Zakharchenko — Creating layouts that last
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/_CsBRkRTzIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Artem Zakharchenko  —  Creating layouts that last
 
 ![Sketch notes by [David Leuliette](https://davidl.fr)](img/1__kblwRax6hDyA7OSI__4MYsw.png)
 
@@ -38,7 +40,9 @@ What if layouts were a first class citizen instead? It’s this idea that Artem 
 - [kettanaito/atomic-layout](https://github.com/kettanaito/atomic-layout)
 - To hear Artem’s thoughts about the topic, [go to 48:58 at the podcast](https://webbidevaus.fi/46).
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/_HrXUB97xQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 I like the fact that the discussion about styling in React is shifting more to the level of practices. You can apply design tokens and primitive components to hide the details and your styling solution.
 

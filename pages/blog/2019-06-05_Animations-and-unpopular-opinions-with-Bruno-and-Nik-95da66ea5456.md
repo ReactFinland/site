@@ -13,7 +13,7 @@ slug: /@bebraw/animations-and-unpopular-opinions-with-bruno-and-nik-95da66ea5456
 
 We ended the first day of the conference with two talks — one about animations and one about (un)popular opinions about React. It’s important for me to have light content at the end as the audience will be a little tired already so Bruno’s and Nik’s talks felt like great fits for the purpose.
 
-#### Bruno Lourenço — Delightful UI animations by understanding the brain
+## Bruno Lourenço  —  Delightful UI animations by understanding the brain
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__eksuScrjBDgIxmJb7l6e8A.png)
 
@@ -23,7 +23,9 @@ That’s what the talk by Bruno Lourenço was about and at the end of his talk h
 
 - To hear Bruno’s thoughts on the topic, [go to 52:25 at the podcast](https://webbidevaus.fi/45).
 
-#### Nik Graf — Un(popular) Opinions
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/TszRBCc6DQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Nik Graf  —  Un(popular) Opinions
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__lJHi8lshH7HiWk__PEw5Utw.png)
 
@@ -34,7 +36,9 @@ Sometimes what feels like a best practice, can become anti-pattern as the approa
 - To hear Nik’s thoughts on the topic, [go to 17:24 at the podcast](https://webbidevaus.fi/46).
 - [pdf slides](https://slides.react-finland.fi/2019/nik-graf.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/c9YtmMi-5rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 If you haven’t tried your React user interface yet, I recommend checking out [react-morph](https://github.com/brunnolou/react-morph). The API is amazingly simple.
 

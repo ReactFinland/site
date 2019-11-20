@@ -15,7 +15,7 @@ React Native is one of the lasting and controversial topics in the React ecosyst
 
 On retrospect, putting the React Native session to the beginning of the second conference was a good idea as that let people not interested in the topic sleep longer. That said, we had three quality talks in the session looking at React Native from different angles.
 
-#### Jamon Holmgren — Building a Community Around Ignite
+## Jamon Holmgren  —  Building a Community Around Ignite
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__Y6Mh4DTW9dvk__AQmwMBZ3A.png)
 
@@ -26,7 +26,9 @@ In his talk, Jamon Holmgren discusses how his company grew the project and built
 - [Online slides](https://infinite-red.slides.com/infinitered/react-finland-2019?token=m2ZLCaid)
 - [pdf slides](https://slides.react-finland.fi/2019/jamon-holmgren.pdf)
 
-#### Rick Hanlon — The Untouchable Web
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/gTG8_9Zv0YI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Rick Hanlon  —  The Untouchable Web
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__HVnU__bNF3SLbZoWZHqKYhw.png)
 
@@ -36,7 +38,9 @@ The conclusion is that better abstractions are needed. To get a glimpse to what 
 
 - [pdf slides](https://slides.react-finland.fi/2019/rick-hanlon.pdf)
 
-#### Ville Immonen — React Standard Library
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/LhKglxQT4sU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Ville Immonen  —  React Standard Library
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__l3BeD6nJCWYB9pVau7GyFg.png)
 
@@ -45,6 +49,8 @@ One of the problems in using React Native is the need to adapt to different plat
 - To hear Ville’s thoughts about the topic, [go to 31:53 at the podcast (Finnish only)](https://webbidevaus.fi/46).
 - [pdf slides](https://slides.react-finland.fi/2019/ville-immonen.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/6A9GeBXhPWY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 Although not everyone likes it, I think it’s a good idea to cover React Native in a React conference. Especially topics, such as _react-native-web,_ seem to bridge the gap between React Native and the web and show great promise. Projects like _ignite_ and _unimodules_ improve the developer experience of React Native and there’s a clear demand for the projects.

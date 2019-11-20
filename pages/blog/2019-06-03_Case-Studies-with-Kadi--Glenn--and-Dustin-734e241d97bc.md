@@ -9,12 +9,12 @@ keywords: []
 slug: /@bebraw/case-studies-with-kadi-glenn-and-dustin-734e241d97bc
 ---
 
-![[Look, we made it to the photo](https://www.flickr.com/photos/react-finland/46980135474/in/album-72157680132693308/) by [Nick Tulinen](http://www.nicktulinen.com)](img/1__VT0gZm1fdZ4dtzuT__cTSSw.jpeg)
-[Look, we made it to the photo](https://www.flickr.com/photos/react-finland/46980135474/in/album-72157680132693308/) by [Nick Tulinen](http://www.nicktulinen.com)
+![[Look, we made it to the photo](https://www.flickr.com/photos/react-finland/46980135474/in/album-72157680132693308/) by [Nick Tulinen](http://www.nicktulinen.com)](img/1__VT0gZm1fdZ4dtzuT__cTSSw.jpeg)
+[Look, we made it to the photo](https://www.flickr.com/photos/react-finland/46980135474/in/album-72157680132693308/) by [Nick Tulinen](http://www.nicktulinen.com)
 
 To get idea into how people are using React, I wanted to have a session about case studies. In the end, the session was more mixed than that but despite this, it turned out well.
 
-#### Kadi Kraman — All aboard the type train
+## Kadi Kraman  —  All aboard the type train
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1____xfL26W16zYT5HssIkegJA.png)
 
@@ -25,7 +25,9 @@ In her talk, Kadi Kraman discusses the typing and why you might want to adopt it
 - To hear Kadi’s thoughts about the topic, [go to 27:45 at the podcast](https://webbidevaus.fi/47).
 - [pdf slides](https://slides.react-finland.fi/2019/kadi-kraman.pdf)
 
-#### Glenn Reyes — Drawing the line between 3rd party and handcrafted components
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/PkdESWmNZ9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Glenn Reyes  —  Drawing the line between 3rd party and handcrafted components
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__yw8EwaE__tHrjG3AC8KYGBA.png)
 
@@ -35,7 +37,9 @@ When developing, you often have to make a call between developing something on y
 - [Online slides](https://speakerdeck.com/glennreyes/drawing-the-line-between-3rd-party-and-handcrafted-code)
 - [pdf slides](https://slides.react-finland.fi/2019/glenn-reyes.pdf)
 
-#### Dustin Schau — Gatsby + Themes: The Future of Gatsby
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/EdUJQYDYdPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Dustin Schau  —  Gatsby + Themes: The Future of Gatsby
 
 ![Sketch notes by [David Leuliette](https://davidl.fr/)](img/1__9i1MqXdiip__WnNL____xv34w.png)
 
@@ -46,7 +50,9 @@ A theme is an entity that encapsulates a portion of a Gatsby site. In his talk, 
 - [Online slides](https://dschau.dev/gatsbythemes)
 - [pdf slides](https://slides.react-finland.fi/2019/dustin-schau.pdf)
 
-#### Conclusion
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/SV2zu9FvUTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 For me, typing and especially thinking in types has a lot of value during development. Sometimes having the right data model can save a lot of effort and even enable features that might be otherwise complicated to pull off.
 
