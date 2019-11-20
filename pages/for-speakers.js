@@ -23,7 +23,7 @@ const ForSpeakers = () => (
       <Markdown
         source={`The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House.
 
-From 25th to 27th, several meeting rooms will be used for the workshops. On 28th and 29th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference.`}
+From 25th to 27th, several meeting rooms will be used for the workshops. On 28th and 29th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference. You will also have access to the tower on top of the building so you can see Helsinki from a good spot.`}
       />
     </div>
     <div className="grid--5col">
@@ -74,7 +74,6 @@ There won't be Q&A during the talks nor a panel at the end. However, we want to 
 
 ## Speakers' dinner
 
-
 Speakers' dinner will be held on 26th at [Restaurant Juuri](https://juuri.fi/en/) (Korkeavuorenkatu 27) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
 `}
       />
@@ -87,13 +86,7 @@ Speakers' dinner will be held on 26th at [Restaurant Juuri](https://juuri.fi/en/
       />
       <Markdown
         source={`
-## What Should I Know About Finland?
-
-* We speak Finnish, English, and Swedish (poorly most often). [Check out our brief guide to Finnish](/blog/brief-guide-to-finnish-vol--1---basics-7f43f37d5017/) in order to surprise the locals.
-* We use euro as our currency.
-* Our electricity network standard voltage is 230 V (50 Hz). The socket style is type F (Schuko) (symmetrical and looks like pig snout). It accepts plug C and E too.
-* Finland is generally considered a safe country. Do **not** try to go past people in the grill queue, through, as that's a common way to find yourself in a trouble.
-* Finland has around 5.5 million residents. To give you a comparison point, that's about 1.5 times the population of Berlin spread around the area of whole Finland (roughly the size of Germany).`}
+To learn more, please [read the attendee guide](/for-attendees/).`}
       />
     </div>
   </>
