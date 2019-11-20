@@ -12,7 +12,7 @@ const main = `
 * [Kongressikoti Hotel](http://kongressikoti.fi/) - Roughly 60€ per night.
 * [Hostel Diana Park](http://www.dianapark.fi/) - Roughly 30€ per night.
 
-## How to Get to the Venue?
+## How to Get to the Venue? What Kind of Transport Options Exist?
 
 There's a direct train from the airport to Helsinki center. HSL operates the local public transport system. You can find a city bike system as well. From city center, take a tram or metro to Hakaniemi.
 
