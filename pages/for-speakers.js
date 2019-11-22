@@ -33,7 +33,7 @@ From 25th to 27th, several meeting rooms will be used for the workshops. On 28th
 
 We booked you all at [Scandic Paasi](https://www.scandichotels.com/hotels/finland/helsinki/scandic-paasi?cmpid=ppc_BH2nd&gclid=Cj0KCQjw6fvdBRCbARIsABGZ-vR4KRNmrnasn45hHa-ekzL1kAtPWXVo_gfnkVIq2Ah-dsZT7IuFyk4aArTkEALw_wcB). You are booked for your whole stay (for the time discussed with each of your individually). There is breakfast. In case you were one of the sponsors, who agreed to pay for their expenses, you'd need to pay for the hotel at checkout, otherwise we've paid for the hotel already and you don't need to do anything.
 
-## How to Get to the hotel?
+## How to get to the hotel?
 
 If you want to use public transport, we recommend bus 615 to Hakaniemi. It's a short walk (about 100 meters) from there to the hotel.
 

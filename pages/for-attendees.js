@@ -5,36 +5,49 @@ const intro =
   "There are several things you must know before coming to React Finland. Read on to learn more.";
 
 const main = `
-## Where to Stay?
+## Where to stay?
 
 * [Hotel F6](https://www.hotelf6.fi/) - Roughly 160€ per night.
 * [Omena Hotels](https://www.omenahotels.com/en/) - Roughly 60-80€ per night. Minimal service. Two separate hotels.
 * [Kongressikoti Hotel](http://kongressikoti.fi/) - Roughly 60€ per night.
 * [Hostel Diana Park](http://www.dianapark.fi/) - Roughly 30€ per night.
 
-## How to Get to the Venue? What Kind of Transport Options Exist?
+## I am from a country that requires a visa for Finland. How can I get one?
+
+The way it works is that you'll need a letter of recommendation from us. It serves a dual purpose - it will help you to get the visa and it will help you to get across the border as you can show the document when you enter the country.
+
+In order for us to procure this document for you, please send us email (info <at> react-finland.fi) including the following information:
+
+* Name
+* Date of birth
+* Address
+* Passport number
+* The purpose of the visit
+* The length of the visit
+
+In response, we'll send you a signed pdf you can then present to your authorities and to ours at the border. You should apply for **visitor visa**.
+
+## How to get to the venue? What kind of transport options exist?
 
 There's a direct train from the airport to Helsinki center. HSL operates the local public transport system. You can find a city bike system as well. From city center, take a tram or metro to Hakaniemi.
 
 To get to the center for airport, you can use train, Finnair buses or taxi. It seems that nowadays there might be some fake taxis, so use reliable taxi services like TaksiHelsinki, Lahitaksi, Kovanen or FixuTaxi. Note that taxis are very expensive in Helsinki.
 
-## What Kind of Food is Available at the Venue?
+## What kind of food is available at the venue?
 
 We'll provide coffee and snacks during the longer breaks. During the lunch break we use the two restaurants available within the venue. You'll have buffet style food awaiting you and we accommodate to your special needs (vegetarian, vegan, glucose free, etc.) based on your preferences. You can indicate this when buying a ticket so we know to prepare the right kind of food for you. All the food is included to the price of the ticket and it's available both for workshops and the conference itself.
 
-## What to Take with You?
+## What to take with you?
 
-1. A swimming suit.
-2. A towel.
-3. A laptop. The first two are needed only if you go to sauna and swim.
+Assuming you want to sauna and swim, bring a swimming suit and optionally a towel (often you can borrow one). Personal laptop might go in handy, especially if you participate in the workshops!
 
-## How to Follow the Conference Program?
+## How to follow the conference program?
 
 1. Use the site [schedule](/schedule/).
 2. Use the mobile applications (Android, iPhone).
 3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2019.ics). You can import it to your Google Calendar for example.
 
-## How to Prepare for a Workshop?
+## How to prepare for the workshops?
 
 To start your workshop as quick and as smooth as possible, it's a good idea to spend some time beforehand. Make sure to install at least the following software to your laptop:
 
@@ -46,11 +59,11 @@ To start your workshop as quick and as smooth as possible, it's a good idea to s
 
 You should check your workshop requirements for any further requirements. Usually a workshop has a Git repository related to it. [Check the workshop description](/workshops/) for a link. If there's one, make sure you set it up while you perform the work above.
 
-## When Can I Register?
+## When can I register?
 
 Registration is possible in any of the conference days. The desk will be close to the entrance of the venue.
 
-## What Should I Know About Finland?
+## What should I know about Finland?
 
 * We speak Finnish, English, and Swedish (poorly most often). [Check out our brief guide to Finnish](/blog/brief-guide-to-finnish-vol--1---basics-7f43f37d5017/) in order to surprise the locals.
 * We use euro as our currency.
