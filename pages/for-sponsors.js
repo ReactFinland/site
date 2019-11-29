@@ -40,7 +40,7 @@ We are offering the perfect spot for companies to promote their knowledge and pr
 | Attendance for the speaker events (e.g. the speakers' dinner) | | | &#9786;
 | Special requests | | | &#10003;
 
-> * means we'll let people decide whether they want swag and what kind of swag they want as we're environmentally conscious. If attendees don't want swag, we'll use the equivalent amount of money for charity instead.
+> \* means we'll let people decide whether they want swag and what kind of swag they want as we're environmentally conscious. If attendees don't want swag, we'll use the equivalent amount of money for charity instead.
 
 ## How to Sponsor?
 
