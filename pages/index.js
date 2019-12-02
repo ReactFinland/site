@@ -41,11 +41,10 @@ const Index = ({ conference }) => (
         <Markdown source={secondary} />
       </aside>
     </section>
-    {/*<AnchorHeader level={2}>MCs</AnchorHeader>
+    <AnchorHeader level={2}>MCs</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts items={conference && conference.mcs} render={ContactMini} />
     </div>
-    <AnchorHeader level={2}>Workshop Instructors</AnchorHeader>*/}
     <AnchorHeader level={2}>Keynotes</AnchorHeader>
     <div className="grid--full speakers">
       <Contacts
