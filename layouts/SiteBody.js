@@ -49,34 +49,38 @@ const SiteBody = (
         <main>
           <Header pathname={pathname} title={title} />
 
-          {previous && (
-            <a
-              style={{
-                position: "absolute",
-                left: 0,
-                margin: "2em",
-                background: "white",
-              }}
-              href={previous.url}
-              title={previous.file.title}
-            >
-              Previous post
-            </a>
-          )}
-          {next && (
-            <a
-              style={{
-                position: "absolute",
-                right: 0,
-                margin: "2em",
-                background: "white",
-              }}
-              href={next.url}
-              title={next.file.title}
-            >
-              Next post
-            </a>
-          )}
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              margin: "1em",
+            }}
+          >
+            {previous && (
+              <a
+                style={{
+                  background: "white",
+                  padding: "0.5em",
+                }}
+                href={previous.url}
+                title={previous.file.title}
+              >
+                Previous post
+              </a>
+            )}
+            {next && (
+              <a
+                style={{
+                  background: "white",
+                  padding: "0.5em",
+                }}
+                href={next.url}
+                title={next.file.title}
+              >
+                Next post
+              </a>
+            )}
+          </div>
 
           <div className="main-container container">
             <section className="grid grid_6col">
