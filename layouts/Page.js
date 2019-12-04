@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const Page = ({ footer, children }) => {
   return (
-    <div className="page grid--5col">
+    <div className="page grid--full">
       <div className="page__container">
         <div className="page__main">
           <div className="page__section">{children}</div>

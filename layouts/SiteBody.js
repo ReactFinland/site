@@ -53,30 +53,18 @@ const SiteBody = (
             style={{
               display: "flex",
               justifyContent: "space-between",
-              margin: "1em",
+              marginLeft: "1em",
+              marginRight: "1em",
+              marginTop: "1em",
             }}
           >
             {previous && (
-              <a
-                style={{
-                  background: "white",
-                  padding: "0.5em",
-                }}
-                href={previous.url}
-                title={previous.file.title}
-              >
+              <a href={previous.url} title={previous.file.title}>
                 Previous post
               </a>
             )}
             {next && (
-              <a
-                style={{
-                  background: "white",
-                  padding: "0.5em",
-                }}
-                href={next.url}
-                title={next.file.title}
-              >
+              <a href={next.url} title={next.file.title}>
                 Next post
               </a>
             )}

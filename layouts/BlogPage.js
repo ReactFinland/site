@@ -9,7 +9,6 @@ const BlogPage = ({
     file: {
       attributes: { author, date, updateDate },
       body,
-      title,
     },
     previous,
     next,
