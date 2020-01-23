@@ -35,7 +35,7 @@ const BlogPage = ({
 
   return (
     <Page footer={footer}>
-      <div dangerouslySetInnerHTML={{ __html: body }} />
+      <div className="blog-page" dangerouslySetInnerHTML={{ __html: body }} />
       <Dates date={date} updateDate={updateDate} />
       {postAuthor && <Author author={postAuthor} />}
     </Page>
