@@ -74,7 +74,7 @@ There won't be Q&A during the talks nor a panel at the end. However, we want to 
 
 ## Speakers' dinner
 
-Speakers' dinner will be held on 26th at [Restaurant Juuri](https://juuri.fi/en/) (Korkeavuorenkatu 27) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
+Speakers' dinner will be held on 27th (Wednesday) at [Restaurant Juuri](https://juuri.fi/en/) (Korkeavuorenkatu 27) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
 `}
       />
       <iframe
