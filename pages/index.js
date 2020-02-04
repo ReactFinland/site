@@ -77,8 +77,9 @@ const Index = ({ conference }) => (
     <div className="intro--main">
       <p>
         The tickets for React Finland begin from 299 eur (VAT included). The
-        ticket includes access to the one day conference, lunch, snacks during
-        the breaks, and an afterparty.
+        ticket includes access to the two day conference (28-29.05), lunch,
+        snacks during the breaks, a special show after the first conference day
+        (28.05) and an afterparty (29.05).
       </p>
       <p>
         The pricing is similar for workshops (one workshop begins from 149 eur!)
