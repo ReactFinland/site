@@ -39,38 +39,58 @@ const Index = ({ conference }) => (
         <Markdown source={secondary} />
       </aside>
     </section>
-    <AnchorHeader level={2}>MCs</AnchorHeader>
-    <div className="grid--full speakers">
-      <Contacts items={conference && conference.mcs} render={ContactMini} />
-    </div>
-    <AnchorHeader level={2}>Keynotes</AnchorHeader>
-    <div className="grid--full speakers">
-      <Contacts
-        items={conference && conference.keynoteSpeakers}
-        render={ContactMini}
-      />
-    </div>
-    <AnchorHeader level={2}>Full talks</AnchorHeader>
-    <div className="grid--full speakers">
-      <Contacts
-        items={conference && conference.speakers}
-        render={ContactMini}
-      />
-    </div>
-    <AnchorHeader level={2}>Lightning Talks</AnchorHeader>
-    <div className="grid--full speakers">
-      <Contacts
-        items={conference && conference.lightningTalkSpeakers}
-        render={ContactMini}
-      />
-    </div>
-    <AnchorHeader level={2}>Workshops</AnchorHeader>
-    <div className="grid--full speakers">
-      <Contacts
-        items={conference && conference.workshopInstructors}
-        render={ContactMini}
-      />
-    </div>
+    {conference && conference.mcs && conference.mcs.length > 0 && (
+      <>
+        <AnchorHeader level={2}>MCs</AnchorHeader>
+        <div className="grid--full speakers">
+          <Contacts items={conference.mcs} render={ContactMini} />
+        </div>
+      </>
+    )}
+    {conference &&
+      conference.keynoteSpeakers &&
+      conference.keynoteSpeakers.length > 0 && (
+        <>
+          <AnchorHeader level={2}>Keynotes</AnchorHeader>
+          <div className="grid--full speakers">
+            <Contacts items={conference.keynoteSpeakers} render={ContactMini} />
+          </div>
+        </>
+      )}
+    {conference && conference.speakers && conference.speakers.length > 0 && (
+      <>
+        <AnchorHeader level={2}>Full talks</AnchorHeader>
+        <div className="grid--full speakers">
+          <Contacts items={conference.speakers} render={ContactMini} />
+        </div>
+      </>
+    )}
+    {conference &&
+      conference.lightningTalkSpeakers &&
+      conference.lightningTalkSpeakers.length > 0 && (
+        <>
+          <AnchorHeader level={2}>Lightning Talks</AnchorHeader>
+          <div className="grid--full speakers">
+            <Contacts
+              items={conference.lightningTalkSpeakers}
+              render={ContactMini}
+            />
+          </div>
+        </>
+      )}
+    {conference &&
+      conference.workshopInstructors &&
+      conference.workshopInstructors.length > 0 && (
+        <>
+          <AnchorHeader level={2}>Workshops</AnchorHeader>
+          <div className="grid--full speakers">
+            <Contacts
+              items={conference.workshopInstructors}
+              render={ContactMini}
+            />
+          </div>
+        </>
+      )}
     <AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="intro--main">
       <p>
