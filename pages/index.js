@@ -89,10 +89,12 @@ const Index = ({ conference }) => (
           </div>
         </>
       )}
+    {/*
     <AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="intro--main">
       <p></p>
     </div>
+    */}
     <div className="buy-container">
       <a
         className="buy-button"
