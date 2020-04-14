@@ -8,11 +8,9 @@ import {
 } from "components";
 
 const intro = `
-React Finland combines the Finnish React community with international flavor. The workshops take place 25-27.05 while the actual conference is between 28-29.05.
+React Finland combines the Finnish React community with international flavor. The workshops take place online 25-27.05. The conference will run as a series of online mini-conferences starting 28.05 and will run monthly starting then.
 
-In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community. In addition to enjoying the event, this is your chance to explore Finland.
-
-[React Finland 2020 has been postponed to 2021](/blog/rf-2020-postponed/).
+[The physical portion of React Finland 2020 has been postponed to 2021](/blog/rf-2020-postponed/).
 `;
 
 const secondary = `
@@ -93,20 +91,7 @@ const Index = ({ conference }) => (
       )}
     <AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="intro--main">
-      <p>
-        The tickets for React Finland begin from 299 eur (VAT included). The
-        ticket includes access to the two day conference (28-29.05), lunch,
-        snacks during the breaks, a special show after the first conference day
-        (28.05) and an afterparty (29.05).
-      </p>
-      <p>
-        The pricing is similar for workshops (one workshop begins from 149 eur!)
-        and you can participate in up to three full day workshops.
-      </p>
-      <p>
-        Note that if you buy more than one ticket, you will get a special
-        discount depending on the amount.
-      </p>
+      <p></p>
     </div>
     <div className="buy-container">
       <a

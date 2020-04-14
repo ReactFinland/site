@@ -35,9 +35,9 @@ const Header = ({ pathname, title }) => {
 
         <section className="header--dates">
           <time dateTime="2020-05-25/2020-05-29" className="header--date">
-            25-29.05.2020
+            25-28.05.2020
           </time>
-          <address className="header--location">Helsinki, Finland</address>
+          <address className="header--location">Online</address>
         </section>
         {/*<Interactive
           id="components/Countdown.js"
@@ -46,9 +46,9 @@ const Header = ({ pathname, title }) => {
           containerProps={{ className: "countdown--container" }}
         />*/}
         <section className="header--buy">
-          {/*<Link to="/#tickets" className="buy-button">
+          <Link to="/#tickets" className="buy-button">
             Buy tickets
-  </Link>*/}
+          </Link>
         </section>
       </div>
     </header>
