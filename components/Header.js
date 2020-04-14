@@ -46,7 +46,10 @@ const Header = ({ pathname, title }) => {
           containerProps={{ className: "countdown--container" }}
         />*/}
         <section className="header--buy">
-          <Link to="/#tickets" className="buy-button">
+          <Link
+            to="https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117"
+            className="buy-button"
+          >
             Buy tickets
           </Link>
         </section>
