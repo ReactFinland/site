@@ -25,7 +25,8 @@ const Workshop = ({
     <AnchorHeader level={headerLevel + 1}>Location</AnchorHeader>
 
     <div>
-      {location.name} - {location.address}, {location.city}
+      {location.name}{" "}
+      {location.address ? `- ${location.address},${location.city}` : null}
     </div>
   </div>
 );
