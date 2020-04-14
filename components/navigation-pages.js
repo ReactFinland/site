@@ -10,14 +10,14 @@ export default [
         title: "About",
         url: "/about/",
       },
-      {
+      /*{
         title: "Speakers",
         url: "/speakers/",
       },
       {
         title: "For Attendees",
         url: "/for-attendees/",
-      },
+      },*/
       {
         title: "For Speakers",
         url: "/for-speakers/",
@@ -100,14 +100,14 @@ export default [
         title: "2019",
         url: "/2019/",
       },
-      {
+      /*{
         title: "GraphQL Finland",
         url: "https://graphql-finland.fi/",
       },
       {
         title: "Freezing Edge",
         url: "https://freezing-edge.fi/",
-      },
+      },*/
     ],
   },
 ];
