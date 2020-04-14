@@ -34,40 +34,37 @@ const Schedule = ({ intervals }) => (
                   />
                 )}
                 <p>
-                  {urls &&
-                    urls.slides && (
+                  {urls && urls.slides && (
+                    <a
+                      href={urls.slides}
+                      style={{ fontSize: "small" }}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Slides (PDF)
+                    </a>
+                  )}
+                  {urls && urls.web && (
+                    <>
+                      <span style={{ marginLeft: "1em" }}>&nbsp;</span>
                       <a
-                        href={urls.slides}
+                        href={urls.web}
                         style={{ fontSize: "small" }}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Slides (PDF)
+                        Slides (web)
                       </a>
-                    )}
-                  {urls &&
-                    urls.web && (
-                      <>
-                        <span style={{ marginLeft: "1em" }}>&nbsp;</span>
-                        <a
-                          href={urls.web}
-                          style={{ fontSize: "small" }}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Slides (web)
-                        </a>
-                      </>
-                    )}
-                </p>
-                {type !== "WORKSHOP" &&
-                  description && (
-                    <Markdown
-                      key={`description-${i}`}
-                      source={description}
-                      escapeHtml={false}
-                    />
+                    </>
                   )}
+                </p>
+                {type !== "WORKSHOP" && description && (
+                  <Markdown
+                    key={`description-${i}`}
+                    source={description}
+                    escapeHtml={false}
+                  />
+                )}
                 {location && <Location {...location} />}
                 {keywords && (
                   <Keywords key={`keywords-${i}`} items={keywords} />
@@ -120,10 +117,9 @@ const AnchorTitle = ({ title, type, speakers, level = 3 }) => (
   <AnchorHeader level={level} anchor={title}>
     <ScheduleIcon type={type} />
     {title} {title && speakers && speakers.length > 0 && "—"}{" "}
-    {speakers &&
-      speakers.length > 0 && (
-        <SessionSpeakers key={`speaker-names`} speakers={speakers} />
-      )}
+    {speakers && speakers.length > 0 && (
+      <SessionSpeakers key={`speaker-names`} speakers={speakers} />
+    )}
   </AnchorHeader>
 );
 AnchorTitle.propTypes = titlePropTypes;
