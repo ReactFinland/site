@@ -10,7 +10,7 @@ import {
 const intro = `
 React Finland combines the Finnish React community with international flavor. The workshops take place online 25-27.05. The conference will run as a series of online mini-conferences starting 28.05 and will occur monthly starting then.
 
-[The physical portion of React Finland 2020 has been postponed to 2021](/blog/rf-2020-postponed/).
+[The physical portion of React Finland 2020 has been postponed to 2021](/blog/rf-2020-postponed/) but [we'll run online workshops still](/blog/rf-2020-online-workshops/).
 `;
 
 const secondary = `

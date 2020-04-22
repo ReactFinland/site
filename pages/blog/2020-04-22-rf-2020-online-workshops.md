@@ -1,18 +1,22 @@
 ---
 title: "React Finland 2020 - Online Workshops and Mini-Conference"
-date: 2020-04-21
-keywords: ["react-finland"]
+date: 2020-04-22
+keywords: ["react-finland", "workshops", "mini-conference"]
 ---
 
 As mentioned in the previous post, [we've postponed the physical portion of React Finland 2020 to the next year](/blog/rf-2020-postponed/). That said, we'll run most of the workshops online close to the original dates. In addition, we'll begin to run a monthly mini-conference session starting from 28th of May.
 
 ## 2020 - Online Workshops
 
-Although the easiest move would have been to cancel all the workshops and return money for all of them, we found a compromise with many of the workshop trainers. We decided to forfeit our portion of the workshop ticket price (50%) and we'll subtract only the portion going to the ticket platform from the proceedings going to the trainers. Doing this is fair given we were unable to hold to our commitment of physical logistics. As a bonus, it allows us to offer the workshops in a particularly good price.
+Although the easiest move would have been to cancel all the workshops and return money for all of them, we found a compromise with many of the workshop trainers. We decided to forfeit our portion of the workshop ticket price (50%) and we'll subtract only the portion going to the ticket platform from the proceedings going to the trainers.
+
+Doing this is fair given we were unable to hold to our commitment of physical logistics. As a bonus, it allows us to offer the workshops in a particularly good price.
 
 ### Available Workshops
 
-We've restricted each workshop between 20 and 30 people depending on the amount of trainers. In some cases the sessions have been split over two days so it's potentially easier to fit them to your schedule. I know scheduling wasn't flawless this time and there are several unfortunate overlaps. That said, I hope we can run more workshops over the year as we learn how to do this efficiently.
+We've restricted each workshop between 20 and 30 people depending on the amount of trainers. In some cases the sessions have been split over two days so it's potentially easier to fit them to your schedule.
+
+I know scheduling wasn't flawless this time and there are several unfortunate overlaps. That said, I hope we can run more workshops over the year as we learn how to do this efficiently.
 
 In total, we have seven workshops from which to choose:
 
@@ -32,7 +36,9 @@ The workshops vary based on topic and expected experience level. [Check out the 
 
 ### From a Physical Workshop to an Online Workshop
 
-If you have already bought a ticket to a workshop, you have likely received a message about transfer. You can move a workshop ticket to its online version or to another workshop. We'll refund 50% of your workshop ticket price. In case you want to do this and you missed my initial query, [please send me email](info@react-finland.fi) with your preference and order number in it and I'll do the rest. In case you don't want to move to the online version, we'll refund you fully at the end of May without asking.
+If you have already bought a ticket to a workshop, you have likely received a message about possible transfer. You can move a workshop ticket to its online version or to another workshop. We'll refund 50% of your workshop ticket price.
+
+In case you want to do this and you missed my initial query, [please send me email](info@react-finland.fi) with your preference and order number in it and I'll do the rest. In case you don't want to move to the online version, we'll refund you fully at the end of May without asking.
 
 ## 28.05 17:00-21:00 - The First Online React Finland Mini-Conference
 
@@ -44,7 +50,7 @@ The wheels are in motion to organize the first online React Finland mini-confere
 - The talk videos will be available to the public later
 - We'll iterate and try to find a good way to serve the Finnish and international community with our events.
 
-If you decided to move your conference ticket to the next year, you'll have free access to the online events (8 in total planned). If you want to take part in the live event, the first one is available for 30 € introductory price and the income goes towards covering the cost of the production.
+If you decided to move your conference ticket to the next year, you'll have free access to the online events (8 in total planned). If you want to take part in the live event, [the first one is available for 30 € introductory price](https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117) and the income goes towards covering the cost of the production.
 
 ## Conclusion
 
