@@ -1,9 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-const Subscribe = ({
-  children = "Subscribe to get React Finland related news to your mail.",
-}) => {
+const Subscribe = () => {
   return (
     <section
       className="subscribe"
@@ -44,21 +41,18 @@ const Subscribe = ({
           }}
           onClick={e => {
             e.preventDefault();
-            mjOpenPopin(event, document.querySelector("#subscribe-button"));
+            mjOpenPopin(e, document.querySelector("#subscribe-button"));
           }}
           onKeyDown={e => {
             e.preventDefault();
-            mjOpenPopin(event, document.querySelector("#subscribe-button"));
+            mjOpenPopin(e, document.querySelector("#subscribe-button"));
           }}
         >
-          {children}
+          Subscribe to get React Finland related news to your mail.
         </div>
       </div>
     </section>
   );
-};
-Subscribe.propTypes = {
-  children: PropTypes.element,
 };
 
 export default Subscribe;
