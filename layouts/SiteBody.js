@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { HelmetProvider } from "react-helmet-async";
+import Interactive from "antwar-interactive";
 import {
   AnchorHeader,
   AnchorProvider,
@@ -140,7 +141,7 @@ const SiteBody = (
               </div>
             </section>
           </div>
-          <Subscribe />
+          <Interactive id="components/Subscribe.js" component={Subscribe} />
           <Footer />
         </main>
       </AnchorProvider>
