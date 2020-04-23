@@ -33,10 +33,22 @@ const Subscribe = ({
         }}
       >
         <div
+          role="button"
+          tabIndex={0}
           className="mj-w-button-content"
+          id="subscribe-button"
+          data-token="fd098aa40e8dccbaa2dd415c3003999f"
           style={{
             fontFamily: "Finlandica, Helvetica",
             display: "inline-block",
+          }}
+          onClick={e => {
+            e.preventDefault();
+            mjOpenPopin(event, document.querySelector("#subscribe-button"));
+          }}
+          onKeyDown={e => {
+            e.preventDefault();
+            mjOpenPopin(event, document.querySelector("#subscribe-button"));
           }}
         >
           {children}
