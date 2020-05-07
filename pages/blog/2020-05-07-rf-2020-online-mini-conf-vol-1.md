@@ -6,27 +6,29 @@ keywords: ["react-finland", "mini-conference"]
 
 As discussed in the previous post, [we've moved our workshops and the conference online](/blog/rf-2020-online-workshops/). Instead of running it in a standard conference format, we decided to split it over year instead.
 
-The first session will take place 28th of May and it's going to be about documentation. As a theme it's intriguing given not much attention is given to it although it's often one of the most visible parts of a project. Therefore it felt like a great starting point for our conference series.
+The first session will take place 28th of May (17:00-21:00 Finnish time) and it's going to be about documentation. As a theme it's intriguing given not much attention is given to it although it's often one of the most visible parts of a project. Therefore it felt like a great starting point for our conference series.
 
-## Talks
+## Schedule
 
-We've found three great speakers and an MC for the first event. Here we go:
+We've found three great speakers and an MC for the first event. You might remember Jani from the past editions of React Finland, first as a speaker and then as an MC. It's great to have him host our first online as well.
 
-### Carolyn Stransky - Humanizing Your Documentation
+The event will begin 17:00 and we'll warm up till 17:30. It's then that we have a brief introduction to the topic and the theme before we delve into the talks.
+
+### Carolyn Stransky - Humanizing Your Documentation - 17:45-18:15
 
 You might remember Carolyn from the previous edition of React Finland and from GraphQL Finland as well. She'll show us the humane side of documentation.
 
-### Kenigbolo Meya Stephen - Documentation in legacy React code - A love/hate paradigm
+### Kenigbolo Meya Stephen - Documentation in legacy React code - A love/hate paradigm - 18:30-19:00
 
 Kenigbolo Meya Stephen, a new speaker in React Finland, will focus on documenting legacy React code. If you've stuck with React for the past few years, you likely know what I'm talking about. He'll show us how to deal with the past.
 
-### Margarita Obraztsova - Going beyond Redux. Diversify frontend state management
+### Margarita Obraztsova - Going beyond Redux. Diversify frontend state management - 19:15-19:45
 
 Margarita Obraztsova is going to look at Redux and available options especially from the perspective of documentation. Sometimes a solution that looks simple isn't so and vice versa. The session will also bridge us to the topic of June but more on that in a later post.
 
-### Jani Eväkallio - MC
+### Panel and cooling down - 20:00-21:00
 
-You might remember Jani from the past editions of React Finland, first as a speaker and then as an MC. It's great to have him host our first online as well.
+We'll wrap the event form of a panel after which there will be casual discussion as we cool down.
 
 ## What are the participation options
 
