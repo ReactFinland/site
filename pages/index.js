@@ -8,9 +8,17 @@ import {
 } from "components";
 
 const intro = `
-React Finland combines the Finnish React community with international flavor. The workshops take place online 25-27.05. The conference will run as a series of online mini-conferences starting 28.05 and will occur monthly starting then.
+React Finland combines the Finnish React community with international flavor.
 
-[The physical portion of React Finland 2020 has been postponed to 2021](/blog/rf-2020-postponed/) but [we'll run online workshops still](/blog/rf-2020-online-workshops/).
+### Online workshops
+
+[The online workshops take place online 25-27.05](/blog/rf-2020-online-workshops/). In total, we have seven workshops from which to choose.
+
+### #1 online mini-conference - Documentation
+
+[The first online mini-conference takes place 28.05 (17:00-21:00, Finnish time)](/blog/rf-2020-online-mini-conf-vol-1/). It's going to be about documentation. Jani Eväkallio will MC the event and we'll have Carolyn Stransky, Kenigbolo Meya Stephen, and Margarita Obraztsova speaking about the topic.
+
+In addition there's going to be QAs and panel at the end available for the holders of the premium ticket.
 `;
 
 const secondary = `
@@ -24,14 +32,14 @@ const Index = ({ conference }) => (
     <section className="intro intro_home">
       <div className="intro--main">
         <Markdown source={intro} />
-        <AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
+        {/*<AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
         <iframe
           src="https://www.youtube.com/embed/BO_osndeLII"
           width="100%"
           height="400"
           frameBorder="0"
           title="React Finland 2019"
-        />
+/>*/}
       </div>
       <aside className="intro--aside">
         <Markdown source={secondary} />
