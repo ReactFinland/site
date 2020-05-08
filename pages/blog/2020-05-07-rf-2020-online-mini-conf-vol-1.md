@@ -10,7 +10,7 @@ The first session will take place 28th of May (17:00-21:00 Finnish time) and it'
 
 ## Schedule
 
-We've found three great speakers and an MC for the first event. You might remember Jani from the past editions of React Finland, first as a speaker and then as an MC. It's great to have him host our first online as well.
+We've found three great speakers and an MC for the first event. You might remember Jani Eväkallio from the past editions of React Finland, first as a speaker and then as an MC. It's great to have him host our first online as well.
 
 The event will begin 17:00 and we'll warm up till 17:30. It's then that we have a brief introduction to the topic and the theme before we delve into the talks.
 
