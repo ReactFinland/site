@@ -8,17 +8,9 @@ import {
 } from "components";
 
 const intro = `
-React Finland combines the Finnish React community with international flavor.
+## #1 online mini-conference - Documentation
 
-### Online workshops
-
-[The online workshops take place online 25-27.05](/blog/rf-2020-online-workshops/). In total, we have seven workshops from which to choose.
-
-In case you are attending the workshops, [please join the conference Slack first](https://join.slack.com/t/react-finland/shared_invite/enQtMzQ0NDM1ODczMjE2LTI3MjZlZGNjNTNkOTU5N2E1OWYxYzY0MWE0Y2NiNWMxMWZiMWEyYjc4MmM1ZDQwZmFhOTkyODBmM2E4NjcxZjM). You'll find further information there.
-
-### #1 online mini-conference - Documentation
-
-[The first online mini-conference takes place 28.05 (17:00-21:00, Finnish time)](/blog/rf-2020-online-mini-conf-vol-1/). It's going to be about documentation. Jani Eväkallio will MC the event and we'll have Carolyn Stransky, Kenigbolo Meya Stephen, and Margarita Obraztsova speaking about the topic.
+[The first online mini-conference takes place 28.05 (17:00-21:00, Finnish time)](/blog/rf-2020-online-mini-conf-vol-1/). It's going to be about documentation. Jani Eväkallio will MC the event and we'll have Carolyn Stransky, Kenigbolo Meya Stephen, and Margarita Obraztsova speaking about the topic. The event will be held online through a video stream.
 
 If you purchase the premium ticket, you'll have access to the speaker QAs after talks and to the panel after the talks. During these times, the free stream will show advertisements instead.
 `;
@@ -67,12 +59,13 @@ const Index = ({ conference }) => (
       )}
     {conference && conference.speakers && conference.speakers.length > 0 && (
       <>
-        <AnchorHeader level={2}>Full talks</AnchorHeader>
+        <AnchorHeader level={2}>Speakers</AnchorHeader>
         <div className="grid--full speakers">
           <Contacts items={conference.speakers} render={ContactMini} />
         </div>
       </>
     )}
+    {/*
     {conference &&
       conference.lightningTalkSpeakers &&
       conference.lightningTalkSpeakers.length > 0 && (
@@ -99,7 +92,6 @@ const Index = ({ conference }) => (
           </div>
         </>
       )}
-    {/*
     <AnchorHeader level={2}>Tickets</AnchorHeader>
     <div className="intro--main">
       <p></p>
