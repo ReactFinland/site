@@ -8,7 +8,7 @@ import {
 } from "components";
 
 const intro = `
-## #1 online mini-conference - Documentation
+## Online mini-conference #1 - Documentation
 
 [The first online mini-conference takes place 28.05 (17:00-21:00, Finnish time)](/blog/rf-2020-online-mini-conf-vol-1/). It's going to be about documentation. Jani Eväkallio will MC the event and we'll have Carolyn Stransky, Kenigbolo Meya Stephen, and Margarita Obraztsova speaking about the topic. The event will be held online through a video stream.
 
