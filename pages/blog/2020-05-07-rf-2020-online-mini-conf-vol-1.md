@@ -4,7 +4,7 @@ date: 2020-04-22
 keywords: ["react-finland", "mini-conference"]
 ---
 
-As discussed in the previous post, [we've moved our workshops and the conference online](/blog/rf-2020-online-workshops/). Instead of running it in a standard conference format, we decided to split it over year instead.
+As discussed in the previous post, [we've moved our workshops and the conference online](/blog/rf-2020-online-workshops/). Instead of running it in a standard conference format, we decided to split it over year.
 
 The first session will take place 28th of May (17:00-21:00 Finnish time) and it's going to be about documentation. As a theme it's intriguing given not much attention is given to it although it's often one of the most visible parts of a project. Therefore it felt like a great starting point for our conference series.
 
