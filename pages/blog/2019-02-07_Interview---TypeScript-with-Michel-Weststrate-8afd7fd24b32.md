@@ -73,5 +73,3 @@ TypeScript is eating the world. The fact that Facebook projects like Yarn and Je
 ![Sauna. ([Pixabay](https://pixabay.com/en/sauna-sauna-cabin-old-turf-roof-1476232/))](img/1__Vd11SE1xBHrmix2TGxtf6w.jpeg)
 
 Who needs saunas? A vague TypeScript compile error will make you sweat just as well.
-
-> It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.

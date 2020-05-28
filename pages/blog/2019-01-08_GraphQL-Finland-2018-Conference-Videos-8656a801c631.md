@@ -120,5 +120,3 @@ Dan Schafer, one of the creators of the GraphQL specification at Facebook, discu
 #### Conclusion
 
 The [videos are also available as a YouTube playlist](https://www.youtube.com/playlist?list=PLVSuvWb4Q2Y7oxwvpzlwFxAO6IbIjMDgB) in case you wish to watch them in row. I think we managed to attract a diverse range of speakers and topics and it shows in the talks.
-
-> It’s a good chance to [get an early bird ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets), the sister conference of GraphQL Finland. We also have combos (workshop+conference) available for those wanting a deep dive.

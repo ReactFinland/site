@@ -86,5 +86,3 @@ If you want to specify it’s best regards from you, adjust as follows:
 The rule here is that you should use that “i” if your name ends in a consonant, otherwise you should skip it as it will sound weird.
 
 [Learn about boots in the next part of the series.](/blog/brief-guide-to-finnish-vol--4---saapas-a99d6eb1034f/)
-
-> It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.

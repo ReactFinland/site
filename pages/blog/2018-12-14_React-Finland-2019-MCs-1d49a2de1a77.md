@@ -24,5 +24,3 @@ In addition to MCing the sessions, he’ll host a special event — **#SMOOS
 ![Sara being chased by a bear](img/1__Lq3QbVERIjJPPvIkb__DJpQ.jpeg)
 
 [Sara Vieira](https://twitter.com/NikkitaFTW) is one of our former speakers as well. She is a well-known figure in the community and will keep us awake on the second day of the conference.
-
-> It’s a good chance to [get a ticket for React Finland 2019](https://react-finland.fi/#tickets) (24–26.04). We also have combos (workshop+conference) available for those wanting a deep dive.

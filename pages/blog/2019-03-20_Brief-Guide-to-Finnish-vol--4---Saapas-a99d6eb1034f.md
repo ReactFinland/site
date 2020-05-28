@@ -72,5 +72,3 @@ Officially we call Italy as “Italia” in Finnish. But let’s say they are be
 It’s a friendly insult, though, and it doesn’t mean we don’t like Italians. It’s a popular holiday destination for many Finns after all.
 
 [Learn about six and firs in the next part of the series.](/blog/brief-guide-to-finnish-vol--5---kuusi-373575fcfdf3/)
-
-> It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.

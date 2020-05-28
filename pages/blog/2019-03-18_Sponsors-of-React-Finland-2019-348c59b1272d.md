@@ -97,5 +97,3 @@ React Finland has gained a wide collection of partners, too numerous to mention.
 #### Conclusion
 
 It would not be possible to run a conference like React Finland without the amount of support we get. Not at least at the same level. It’s attendees that make the conference happen and it’s the sponsors that allow us to make it great.
-
-> It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.

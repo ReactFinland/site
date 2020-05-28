@@ -53,5 +53,3 @@ To explain, here’s how to parse “kuusiokoloavain”:
 - “avain” — key
 
 So direct translation would be “sixish hole key”. Allen key is also known as the hex key due to its hex shape. I don’t know who Allen is and I don’t know them personally.
-
-> It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.

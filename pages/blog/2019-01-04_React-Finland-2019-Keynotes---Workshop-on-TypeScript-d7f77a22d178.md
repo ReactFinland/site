@@ -31,5 +31,3 @@ Given the language is becoming a mainstream option, this workshop is a good choi
 [Rick Hanlon](https://react-finland.fi/speakers/#rick-hanlon) from Facebook will discuss React Native and where it’s going in his keynote for the second day.
 
 Rick is well known for his contributions to Jest, a popular testing choice for React projects, and will be a great addition to the roster of React Finland.
-
-> It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.

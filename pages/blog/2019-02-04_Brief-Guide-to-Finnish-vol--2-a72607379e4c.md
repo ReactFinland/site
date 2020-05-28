@@ -88,5 +88,3 @@ And the Finn will repeat the answer:
 _The above is possible because “kuu” (moon) and “luu” (bone) can be combined into a single word “kuuluu” (moon bone) which happens to overlap with other usages._
 
 [Learn to say “hi” in the next part of the guide.](/blog/brief-guide-to-finnish-vol--3-1e16a61c661d/)
-
-> It’s a good chance to [get a ticket for React Finland 2019 (24–26.04)](https://react-finland.fi/#tickets). We also have combos (workshop+conference) available for those wanting a deep dive.
