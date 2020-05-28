@@ -10,9 +10,21 @@ import {
 const intro = `
 ## Online mini-conference #1 - Documentation
 
-[The first online mini-conference takes place 28.05 (17:00-21:00, Finnish time)](/blog/rf-2020-online-mini-conf-vol-1/). It's going to be about documentation. Jani Eväkallio will MC the event and we'll have Carolyn Stransky, Kenigbolo Meya Stephen, and Margarita Obraztsova speaking about the topic. The event will be held online through a video stream.
+[The first online mini-conference takes place 28.05 (17:00-21:00, Finnish time)](/blog/rf-2020-online-mini-conf-vol-1/) and it is about documentation. Jani Eväkallio will MC the event and we'll have Carolyn Stransky, Kenigbolo Meya Stephen, and Margarita Obraztsova speaking about the topic. The event will be held online through a video stream.
 
 If you purchase the premium ticket, you'll have access to the speaker QAs after talks and to the panel after the talks. During these times, the free stream will show advertisements instead. The access to the streams will be provided close to the event.
+
+## React Finland 2021
+
+React Finland 2021 conference tickets are available:
+
+- The conference will take place 24-28.05.2021. The workshops will run 24-26.05 and the conference 27-28.05.
+- We'll follow a similar format as earlier so the conference will be on a single track although we'll likely branch during the breaks into more impromptu sessions, QAs, and relaxation.
+- The price of the conference portion begins from 399 € (inc. VAT) and it's available now. Once these tickets run out, the late price is going to be 499 €.
+- Unlike usually, this time we have less tickets available, roughly 150 in total. That's due to ticket transfers to 2021.
+- The workshops will be announced at a later time, likely during the Fall, as we have more information available.
+
+> [Learn more about RF2021 from the announcement](/blog/rf-2021/)
 `;
 
 const secondary = `
