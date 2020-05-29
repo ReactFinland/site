@@ -17,11 +17,11 @@ export default [
       {
         title: "For Attendees",
         url: "/for-attendees/",
-      },*/
+      },
       {
         title: "For Speakers",
         url: "/for-speakers/",
-      },
+      },*/
       {
         title: "For Sponsors",
         url: "/for-sponsors/",
@@ -30,10 +30,10 @@ export default [
         title: "Schedule",
         url: "/schedule/",
       },
-      {
+      /*{
         title: "Workshops",
         url: "/workshops/",
-      },
+      },*/
       {
         title: <b>Buy tickets</b>,
         url:
