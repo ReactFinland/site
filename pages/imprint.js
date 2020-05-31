@@ -3,13 +3,14 @@ import { Markdown } from "components";
 
 const main = `
 \`\`\`
-React Finland ry
+TOSKA Osuuskunta
+c/o Aleksi Pousar
 Lauttasaarentie 16 A 17
 00200 Helsinki
 \`\`\`
 
 * info <at> react-finland.fi
-* Business ID: 2873394-3
+* VAT: FI30883078
 `;
 
 const Imprint = () => (

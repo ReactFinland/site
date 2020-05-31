@@ -8,7 +8,7 @@ React Finland is committed to protecting your privacy. This privacy policy repre
 
 \`\`\`
 Toni Ristola
-React Finland ry
+c/o Aleksi Pousar
 Lauttasaarentie 16 A 17
 00200 Helsinki
 \`\`\`
