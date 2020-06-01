@@ -8,15 +8,20 @@ import {
 } from "components";
 
 const intro = `
-## Online mini-conference #1 - Documentation
+## Online mini-conference #2 - State management
 
-[The first online mini-conference takes place 28.05 (17:00-21:00, Finnish time)](/blog/rf-2020-online-mini-conf-vol-1/) and it is about documentation. Jani Eväkallio will MC the event and we'll have Carolyn Stransky, Kenigbolo Meya Stephen, and Margarita Obraztsova speaking about the topic. The event will be held online through a video stream.
+The second online mini-conference takes place 24.06 (17:00-21:00, Finnish time) and it is about state management. Sara Vieira will MC the event and we'll have David Khourshid, Christian Alfoni, and Yan Laryushev speaking about the topic. The event will be held online through a video stream.
 
-If you purchase the premium ticket, you'll have access to the speaker QAs after talks and to the panel after the talks. During these times, the free stream will show advertisements instead. The access to the streams will be provided close to the event.
+We have two options for participation:
+
+* Free stream - during QAs and the panel, you'll see ads. The QA and panel content will be online later after the event
+* Premium stream - you'll have direct access to the QAs and the panel.
+
+The links to the streams will be provided closer to the email you specified in your ticket purchase.
 
 ## React Finland 2021
 
-React Finland 2021 conference tickets are available:
+React Finland 2021 conference tickets are now available:
 
 - The conference will take place 24-28.05.2021. The workshops will run 24-26.05 and the conference 27-28.05.
 - We'll follow a similar format as earlier so the conference will be on a single track although we'll likely branch during the breaks into more impromptu sessions, QAs, and relaxation.
