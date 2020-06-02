@@ -34,8 +34,8 @@ const Header = ({ pathname, title }) => {
         </h2>
 
         <section className="header--dates">
-          <time dateTime="2020-06-24" className="header--date">
-            24.06.2020
+          <time dateTime="2020-08-24" className="header--date">
+            Late August 2020
           </time>
           <address className="header--location">Online</address>
         </section>
@@ -44,7 +44,7 @@ const Header = ({ pathname, title }) => {
           component={Countdown}
           toDate="2019-04-24"
           containerProps={{ className: "countdown--container" }}
-        />*/}
+        />
         <section className="header--buy">
           <Link
             to="https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117"
@@ -52,7 +52,7 @@ const Header = ({ pathname, title }) => {
           >
             Buy tickets
           </Link>
-        </section>
+        </section>*/}
       </div>
     </header>
   ) : (
