@@ -10,7 +10,7 @@ import {
 const intro = `
 ## Online mini-conference #2 - State management
 
-The second online mini-conference takes place late August (17:00-21:00, Finnish time) and it is about state management. Sara Vieira will MC the event and we'll have David Khourshid, Christian Alfoni, and Yan Laryushev speaking about the topic. The event will be held online through a video stream.
+The second online mini-conference takes place 27th of August (17:15-20:10, Finnish time) and it is about state management. Sara Vieira will MC the event and we'll have David Khourshid, Christian Alfoni, and Yan Laryushev speaking about the topic. The event will be held online through a video stream.
 
 We have two options for participation:
 
