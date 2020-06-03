@@ -10,11 +10,11 @@ export default [
         title: "About",
         url: "/about/",
       },
-      /*{
+      {
         title: "Speakers",
         url: "/speakers/",
       },
-      {
+      /*{
         title: "For Attendees",
         url: "/for-attendees/",
       },
