@@ -19,6 +19,8 @@ We have two options for participation:
 
 The links to the streams will be provided closer to the email you specified in your ticket purchase.
 
+> [Read the recap of the first session](/blog/rf-2020-online-mini-conf-vol-1-recap/)
+
 ## React Finland 2021
 
 React Finland 2021 conference tickets are now available:
