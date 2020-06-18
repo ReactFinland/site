@@ -15,7 +15,7 @@ The second online mini-conference takes place 27th of August (17:15-20:10, Finni
 We have two options for participation:
 
 * Free stream - during QAs and the panel, you'll see ads. The QA and panel content will be online later after the event
-* Premium stream - you'll have direct access to the QAs and the panel.
+* Premium stream - you'll have direct access to the QAs and the panel. In addition, David Khourshid will give us an introduction to statecharts with an AMA before the main event begins. The premium event begins 16:30 due to this.
 
 The links to the streams will be provided closer to the email you specified in your ticket purchase.
 
