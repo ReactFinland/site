@@ -46,6 +46,10 @@ Yan Lavryushev will dive into a new state manager, [Effector](https://www.npmjs.
 
 Christian Alfoni, famous for his work with state management solutions such as [Cerebral](https://www.npmjs.com/package/cerebral) and [Overmind](https://overmindjs.org/), will discuss [Stitches](https://www.npmjs.com/package/@stitches/css). It's a new approach to styling that's utility first and gives you an excellent degree of control.
 
+Here's what Christian has to say about his talk title "Reinventing CSS-IN-JS - The story of Stitches":
+
+> We often feel discouraged when we have ideas and discover somebody else has done it before. Sometimes ignoring that fact can still lead to good things
+
 Although the topic is outside of state management, it links the event to the third one of the series that's going to focus on design systems.
 
 ### Panel - 19:50-20:10
