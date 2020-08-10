@@ -21,11 +21,11 @@ const Meta = ({ siteName, title, description, keywords = [] }) => (
 
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content="/meta-image.png" />
+    {/*<meta property="og:image" content="/meta-image.png" />*/}
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:site" content="@ReactFinland" />
-    <meta name="twitter:image" content="./meta-image.png" />
+    {/*<meta name="twitter:image" content="./meta-image.png" />*/}
   </Helmet>
 );
 Meta.propTypes = {
