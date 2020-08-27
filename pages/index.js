@@ -7,22 +7,18 @@ import {
   connect,
 } from "components";
 
+const title = "Online mini-conference #2 - State management";
 const intro = `
-## Online mini-conference #2 - State management
+## ${title}
 
 [The second online mini-conference](/blog/rf-2020-online-mini-conf-vol-2/) takes place 27th of August (16:45-20:40 (premium), 17:30-20:40 (free), Finnish time) and it is about state management.
 
 Sara Vieira will MC the event and we'll have David Khourshid, Christian Alfoni, and Yan Laryushev speaking about the topic. The event will be held online through a video stream.
 
-We have two options for participation:
+Follow the free live stream below. Links to the premium stream will be provided separately.
+`;
 
-* Free stream - during QAs and the panel, you'll see ads. The QA and panel content will be online later after the event
-* Premium stream - you'll have direct access to the QAs and the panel. In addition, David Khourshid will give us an introduction to statecharts with an AMA before the main event begins. The premium event begins 16:45 due to this.
-
-The links to the streams will be provided closer to the email you specified in your ticket purchase.
-
-> [Read the recap of the first session](/blog/rf-2020-online-mini-conf-vol-1-recap/)
-
+const rf2021 = `
 ## React Finland 2021
 
 React Finland 2021 conference tickets are now available:
@@ -47,6 +43,16 @@ const Index = ({ conference }) => (
     <section className="intro intro_home">
       <div className="intro--main">
         <Markdown source={intro} />
+        <iframe
+          title={title}
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/CFe6rMUxpoM"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
+        ></iframe>
+        <Markdown source={rf2021} />
         {/*<AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
         <iframe
           src="https://www.youtube.com/embed/BO_osndeLII"
