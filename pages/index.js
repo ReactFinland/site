@@ -7,9 +7,9 @@ import {
   connect,
 } from "components";
 
-const title = "Online mini-conference #2 - State management";
+const title = "Online mini-conference #3 - Design systems";
 const intro = `
-## ${title}
+## Online mini-conference #2 - State management
 
 [The second online mini-conference](/blog/rf-2020-online-mini-conf-vol-2/) took place 27th of August (16:45-20:40 (premium), 17:30-20:40 (free), Finnish time) and it is about state management.
 
@@ -19,6 +19,12 @@ See the recap below.
 `;
 
 const rf2021 = `
+## ${title}
+
+The third online mini-conference will take place 22nd of September (17:00-20:40 (premium), 17:30-20:40 (free), Finnish time) and it's about design systems.
+
+Jani Eväkallio will MC the event and we'll have three exciting talks about the topic. In addition, we'll have an introduction level session to the topic for the premium subscribers.
+
 ## React Finland 2021
 
 React Finland 2021 conference tickets are now available:
