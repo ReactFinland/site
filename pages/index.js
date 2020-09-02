@@ -11,7 +11,7 @@ const title = "Online mini-conference #3 - Design systems";
 const intro = `
 ## ${title}
 
-The third online mini-conference will take place 22nd of September (17:00-20:10 (premium), 17:30-20:10 (free), Finnish time) and it's about design systems.
+[The third online mini-conference](/blog/rf-2020-online-mini-conf-vol-3/) will take place 22nd of September (17:00-20:10 (premium), 17:30-20:10 (free), Finnish time) and it's about design systems.
 
 Jani Eväkallio will MC the event and we'll have three exciting talks about the topic. In addition, we'll have an introduction level session to the topic for the premium subscribers.
 
