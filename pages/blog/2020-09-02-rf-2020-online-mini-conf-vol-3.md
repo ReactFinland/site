@@ -70,7 +70,7 @@ If you decided to move your React Finland conference ticket to the next year, we
 
 Depending on the choice, we'll send you a link with details later and remind you of the event.
 
-T> If you haven't received your ticket for the online events yet although you have a conference ticket, ping me via email (info <at> react-finland.fi).
+T> If you haven't received your ticket for the online events yet although you have a conference ticket, ping me via email (info at react-finland.fi).
 
 ## Conclusion
 
