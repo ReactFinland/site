@@ -100,6 +100,10 @@ export default [
         title: "2019",
         url: "/2019/",
       },
+      {
+        title: "CFP for mini-confs",
+        url: "/blog/cfp-for-mini-confs/",
+      },
       /*{
         title: "GraphQL Finland",
         url: "https://graphql-finland.fi/",
