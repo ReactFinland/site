@@ -60,7 +60,7 @@ Laura González will discuss design systems from an entirely different angle. To
 The session will be available in two formats - premium and free. The talks will be available freely through YouTube as we stream them simultaneously through another platform. Here's how the options differ:
 
 - Free - Hosted on YouTube only, ads during breaks, minimal interactivity - 0 €
-- Premium - Hosted on other platforms - You'll get an introduction to statecharts before the main event begins and have full access to the event QAs and the end panel - 30 € (inc. VAT)
+- Premium - Hosted on other platforms - You'll get an introduction to the topic before the main event begins and have full access to the event QAs and the end panel - 30 € (inc. VAT)
 
 The talk videos will be available through our YouTube channel later after the event.
 
