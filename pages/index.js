@@ -15,6 +15,10 @@ const intro = `
 
 Jani Eväkallio will MC the event and we'll have three exciting talks about the topic. In addition, we'll have an introduction level session to the topic for the premium subscribers.
 
+See the free stream below:
+`;
+
+const pastEvents = `
 ## Past events
 
 * [The second online mini-conference](/blog/rf-2020-online-mini-conf-vol-2-recap/) took place 27th of August and it was about state management.
@@ -46,6 +50,16 @@ const Index = ({ conference }) => (
     <section className="intro intro_home">
       <div className="intro--main">
         <Markdown source={intro} />
+        <iframe
+          title={title}
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/gJ56-lwB8K0"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
+        />
+        <Markdown source={pastEvents} />
         <iframe
           title={title}
           width="100%"
