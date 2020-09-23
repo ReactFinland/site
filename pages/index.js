@@ -11,16 +11,12 @@ const title = "Online mini-conference #3 - Design systems";
 const intro = `
 ## ${title}
 
-[The third online mini-conference](/blog/rf-2020-online-mini-conf-vol-3/) will take place 22nd of September (17:00-20:10 (premium), 17:30-20:10 (free), Finnish time) and it's about design systems.
-
-Jani Eväkallio will MC the event and we'll have three exciting talks about the topic. In addition, we'll have an introduction level session to the topic for the premium subscribers.
-
-See the free stream below:
-`;
+The fourth online mini-conference will take place 28th of October and it's about lessons learned.`;
 
 const pastEvents = `
 ## Past events
 
+* The third online mini-conference took place 22nd of September and it was about design systems.
 * [The second online mini-conference](/blog/rf-2020-online-mini-conf-vol-2-recap/) took place 27th of August and it was about state management.
 * [The first online mini-conference](/blog/rf-2020-online-mini-conf-vol-1-recap/) took place 28th of May and it was about documentation.
 `;
@@ -50,6 +46,7 @@ const Index = ({ conference }) => (
     <section className="intro intro_home">
       <div className="intro--main">
         <Markdown source={intro} />
+        <Markdown source={pastEvents} />
         <iframe
           title={title}
           width="100%"
@@ -59,7 +56,6 @@ const Index = ({ conference }) => (
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
         />
-        <Markdown source={pastEvents} />
         <iframe
           title={title}
           width="100%"
