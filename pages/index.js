@@ -7,11 +7,7 @@ import {
   connect,
 } from "components";
 
-const title = "Online mini-conference #3 - Design systems";
-const intro = `
-## ${title}
-
-The fourth online mini-conference will take place 28th of October and it's about lessons learned.`;
+const intro = `The fourth online mini-conference will take place 28th of October and it's about lessons learned.`;
 
 const pastEvents = `
 ## Past events
@@ -48,7 +44,7 @@ const Index = ({ conference }) => (
         <Markdown source={intro} />
         <Markdown source={pastEvents} />
         <iframe
-          title={title}
+          title="Mini-conf #03 - Design systems"
           width="100%"
           height="400"
           src="https://www.youtube.com/embed/gJ56-lwB8K0"
@@ -57,7 +53,7 @@ const Index = ({ conference }) => (
           allowFullscreen
         />
         <iframe
-          title={title}
+          title="Mini-conf #02 - State management"
           width="100%"
           height="400"
           src="https://www.youtube.com/embed/CFe6rMUxpoM"
@@ -66,7 +62,7 @@ const Index = ({ conference }) => (
           allowFullscreen
         />
         <iframe
-          title={title}
+          title="Mini-conf #01 - Documentation"
           width="100%"
           height="400"
           src="https://www.youtube.com/embed/sN01JuUIrsw"
