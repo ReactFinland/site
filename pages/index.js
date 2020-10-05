@@ -1,10 +1,10 @@
 import React from "react";
 import {
   AnchorHeader,
-  Contacts,
-  ContactMini,
-  Markdown,
   connect,
+  ContactMini,
+  Contacts,
+  Markdown,
 } from "components";
 
 const intro = `The fourth online mini-conference will take place 28th of October and it's about lessons learned.`;
@@ -12,7 +12,7 @@ const intro = `The fourth online mini-conference will take place 28th of October
 const pastEvents = `
 ## Past events
 
-* The third online mini-conference took place 22nd of September and it was about design systems.
+* [The third online mini-conference](/blog/rf-2020-online-mini-conf-vol-3-recap/) took place 22nd of September and it was about design systems.
 * [The second online mini-conference](/blog/rf-2020-online-mini-conf-vol-2-recap/) took place 27th of August and it was about state management.
 * [The first online mini-conference](/blog/rf-2020-online-mini-conf-vol-1-recap/) took place 28th of May and it was about documentation.
 `;
