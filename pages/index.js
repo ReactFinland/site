@@ -48,6 +48,15 @@ const Index = ({ conference }) => (
     <section className="intro intro_home">
       <div className="intro--main">
         <Markdown source={intro} />
+        <iframe
+          title="Mini-conf #04 - Lessons learned"
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/i9D-Gh8QH2U"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
+        />
         <div className="buy-container">
           <a
             className="buy-button"
