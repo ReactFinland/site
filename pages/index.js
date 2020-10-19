@@ -9,8 +9,8 @@ import {
 
 const intro = `[The fourth online mini-conference](/blog/online-mini-conf-vol-4/) will take place 28th of October and it's about lessons learned. We have three sessions in store:
 
-* Luke Jackson - Oceanwind - 17:45-18:15
-* Diego Haz - Reakit – Toolkit for building accessible UIs - 18:25-18:55
+* Diego Haz - Reakit – Toolkit for building accessible UIs - 17:45-18:15
+* Luke Jackson - Oceanwind - 18:25-18:55
 * Kasia Jastrzebska - Lessons learned - 19:05-19:35
 
 Diego's session will be traditional presentation while Luke's and Kasia's sessions will take place in a conversational "show and tell" format.`;
