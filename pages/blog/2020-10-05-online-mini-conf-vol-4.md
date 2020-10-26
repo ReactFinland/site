@@ -32,9 +32,9 @@ In this freeform session, Juho Vepsäläinen will discuss [Oceanwind](https://gi
 
 In his talk, Diego Haz will discuss [Reakit](https://reakit.io/), a toolkit for building accessible UIs. See [the SurviveJS interview](https://survivejs.com/blog/reakit-interview/) to get an early idea of the solution.
 
-### Kasia Jastrzebska - Lessons learned - 19:05-19:35
+### Mikhail Novikov - Lessons learned from burnout - 19:05-19:35
 
-In this conversational session, Juho Vepsäläinen will discuss with Kasia Jastrzebska about the lessons she has learned as a React developer. I expect we'll see many concrete ways how to improve your React code.
+In this conversational session, Juho Vepsäläinen will discuss with Mikhail Novikov about the lessons he has learned from a burnout. I expect we'll see many concrete ways how to improve your well-being in these difficult times.
 
 ## What are the participation options
 
