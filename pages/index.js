@@ -13,7 +13,7 @@ const intro = `[The fourth online mini-conference](/blog/online-mini-conf-vol-4/
 * Luke Jackson - Oceanwind - 18:25-18:55
 * Mikhail Novikov - Lessons learned from burnout - 19:05-19:35
 
-Diego's session will be traditional presentation while Luke's and Kasia's sessions will take place in a conversational "show and tell" format.`;
+Diego's session will be traditional presentation while Luke's and Mikhail's sessions will take place in a conversational "show and tell" format.`;
 
 const pastEvents = `
 ## Past events
