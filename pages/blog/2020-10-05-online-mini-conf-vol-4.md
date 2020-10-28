@@ -1,6 +1,6 @@
 ---
 title: "React Finland 2020 - Online Mini-Conference #4 - Lessons Learned"
-date: 2020-10-05-16:00
+date: 2020-10-05T16:00:00Z
 keywords: ["react-finland", "mini-conference"]
 ---
 
