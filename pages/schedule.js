@@ -16,7 +16,7 @@ const Schedule = ({ conference }) => {
       <section className="intro intro_schedule">
         <div className="intro--main">
           <Markdown
-            source={`For 2020, we run roughly one mini-conference per month. Note that the times are given in Finnish time so please adjust to your local one.`}
+            source={`For 2020, we run roughly one mini-conference per month. Note that the times are given in Finnish time (GMT+2) so please adjust to your local one.`}
           />
         </div>
         <aside className="intro--aside" />
