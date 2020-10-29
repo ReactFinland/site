@@ -30,12 +30,12 @@ const Header = ({ pathname, title }) => {
         </Link>
 
         <h2 className="header--tagline">
-          Mini-conference vol. 4 - Lessons learned
+          Mini-conference vol. 5 - Performance
         </h2>
 
         <section className="header--dates">
-          <time dateTime="2020-10-28" className="header--date">
-            28th of October 2020
+          <time dateTime="2020-12-02" className="header--date">
+            2nd of December 2020
           </time>
           <address className="header--location">Online</address>
         </section>
