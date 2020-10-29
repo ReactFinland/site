@@ -7,13 +7,13 @@ import {
   Markdown,
 } from "components";
 
-const intro = `[The fourth online mini-conference](/blog/online-mini-conf-vol-4/) will take place 28th of October and it's about lessons learned. We have three sessions in store:
+const intro = `The fifth mini-conference will take place 2nd of December and it's about performance. We have three sessions in store:
 
-* Diego Haz - Reakit – Toolkit for building accessible UIs - 17:45-18:15
-* Luke Jackson - Oceanwind - 18:25-18:55
-* Mikhail Novikov - Lessons learned from burnout - 19:05-19:35
+* Milecia McGregor - Making Your React Apps Perform At Scale - 17:45-18:15
+* Andrey Goncharov - Optimizing a React application - 18:25-18:55
+* Nik Graf - Tips and tricks for optimizing your React application - 19:05-19:35
 
-Diego's session will be traditional presentation while Luke's and Mikhail's sessions will take place in a conversational "show and tell" format.`;
+Milecia's session will be traditional presentation while Andrey's and Nik's sessions will be hands on with live coding and discussion.`;
 
 const pastEvents = `
 ## Past events
@@ -49,10 +49,10 @@ const Index = ({ conference }) => (
       <div className="intro--main">
         <Markdown source={intro} />
         <iframe
-          title="Mini-conf #04 - Lessons learned"
+          title="Mini-conf #05 - Performance"
           width="100%"
           height="400"
-          src="https://www.youtube.com/embed/i9D-Gh8QH2U"
+          src="https://www.youtube.com/embed/5ZHJlcGT2lk"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
@@ -66,6 +66,15 @@ const Index = ({ conference }) => (
           </a>
         </div>
         <Markdown source={pastEvents} />
+        <iframe
+          title="Mini-conf #04 - Lessons learned"
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/i9D-Gh8QH2U"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
+        />
         <iframe
           title="Mini-conf #03 - Design systems"
           width="100%"
