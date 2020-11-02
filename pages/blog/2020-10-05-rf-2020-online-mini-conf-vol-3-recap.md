@@ -42,4 +42,4 @@ We wrapped up the event with a panel about design systems:
 
 ## Conclusion
 
-I hope you enjoyed our second event! The next event about lessons learned happens 28th of October. You can already get tickets (free or premium) for it so feel free to [get one in advance](https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117).
+I hope you enjoyed our third event!
