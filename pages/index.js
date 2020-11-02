@@ -7,13 +7,13 @@ import {
   Markdown,
 } from "components";
 
-const intro = `The fifth mini-conference will take place 2nd of December and it's about performance. We have three sessions in store:
+const intro = `[The fifth mini-conference](/blog/online-mini-conf-vol-5/) will take place 2nd of December and it's about performance. We have three sessions in store:
 
 * Milecia McGregor - Making Your React Apps Perform At Scale - 17:45-18:15
-* Andrey Goncharov - Optimizing a React application - 18:25-18:55
-* Nik Graf - Tips and tricks for optimizing your React application - 19:05-19:35
+* Nik Graf - Tips and tricks for optimizing your React application - 18:25-18:55
+* Andrey Goncharov - Optimizing a React application - 19:05-19:35
 
-Milecia's session will be traditional presentation while Andrey's and Nik's sessions will be hands on with live coding and discussion.`;
+Milecia's session will be traditional presentation while Nik's and Andrey's sessions will be hands on with live coding and discussion.`;
 
 const pastEvents = `
 ## Past events
