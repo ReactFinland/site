@@ -26,6 +26,8 @@ Instead of coming with a CSS file with all the possible utility CSS rules, Ocean
 
 In his discussion with Juho Vepsäläinen, Mikhail Novikov goes through the lessons he learned from burnout. As an industry, we seem to be particularly vulnerable to it and therefore it was an important topic to discuss in our conference series.
 
+See [Fullstack health](https://fullstack.health/) for a podcast about the topic and [Understanding Job Burnout](https://itrevolution.com/understanding-job-burnout-christina-maslach/) article to learn more about the topic.
+
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/kS0k8ul4Kc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Panel
