@@ -10,8 +10,8 @@ import {
 const intro = `[The fifth mini-conference](/blog/online-mini-conf-vol-5/) will take place 2nd of December and it's about performance. We have three sessions in store:
 
 * Milecia McGregor - Making Your React Apps Perform At Scale - 17:45-18:15
-* Nik Graf - Tips and tricks for optimizing your React application - 18:25-18:55
-* Andrey Goncharov - Optimizing a React application - 19:05-19:35
+* Nik Graf - Tips and tricks for optimizing your React application - 18:25-19:05
+* Andrey Goncharov - Optimizing a React application - 19:15-19:45
 
 Milecia's session will be traditional presentation while Nik's and Andrey's sessions will be hands on with live coding and discussion.`;
 
