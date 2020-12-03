@@ -7,17 +7,12 @@ import {
   Markdown,
 } from "components";
 
-const intro = `[The fifth mini-conference](/blog/online-mini-conf-vol-5/) will take place 2nd of December and it's about performance. We have three sessions in store:
-
-* Milecia McGregor - Making Your React Apps Perform At Scale - 17:45-18:15
-* Nik Graf - Tips and tricks for optimizing your React application - 18:25-19:05
-* Andrey Goncharov - Optimizing a React application - 19:15-19:45
-
-Milecia's session will be traditional presentation while Nik's and Andrey's sessions will be hands on with live coding and discussion.`;
+const intro = `The sixth mini-conference will take place around January/February.`;
 
 const pastEvents = `
 ## Past events
 
+* The fifth online mini-conference took place 2nd of December and it was about performance.
 * [The fourth online mini-conference](/blog/rf-2020-online-mini-conf-vol-4-recap/) took place 28th of October and it was about lessons learned.
 * [The third online mini-conference](/blog/rf-2020-online-mini-conf-vol-3-recap/) took place 22nd of September and it was about design systems.
 * [The second online mini-conference](/blog/rf-2020-online-mini-conf-vol-2-recap/) took place 27th of August and it was about state management.
@@ -49,7 +44,7 @@ const Index = ({ conference }) => (
     <section className="intro intro_home">
       <div className="intro--main">
         <Markdown source={intro} />
-        <iframe
+        {/*<iframe
           title="Mini-conf #05 - Performance"
           width="100%"
           height="400"
@@ -57,7 +52,7 @@ const Index = ({ conference }) => (
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
-        />
+        />*/}
         <div className="buy-container">
           <a
             className="buy-button"
@@ -67,6 +62,15 @@ const Index = ({ conference }) => (
           </a>
         </div>
         <Markdown source={pastEvents} />
+        <iframe
+          title="Mini-conf #05 - Performance"
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/5ZHJlcGT2lk"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
+        />
         <iframe
           title="Mini-conf #04 - Lessons learned"
           width="100%"
