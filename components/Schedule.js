@@ -8,7 +8,7 @@ import SessionSpeakers from "./SessionSpeakers";
 import slugify from "../utils/slugify";
 
 // TODO: Handle sessions inside sessions
-const Schedule = ({ intervals }) => (
+const Schedule = ({ intervals, prefix }) => (
   <dl className="schedule">
     {intervals.map(
       ({ begin, end, sessions, title: sessionTitle, location }, i) => [
@@ -17,7 +17,11 @@ const Schedule = ({ intervals }) => (
         </dt>,
         <dd className="schedule--definition" key={`dd-${i}`}>
           {sessionTitle && (
-            <AnchorTitle key={`title-${i}`} title={sessionTitle} />
+            <AnchorTitle
+              key={`title-${i}`}
+              title={sessionTitle}
+              prefix={prefix}
+            />
           )}
           {sessions.map(
             ({ title, type, description, speakers, keywords, urls }, i) => (
@@ -31,6 +35,7 @@ const Schedule = ({ intervals }) => (
                     type={type}
                     speakers={speakers}
                     level={sessionTitle ? 4 : 3}
+                    prefix={prefix}
                   />
                 )}
                 <p>
@@ -113,12 +118,16 @@ const WorkshopTitle = ({ title, type }) => (
 );
 WorkshopTitle.propTypes = titlePropTypes;
 
-const AnchorTitle = ({ title, type, speakers, level = 3 }) => (
+const AnchorTitle = ({ title, type, speakers, level = 3, prefix }) => (
   <AnchorHeader level={level} anchor={title}>
     <ScheduleIcon type={type} />
     {title} {title && speakers && speakers.length > 0 && "—"}{" "}
     {speakers && speakers.length > 0 && (
-      <SessionSpeakers key={`speaker-names`} speakers={speakers} />
+      <SessionSpeakers
+        key={`speaker-names`}
+        speakers={speakers}
+        prefix={prefix}
+      />
     )}
   </AnchorHeader>
 );

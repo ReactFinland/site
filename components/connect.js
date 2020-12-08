@@ -2,7 +2,7 @@ import React from "react";
 import { request } from "graphql-request";
 import config from "config";
 
-function connect(query, propsToVars) {
+function connect(query, propsToVars, props) {
   return component => {
     let queryCache = {};
 
@@ -20,6 +20,7 @@ function connect(query, propsToVars) {
           return null;
         } else {
           return React.createElement(component, {
+            ...props,
             ...this.props,
             ...this.state.data,
           });

@@ -73,6 +73,7 @@ module.exports = {
       },
       {
         conferenceId: "react-finland-2018",
+        year: 2018,
       }
     ),
     "2019/schedule": page(
@@ -83,6 +84,7 @@ module.exports = {
       },
       {
         conferenceId: "react-finland-2019",
+        year: 2019,
       }
     ),
     speakers: page(

@@ -7,7 +7,7 @@ import {
   connect,
 } from "../components";
 
-const Schedule = ({ conference }) => {
+const Schedule = ({ conference, year }) => {
   if (!conference) {
     return null;
   }
@@ -29,7 +29,7 @@ const Schedule = ({ conference }) => {
               {day}
               {description && ` - ${description}`}
             </AnchorHeader>
-            <ScheduleComp intervals={intervals} />
+            <ScheduleComp intervals={intervals} prefix={year} />
           </React.Fragment>
         ))}
       </div>
@@ -37,7 +37,7 @@ const Schedule = ({ conference }) => {
   );
 };
 
-export default ({ conferenceId }) =>
+export default ({ conferenceId, year }) =>
   connect(
     `
 query PageQuery($conferenceId: ID!) {
@@ -94,7 +94,6 @@ query PageQuery($conferenceId: ID!) {
   }
 }
 `,
-    () => ({
-      conferenceId,
-    })
+    () => ({ conferenceId }),
+    { year }
   )(Schedule);
