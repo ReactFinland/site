@@ -1,6 +1,6 @@
 ---
 title: "React Finland 2020 - Online Mini-Conference #5 - Recap"
-date: 2020-11-02T15:00:00Z
+date: 2020-12-10T11:00:00Z
 keywords: ["react-finland", "mini-conference"]
 ---
 
