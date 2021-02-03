@@ -29,11 +29,11 @@ const Header = ({ pathname, title }) => {
           </h1>
         </Link>
 
-        <h2 className="header--tagline">Mini-conference vol. 6 - ???</h2>
+        <h2 className="header--tagline">Vodcast #01 - Components</h2>
 
         <section className="header--dates">
-          <time dateTime="2021-01-27" className="header--date">
-            January/February 2021
+          <time dateTime="2021-02-24" className="header--date">
+            24th of February 2021
           </time>
           <address className="header--location">Online</address>
         </section>

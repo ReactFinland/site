@@ -7,7 +7,7 @@ import {
   Markdown,
 } from "components";
 
-const intro = `The sixth mini-conference will take place around January/February.`;
+const intro = `[The first vodcast](/blog/vodcast-01/) will take place around 24th of February, 16:00 GMT+0. Tune in then!`;
 
 const pastEvents = `
 ## Past events
@@ -52,7 +52,7 @@ const Index = ({ conference }) => (
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
-        />*/}
+
         <div className="buy-container">
           <a
             className="buy-button"
@@ -61,6 +61,16 @@ const Index = ({ conference }) => (
             Buy tickets
           </a>
         </div>
+        />*/}
+        <iframe
+          title="Vodcast #01 - Components"
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/o_TqhovGSjk"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
+        />
         <Markdown source={pastEvents} />
         <iframe
           title="Mini-conf #05 - Performance"
@@ -107,8 +117,8 @@ const Index = ({ conference }) => (
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
         />
-        <Markdown source={rf2021} />
-        {/*<AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
+        {/*<Markdown source={rf2021} />
+        <AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
         <iframe
           src="https://www.youtube.com/embed/BO_osndeLII"
           width="100%"
@@ -178,7 +188,6 @@ const Index = ({ conference }) => (
     <div className="intro--main">
       <p></p>
     </div>
-    */}
     <div className="buy-container">
       <a
         className="buy-button"
@@ -187,6 +196,7 @@ const Index = ({ conference }) => (
         Buy tickets
       </a>
     </div>
+    */}
   </>
 );
 
