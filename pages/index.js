@@ -7,11 +7,12 @@ import {
   Markdown,
 } from "components";
 
-const intro = `[The first vodcast](/blog/vodcast-01/) will take place around 24th of February, 16:00 GMT+0. Tune in then!`;
+const intro = `The second vodcast about accessibility will take place late March, 16:00 GMT+0. Tune in then!`;
 
 const pastEvents = `
 ## Past events
 
+* The first vodcast took place 24th of February 2021 and it focused on React components.
 * [The fifth online mini-conference](/blog/rf-2020-online-mini-conf-vol-5-recap/) took place 2nd of December and it was about performance.
 * [The fourth online mini-conference](/blog/rf-2020-online-mini-conf-vol-4-recap/) took place 28th of October and it was about lessons learned.
 * [The third online mini-conference](/blog/rf-2020-online-mini-conf-vol-3-recap/) took place 22nd of September and it was about design systems.
@@ -19,6 +20,7 @@ const pastEvents = `
 * [The first online mini-conference](/blog/rf-2020-online-mini-conf-vol-1-recap/) took place 28th of May and it was about documentation.
 `;
 
+/*
 const rf2021 = `
 ## React Finland 2021
 
@@ -32,6 +34,7 @@ React Finland 2021 conference tickets are now available:
 
 > [Learn more about RF2021 from the announcement](/blog/rf-2021/)
 `;
+*/
 
 const secondary = `
 By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduct.org/).
@@ -61,7 +64,17 @@ const Index = ({ conference }) => (
             Buy tickets
           </a>
         </div>
+        />
+        <iframe
+          title="Vodcast #01 - Components"
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/o_TqhovGSjk"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
         />*/}
+        <Markdown source={pastEvents} />
         <iframe
           title="Vodcast #01 - Components"
           width="100%"
@@ -71,7 +84,6 @@ const Index = ({ conference }) => (
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
         />
-        <Markdown source={pastEvents} />
         <iframe
           title="Mini-conf #05 - Performance"
           width="100%"
