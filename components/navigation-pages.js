@@ -101,8 +101,8 @@ export default [
         url: "/2019/",
       },
       {
-        title: "CFP for mini-confs",
-        url: "/blog/cfp-for-mini-confs/",
+        title: "CFP",
+        url: "https://forms.gle/UkAzxCoAQqfKuwMy5",
       },
       /*{
         title: "GraphQL Finland",
