@@ -7,7 +7,7 @@ import {
   Markdown,
 } from "components";
 
-const intro = `The second vodcast about accessibility will take place late March, 16:00 GMT+0. Tune in then!`;
+const intro = `The next vodcast about accessibility will take place 29th of March, 16:00 GMT+0. Tune in then!`;
 
 const pastEvents = `
 ## Past events
@@ -64,19 +64,19 @@ const Index = ({ conference }) => (
             Buy tickets
           </a>
         </div>
-        />
+        />*/}
         <iframe
-          title="Vodcast #01 - Components"
+          title="Vodcast #02 – Accessibility"
           width="100%"
           height="400"
-          src="https://www.youtube.com/embed/o_TqhovGSjk"
+          src="https://www.youtube.com/embed/jouctaXwpdU"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
-        />*/}
+        />
         <Markdown source={pastEvents} />
         <iframe
-          title="Vodcast #01 - Components"
+          title="Vodcast #01 – Components"
           width="100%"
           height="400"
           src="https://www.youtube.com/embed/o_TqhovGSjk"
