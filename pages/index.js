@@ -7,7 +7,7 @@ import {
   Markdown,
 } from "components";
 
-const intro = `The next vodcast about accessibility will take place 29th of March, 16:00 GMT+0. Tune in then!`;
+const intro = `[The next vodcast about accessibility](/blog/vodcast-02/) will take place 29th of March, 16:00 GMT+0. Tune in then!`;
 
 const pastEvents = `
 ## Past events
