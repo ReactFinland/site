@@ -24,18 +24,22 @@ const Header = ({ pathname, title }) => {
             />
             <span className="logo--title">
               <span className="logo--text logo--text-top">React </span>
-              <span className="logo--text logo--text-bottom">Finland</span>
+              <span className="logo--text logo--text-bottom">Finland 2021</span>
             </span>
           </h1>
         </Link>
 
-        <h2 className="header--tagline">Vodcast #02 – Accessibility</h2>
+        {/*<h2 className="header--tagline">React Finland 2021</h2>*/}
 
         <section className="header--dates">
-          <time dateTime="2021-03-29" className="header--date">
-            29th of March 2021
+          <time dateTime="2021-08-30" className="header--date">
+            30th of August
           </time>
-          <address className="header--location">Online</address>
+          <span> to </span>
+          <time dateTime="2021-09-03" className="header--date">
+            3rd of Sept.
+          </time>
+          <address className="header--location">Online and Helsinki(?)</address>
         </section>
         {/*<Interactive
           id="components/Countdown.js"

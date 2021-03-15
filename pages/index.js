@@ -7,7 +7,13 @@ import {
   Markdown,
 } from "components";
 
-const intro = `[The next vodcast about accessibility](/blog/vodcast-02/) will take place 29th of March, 16:00 GMT+0. Tune in then!`;
+const intro = `React Finland 2021 will take place between 30th of August and 3rd of September. To shape the conference, [take part in our call for participants](https://forms.gle/SeVygg8wEcXsANsB7).
+
+> [You can find more information about our exact plans at the blog](/blog/rf21-call-for-participants/).
+
+## Vodcast #02 – Accessibility
+
+[The next vodcast about accessibility](/blog/vodcast-02/) will take place 29th of March, 16:00 GMT+0. Tune in then!`;
 
 const pastEvents = `
 ## Past events
