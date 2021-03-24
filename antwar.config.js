@@ -21,7 +21,7 @@ module.exports = {
     }),
     "/": page("index", {
       title: EVENT_NAME,
-      description: `${EVENT_NAME} (25-28.05.2020, online) is a conference that comes with online workshops and a series of online mini-conferences.`,
+      description: `${EVENT_NAME} (30.08-03.09.2021, hybrid) is a conference that comes with online workshops and a series of online mini-conferences.`,
     }),
     "2018": page("2018", {
       description: "React Finland 2018",
