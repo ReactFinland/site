@@ -25,11 +25,18 @@ const SiteBody = (
     children,
     location: { pathname },
     page: { file: { title, description, keywords }, previous, next } = {},
-    conference: { partners, goldSponsors, silverSponsors, bronzeSponsors } = {
+    conference: {
+      partners,
+      goldSponsors,
+      silverSponsors,
+      bronzeSponsors,
+      platformSponsors,
+    } = {
       partners: [],
       goldSponsors: [],
       silverSponsors: [],
       bronzeSponsors: [],
+      platformSponsors: [],
     },
   },
   { router }
@@ -130,6 +137,18 @@ const SiteBody = (
                   </section>
                 </div>
 
+                <div className="sponsors sponsors_gold">
+                  <AnchorHeader className="sponsors--heading" level={3}>
+                    <span role="img" aria-label="Third place medal">
+                      🎊
+                    </span>
+                    Platform Sponsor
+                  </AnchorHeader>
+                  <section className="sponsors--list">
+                    <Contacts items={platformSponsors} render={Sponsor} />
+                  </section>
+                </div>
+
                 <div className="sponsors sponsors_partners">
                   <AnchorHeader className="sponsors--heading" level={3}>
                     Partners
@@ -173,6 +192,9 @@ export default connect(`
         ...SponsorFragment
       }
       bronzeSponsors {
+        ...SponsorFragment
+      }
+      platformSponsors {
         ...SponsorFragment
       }
     }
