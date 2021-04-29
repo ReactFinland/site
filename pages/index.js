@@ -13,11 +13,12 @@ const intro = `React Finland 2021 will take place between 30th of August and 3rd
 
 ## Vodcast #03 – Full Stack React
 
-[The next vodcast](/blog/vodcast-03/) will be about full stack React and take place 28th of April (16:00 GMT+0). See you then!`;
+The next vodcast will be about Next.js and take place late May (16:00 GMT+0). See you then!`;
 
 const pastEvents = `
 ## Past events
 
+* The third vodcast took place 29th of April 2021 and it focused on full stack React.
 * The second vodcast took place 29th of March 2021 and it focused on accessibility.
 * The first vodcast took place 24th of February 2021 and it focused on React components.
 * [The fifth online mini-conference](/blog/rf-2020-online-mini-conf-vol-5-recap/) took place 2nd of December and it was about performance.
@@ -73,6 +74,7 @@ const Index = ({ conference }) => (
         </div>
         />*/}
 
+        <Markdown source={pastEvents} />
         <iframe
           title="Vodcast #03 – Full Stack React"
           width="100%"
@@ -82,7 +84,6 @@ const Index = ({ conference }) => (
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
         />
-        <Markdown source={pastEvents} />
         <iframe
           title="Vodcast #02 – Accessibility"
           width="100%"
