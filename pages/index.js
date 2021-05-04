@@ -84,7 +84,8 @@ const Index = ({ conference }) => (
           allowFullscreen
         />
 
-        <Markdown source={pastEvents} />
+        {/*<Markdown source={pastEvents} />*/}
+        <AnchorHeader level={2}>Past vodcasts</AnchorHeader>
         <iframe
           title="Vodcast #03 – Full Stack React"
           width="100%"
@@ -112,6 +113,8 @@ const Index = ({ conference }) => (
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullscreen
         />
+
+        <AnchorHeader level={2}>Past mini-confs</AnchorHeader>
         <iframe
           title="Mini-conf #05 - Performance"
           width="100%"
