@@ -74,6 +74,16 @@ const Index = ({ conference }) => (
         </div>
         />*/}
 
+        <iframe
+          title="Vodcast #04 – Next.js"
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/mMU-j0WoTCs"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
+        />
+
         <Markdown source={pastEvents} />
         <iframe
           title="Vodcast #03 – Full Stack React"
