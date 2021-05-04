@@ -13,7 +13,7 @@ const intro = `React Finland 2021 will take place between 30th of August and 3rd
 
 ## Vodcast #04 – Next.js
 
-The next vodcast will be about Next.js and take place late May (16:00 GMT+0). See you then!`;
+[The next vodcast](/blog/vodcast-04/) will be about Next.js and take place late May (16:00 GMT+0). See you then!`;
 
 const pastEvents = `
 ## Past events
