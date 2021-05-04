@@ -11,7 +11,7 @@ const intro = `React Finland 2021 will take place between 30th of August and 3rd
 
 > [You can find more information about our exact plans at the blog](/blog/rf21-call-for-participants/).
 
-## Vodcast #03 – Full Stack React
+## Vodcast #04 – Next.js
 
 The next vodcast will be about Next.js and take place late May (16:00 GMT+0). See you then!`;
 
