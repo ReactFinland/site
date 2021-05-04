@@ -15,6 +15,7 @@ const intro = `React Finland 2021 will take place between 30th of August and 3rd
 
 [The next vodcast](/blog/vodcast-04/) will be about Next.js and take place 26th of May (16:00 GMT+0). See you then!`;
 
+/*
 const pastEvents = `
 ## Past events
 
@@ -28,7 +29,6 @@ const pastEvents = `
 * [The first online mini-conference](/blog/rf-2020-online-mini-conf-vol-1-recap/) took place 28th of May and it was about documentation.
 `;
 
-/*
 const rf2021 = `
 ## React Finland 2021
 
