@@ -13,7 +13,7 @@ const intro = `React Finland 2021 will take place between 30th of August and 3rd
 
 ## Vodcast #05 – Design tools
 
-The next vodcast will be about design tools and take place 29th of June (16:00 GMT+0). See you then!`;
+[The next vodcast](/blog/vodcast-05/) will be about design tools and take place 29th of June (16:00 GMT+0). See you then!`;
 
 /*
 const pastEvents = `
