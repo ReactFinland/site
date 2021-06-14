@@ -1,10 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Interactive from "antwar-interactive";
 import AnchorHeader from "./AnchorHeader";
 import Markdown from "./Markdown";
 import Keywords from "./Keywords";
 import ScheduleIcon from "./ScheduleIcon";
 import SessionSpeakers from "./SessionSpeakers";
+import Time from "./Time";
 import slugify from "../utils/slugify";
 
 // TODO: Handle sessions inside sessions
@@ -13,7 +15,12 @@ const Schedule = ({ intervals, prefix }) => (
     {intervals.map(
       ({ begin, end, sessions, title: sessionTitle, location }, i) => [
         <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
-          {begin}–{end}
+          <Interactive
+            id="components/Time.js"
+            component={Time}
+            begin={begin}
+            end={end}
+          />
         </dt>,
         <dd className="schedule--definition" key={`dd-${i}`}>
           {sessionTitle && (
@@ -84,6 +91,7 @@ const Schedule = ({ intervals, prefix }) => (
 );
 Schedule.propTypes = {
   intervals: PropTypes.array,
+  prefix: PropTypes.string,
 };
 
 // TODO: If there are multiple sessions, how to resolve type? -> mixed?

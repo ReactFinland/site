@@ -55,7 +55,7 @@ Assuming you want to sauna and swim, bring a swimming suit and optionally a towe
 
 1. Use the site [schedule](/schedule/).
 2. Use the mobile applications (Android, iPhone).
-3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2019.ics). You can import it to your Google Calendar for example.
+3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2021.ics). You can import it to your Google Calendar for example.
 
 ## How to prepare for the workshops?
 

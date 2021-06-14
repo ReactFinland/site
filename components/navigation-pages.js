@@ -26,11 +26,11 @@ export default [
         title: "For Sponsors",
         url: "/for-sponsors/",
       },
-      /*{
+      {
         title: "Schedule",
         url: "/schedule/",
       },
-      {
+      /*{
         title: "Workshops",
         url: "/workshops/",
       },

@@ -3,7 +3,7 @@ import {
   AnchorHeader,
   Markdown,
   Schedule as ScheduleComp,
-  ScheduleLegend,
+  // ScheduleLegend,
   connect,
 } from "../components";
 
@@ -16,13 +16,15 @@ const Schedule = ({ conference, year }) => {
       <section className="intro intro_schedule">
         <div className="intro--main">
           <Markdown
-            source={`For 2020, we run roughly one mini-conference per month. Note that the times are given in Finnish time (GMT+2) so please adjust to your local one.`}
+            source={`Note that the times have been adjusted to your local timezone automatically.
+
+> It's possible to [subscribe to the conference calendar directly to keep up to date with any changes](https://api.react-finland.fi/calendar-2021.ics).`}
           />
         </div>
         <aside className="intro--aside" />
       </section>
       <div className="grid--5col grid--full-mobile" id="schedule">
-        {conference.schedules && <ScheduleLegend />}
+        {/*conference.schedules && <ScheduleLegend />*/}
         {conference.schedules.map(({ day, description, intervals }) => (
           <React.Fragment key={day}>
             <AnchorHeader level={2}>
