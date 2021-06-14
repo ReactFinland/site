@@ -1,12 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Interactive from "antwar-interactive";
 import AnchorHeader from "./AnchorHeader";
 import Markdown from "./Markdown";
 import Keywords from "./Keywords";
 import ScheduleIcon from "./ScheduleIcon";
 import SessionSpeakers from "./SessionSpeakers";
-import Time from "./Time";
 import slugify from "../utils/slugify";
 
 // TODO: Handle sessions inside sessions
@@ -15,12 +13,8 @@ const Schedule = ({ intervals, prefix }) => (
     {intervals.map(
       ({ begin, end, sessions, title: sessionTitle, location }, i) => [
         <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
-          <Interactive
-            id={`components/Time.js+${i}`}
-            component={Time}
-            begin={begin}
-            end={end}
-          />
+          <span x={`offsetByTimezone("${begin}")`}></span>-
+          <span x={`offsetByTimezone("${end}")`}></span>
         </dt>,
         <dd className="schedule--definition" key={`dd-${i}`}>
           {sessionTitle && (

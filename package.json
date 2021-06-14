@@ -17,8 +17,7 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "precommit": "lint-staged",
-    "prepush": "npm run build",
-    "postinstall": "patch-package"
+    "prepush": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -46,7 +45,6 @@
     "marked": "^0.7.0",
     "moment": "^2.24.0",
     "normalize.css": "^8.0.0",
-    "patch-package": "^6.4.7",
     "prettier": "^1.19.1",
     "prop-types": "^15.6.0",
     "react": "^16.3.2",

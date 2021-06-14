@@ -15,6 +15,25 @@
       integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq"
       crossorigin="anonymous"
     />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sidewind@3.3.3/dist/sidewind.umd.production.min.js"
+    ></script>
+    <script type="text/javascript">
+      window.offsetByTimezone = function offsetByTimezone(time) {
+        const tzOffset = new Date().getTimezoneOffset() / 60;
+        const parts = time.split(":");
+        const hours = parseInt(parts[0], 10);
+        const minutes = parts[1];
+        const hoursWithOffset = (hours - tzOffset) % 24;
+
+        if (hoursWithOffset >= 0) {
+          return hoursWithOffset + ":" + minutes;
+        }
+
+        return 24 + hoursWithOffset + ":" + minutes;
+      };
+    </script>
     <%- htmlWebpackPlugin.options.context.helmet.title %> <%-
     htmlWebpackPlugin.options.context.helmet.meta %> <%-
     htmlWebpackPlugin.options.context.helmet.link %> <%-
