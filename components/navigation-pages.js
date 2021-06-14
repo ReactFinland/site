@@ -102,7 +102,7 @@ export default [
       },
       {
         title: "CFP",
-        url: "https://forms.gle/UkAzxCoAQqfKuwMy5",
+        url: "https://forms.gle/JASTVgCrqTfwnMLj7",
       },
       /*{
         title: "GraphQL Finland",

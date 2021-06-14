@@ -7,9 +7,7 @@ import {
   Markdown,
 } from "components";
 
-const intro = `React Finland 2021 will take place between 30th of August and 3rd of September. To shape the conference, [take part in our call for participants](https://forms.gle/SeVygg8wEcXsANsB7).
-
-> [You can find more information about our exact plans at the blog](/blog/rf21-call-for-participants/).
+const intro = `React Finland 2021 will take place between 30th of August and 3rd of September. [Learn more from the conference announcement](/blog/react-finland-2021/).
 
 ## Vodcast #05 – Design tools
 
