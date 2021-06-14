@@ -91,7 +91,7 @@ const Schedule = ({ intervals, prefix }) => (
 );
 Schedule.propTypes = {
   intervals: PropTypes.array,
-  prefix: PropTypes.string,
+  prefix: PropTypes.number,
 };
 
 // TODO: If there are multiple sessions, how to resolve type? -> mixed?
