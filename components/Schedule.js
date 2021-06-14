@@ -16,7 +16,7 @@ const Schedule = ({ intervals, prefix }) => (
       ({ begin, end, sessions, title: sessionTitle, location }, i) => [
         <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
           <Interactive
-            id="components/Time.js"
+            id={`components/Time.js+${i}`}
             component={Time}
             begin={begin}
             end={end}
