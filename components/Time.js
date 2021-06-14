@@ -19,7 +19,8 @@ Time.propTypes = {
 
 function offsetByTimezone(time) {
   const tzOffset = new Date().getTimezoneOffset() / 60;
-  const [hours, minutes] = time.split(":");
+  const [hoursStr, minutes] = time.split(":");
+  const hours = parseInt(hoursStr, 10);
   const hoursWithOffset = (hours - tzOffset) % 24;
 
   return `${
