@@ -60,7 +60,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/5ZHJlcGT2lk"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
 
         <div className="buy-container">
           <a
@@ -79,7 +79,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/AuwpOsrzHC8"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
 
         {/*<Markdown source={pastEvents} />*/}
@@ -91,7 +91,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/mMU-j0WoTCs"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
         <iframe
           title="Vodcast #03 – Full Stack React"
@@ -100,7 +100,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/ee3riQ0aVbs"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
         <iframe
           title="Vodcast #02 – Accessibility"
@@ -109,7 +109,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/jouctaXwpdU"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
         <iframe
           title="Vodcast #01 – Components"
@@ -118,7 +118,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/o_TqhovGSjk"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
 
         <AnchorHeader level={2}>Past mini-confs</AnchorHeader>
@@ -129,7 +129,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/5ZHJlcGT2lk"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
         <iframe
           title="Mini-conf #04 - Lessons learned"
@@ -138,7 +138,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/i9D-Gh8QH2U"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
         <iframe
           title="Mini-conf #03 - Design systems"
@@ -147,7 +147,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/gJ56-lwB8K0"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
         <iframe
           title="Mini-conf #02 - State management"
@@ -156,7 +156,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/CFe6rMUxpoM"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
         <iframe
           title="Mini-conf #01 - Documentation"
@@ -165,7 +165,7 @@ const Index = ({ conference }) => (
           src="https://www.youtube.com/embed/sN01JuUIrsw"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         />
         {/*<Markdown source={rf2021} />
         <AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
