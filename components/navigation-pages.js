@@ -101,7 +101,7 @@ export default [
         url: "/2019/",
       },
       {
-        title: "CFP",
+        title: "Call for papers",
         url: "https://forms.gle/JASTVgCrqTfwnMLj7",
       },
       /*{
