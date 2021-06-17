@@ -46,15 +46,15 @@ const Header = ({ pathname, title }) => {
           component={Countdown}
           toDate="2019-04-24"
           containerProps={{ className: "countdown--container" }}
-        />
+        />*/}
         <section className="header--buy">
           <Link
-            to="https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117"
+            to="https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f"
             className="buy-button"
           >
-            Buy tickets
+            Register
           </Link>
-        </section>*/}
+        </section>
       </div>
     </header>
   ) : (

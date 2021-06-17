@@ -7,7 +7,16 @@ import {
   Markdown,
 } from "components";
 
-const intro = `React Finland 2021 will take place between 30th of August and 3rd of September. [Learn more from the conference announcement](/blog/react-finland-2021/).
+const intro = `React Finland 2021 will take place between 30th of August and 3rd of September.
+
+The conference sessions take place online due to the exceptional circumstances. We'll run the conference in a vodcast format that works out like this:
+
+* Each session is scoped to a specific theme
+* There will be a host and three speakers
+* The sessions take ~1.5h and there's a 15 minute slot to demo and present for each speaker
+* You can send your questions and comments through YouTube and Twitch and we'll cover them live during the sessions
+
+> [Learn more from the conference announcement](/blog/react-finland-2021/).
 
 ## Vodcast #05 – Design tools
 
@@ -61,15 +70,6 @@ const Index = ({ conference }) => (
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-
-        <div className="buy-container">
-          <a
-            className="buy-button"
-            href="https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117"
-          >
-            Buy tickets
-          </a>
-        </div>
         />*/}
 
         <iframe
@@ -84,89 +84,94 @@ const Index = ({ conference }) => (
 
         {/*<Markdown source={pastEvents} />*/}
         <AnchorHeader level={2}>Past vodcasts</AnchorHeader>
-        <iframe
-          title="Vodcast #04 – Next.js"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/mMU-j0WoTCs"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          title="Vodcast #03 – Full Stack React"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/ee3riQ0aVbs"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          title="Vodcast #02 – Accessibility"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/jouctaXwpdU"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          title="Vodcast #01 – Components"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/o_TqhovGSjk"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
+        <section className="flex-column">
+          <iframe
+            title="Vodcast #04 – Next.js"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/mMU-j0WoTCs"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          <iframe
+            title="Vodcast #03 – Full Stack React"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/ee3riQ0aVbs"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          <iframe
+            title="Vodcast #02 – Accessibility"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/jouctaXwpdU"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          <iframe
+            title="Vodcast #01 – Components"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/o_TqhovGSjk"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </section>
 
         <AnchorHeader level={2}>Past mini-confs</AnchorHeader>
-        <iframe
-          title="Mini-conf #05 - Performance"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/5ZHJlcGT2lk"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          title="Mini-conf #04 - Lessons learned"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/i9D-Gh8QH2U"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          title="Mini-conf #03 - Design systems"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/gJ56-lwB8K0"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          title="Mini-conf #02 - State management"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/CFe6rMUxpoM"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-        <iframe
-          title="Mini-conf #01 - Documentation"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/sN01JuUIrsw"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
+        <section className="flex-column">
+          <iframe
+            title="Mini-conf #05 - Performance"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/5ZHJlcGT2lk"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          <iframe
+            title="Mini-conf #04 - Lessons learned"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/i9D-Gh8QH2U"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          <iframe
+            title="Mini-conf #03 - Design systems"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/gJ56-lwB8K0"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          <iframe
+            title="Mini-conf #02 - State management"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/CFe6rMUxpoM"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          <iframe
+            title="Mini-conf #01 - Documentation"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/sN01JuUIrsw"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </section>
+
         {/*<Markdown source={rf2021} />
         <AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
         <iframe
@@ -238,15 +243,15 @@ const Index = ({ conference }) => (
     <div className="intro--main">
       <p></p>
     </div>
+    */}
     <div className="buy-container">
       <a
         className="buy-button"
-        href="https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117"
+        href="https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f"
       >
-        Buy tickets
+        Register to the 2021 event
       </a>
     </div>
-    */}
   </>
 );
 
