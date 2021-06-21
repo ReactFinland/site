@@ -1,0 +1,45 @@
+diff --git a/node_modules/antwar/dist/build/build_worker.js b/node_modules/antwar/dist/build/build_worker.js
+index 6c78843..c15d59d 100644
+--- a/node_modules/antwar/dist/build/build_worker.js
++++ b/node_modules/antwar/dist/build/build_worker.js
+@@ -43,15 +43,24 @@ function processPage({
+ }, cb) {
+   const renderPage = require(_path.join(outputPath, "site.js")).renderPage;
+ 
+-  renderPage(page, function (err, { html, page, context }) {
+-    if (err) {
++  if (!page) {
++    console.log(page, outputPath, path);
++
++    return cb('No page!')
++  }
++
++  renderPage(page, function (err, o) {
++    if (err || !o) {
++      console.log('errored!', err);
++
+       return cb(err);
+     }
+ 
++    const { html, page, context } = o;
+     const $ = cheerio.load(html);
+     const components = $(".interactive").map((i, el) => {
+       const $el = $(el);
+-      const id = $el.attr("id");
++      const id = $el.attr("id").split('+')[0];
+       const props = $el.data("props");
+ 
+       return {
+diff --git a/node_modules/antwar/src/build/build_worker.js b/node_modules/antwar/src/build/build_worker.js
+index 7f2ca30..fbf685b 100644
+--- a/node_modules/antwar/src/build/build_worker.js
++++ b/node_modules/antwar/src/build/build_worker.js
+@@ -58,7 +58,7 @@ function processPage(
+     const components = $(".interactive")
+       .map((i, el) => {
+         const $el = $(el);
+-        const id = $el.attr("id");
++        const id = $el.attr("id").split('+')[0];
+         const props = $el.data("props");
+ 
+         return {
