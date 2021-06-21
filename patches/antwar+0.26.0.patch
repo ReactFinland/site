@@ -1,3 +1,16 @@
+diff --git a/node_modules/antwar/dist/build/build.js b/node_modules/antwar/dist/build/build.js
+index 1796d80..d51755d 100644
+--- a/node_modules/antwar/dist/build/build.js
++++ b/node_modules/antwar/dist/build/build.js
+@@ -127,7 +127,7 @@ function writePages(antwarConfig) {
+ 
+ function executeTasks(tasks, maximumWorkers, log) {
+   return new Promise(function (resolve, reject) {
+-    async.eachLimit(tasks, maximumWorkers || _os.cpus().length, function (o, cb) {
++    async.eachLimit(tasks, maximumWorkers || _os.cpus().length - 1, function (o, cb) {
+       log("Starting to write pages");
+ 
+       workers(o, function (err) {
 diff --git a/node_modules/antwar/dist/build/build_worker.js b/node_modules/antwar/dist/build/build_worker.js
 index 6c78843..c15d59d 100644
 --- a/node_modules/antwar/dist/build/build_worker.js
