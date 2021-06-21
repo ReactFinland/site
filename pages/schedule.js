@@ -51,6 +51,12 @@ query PageQuery($conferenceId: ID!) {
         begin
         end
         title
+        mc {
+          name
+          image {
+            url
+          }
+        }
         location {
           name
           social {

@@ -11,7 +11,7 @@ import slugify from "../utils/slugify";
 const Schedule = ({ intervals, prefix }) => (
   <dl className="schedule">
     {intervals.map(
-      ({ begin, end, sessions, title: sessionTitle, location }, i) => [
+      ({ begin, end, sessions, title: sessionTitle, mc, location }, i) => [
         <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
           <span x={`offsetByTimezone("${begin}")`}></span>-
           <span x={`offsetByTimezone("${end}")`}></span>
@@ -21,6 +21,7 @@ const Schedule = ({ intervals, prefix }) => (
             <AnchorTitle
               key={`title-${i}`}
               title={sessionTitle}
+              mc={mc}
               prefix={prefix}
             />
           )}
@@ -120,7 +121,7 @@ const WorkshopTitle = ({ title, type }) => (
 );
 WorkshopTitle.propTypes = titlePropTypes;
 
-const AnchorTitle = ({ title, type, speakers, level = 3, prefix }) => (
+const AnchorTitle = ({ title, type, speakers, mc, level = 3, prefix }) => (
   <AnchorHeader level={level} anchor={title}>
     <ScheduleIcon type={type} />
     {title} {title && speakers && speakers.length > 0 && "—"}{" "}
@@ -129,6 +130,15 @@ const AnchorTitle = ({ title, type, speakers, level = 3, prefix }) => (
         key={`speaker-names`}
         speakers={speakers}
         prefix={prefix}
+      />
+    )}
+    {mc && (
+      <img
+        className="speaker-name--photo photo"
+        alt={mc.name}
+        width={32}
+        height={32}
+        src={mc.image.url}
       />
     )}
   </AnchorHeader>
