@@ -10,11 +10,11 @@ export default [
         title: "About",
         url: "/about/",
       },
-      /*{
+      {
         title: "Speakers",
         url: "/speakers/",
       },
-      {
+      /*{
         title: "For Attendees",
         url: "/for-attendees/",
       },
@@ -33,12 +33,12 @@ export default [
       /*{
         title: "Workshops",
         url: "/workshops/",
-      },
-      {
-        title: <b>Buy tickets</b>,
-        url:
-          "https://fienta.com/react-finland-2020?e8677b7f3a2f2d38052763b8d1cd9117",
       },*/
+      {
+        title: <b>Register</b>,
+        url:
+          "https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f",
+      },
     ],
   },
   {
