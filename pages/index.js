@@ -292,6 +292,7 @@ query PageQuery($conferenceId: ID!) {
 }
 `,
   () => ({
-    conferenceId: "react-finland-2020",
+    // TODO: Get this through config
+    conferenceId: "react-finland-2021",
   })
 )(Index);
