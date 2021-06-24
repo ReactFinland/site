@@ -22,12 +22,15 @@ const Workshop = ({
       <div>To be announced.</div>
     )}
 
-    <AnchorHeader level={headerLevel + 1}>Location</AnchorHeader>
-
-    <div>
-      {location.name}{" "}
-      {location.address ? `- ${location.address},${location.city}` : null}
-    </div>
+    {location && (
+      <>
+        <AnchorHeader level={headerLevel + 1}>Location</AnchorHeader>
+        <div>
+          {location.name}{" "}
+          {location.address ? `- ${location.address},${location.city}` : null}
+        </div>
+      </>
+    )}
   </div>
 );
 Workshop.propTypes = {
