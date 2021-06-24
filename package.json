@@ -17,7 +17,6 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "precommit": "lint-staged",
-    "prepush": "npm run build",
     "postinstall": "patch-package"
   },
   "repository": {
