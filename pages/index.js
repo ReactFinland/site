@@ -16,16 +16,16 @@ The conference sessions take place online due to the exceptional circumstances. 
 * The sessions take ~1.5h and there's a 15 minute slot to demo and present for each speaker
 * You can send your questions and comments through YouTube and Twitch and we'll cover them live during the sessions
 
-> [Learn more from the conference announcement](/blog/react-finland-2021/).
+In addition, we offer a variety of [online workshops](/workshops/).
 
-## Vodcast #05 – Design tools
-
-[The next vodcast](/blog/vodcast-05/) will be about design tools and take place 29th of June (16:00 GMT+0). See you then!`;
+> [Learn more from the conference announcement](/blog/react-finland-2021/).`;
 
 /*
 const pastEvents = `
 ## Past events
 
+* The fifth vodcast took place 29th of June 2021 and it focused on design tools.
+* The fourth vodcast took place 26th of May 2021 and it focused on Next.js.
 * The third vodcast took place 29th of April 2021 and it focused on full stack React.
 * The second vodcast took place 29th of March 2021 and it focused on accessibility.
 * The first vodcast took place 24th of February 2021 and it focused on React components.
@@ -72,19 +72,95 @@ const Index = ({ conference }) => (
           allowFullScreen
         />*/}
 
+        {/*<Markdown source={pastEvents} />*/}
+        {/*<Markdown source={rf2021} />
+        <AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
         <iframe
-          title="Vodcast #05 – Design tools"
+          src="https://www.youtube.com/embed/BO_osndeLII"
           width="100%"
           height="400"
-          src="https://www.youtube.com/embed/AuwpOsrzHC8"
           frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-
-        {/*<Markdown source={pastEvents} />*/}
+          title="React Finland 2019"
+/>*/}
+      </div>
+      <aside className="intro--aside">
+        <Markdown source={secondary} />
+      </aside>
+    </section>
+    {conference && conference.mcs && conference.mcs.length > 0 && (
+      <>
+        <AnchorHeader level={2}>MCs</AnchorHeader>
+        <div className="grid--full speakers">
+          <Contacts items={conference.mcs} render={ContactMini} />
+        </div>
+      </>
+    )}
+    {conference &&
+      conference.keynoteSpeakers &&
+      conference.keynoteSpeakers.length > 0 && (
+        <>
+          <AnchorHeader level={2}>Keynotes</AnchorHeader>
+          <div className="grid--full speakers">
+            <Contacts items={conference.keynoteSpeakers} render={ContactMini} />
+          </div>
+        </>
+      )}
+    {conference && conference.speakers && conference.speakers.length > 0 && (
+      <>
+        <AnchorHeader level={2}>Speakers</AnchorHeader>
+        <div className="grid--full speakers">
+          <Contacts items={conference.speakers} render={ContactMini} />
+        </div>
+      </>
+    )}
+    {/*
+    {conference &&
+      conference.lightningTalkSpeakers &&
+      conference.lightningTalkSpeakers.length > 0 && (
+        <>
+          <AnchorHeader level={2}>Lightning Talks</AnchorHeader>
+          <div className="grid--full speakers">
+            <Contacts
+              items={conference.lightningTalkSpeakers}
+              render={ContactMini}
+            />
+          </div>
+        </>
+      )}*/}
+    {conference &&
+      conference.workshopInstructors &&
+      conference.workshopInstructors.length > 0 && (
+        <>
+          <AnchorHeader level={2}>Workshops</AnchorHeader>
+          <div className="grid--full speakers">
+            <Contacts
+              items={conference.workshopInstructors}
+              render={ContactMini}
+            />
+          </div>
+        </>
+      )}
+    <div className="buy-container">
+      <a
+        className="buy-button"
+        href="https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f"
+      >
+        Register to the 2021 event
+      </a>
+    </div>
+    <div className="intro">
+      <div className="intro--main">
         <AnchorHeader level={2}>Past vodcasts</AnchorHeader>
         <section className="flex-column">
+          <iframe
+            title="Vodcast #05 – Design tools"
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/AuwpOsrzHC8"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
           <iframe
             title="Vodcast #04 – Next.js"
             width="100%"
@@ -171,86 +247,7 @@ const Index = ({ conference }) => (
             allowFullScreen
           />
         </section>
-
-        {/*<Markdown source={rf2021} />
-        <AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
-        <iframe
-          src="https://www.youtube.com/embed/BO_osndeLII"
-          width="100%"
-          height="400"
-          frameBorder="0"
-          title="React Finland 2019"
-/>*/}
       </div>
-      <aside className="intro--aside">
-        <Markdown source={secondary} />
-      </aside>
-    </section>
-    {conference && conference.mcs && conference.mcs.length > 0 && (
-      <>
-        <AnchorHeader level={2}>MCs</AnchorHeader>
-        <div className="grid--full speakers">
-          <Contacts items={conference.mcs} render={ContactMini} />
-        </div>
-      </>
-    )}
-    {conference &&
-      conference.keynoteSpeakers &&
-      conference.keynoteSpeakers.length > 0 && (
-        <>
-          <AnchorHeader level={2}>Keynotes</AnchorHeader>
-          <div className="grid--full speakers">
-            <Contacts items={conference.keynoteSpeakers} render={ContactMini} />
-          </div>
-        </>
-      )}
-    {conference && conference.speakers && conference.speakers.length > 0 && (
-      <>
-        <AnchorHeader level={2}>Speakers</AnchorHeader>
-        <div className="grid--full speakers">
-          <Contacts items={conference.speakers} render={ContactMini} />
-        </div>
-      </>
-    )}
-    {/*
-    {conference &&
-      conference.lightningTalkSpeakers &&
-      conference.lightningTalkSpeakers.length > 0 && (
-        <>
-          <AnchorHeader level={2}>Lightning Talks</AnchorHeader>
-          <div className="grid--full speakers">
-            <Contacts
-              items={conference.lightningTalkSpeakers}
-              render={ContactMini}
-            />
-          </div>
-        </>
-      )}
-    {conference &&
-      conference.workshopInstructors &&
-      conference.workshopInstructors.length > 0 && (
-        <>
-          <AnchorHeader level={2}>Workshops</AnchorHeader>
-          <div className="grid--full speakers">
-            <Contacts
-              items={conference.workshopInstructors}
-              render={ContactMini}
-            />
-          </div>
-        </>
-      )}
-    <AnchorHeader level={2}>Tickets</AnchorHeader>
-    <div className="intro--main">
-      <p></p>
-    </div>
-    */}
-    <div className="buy-container">
-      <a
-        className="buy-button"
-        href="https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f"
-      >
-        Register to the 2021 event
-      </a>
     </div>
   </>
 );
