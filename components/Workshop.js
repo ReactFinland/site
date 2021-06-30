@@ -4,6 +4,9 @@ import { AnchorHeader, Markdown, SessionSpeakers } from "components";
 
 const Workshop = ({
   speakers,
+  day,
+  begin,
+  end,
   title,
   description,
   location,
@@ -15,6 +18,13 @@ const Workshop = ({
     </AnchorHeader>
 
     <SessionSpeakers speakers={speakers} />
+
+    {day && begin && end && (
+      <div>
+        {day}, <span x={`offsetByTimezone("${begin}")`}></span>-
+        <span x={`offsetByTimezone("${end}")`}></span>
+      </div>
+    )}
 
     {description ? (
       <Markdown source={description} />
@@ -36,6 +46,9 @@ const Workshop = ({
 Workshop.propTypes = {
   speakers: PropTypes.array,
   title: PropTypes.string,
+  day: PropTypes.string,
+  begin: PropTypes.string,
+  end: PropTypes.string,
   description: PropTypes.string,
   headerLevel: PropTypes.number,
   location: PropTypes.object,

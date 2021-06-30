@@ -23,6 +23,9 @@ query PageQuery($conferenceId: ID!) {
     allSpeakers {
       name
       talks {
+        day
+        begin
+        end
         title
         type
         description

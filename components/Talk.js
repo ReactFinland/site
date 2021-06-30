@@ -8,39 +8,69 @@ const TYPES = {
   TALK: "🎙",
 };
 
-const Talk = ({ title, description, urls, type, headerLevel = 2 }) => (
+const Talk = ({
+  title,
+  description,
+  urls,
+  type,
+  headerLevel = 2,
+  day,
+  begin,
+  end,
+}) => (
   <div className="content-block">
-    <AnchorHeader level={headerLevel}>
-      <span title={type}>{TYPES[type]}</span> {title || "To be announced."}
-      <span style={{ marginLeft: "1em" }}>&nbsp;</span>
-    </AnchorHeader>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+      }}
+    >
+      <AnchorHeader level={headerLevel}>
+        <span title={type}>{TYPES[type]}</span> {title || "To be announced."}
+        <span style={{ marginLeft: "1em" }}>&nbsp;</span>
+      </AnchorHeader>
+
+      {day && begin && end && (
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          {day}
+          <div>
+            <span x={`offsetByTimezone("${begin}")`}> </span>-
+            <span x={`offsetByTimezone("${end}")`}></span>
+          </div>
+        </div>
+      )}
+    </div>
+
     <p>
-      {urls &&
-        urls.slides && (
+      {urls && urls.slides && (
+        <a
+          href={urls.slides}
+          style={{ fontSize: "small" }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Slides (PDF)
+        </a>
+      )}
+
+      {urls && urls.web && (
+        <>
+          <span style={{ marginLeft: "1em" }}>&nbsp;</span>
           <a
-            href={urls.slides}
+            href={urls.web}
             style={{ fontSize: "small" }}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Slides (PDF)
+            Slides (web)
           </a>
-        )}
-
-      {urls &&
-        urls.web && (
-          <>
-            <span style={{ marginLeft: "1em" }}>&nbsp;</span>
-            <a
-              href={urls.web}
-              style={{ fontSize: "small" }}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Slides (web)
-            </a>
-          </>
-        )}
+        </>
+      )}
     </p>
 
     {description ? <Markdown source={description} /> : "To be announced."}
@@ -48,6 +78,9 @@ const Talk = ({ title, description, urls, type, headerLevel = 2 }) => (
 );
 Talk.propTypes = {
   title: PropTypes.string,
+  day: PropTypes.string,
+  begin: PropTypes.string,
+  end: PropTypes.string,
   description: PropTypes.string,
   urls: PropTypes.shape({
     slides: PropTypes.string,
