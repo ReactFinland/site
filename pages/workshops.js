@@ -1,9 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Contacts, Workshop, connect } from "components";
+import { Contacts, Workshop, Markdown, connect } from "components";
+
+const intro = `All the workshops take place online. To make sure it's worth it for our workshop organizers, we reserve the right to cancel workshops closer to their time if not enough people have signed up. In that case we'll cancel the and perform a full refund so that you'll get your money back.`;
 
 const Workshops = ({ conference }) => (
   <div className="grid grid--5col">
+    <Markdown source={intro} />
     <Contacts items={conference && conference.workshops} render={Workshop} />
   </div>
 );
