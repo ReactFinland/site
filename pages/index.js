@@ -59,7 +59,7 @@ By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduc
 `;
 */
 
-const domain = "netlify.app"; // Try localhost locally
+const domain = "deploy-preview-79--react-finland.netlify.app"; // Try localhost locally
 const id = "mw-1YdqZLQo"; // For youtube video id
 
 const Index = () => (
