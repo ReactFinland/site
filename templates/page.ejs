@@ -27,11 +27,15 @@
         const minutes = parts[1];
         const hoursWithOffset = (hours - tzOffset) % 24;
 
-        if (hoursWithOffset >= 0) {
-          return hoursWithOffset + ":" + minutes;
+        if (hours - tzOffset > 24) {
+          return hoursWithOffset + ":" + minutes + " (+1 day)";
         }
 
-        return 24 + hoursWithOffset + ":" + minutes;
+        if (hours - tzOffset < 0) {
+          return 24 + hoursWithOffset + ":" + minutes + " (-1 day)";
+        }
+
+        return hoursWithOffset + ":" + minutes;
       };
     </script>
     <%- htmlWebpackPlugin.options.context.helmet.title %> <%-
