@@ -59,6 +59,13 @@ export default [
       },
       {
         title: (
+          <a href="https://www.twitch.com/ReactFinland">
+            <i className="fab fa-twitch" aria-label="Twitch" />
+          </a>
+        ),
+      },
+      {
+        title: (
           <a href="https://twitter.com/ReactFinland">
             <i className="fab fa-twitter" aria-label="Twitter" />
           </a>
