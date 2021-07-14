@@ -43,6 +43,10 @@ module.exports = {
       title: "For Sponsors",
       description: `What should I know as a ${EVENT_NAME} sponsor?`,
     }),
+    "satellite-event-guidelines": page("satellite-event-guidelines", {
+      title: "Satellite Event Guidelines",
+      description: `What should I know to organize a satellite event for ${EVENT_NAME}?`,
+    }),
     about: page("about", {
       title: "Organizers",
       description: `Who is organizing ${EVENT_NAME}?`,
