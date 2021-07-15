@@ -18,6 +18,8 @@ The conference sessions take place online due to the exceptional circumstances. 
 
 In addition, we offer a variety of [online workshops](/workshops/).
 
+By registering to the conference (free), you'll gain access to the virtual venue as the time comes.
+
 > [Learn more from the conference announcement](/blog/react-finland-2021/).`;
 
 /*
