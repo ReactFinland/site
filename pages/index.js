@@ -20,7 +20,7 @@ In addition, we offer a variety of [online workshops](/workshops/).
 
 By registering to the conference (free), you'll gain access to the virtual venue as the time comes.
 
-> [Learn more from the conference announcement](/blog/react-finland-2021/).`;
+> [Learn more from the conference announcement](/blog/react-finland-2021/) and [read about the highlights of the upcoming conference](/blog/rf21-schedule-highlights/).`;
 
 /*
 const pastEvents = `

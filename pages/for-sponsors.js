@@ -2,7 +2,7 @@ import React from "react";
 import { Markdown } from "components";
 
 const intro = `
-React Finland is the largest React conference in the Nordics arranged 30.08-03.09, hybrid online. The conference begins with two workshop days and the following conference days include topics ranging from state management to emerging topics such as ReactVR and ReasonML.
+React Finland is the largest React conference in the Nordics arranged 30.08-03.09, online. The conference begins with two workshop days and the following conference days include topics ranging from state management to emerging topics such as ReactVR and ReasonML.
 `;
 
 const main = `
