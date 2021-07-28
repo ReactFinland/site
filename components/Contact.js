@@ -55,6 +55,12 @@ const Contact = ({
             <i className="fab fa-linkedin" aria-label="Linkedin" />
           </a>
         )}
+
+        {social.twitch && (
+          <a href={social.twitch}>
+            <i className="fab fa-twitch" aria-label="Twitch" />
+          </a>
+        )}
       </div>
     </div>
 

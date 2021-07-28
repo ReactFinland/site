@@ -45,6 +45,7 @@ query PageQuery($conferenceId: ID!) {
         github
         twitter
         linkedin
+        twitch
       }
       image {
         url
