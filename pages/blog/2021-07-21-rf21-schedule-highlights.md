@@ -51,7 +51,7 @@ Given there's so much content, we don't expect you can follow all the content li
 
 ## What about my ticket?
 
-If you already have a ticket for our last year's (2020) event, it's automatically moved to the next year. We'll also grant you free access to the virtual venue and the matchmaking platform. Access can be gained separately as well by paying the entry cost.
+If you already have a ticket for our last year's (2020) event, it's automatically moved to the next year.
 
 ## Conclusion
 
