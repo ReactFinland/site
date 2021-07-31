@@ -107,11 +107,11 @@ export default [
         title: "2019",
         url: "/2019/",
       },
-      {
+      /*{
         title: "Call for papers",
         url: "https://forms.gle/JASTVgCrqTfwnMLj7",
       },
-      /*{
+      {
         title: "GraphQL Finland",
         url: "https://graphql-finland.fi/",
       },

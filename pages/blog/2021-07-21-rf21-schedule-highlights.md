@@ -4,7 +4,7 @@ date: 2021-07-27T18:00:00Z
 keywords: ["react-finland", "conference"]
 ---
 
-The [call for papers](https://forms.gle/JASTVgCrqTfwnMLj7) for React Finland 2021 is close to done and it's a good time to give you idea of what's to come. Due to the worsening pandemic situation in Finland, we've moved our focus fully online. As an exception, there will be a small live event in Vienna during the conference week but apart from that we'll remain online as it's the safest and most responsible option in these difficult times. We're still committed to organizing a live event in late May, 2022, and we believe the situation will have improved enough by then.
+The call for papers for React Finland 2021 is close to done and it's a good time to give you idea of what's to come. Due to the worsening pandemic situation in Finland, we've moved our focus fully online. As an exception, there will be a small live event in Vienna during the conference week but apart from that we'll remain online as it's the safest and most responsible option in these difficult times. We're still committed to organizing a live event in late May, 2022, and we believe the situation will have improved enough by then.
 
 The conference program has condensed in one week. We have a late vodcast style session for each day. The first two days are filled with workshops and the last three have the main content with varying themes.
 
