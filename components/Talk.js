@@ -71,6 +71,20 @@ const Talk = ({
           </a>
         </>
       )}
+
+      {urls && urls.video && (
+        <>
+          <span style={{ marginLeft: "1em" }}>&nbsp;</span>
+          <a
+            href={urls.video}
+            style={{ fontSize: "small" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Video
+          </a>
+        </>
+      )}
     </p>
 
     {description ? <Markdown source={description} /> : "To be announced."}

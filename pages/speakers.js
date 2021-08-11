@@ -32,6 +32,7 @@ query PageQuery($conferenceId: ID!) {
         urls {
           slides
           web
+          video
         }
       }
       workshops {

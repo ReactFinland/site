@@ -79,6 +79,7 @@ query PageQuery($conferenceId: ID!) {
           urls {
             slides
             web
+            video
           }
           sessions {
             type
@@ -94,6 +95,7 @@ query PageQuery($conferenceId: ID!) {
             urls {
               slides
               web
+              video
             }
           }
         }
