@@ -41,6 +41,8 @@ const Talk = ({
           <div>
             <span x={`offsetByTimezone("${begin}")`}> </span>-
             <span x={`offsetByTimezone("${end}")`}></span>
+            ,&nbsp;
+            <span x="timezoneOffset()"></span>
           </div>
         </div>
       )}
