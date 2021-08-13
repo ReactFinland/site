@@ -13,8 +13,11 @@ const Schedule = ({ intervals, prefix }) => (
     {intervals.map(
       ({ begin, end, sessions, title: sessionTitle, mc, location }, i) => [
         <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
-          <span x={`offsetByTimezone("${begin}")`}></span>-
-          <span x={`offsetByTimezone("${end}")`}></span>
+          <div>
+            <span x={`offsetByTimezone("${begin}")`}></span>-
+            <span x={`offsetByTimezone("${end}")`}></span>
+          </div>
+          <span x="timezoneOffset()"></span>
         </dt>,
         <dd className="schedule--definition" key={`dd-${i}`}>
           {sessionTitle && (

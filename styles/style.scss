@@ -611,7 +611,7 @@ table thead th:not(:first-child) {
     @media (min-width: $mobile-breakpoint) {
       position: absolute;
       left: -130px;
-      line-height: 2rem;
+      line-height: 1.5rem;
 
       &::after {
         position: absolute;

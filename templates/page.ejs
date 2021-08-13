@@ -20,6 +20,13 @@
       src="https://unpkg.com/sidewind@3.3.3/dist/sidewind.umd.production.min.js"
     ></script>
     <script type="text/javascript">
+      window.timezoneOffset = function timezoneOffset() {
+        const tzOffset = -(new Date().getTimezoneOffset() / 60);
+        const prefix = tzOffset >= 0 ? "+" : "-";
+
+        return "GMT" + prefix + tzOffset;
+      };
+
       window.offsetByTimezone = function offsetByTimezone(time) {
         const tzOffset = new Date().getTimezoneOffset() / 60;
         const parts = time.split(":");
