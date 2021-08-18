@@ -59,6 +59,10 @@ module.exports = {
       title: "Privacy Policy",
       description: `What is the privacy policy of ${EVENT_NAME}?`,
     }),
+    "youtube-embed": page("youtube-embed", {
+      title: "YouTube Stream",
+      description: `YouTube Stream of ${EVENT_NAME}`,
+    }),
     schedule: page(
       "schedule",
       {
