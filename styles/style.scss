@@ -216,6 +216,10 @@ address {
   flex: 1;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .grid {
   display: grid;
   grid-gap: 20px;

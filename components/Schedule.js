@@ -11,7 +11,10 @@ import slugify from "../utils/slugify";
 const Schedule = ({ intervals, prefix }) => (
   <dl className="schedule">
     {intervals.map(
-      ({ begin, end, sessions, title: sessionTitle, mc, location }, i) => [
+      (
+        { begin, end, sessions, title: sessionTitle, mc, location, urls },
+        i
+      ) => [
         <dt className={`schedule--title ${getType(sessions)}`} key={`dt-${i}`}>
           <div>
             <span x={`offsetByTimezone("${begin}")`}></span>-
@@ -21,12 +24,15 @@ const Schedule = ({ intervals, prefix }) => (
         </dt>,
         <dd className="schedule--definition" key={`dd-${i}`}>
           {sessionTitle && (
-            <AnchorTitle
-              key={`title-${i}`}
-              title={sessionTitle}
-              mc={mc}
-              prefix={prefix}
-            />
+            <div className="flex-row space-between">
+              <AnchorTitle
+                key={`title-${i}`}
+                title={sessionTitle}
+                mc={mc}
+                prefix={prefix}
+              />
+              {urls && urls.video && <a href={urls.video}>YouTube stream</a>}
+            </div>
           )}
           {sessions.map(
             ({ title, type, description, speakers, keywords, urls }, i) => (

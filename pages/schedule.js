@@ -99,6 +99,9 @@ query PageQuery($conferenceId: ID!) {
             }
           }
         }
+        urls {
+          video
+        }
       }
     }
   }
