@@ -3,27 +3,27 @@ import React from "react";
 // https://www.youtube.com/embed/vpeO0J7FXAE
 // https://www.youtube.com/live_chat?v=vpeO0J7FXAE&embed_domain=play.workadventu.re
 
-const domain = "localhost"; // "play.workadventu.re"; // Try localhost locally
-const id = "vpeO0J7FXAE"; // For youtube video id
-
 const YouTubeEmbed = () => (
   <section className="intro">
     <div className="grid--full">
-      <section className="flex-row">
+      <section
+        className="flex-row"
+        x-state="{ id: getQueryParameter('id'), domain: getQueryParameter('domain') }"
+      >
         <iframe
-          title="Vodcast – Test stream"
+          title="YouTube embed"
           width="60%"
           height="400"
-          src={`https://www.youtube.com/embed/${id}`}
+          x-src="'https://www.youtube.com/embed/' + state.id"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
         <iframe
-          title="Vodcast – Test stream chat"
+          title="YouTube embed chat"
           width="40%"
           height="400"
-          src={`https://www.youtube.com/live_chat?v=${id}&embed_domain=${domain}`}
+          x-src="'https://www.youtube.com/live_chat?v=' + state.id + '&embed_domain=' + state.domain"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

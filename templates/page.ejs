@@ -20,6 +20,12 @@
       src="https://unpkg.com/sidewind@3.3.3/dist/sidewind.umd.production.min.js"
     ></script>
     <script type="text/javascript">
+      window.getQueryParameter = function getQueryParameter(k) {
+        const urlSearchParams = new URLSearchParams(window.location.search);
+
+        return Object.fromEntries(urlSearchParams.entries())[k];
+      };
+
       window.timezoneOffset = function timezoneOffset() {
         const tzOffset = -(new Date().getTimezoneOffset() / 60);
         const prefix = tzOffset >= 0 ? "+" : "-";
