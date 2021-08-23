@@ -39,6 +39,8 @@ Generally, the sessions follow the following format:
 
 Most of the sessions have been timeboxed to last 1.5 hour. In some cases with four speakers, we've allocated 2 hours. There's always at least half an hour between sessions so that there's a bit of room to go overtime (not more than 15 minutes) but generally we try to stay within the boundaries. It's also possible that the session ends sooner than anticipated which is fine too as there's no good reason to force discussion.
 
+> Please note that we follow [Berlin Code of Conduct](https://berlincodeofconduct.org/) in the event. Mutual respect goes a long way.
+
 When it comes to the talk itself, you have two options for delivering it:
 
 **1. Prerecord the talk and deliver it beforehand**
