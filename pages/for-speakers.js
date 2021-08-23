@@ -47,7 +47,7 @@ When it comes to the talk itself, you have two options for delivering it:
 
 In this case, it's going to be more relaxed for you as you can do the recording when it's convenient for you and then edit it to fit the allocated time (15 minutes). Editing is particularly useful for speeding up sections that would be slow otherwise (i.e. waiting for a command to complete).
 
-Prerecording also decreases technical risk for all parties (i.e. connectivity or other problems). If you want to prerecord, please send a link to the prerecording to "info at reactfinland.fi" before your session.
+Prerecording also decreases technical risk for all parties (i.e. connectivity or other problems). If you want to prerecord, please send a link to the prerecording to "info at reactfinland.fi" a day before your session.
 
 **2. Perform the talk live**
 
