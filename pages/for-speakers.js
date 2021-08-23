@@ -1,16 +1,90 @@
 import React from "react";
-import { AnchorHeader, Markdown } from "components";
+import { /*AnchorHeader,*/ Markdown } from "components";
 
 const ForSpeakers = () => (
   <>
     <section className="intro intro_attendees">
       <div className="intro--main">
         <Markdown
-          source={`Attendance info with a focus on you, our dear speaker.`}
+          source={`This document contains everything you need to know about attending React Finland as a speaker.`}
         />
       </div>
       <aside className="intro--aside" />
     </section>
+    <div className="intro--main">
+      <Markdown
+        source={`Due to exceptional circumstances, React Finland 2021 takes place online. Because of this, there are several considerations:
+
+1. Delivering the talk/demo online
+2. Participating in online venue (optional)
+3. Participating in matchmaking (optional)
+4. Invoicing speaker fee (optional)
+
+I've explained each in detail below.
+
+## 1. Delivering the talk/demo online
+
+The talks of React Finland take place through the [StreamYard](https://streamyard.com/) platform through a speaker's room where you'll find a producer, an MC (sometimes the producer as well), and other speakers. It is important that you [read StreamYard's instructions](https://support.streamyard.com/hc/en-us/articles/360043291612?_gl=1%2A18880y4%2A_ga%2ANjA3NTMzODYuMTYyODYwMTExOQ..%2A_ga_ESTLDCCGMF%2AMTYyOTcxNTAwNi4xNi4wLjE2Mjk3MTUwMDYuNjA.) as that will help to understand how their platform works.
+
+I recommend using a Chrome based browser. If one isn't available, then Firefox is a good option. The platform will ask for mic and camera access and possibly something related to screensharing.
+
+Generally, the sessions follow the following format:
+
+0. Technical check (15 minutes before going live). During this, the producer will explain the technical features of the platform and you'll learn how we use it for communication during the sessions.
+1. The session will go live to YouTube and Twitch (the producer will press the "go live" button)
+2. There's a brief introduction to the theme and the speakers. Depending on the MC, you might introduce yourselves or the MC might introduce you.
+3. The demonstrations take place. We've reserved 15 minutes for each with ~10 minutes for QA after the demonstration. The idea is that we pull questions and comments from YouTube and Twitch to include to the stream. As it happens, people are active through text and you may expect more feedback than in a live event.
+4. After the demonstrations have finished, likely there's still some time left. The goal is to wrap up the session and address any possible questions that are still open. It's also a good spot for additional demonstrations in case somebody wants to show something.
+5. When the session has ended, the MC will thank all the speakers and the stream will go offline. Speakers will head to their other duties.
+
+Most of the sessions have been timeboxed to last 1.5 hour. In some cases with four speakers, we've allocated 2 hours. There's always at least half an hour between sessions so that there's a bit of room to go overtime (not more than 15 minutes) but generally we try to stay within the boundaries. It's also possible that the session ends sooner than anticipated which is fine too as there's no good reason to force discussion.
+
+When it comes to the talk itself, you have two options for delivering it:
+
+**1. Prerecord the talk and deliver it beforehand**
+
+In this case, it's going to be more relaxed for you as you can do the recording when it's convenient for you and then edit it to fit the allocated time (15 minutes). Editing is particularly useful for speeding up sections that would be slow otherwise (i.e. waiting for a command to complete).
+
+Prerecording also decreases technical risk for all parties (i.e. connectivity or other problems). If you want to prerecord, please send a link to the prerecording to "info at reactfinland.fi" before your session.
+
+**2. Perform the talk live**
+
+In this case, you would perform live. Then it's up to the MC to remind you if you are going overtime. Occasionally the MC and others may support you technically as well as it's easier to spot typos etc. in a group. There's some technical risk to the approach but at the same time some speakers prefer it to prerecording.
+
+To make sure you'll find the StreamYard room at the right time, you'll receive a specific calendar invite with a join link. It will be timed to begin fifteen minutes before going live. Please be on time as this will reduce the heart pressure of the producer of the session a lot.
+
+## 2. Participating in online venue (optional)
+
+Given meeting other participants is an essential part of a conference, we're using a platform called [Work Adventure](https://workadventu.re/) to host a virtual venue. You can [try out venue without other users online](https://reactfinland.github.io/venue/) to get a better idea. Each session has a room of its own and it's possible to join them at the venue in addition to getting to know our sponsors better.
+
+Participating in online venue is optional but we'll make sure you have access to it should you wish to.
+
+## 3. Participating in matchmaking (optional)
+
+Although Work Adventure addresses the concern of meeting other attendees in part, we use the [Brella](https://www.brella.io/) platform to enable more specific matchmaking. Using the service, people can schedule meetings with each other.
+
+To become available through the platform, [please register here](https://next.brella.io/join/reactfinland2021). Especially if you want to have discussions about your topics with the attendees during the week long event, I believe this may be a worthwhile thing to do.
+
+## 4. Invoicing speaker fee (optional)
+
+The last part of business is invoicing. Due to legal requirements, we'll require an invoice for your services.
+
+Unfortunately the limitation here is that we can receive invoices from legal business entities. We can, however, support an [open collective](https://opencollective.com/) selected by you with your speaker fee if you so wish.
+
+If you invoice us, include the following details:
+
+* Service - Speaking fee
+* Cost - 200 eur. In case you have a Finnish business entity, make sure to include VAT (24%) on top.
+* Receiver - TOSKA Osuuskunta
+* Address - c/o Aleksi Pousar, Lauttasaarentie 16 A 17
+* City - 00200 HELSINKI
+* Country - Finland
+* Business id - FI30883078
+
+For foreign entities, you should mark VAT as reverse ("Reverse VAT" at the note with business id FI30883078) if you are VAT liable.`}
+      />
+    </div>
+    {/*
     <AnchorHeader level={2}>Venue - Paasitorni</AnchorHeader>
     <div className="intro--main">
       <img
@@ -85,6 +159,7 @@ Speakers' dinner will be held on 27th (Wednesday) at [Restaurant Juuri](https://
 To learn more, please [read the attendee guide](/for-attendees/).`}
       />
     </div>
+    */}
   </>
 );
 
