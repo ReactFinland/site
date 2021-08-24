@@ -45,6 +45,8 @@ To save time and make sure you are aligned with other speakers of the session, r
 
 > Please note that we follow [Berlin Code of Conduct](https://berlincodeofconduct.org/) in the event. Mutual respect goes a long way.
 
+> To get a better idea of how the format plays out, see [React Finland - Vodcast 4 - Next.js](https://www.youtube.com/watch?v=mMU-j0WoTCs) for example.
+
 When it comes to the talk itself, you have two options for delivering it:
 
 **1. Prerecord the talk and deliver it beforehand**
