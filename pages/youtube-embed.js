@@ -1,7 +1,8 @@
 import React from "react";
 
 // https://www.youtube.com/embed/vpeO0J7FXAE
-// https://www.youtube.com/live_chat?v=vpeO0J7FXAE&embed_domain=play.workadventu.re
+// https://www.youtube.com/live_chat?v=vpeO0J7FXAE&embed_domain=react-finland.fi
+// https://react-finland.fi/youtube-embed/?id=5olfi5wbgF4&domain=react-finland.fi
 
 const YouTubeEmbed = () => (
   <section className="intro">
