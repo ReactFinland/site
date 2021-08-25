@@ -41,11 +41,11 @@ Most of the sessions have been timeboxed to last 1.5 hour. In some cases with fo
 
 In case 15 minutes isn't enough, you can go ~5 minutes overtime. That's going to reduce the time for QA then. Consider ~20 minutes a hard limit.
 
+> To get a better idea of how the format plays out, see [React Finland - Vodcast 4 - Next.js](https://www.youtube.com/watch?v=mMU-j0WoTCs) for example.
+
 To save time and make sure you are aligned with other speakers of the session, reach out to them and synchronize on your plans so you can avoid unnecessary repetition and can build on each other.
 
 > Please note that we follow [Berlin Code of Conduct](https://berlincodeofconduct.org/) in the event. Mutual respect goes a long way.
-
-> To get a better idea of how the format plays out, see [React Finland - Vodcast 4 - Next.js](https://www.youtube.com/watch?v=mMU-j0WoTCs) for example.
 
 When it comes to the talk itself, you have two options for delivering it:
 
@@ -75,13 +75,37 @@ To become available through the platform, [please register here](https://next.br
 
 ## 4. Invoicing speaker fee (optional)
 
-The last part of business is invoicing. Due to legal requirements, we'll require an invoice for your services.
+The last part of business is invoicing. The way it works out depends on your tax residency and business status (business entity or not). I've outlined the alternatives below. Please choose the one that's applicable to you.
 
-Unfortunately the limitation here is that we can receive invoices from legal business entities. We can, however, support an [open collective](https://opencollective.com/) selected by you with your speaker fee if you so wish.
+### Tax residency in Finland
+
+In case you have a tax residency in Finland, what you have to do depends on your employment status (employee or an entrepreneur).
+
+#### Employed
+
+If you are employed, you'll have to provide a copy of your tax card to us. We'll compensate you using so called work compensation (työkorvaus) and it will count towards your personal taxation. Before paying, we'll withhold the tax from the sum paid for you and you'll receive the net amount.
+
+#### Entrepreneur
+
+If you have your own business, you should invoice us. See the invoicing details below in the section "Invoicing details".
+
+### Tax residency outside of Finland
+
+In case your tax residency is outside of Finland, then you have two options depending on your employment status (employee or an entrepreneur).
+
+#### Employed
+
+If you are employed, we'll pay the sum without withholding tax (gross amount). You'll have to attach the sum paid towards to your personal tax yourself.
+
+#### Entrepreneur
+
+If you have your own business, you should invoice us. See the invoicing details below in the section "Invoicing details".
+
+### Invoicing details
 
 If you invoice us, include the following details:
 
-* Service - Speaking fee
+* Service - Speaking at React Finland 2021
 * Cost - 200 eur. In case you have a Finnish business entity, make sure to include VAT (24%) on top.
 * Receiver - TOSKA Osuuskunta
 * Address - c/o Aleksi Pousar, Lauttasaarentie 16 A 17
