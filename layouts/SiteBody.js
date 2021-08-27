@@ -78,7 +78,11 @@ const SiteBody = (
             )}
           </div>
 
-          <div className="main-container container">
+          <div
+            className={
+              pathname !== "/youtube-embed/" && "main-container container"
+            }
+          >
             <section className="grid grid_6col">
               {children}
               <div className="grid--full">

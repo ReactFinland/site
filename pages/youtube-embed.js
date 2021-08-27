@@ -12,9 +12,9 @@ const YouTubeEmbed = () => (
         x-state="{ id: getQueryParameter('id'), domain: getQueryParameter('domain') }"
       >
         <iframe
+          style={{ width: "calc(100% - 300px)" }}
           title="YouTube embed"
-          width="60%"
-          height="400"
+          height="600"
           x-src="'https://www.youtube.com/embed/' + state.id"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -22,8 +22,7 @@ const YouTubeEmbed = () => (
         />
         <iframe
           title="YouTube embed chat"
-          width="40%"
-          height="400"
+          height="600"
           x-src="'https://www.youtube.com/live_chat?v=' + state.id + '&embed_domain=' + state.domain"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
