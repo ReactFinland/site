@@ -80,7 +80,8 @@ const SiteBody = (
 
           <div
             className={
-              pathname !== "/youtube-embed/" && "main-container container"
+              !pathname.startsWith("/youtube-embed") &&
+              "main-container container"
             }
           >
             <section className="grid grid_6col">
