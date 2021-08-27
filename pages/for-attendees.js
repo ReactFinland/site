@@ -2,9 +2,43 @@ import React from "react";
 import { AnchorHeader, Markdown } from "components";
 
 const intro =
+  "Welcome to React Finland 2021. Due to circumstances, we'll run the event online and I've compiled the most essential information below. If you have registered to the conference through Fienta, you'll get exclusive access to our online venue.";
+
+const oldIntro =
   "There are several things you must know before coming to React Finland. Read on to learn more.";
 
 const main = `
+## Schedule
+
+This time around, the conference content is spread around an entire week (30.08-03.09). Monday and Tuesday have a single session while the rest of the content is on the remaining days. I encourage you to [check out our schedule](/schedule/) and make note of the sessions in which you would like to participate.
+
+Each session contains a YouTube stream link which you can use to get a reminder of a session. I've also provided the entire conference plan as a file you can import to your calendar but note that it will import each session of the conference.
+
+To get most out of the sessions, make sure to participate in them through YouTube chat as we'll lift questions and comments from there to the live feeds. Some of the speakers' content will be prerecorded in order to decrease technical risk but all the QAs will be live.
+
+## Online venue
+
+One of the integral parts of a conference experience is chance encounters with other people and generally the activities that happen during the breaks. For some people, this part of a conference is the more interesting portion. Given we cannot be in a shared physical space together, we've created a specific Zelda and Dragon Quest inspired online venue.
+
+You can [find the technical implementation at GitHub](https://github.com/ReactFinland/venue) and you can [try a single user version online](https://reactfinland.github.io/venue/). I'll send you a join link to the multi-user version early in the conference week so that you can meet other people there.
+
+I've made sure you can join different streams through the venue and see their recordings as well. It's also a good chance to learn more about our sponsors and of course meet other people. We follow [Berlin Code of Conduct](https://berlincodeofconduct.org/) and mutual respect goes a long way so be kind when meeting other people.
+
+## Matchmaking through Brella
+
+In addition to providing an online venue for random encounters, we use the [Brella](https://www.brella.io/) platform for matchmaking. The idea is that you can mark your interests and then set up meetings with other participants during the week. It can be a good chance to build up contacts and learn more so make sure to get most out of this opportunity.
+
+[To join Brella, follow this link and register](https://next.brella.io/join/reactfinland2021). Make sure to add your interests there and set up meetings with other people.
+
+## Slack
+
+Historically React Finland has relied on Slack for communication. We still have the option and you can [join our Slack here](https://join.slack.com/t/react-finland/shared_invite/enQtMzQ0NDM1ODczMjE2LTI3MjZlZGNjNTNkOTU5N2E1OWYxYzY0MWE0Y2NiNWMxMWZiMWEyYjc4MmM1ZDQwZmFhOTkyODBmM2E4NjcxZjM). It's mainly used for official communications and generally it's not the most active Slack out there but you can still join if you want to.
+
+## Conclusion
+
+I hope you enjoy this year's React Finland. It's the first online conference for us and we'll cover a record amount of topics related to React. Our hope is that we can make it a great experience for all and get most out of this week of learning together.`;
+
+const oldMain = `
 ## How to get to Helsinki, Finland?
 
 Geographically Finland is a bit like an island and it's separated from most of the Europe by a sea. That said, there are a few ways to reach Helsinki, Finland:
@@ -96,6 +130,7 @@ const ForAttendees = () => (
       </div>
       <aside className="intro--aside" />
     </section>
+    {/*
     <AnchorHeader level={2}>The Venue</AnchorHeader>
     <div className="grid--5col">
       <img
@@ -127,6 +162,7 @@ const ForAttendees = () => (
         </li>
       </ul>
     </div>
+    */}
     <div className="grid--5col">
       <Markdown source={main} />
     </div>
