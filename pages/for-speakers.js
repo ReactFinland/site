@@ -47,7 +47,7 @@ To save time and make sure you are aligned with other speakers of the session, r
 
 > Please note that we follow [Berlin Code of Conduct](https://berlincodeofconduct.org/) in the event. Mutual respect goes a long way.
 
-When it comes to the talk itself, you have two options for delivering it:
+The talk can be a technical demonstration, slides, or a combination. When it comes to the talk itself, you have two options for delivering it:
 
 **1. Prerecord the talk and deliver it beforehand**
 
@@ -57,7 +57,7 @@ Prerecording also decreases technical risk for all parties (i.e. connectivity or
 
 **2. Perform the talk live**
 
-In this case, you would perform live. Then it's up to the MC to remind you if you are going overtime. Occasionally the MC and others may support you technically as well as it's easier to spot typos etc. in a group. There's some technical risk to the approach but at the same time some speakers prefer it to prerecording.
+In this case, you would perform live and we would share your screen to the public. Then it's up to the MC to remind you if you are going overtime. Occasionally the MC and others may support you technically as well as it's easier to spot typos etc. in a group. There's some technical risk to the approach but at the same time some speakers prefer it to prerecording.
 
 To make sure you'll find the StreamYard room at the right time, you'll receive a specific calendar invite with a join link. It will be timed to begin fifteen minutes before going live. Please be on time as this will reduce the heart pressure of the producer of the session a lot.
 
