@@ -14,11 +14,11 @@ For those registered, we'll provide access to an online venue where you can meet
 
 We have settled with six [workshops](/workshops/):
 
-* Modeling React Apps with XState - David Khourshid - Starts from 99€
-* Video on the web - Doug Sillars - Starts from 79€
-* Testing React Native Apps Using Cypress - Gleb Bahmutov - Starts from 79€
-* Current state of SSR in React, its limitations and its future - Jan Peer Stöcklmair - Starts from 49€
-* MicroFrontends in React - David Leitner - Starts from99 €
+* ~~Modeling React Apps with XState - David Khourshid - Starts from 99€~~ - Cancelled due to low demand
+* ~~Video on the web - Doug Sillars - Starts from 79€~~ - Cancelled due to low demand
+* ~~Testing React Native Apps Using Cypress - Gleb Bahmutov - Starts from 79€~~ - Cancelled due to low demand
+* Current state of SSR in React, its limitations and its future - Jan Peer Stöcklmair - Free
+* ~~MicroFrontends in React - David Leitner - Starts from 99 €~~ - Cancelled due to low demand
 * Powering Next.js with Drupal - David Corbacho Roman and Mario Vercellotti - Free
 
 The workshops span from three to four hours and it's a good chance to dig into a topic you want to learn more about in an efficient manner. A couple of hours with an expert can save many hours of googling.
@@ -45,7 +45,7 @@ The conference [schedule](/schedule/) has the broadest collection of topics Reac
 
 To give you some idea of what's to come, we'll cover themes like architecture, styling, content management, state machines, GraphQL, techniques, frameworks, documentation, accessibility, React Native, testing, scaling, specific techniques, and the future of work. It's within these themes where you'll find some specific demonstrations/talks.
 
-We'll discuss topics like xstate, how to make games, solid.js, hooks, web components, micro frontends, css-in-js, zero-runtime css-in-typescript, headless CMSs, state machines and statecharts, GraphQL automation, CDNs, Apollo Federation, delegation, Verdaccio, zero build pipelines, Aleph.js, Deno, SSR & SSG, documentation, low-hanging accessibility fruits, internationalization, the legal side of accessibility, screenshot testing, integration testing, micro animations, KISS for design systems, documenting your components, monorepos with Nx, video streaming, scaling branding and theming, security, the future of software development in Finland, and how to become a React developer. That's not to say we won't cover more topics than this but at least these topics are guaranteed.
+We'll discuss topics like xstate, how to make games, solid.js, hooks, web components, micro frontends, css-in-js, zero-runtime css-in-typescript, headless CMSs, state machines and statecharts, GraphQL automation, CDNs, Apollo Federation, delegation, Verdaccio, zero build pipelines, Aleph.js, Deno, SSR & SSG, documentation, low-hanging accessibility fruits, internationalization, the legal side of accessibility, screenshot testing, integration testing, micro animations, KISS for design systems, documenting your components, monorepos with Nx, video streaming, scaling branding and theming, security, the future of software development in Finland, inclusivity, and how to become a React developer. That's not to say we won't cover more topics than this but at least these topics are guaranteed.
 
 Given there's so much content, we don't expect you can follow all the content live. It's more about finding the sessions that make the most sense for you and perhaps participating in those. The short session length makes it easier to participate in the bits that are relevant for you.
 
