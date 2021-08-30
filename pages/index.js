@@ -16,9 +16,9 @@ The conference sessions take place online due to the exceptional circumstances. 
 * The sessions take ~1.5h and there's a 15 minute slot to demo and present for each speaker
 * You can send your questions and comments through YouTube and Twitch and we'll cover them live during the sessions
 
-In addition, we offer a variety of [online workshops](/workshops/).
+You can access the content freely. [See the schedule](/schedule/) for the session times and stream links.
 
-By registering to the conference (free), you'll gain access to the virtual venue as the time comes.
+To network with other attendees, [register to Brella](https://next.brella.io/join/reactfinland2021).
 
 > [Learn more from the conference announcement](/blog/react-finland-2021/) and [read about the highlights of the upcoming conference](/blog/rf21-schedule-highlights/).`;
 
@@ -142,14 +142,14 @@ const Index = ({ conference }) => (
           </div>
         </>
       )}
-    <div className="buy-container">
+    {/*<div className="buy-container">
       <a
         className="buy-button"
         href="https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f"
       >
         Register to the 2021 event
       </a>
-    </div>
+      </div>*/}
     <div className="intro">
       <div className="intro--main">
         <AnchorHeader level={2}>Past vodcasts</AnchorHeader>

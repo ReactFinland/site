@@ -22,11 +22,11 @@ export default [
         title: "Workshops",
         url: "/workshops/",
       },
-      {
+      /*{
         title: <b>Register</b>,
         url:
           "https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f",
-      },
+      },*/
     ],
   },
   {

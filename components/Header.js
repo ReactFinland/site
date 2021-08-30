@@ -46,7 +46,6 @@ const Header = ({ pathname, title }) => {
           component={Countdown}
           toDate="2019-04-24"
           containerProps={{ className: "countdown--container" }}
-        />*/}
         <section className="header--buy">
           <Link
             to="https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f"
@@ -55,6 +54,7 @@ const Header = ({ pathname, title }) => {
             Register
           </Link>
         </section>
+        />*/}
       </div>
     </header>
   ) : (
