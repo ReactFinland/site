@@ -9,7 +9,7 @@ import {
 
 const intro = `React Finland 2021 will take place between 30th of August and 3rd of September.
 
-The conference sessions take place online due to the exceptional circumstances. We'll run the conference in a vodcast format that works out like this:
+The conference sessions occur online due to the exceptional circumstances. We'll run the conference in a vodcast format that works out like this:
 
 * Each session is scoped to a specific theme
 * There will be a host and three speakers
