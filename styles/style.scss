@@ -718,3 +718,15 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
 }
+
+.hidden {
+  display: none;
+}
+
+.youtube-embed-video-full {
+  width: 100%;
+}
+
+.youtube-embed-video {
+  width: calc(100% - 300px);
+}

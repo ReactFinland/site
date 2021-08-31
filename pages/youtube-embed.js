@@ -9,10 +9,10 @@ const YouTubeEmbed = () => (
     <div className="grid--full">
       <section
         className="flex-row"
-        x-state="{ id: getQueryParameter('id'), domain: getQueryParameter('domain') }"
+        x-state="{ id: getQueryParameter('id'), domain: getQueryParameter('domain'), hideChat: getQueryParameter('hideChat') }"
       >
         <iframe
-          style={{ width: "calc(100% - 300px)" }}
+          x-class="state.hideChat ? 'youtube-embed-video-full' : 'youtube-embed-video'"
           title="YouTube embed"
           height="600"
           x-src="'https://www.youtube.com/embed/' + state.id"
@@ -21,6 +21,7 @@ const YouTubeEmbed = () => (
           allowFullScreen
         />
         <iframe
+          x-class="state.hideChat && 'hidden'"
           title="YouTube embed chat"
           height="600"
           x-src="'https://www.youtube.com/live_chat?v=' + state.id + '&embed_domain=' + state.domain"
