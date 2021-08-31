@@ -53,7 +53,7 @@ The talk can be a technical demonstration, slides, or a combination. When it com
 
 In this case, it's going to be more relaxed for you as you can do the recording when it's convenient for you and then edit it to fit the allocated time (15 minutes). Editing is particularly useful for speeding up sections that would be slow otherwise (i.e. waiting for a command to complete).
 
-Prerecording also decreases technical risk for all parties (i.e. connectivity or other problems). If you want to prerecord, record your whole screen. If you want, you can include feed from your camera to some corner of the recording. Please send a link to the prerecording to "info at react-finland.fi" a day before your session. If possible, resolution should be Full HD (1080p) at least.
+Prerecording also decreases technical risk for all parties (i.e. connectivity or other problems). If you want to prerecord, record your whole screen. If you want, you can include feed from your camera to some corner of the recording (avoid top-right corner as React Finland logo will be there!). Please send a link to the prerecording to "info at react-finland.fi" a day before your session. If possible, resolution should be Full HD (1080p) at least.
 
 **2. Perform the talk live**
 
