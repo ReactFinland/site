@@ -31,7 +31,7 @@ const Subscribe = () => {
       >
         <div
           role="button"
-          tabIndex={0}
+          tabIndex={-1}
           className="mj-w-button-content"
           id="subscribe-button"
           data-token="fd098aa40e8dccbaa2dd415c3003999f"
