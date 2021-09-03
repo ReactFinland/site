@@ -60,7 +60,6 @@ const Header = ({ pathname, title }) => {
   ) : (
     <header className="header">
       <div className="header--container container grid grid_6col">
-        <Navigation pathname={pathname} pages={navigationPages} />
         <Link to="/" className="rubric site-name header--logo">
           <h1 className="logo">
             <img
@@ -76,6 +75,7 @@ const Header = ({ pathname, title }) => {
             </span>
           </h1>
         </Link>
+        <Navigation pathname={pathname} pages={navigationPages} />
         <h2 className="header--pageTitle">{title}</h2>
       </div>
     </header>
