@@ -86,6 +86,19 @@ const Schedule = ({ intervals, prefix }) => (
                       </a>
                     </>
                   )}
+                  {urls && urls.demo && (
+                    <>
+                      <span style={{ marginLeft: "1em" }}>&nbsp;</span>
+                      <a
+                        href={urls.demo}
+                        style={{ fontSize: "small" }}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                      </a>
+                    </>
+                  )}
                 </p>
                 {type !== "WORKSHOP" && description && (
                   <Markdown

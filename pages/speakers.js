@@ -33,6 +33,7 @@ query PageQuery($conferenceId: ID!) {
           slides
           web
           video
+          demo
         }
       }
       workshops {

@@ -87,6 +87,20 @@ const Talk = ({
           </a>
         </>
       )}
+
+      {urls && urls.demo && (
+        <>
+          <span style={{ marginLeft: "1em" }}>&nbsp;</span>
+          <a
+            href={urls.demo}
+            style={{ fontSize: "small" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Demo
+          </a>
+        </>
+      )}
     </p>
 
     {description ? <Markdown source={description} /> : "To be announced."}
@@ -101,6 +115,8 @@ Talk.propTypes = {
   urls: PropTypes.shape({
     slides: PropTypes.string,
     web: PropTypes.string,
+    video: PropTypes.string,
+    demo: PropTypes.string,
   }),
   type: PropTypes.oneOf(Object.keys(TYPES)),
   headerLevel: PropTypes.number,
