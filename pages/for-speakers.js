@@ -115,7 +115,9 @@ If you invoice us, include the following details:
 
 Also make sure to mark your company details and your preference for payment. Ideally it would be a standard IBAN transfer as that's easiest to handle.
 
-For foreign entities, you should mark VAT as reverse ("Reverse VAT" at the note with business id FI30883078) if you are VAT liable.`}
+For foreign entities, you should mark VAT as reverse ("Reverse VAT" at the note with business id FI30883078) if you are VAT liable.
+
+Please send the invoice or your bank details where we should pay to "info at react-finland.fi".`}
       />
     </div>
     {/*
