@@ -12,6 +12,21 @@ const YouTubeEmbed = () => (
         x-state="{ id: getQueryParameter('id'), domain: getQueryParameter('domain'), hideChat: getQueryParameter('hideChat') }"
       >
         <iframe
+          className="youtube-embed-video-full"
+          title="YouTube embed"
+          height="600"
+          x-src="'https://www.youtube.com/embed/' + state.id"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </section>
+    </div>
+  </section>
+);
+
+/*
+        <iframe
           x-class="state.hideChat ? 'youtube-embed-video-full' : 'youtube-embed-video'"
           title="YouTube embed"
           height="600"
@@ -29,9 +44,6 @@ const YouTubeEmbed = () => (
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
-      </section>
-    </div>
-  </section>
-);
+*/
 
 export default YouTubeEmbed;
