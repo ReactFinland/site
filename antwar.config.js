@@ -4,7 +4,7 @@ const EVENT_NAME = "React Finland";
 
 module.exports = {
   apiUrl: "https://api.react-finland.fi/graphql",
-  conferenceId: "react-finland-2021",
+  conferenceId: "react-finland-2021", // TODO: 2022
   template: {
     file: path.resolve(__dirname, "templates/page.ejs"),
     context: {
@@ -21,7 +21,7 @@ module.exports = {
     }),
     "/": page("index", {
       title: EVENT_NAME,
-      description: `${EVENT_NAME} (30.08-03.09.2021, online) is a conference that comes with online workshops and a series of online mini-conferences.`,
+      description: `${EVENT_NAME} (30.05-03.06.2022) is a conference joining the Finnish React developer community with the global one`,
     }),
     "2018": page("2018", {
       description: "React Finland 2018",
@@ -30,6 +30,10 @@ module.exports = {
     "2019": page("2019", {
       description: "React Finland 2019",
       title: "React Finland 2019",
+    }),
+    "2021": page("2021", {
+      description: "React Finland 2021",
+      title: "React Finland 2021",
     }),
     "for-attendees": page("for-attendees", {
       title: "For Attendees",
@@ -63,16 +67,16 @@ module.exports = {
       title: "YouTube Stream",
       description: `YouTube Stream of ${EVENT_NAME}`,
     }),
-    schedule: page(
+    /*schedule: page(
       "schedule",
       {
         title: "Schedule",
         description: `What is the schedule of ${EVENT_NAME}?`,
       },
       {
-        conferenceId: "react-finland-2021",
+        conferenceId: "react-finland-2022",
       }
-    ),
+    ),*/
     "2018/schedule": page(
       "schedule",
       {
@@ -95,16 +99,27 @@ module.exports = {
         year: 2019,
       }
     ),
-    speakers: page(
+    "2021/schedule": page(
+      "schedule",
+      {
+        title: "Schedule",
+        description: `What was the schedule of ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2021",
+        year: 2021,
+      }
+    ),
+    /*speakers: page(
       "speakers",
       {
         title: "Speakers",
         speakers: `Who is going to speak at ${EVENT_NAME}?`,
       },
       {
-        conferenceId: "react-finland-2021",
+        conferenceId: "react-finland-2022",
       }
-    ),
+    ),*/
     "2018/speakers": page(
       "speakers",
       {
@@ -125,16 +140,26 @@ module.exports = {
         conferenceId: "react-finland-2019",
       }
     ),
-    workshops: page(
+    "2021/speakers": page(
+      "speakers",
+      {
+        title: "Speakers",
+        speakers: `Who spoke at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2021",
+      }
+    ),
+    /*workshops: page(
       "workshops",
       {
         title: "Workshops",
         description: `Which workshops will be held at ${EVENT_NAME}?`,
       },
       {
-        conferenceId: "react-finland-2021",
+        conferenceId: "react-finland-2022",
       }
-    ),
+    ),*/
     "2018/workshops": page(
       "workshops",
       {
@@ -153,6 +178,16 @@ module.exports = {
       },
       {
         conferenceId: "react-finland-2019",
+      }
+    ),
+    "2021/workshops": page(
+      "workshops",
+      {
+        title: "Workshops",
+        description: `Which workshops were held at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2021",
       }
     ),
     blog: {

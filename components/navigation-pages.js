@@ -10,7 +10,23 @@ export default [
         title: "About",
         url: "/about/",
       },
+      /*{
+        title: "For Sponsors",
+        url: "/for-sponsors/",
+      },*/
       {
+        title: "2018",
+        url: "/2018/",
+      },
+      {
+        title: "2019",
+        url: "/2019/",
+      },
+      {
+        title: "2021",
+        url: "/2021/",
+      },
+      /*{
         title: "Speakers",
         url: "/speakers/",
       },
@@ -22,7 +38,7 @@ export default [
         title: "Workshops",
         url: "/workshops/",
       },
-      /*{
+      {
         title: <b>Register</b>,
         url:
           "https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f",
@@ -45,13 +61,13 @@ export default [
           </a>
         ),
       },
-      {
+      /*{
         title: (
           <a href="https://www.twitch.com/ReactFinland">
             <i className="fab fa-twitch" aria-label="Twitch" />
           </a>
         ),
-      },
+      },*/
       {
         title: (
           <a href="https://twitter.com/ReactFinland">
@@ -87,14 +103,14 @@ export default [
       className: "nav--secondary",
     },
     links: [
-      {
+      /*{
         title: "For Attendees",
         url: "/for-attendees/",
       },
-      /*{
+      {
         title: "For Speakers",
         url: "/for-speakers/",
-      },*/
+      },
       {
         title: "For Sponsors",
         url: "/for-sponsors/",
@@ -107,7 +123,11 @@ export default [
         title: "2019",
         url: "/2019/",
       },
-      /*{
+      {
+        title: "2021",
+        url: "/2021/",
+      },
+      {
         title: "Call for papers",
         url: "https://forms.gle/JASTVgCrqTfwnMLj7",
       },

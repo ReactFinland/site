@@ -2,25 +2,14 @@ import React from "react";
 import {
   AnchorHeader,
   connect,
-  ContactMini,
-  Contacts,
+  // ContactMini,
+  // Contacts,
   Markdown,
 } from "components";
 
-const intro = `React Finland 2021 will take place between 30th of August and 3rd of September.
+const intro = `React Finland 2022 will take place between 30th of May and 3rd of June.
 
-The conference sessions occur online due to the exceptional circumstances. We'll run the conference in a vodcast format that works out like this:
-
-* Each session is scoped to a specific theme
-* There will be a host and three speakers
-* The sessions take ~1.5h and there's a 15 minute slot to demo and present for each speaker
-* You can send your questions and comments through YouTube and Twitch and we'll cover them live during the sessions
-
-You can access the content freely. [See the schedule](/schedule/) for the session times and stream links.
-
-To network with other attendees, [register to Brella](https://next.brella.io/join/reactfinland2021).
-
-> [Learn more from the conference announcement](/blog/react-finland-2021/) and [read about the highlights of the upcoming conference](/blog/rf21-schedule-highlights/).`;
+Stay tuned for more news! Meanwhile, [have a look at our 2021 videos](/2021/schedule/).`;
 
 /*
 const pastEvents = `
@@ -59,7 +48,8 @@ By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduc
 [Join React Finland Slack to connect with other attendees!](https://join.slack.com/t/react-finland/shared_invite/enQtMzQ0NDM1ODczMjE2LTI3MjZlZGNjNTNkOTU5N2E1OWYxYzY0MWE0Y2NiNWMxMWZiMWEyYjc4MmM1ZDQwZmFhOTkyODBmM2E4NjcxZjM)
 `;
 
-const Index = ({ conference }) => (
+const Index = () => (
+  // ({ conference }) => (
   <>
     <section className="intro intro_home">
       <div className="intro--main">
@@ -89,15 +79,15 @@ const Index = ({ conference }) => (
         <Markdown source={secondary} />
       </aside>
     </section>
-    {conference && conference.mcs && conference.mcs.length > 0 && (
+    {/*conference && conference.mcs && conference.mcs.length > 0 && (
       <>
         <AnchorHeader level={2}>MCs</AnchorHeader>
         <div className="grid--full speakers">
           <Contacts items={conference.mcs} render={ContactMini} />
         </div>
       </>
-    )}
-    {conference &&
+    )*/}
+    {/*conference &&
       conference.keynoteSpeakers &&
       conference.keynoteSpeakers.length > 0 && (
         <>
@@ -106,15 +96,15 @@ const Index = ({ conference }) => (
             <Contacts items={conference.keynoteSpeakers} render={ContactMini} />
           </div>
         </>
-      )}
-    {conference && conference.speakers && conference.speakers.length > 0 && (
+      )*/}
+    {/*conference && conference.speakers && conference.speakers.length > 0 && (
       <>
         <AnchorHeader level={2}>Speakers</AnchorHeader>
         <div className="grid--full speakers">
           <Contacts items={conference.speakers} render={ContactMini} />
         </div>
       </>
-    )}
+    )*/}
     {/*
     {conference &&
       conference.lightningTalkSpeakers &&
@@ -129,7 +119,7 @@ const Index = ({ conference }) => (
           </div>
         </>
       )}*/}
-    {conference &&
+    {/*conference &&
       conference.workshopInstructors &&
       conference.workshopInstructors.length > 0 && (
         <>
@@ -141,7 +131,7 @@ const Index = ({ conference }) => (
             />
           </div>
         </>
-      )}
+      )*/}
     {/*<div className="buy-container">
       <a
         className="buy-button"
@@ -150,6 +140,7 @@ const Index = ({ conference }) => (
         Register to the 2021 event
       </a>
       </div>*/}
+    {/*
     <div className="intro">
       <div className="intro--main">
         <AnchorHeader level={2}>Past vodcasts</AnchorHeader>
@@ -250,7 +241,7 @@ const Index = ({ conference }) => (
           />
         </section>
       </div>
-    </div>
+    </div>*/}
   </>
 );
 
