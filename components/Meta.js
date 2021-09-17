@@ -12,10 +12,7 @@ const Meta = ({ siteName, title, description, keywords = [] }) => (
     </title>
     <meta property="og:site_name" content={siteName} />
     <meta charSet="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta name="keywords" content={keywords.join(", ")} />
 
