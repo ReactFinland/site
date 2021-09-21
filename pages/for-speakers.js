@@ -95,7 +95,7 @@ In case your tax residency is outside of Finland, then you have two options depe
 
 #### Employed
 
-If you are employed, we'll pay the sum without withholding tax (gross amount). You'll have to attach the sum paid towards to your personal tax yourself.
+If you are employed, we'll pay the sum without withholding tax (gross amount). You'll have to attach the sum paid towards to your personal tax yourself. In this case, you'll have to provide your tax identification number (TIN) for us.
 
 #### Entrepreneur
 
