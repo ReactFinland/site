@@ -33,7 +33,7 @@ const Header = ({ pathname, title }) => {
 
         <section className="header--dates">
           <time dateTime="2022-09-12" className="header--date">
-            12th of September
+            12th
           </time>
           <span> to </span>
           <time dateTime="2022-09-16" className="header--date">
