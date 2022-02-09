@@ -32,12 +32,12 @@ const Header = ({ pathname, title }) => {
         {/*<h2 className="header--tagline">React Finland 2021</h2>*/}
 
         <section className="header--dates">
-          <time dateTime="2022-05-30" className="header--date">
-            30th of May
+          <time dateTime="2022-09-12" className="header--date">
+            12th of September
           </time>
           <span> to </span>
-          <time dateTime="2022-06-03" className="header--date">
-            3rd of June
+          <time dateTime="2022-09-16" className="header--date">
+            16th of September
           </time>
           <address className="header--location">Hybrid</address>
         </section>

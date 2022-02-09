@@ -7,7 +7,7 @@ import {
   Markdown,
 } from "components";
 
-const intro = `React Finland 2022 will take place between 30th of May and 3rd of June.
+const intro = `React Finland 2022 will take place between 12th and 16th of September.
 
 Stay tuned for more news! Meanwhile, [have a look at our 2021 videos](/2021/schedule/).`;
 
