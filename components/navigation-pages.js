@@ -26,7 +26,7 @@ export default [
         title: "2021",
         url: "/2021/",
       },
-      /*{
+      {
         title: "Speakers",
         url: "/speakers/",
       },
@@ -34,7 +34,7 @@ export default [
         title: "Schedule",
         url: "/schedule/",
       },
-      {
+      /*{
         title: "Workshops",
         url: "/workshops/",
       },

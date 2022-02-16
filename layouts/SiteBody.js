@@ -30,13 +30,13 @@ const SiteBody = (
       goldSponsors,
       silverSponsors,
       bronzeSponsors,
-      platformSponsors,
+      // platformSponsors,
     } = {
       partners: [],
       goldSponsors: [],
       silverSponsors: [],
       bronzeSponsors: [],
-      platformSponsors: [],
+      // platformSponsors: [],
     },
   },
   { router }
@@ -142,6 +142,7 @@ const SiteBody = (
                   </section>
                 </div>
 
+                {/*
                 <div className="sponsors sponsors_gold">
                   <AnchorHeader className="sponsors--heading" level={3}>
                     <span role="img" aria-label="Third place medal">
@@ -153,6 +154,7 @@ const SiteBody = (
                     <Contacts items={platformSponsors} render={Sponsor} />
                   </section>
                 </div>
+ */}
 
                 <div className="sponsors sponsors_partners">
                   <AnchorHeader className="sponsors--heading" level={3}>
@@ -197,9 +199,6 @@ export default connect(`
         ...SponsorFragment
       }
       bronzeSponsors {
-        ...SponsorFragment
-      }
-      platformSponsors {
         ...SponsorFragment
       }
     }

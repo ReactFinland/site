@@ -4,7 +4,7 @@ const EVENT_NAME = "React Finland";
 
 module.exports = {
   apiUrl: "https://api.react-finland.fi/graphql",
-  conferenceId: "react-finland-2021", // TODO: 2022
+  conferenceId: "react-finland-2022",
   template: {
     file: path.resolve(__dirname, "templates/page.ejs"),
     context: {
@@ -67,7 +67,7 @@ module.exports = {
       title: "YouTube Stream",
       description: `YouTube Stream of ${EVENT_NAME}`,
     }),
-    /*schedule: page(
+    schedule: page(
       "schedule",
       {
         title: "Schedule",
@@ -76,7 +76,7 @@ module.exports = {
       {
         conferenceId: "react-finland-2022",
       }
-    ),*/
+    ),
     "2018/schedule": page(
       "schedule",
       {
@@ -110,7 +110,7 @@ module.exports = {
         year: 2021,
       }
     ),
-    /*speakers: page(
+    speakers: page(
       "speakers",
       {
         title: "Speakers",
@@ -119,7 +119,7 @@ module.exports = {
       {
         conferenceId: "react-finland-2022",
       }
-    ),*/
+    ),
     "2018/speakers": page(
       "speakers",
       {

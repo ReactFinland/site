@@ -2,12 +2,12 @@ import React from "react";
 import {
   AnchorHeader,
   connect,
-  // ContactMini,
-  // Contacts,
+  ContactMini,
+  Contacts,
   Markdown,
 } from "components";
 
-const intro = `React Finland 2022 will take place between 12th and 16th of September.
+const intro = `React Finland 2022 will take place between 12th and 16th of September as a live conference at Paasitorni, Helsinki.
 
 Stay tuned for more news! Meanwhile, [have a look at our 2021 videos](/2021/schedule/).`;
 
@@ -48,8 +48,7 @@ By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduc
 [Join React Finland Slack to connect with other attendees!](https://join.slack.com/t/react-finland/shared_invite/enQtMzQ0NDM1ODczMjE2LTI3MjZlZGNjNTNkOTU5N2E1OWYxYzY0MWE0Y2NiNWMxMWZiMWEyYjc4MmM1ZDQwZmFhOTkyODBmM2E4NjcxZjM)
 `;
 
-const Index = () => (
-  // ({ conference }) => (
+const Index = ({ conference }) => (
   <>
     <section className="intro intro_home">
       <div className="intro--main">
@@ -97,14 +96,14 @@ const Index = () => (
           </div>
         </>
       )*/}
-    {/*conference && conference.speakers && conference.speakers.length > 0 && (
+    {conference && conference.speakers && conference.speakers.length > 0 && (
       <>
         <AnchorHeader level={2}>Speakers</AnchorHeader>
         <div className="grid--full speakers">
           <Contacts items={conference.speakers} render={ContactMini} />
         </div>
       </>
-    )*/}
+    )}
     {/*
     {conference &&
       conference.lightningTalkSpeakers &&
@@ -283,6 +282,6 @@ query PageQuery($conferenceId: ID!) {
 `,
   () => ({
     // TODO: Get this through config
-    conferenceId: "react-finland-2021",
+    conferenceId: "react-finland-2022",
   })
 )(Index);
