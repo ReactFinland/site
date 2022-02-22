@@ -3,6 +3,7 @@
 ## Development mode
 
 ```
+nvm use
 npm i # or yarn
 npm start # or yarn start
 ```
