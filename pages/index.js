@@ -78,14 +78,14 @@ const Index = ({ conference }) => (
         <Markdown source={secondary} />
       </aside>
     </section>
-    {/*conference && conference.mcs && conference.mcs.length > 0 && (
+    {conference && conference.mcs && conference.mcs.length > 0 && (
       <>
         <AnchorHeader level={2}>MCs</AnchorHeader>
         <div className="grid--full speakers">
           <Contacts items={conference.mcs} render={ContactMini} />
         </div>
       </>
-    )*/}
+    )}
     {/*conference &&
       conference.keynoteSpeakers &&
       conference.keynoteSpeakers.length > 0 && (
