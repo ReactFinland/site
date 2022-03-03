@@ -39,7 +39,7 @@ const Header = ({ pathname, title }) => {
           <time dateTime="2022-09-16" className="header--date">
             16th of September
           </time>
-          <address className="header--location">Hybrid</address>
+          <address className="header--location">Live</address>
         </section>
         {/*<Interactive
           id="components/Countdown.js"
