@@ -18,7 +18,7 @@ const Schedule = ({ conference, year }) => {
           <Markdown
             source={`Note that the times have been adjusted to your local timezone automatically.
 
-> It's possible to [subscribe to the conference calendar directly to keep up to date with any changes](https://api.react-finland.fi/calendar-2021.ics).`}
+> It's possible to [subscribe to the conference calendar directly to keep up to date with any changes](https://api.react-finland.fi/calendar-2022.ics).`}
           />
         </div>
         <aside className="intro--aside" />
