@@ -9,7 +9,7 @@ import {
 
 const intro = `React Finland 2022 will take place between 12th and 16th of September as a live conference at Paasitorni, Helsinki.
 
-Stay tuned for more news! Meanwhile, [have a look at our 2021 videos](/2021/schedule/).`;
+[To learn about the event, read our launch post](/blog/rf-2022/)`;
 
 /*
 const pastEvents = `
@@ -133,7 +133,7 @@ const Index = ({ conference }) => (
       )}
     <div className="buy-container">
       <a className="buy-button" href="https://fienta.com/react-finland-2022">
-        Register to the 2022 event
+        Register
       </a>
     </div>
     {/*
