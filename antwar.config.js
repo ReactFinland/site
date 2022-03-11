@@ -150,7 +150,7 @@ module.exports = {
         conferenceId: "react-finland-2021",
       }
     ),
-    /*workshops: page(
+    workshops: page(
       "workshops",
       {
         title: "Workshops",
@@ -159,7 +159,7 @@ module.exports = {
       {
         conferenceId: "react-finland-2022",
       }
-    ),*/
+    ),
     "2018/workshops": page(
       "workshops",
       {

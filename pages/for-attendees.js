@@ -1,13 +1,16 @@
 import React from "react";
 import { AnchorHeader, Markdown } from "components";
 
-const intro =
-  "Welcome to React Finland 2021. Due to circumstances, we'll run the event online and I've compiled the most essential information below. If you have registered to the conference through Fienta, you'll get exclusive access to our online venue.";
-
+/*
 const oldIntro =
+  "Welcome to React Finland 2021. Due to circumstances, we'll run the event online and I've compiled the most essential information below. If you have registered to the conference through Fienta, you'll get exclusive access to our online venue.";
+*/
+
+const intro =
   "There are several things you must know before coming to React Finland. Read on to learn more.";
 
-const main = `
+/*
+const oldMain = `
 ## Schedule
 
 This time around, the conference content is spread around an entire week (30.08-03.09). Monday and Tuesday have a single session while the rest of the content is on the remaining days. I encourage you to [check out our schedule](/schedule/) and make note of the sessions in which you would like to participate.
@@ -37,14 +40,14 @@ Historically React Finland has relied on Slack for communication. We still have 
 ## Conclusion
 
 I hope you enjoy this year's React Finland. It's the first online conference for us and we'll cover a record amount of topics related to React. Our hope is that we can make it a great experience for all and get most out of this week of learning together.`;
+*/
 
-const oldMain = `
+const main = `
 ## How to get to Helsinki, Finland?
 
 Geographically Finland is a bit like an island and it's separated from most of the Europe by a sea. That said, there are a few ways to reach Helsinki, Finland:
 
 * If you come from within the country, public transport (bus, train) is a good and affordable option. Expect to spend tens of euros on a trip.
-* If you come from Russia, there's a convenient train from St. Petersburg (about 3.5h).
 * If you come from Estonia or Sweden, consider using a ferry (about 2h).
 * If you come from Germany, there's a [Finnlines ferry](https://www.finnlines.com) from Travemünde to Helsinki (about 29h). It's possible to get an affordable flight especially from Berlin to Helsinki.
 * If you come from any other location, a detour from any of the places above or direct options (usually a flight) are available. Helsinki is easy to reach by flying as it's the capital city of Finland and the best connected part of the country.
@@ -77,7 +80,7 @@ There's a direct train from the airport to Helsinki center. HSL operates the loc
 
 To get to the center for airport, you can use train, Finnair buses or taxi. It seems that nowadays there might be some fake taxis, so use reliable taxi services like TaksiHelsinki, Lahitaksi, Kovanen or FixuTaxi. Note that taxis are very expensive in Helsinki.
 
-## What kind of food is available at the venue?
+## What kind of food is available?
 
 We'll provide coffee and snacks during the longer breaks. During the lunch break we use the two restaurants available within the venue. You'll have buffet style food awaiting you and we accommodate to your special needs (vegetarian, vegan, glucose free, etc.) based on your preferences. You can indicate this when buying a ticket so we know to prepare the right kind of food for you. All the food is included to the price of the ticket and it's available both for workshops and the conference itself.
 
@@ -119,7 +122,7 @@ Registration is possible in any of the conference days. The desk will be close t
 `;
 
 const secondary = `
-The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House. On 25th to 27th, several meeting rooms will be used for the workshops. On 28th and 29th, the big congress hall will be the main conference location.
+The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Noveue building that in past served as Worker's House. From 12th to 14th, several meeting rooms will be used for the workshops. On 15th and 16th, the big congress hall will be the main conference location.
 `;
 
 const ForAttendees = () => (
@@ -130,7 +133,6 @@ const ForAttendees = () => (
       </div>
       <aside className="intro--aside" />
     </section>
-    {/*
     <AnchorHeader level={2}>The Venue</AnchorHeader>
     <div className="grid--5col">
       <img
@@ -142,6 +144,7 @@ const ForAttendees = () => (
       />
       <Markdown source={secondary} />
     </div>
+    {/*
     <AnchorHeader level={3}>The Venue Location</AnchorHeader>
     <div className="grid--full">
       <iframe

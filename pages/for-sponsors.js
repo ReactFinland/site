@@ -8,7 +8,7 @@ React Finland is the largest React conference in the Nordics arranged 12.09-16.0
 const main = `
 ## International Speakers
 
-The twenty speakers of the conference have varying backgrounds and our roster includes many of the leading names from the community. The single track format allows our visitors to get most out of the experience and we also provide lightning talks and panels to generate spontaneous insights. In particular, we want to connect the speakers with the local community as well as possible.
+The twenty speakers of the conference have varying backgrounds and our roster includes many of the leading names from the community. The single track format allows our visitors to get most out of the experience. In particular, we want to connect the speakers with the local community as well as possible.
 
 ## Focused Audience
 
@@ -40,7 +40,7 @@ We are offering the perfect spot for companies to promote their knowledge and pr
 | Attendance for the speaker events (e.g. the speakers' dinner) | | | &#9786;
 | Special requests | | | &#10003;
 
-> \* means we'll let people decide whether they want swag and what kind of swag they want as we're environmentally conscious. If attendees don't want swag, we'll use the equivalent amount of money for charity instead.
+> The \* means we'll let people decide whether they want swag and what kind of swag they want as we're environmentally conscious. If attendees don't want swag, we'll use the equivalent amount of money for charity instead.
 
 ## How to Sponsor?
 

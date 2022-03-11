@@ -1,5 +1,5 @@
 import React from "react";
-import { /*AnchorHeader,*/ Markdown } from "components";
+import { AnchorHeader, Markdown } from "components";
 
 const ForSpeakers = () => (
   <>
@@ -11,7 +11,7 @@ const ForSpeakers = () => (
       </div>
       <aside className="intro--aside" />
     </section>
-    <div className="intro--main">
+    {/*
       <Markdown
         source={`Due to exceptional circumstances, React Finland 2021 takes place online. Because of this, there are several considerations:
 
@@ -120,7 +120,7 @@ For foreign entities, you should mark VAT as reverse ("Reverse VAT" at the note 
 Please send the invoice (pdf) where we should pay to "info at react-finland.fi".`}
       />
     </div>
-    {/*
+  */}
     <AnchorHeader level={2}>Venue - Paasitorni</AnchorHeader>
     <div className="intro--main">
       <img
@@ -133,7 +133,7 @@ Please send the invoice (pdf) where we should pay to "info at react-finland.fi".
       <Markdown
         source={`The conference will be held at [Paasitorni](https://www.paasitorni.fi/en/), a historic building in Siltasaari, near the center of Helsinki. Paasitorni is a gorgeous Art Nouveau building that in past served as Worker's House.
 
-From 25th to 27th, several meeting rooms will be used for the workshops. On 28th and 29th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference. You will also have access to the tower on top of the building so you can see Helsinki from a good spot.`}
+From 12th to 14th, several meeting rooms will be used for the workshops. On 15th and 16th, the big congress hall will be the main conference location. For speakers, there is going to be a top floor speaker room during the conference. You will also have access to the tower on top of the building so you can see Helsinki from a good spot.`}
       />
     </div>
     <div className="grid--5col">
@@ -172,17 +172,16 @@ The speakers' dinner will be held after the workshops.
 
 ## Talks
 
-I'll remind you, but please do sound/equipment check on a break before your talk. The talks are divided into sessions. Depending on the session, you'll have between an hour and 1.5 hours to split between other speakers in the session.
+I'll remind you, but please do sound/equipment check on a break before your talk. The talks are divided into sessions. Depending on the session, you'll have around 1h 30m to 1h 45m to split between other speakers in the session.
 
 Please coordinate on how to handle the timing with other speakers on the session. There's buffer between sessions (usually 30 min break) so the time limit isn't absolutely strict but preferred.
 
-There won't be Q&A during the talks nor a panel at the end. However, we want to do a Q&A thingie that will happen after the talk. So on the next break after talk, I wonder if you could come to an informal Q&A session at the entrance foyer (I'll remind you about that too).
-
 ## Speakers' dinner
 
-Speakers' dinner will be held on 27th (Wednesday) at [Restaurant Juuri](https://juuri.fi/en/) (Korkeavuorenkatu 27) starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
+Speakers' dinner will be held on 14th (Wednesday) at restaurant to be decided starting from 18:30. We'll meet 18:00 at the front of the hotel (Scandic Paasi) and travel from there. If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
 `}
       />
+      {/*
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.019162021747!2d24.945076143228633!3d60.16386163418337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc8506d8a65%3A0xb7607b6188ddec2e!2sLuomus+Ravintolat+Oy!5e0!3m2!1sen!2sde!4v1555594669560!5m2!1sen!2sde"
         width="100%"
@@ -190,12 +189,12 @@ Speakers' dinner will be held on 27th (Wednesday) at [Restaurant Juuri](https://
         frameBorder="0"
         title="Google maps"
       />
+      */}
       <Markdown
         source={`
 To learn more, please [read the attendee guide](/for-attendees/).`}
       />
     </div>
-    */}
   </>
 );
 

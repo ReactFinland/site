@@ -118,7 +118,7 @@ const Index = ({ conference }) => (
           </div>
         </>
       )}*/}
-    {/*conference &&
+    {conference &&
       conference.workshopInstructors &&
       conference.workshopInstructors.length > 0 && (
         <>
@@ -130,15 +130,12 @@ const Index = ({ conference }) => (
             />
           </div>
         </>
-      )*/}
-    {/*<div className="buy-container">
-      <a
-        className="buy-button"
-        href="https://fienta.com/react-finland-2021?281fadadf5cff4be80232837e3ae916f"
-      >
-        Register to the 2021 event
+      )}
+    <div className="buy-container">
+      <a className="buy-button" href="https://fienta.com/react-finland-2022">
+        Register to the 2022 event
       </a>
-      </div>*/}
+    </div>
     {/*
     <div className="intro">
       <div className="intro--main">
