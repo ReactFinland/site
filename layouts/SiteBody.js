@@ -104,7 +104,7 @@ const SiteBody = (
                   </AnchorHeader>
                   <section className="sponsors--list">
                     <Contacts items={goldSponsors} render={Sponsor} />
-                    {goldSponsors.length < 3 && (
+                    {goldSponsors.length < 2 && (
                       <a href="/for-sponsors/">Become a sponsor</a>
                     )}
                   </section>
