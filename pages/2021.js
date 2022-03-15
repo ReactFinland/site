@@ -1,5 +1,5 @@
 import React from "react";
-import { Markdown } from "components";
+import { connect, Markdown, Sponsors } from "components";
 
 const main = `React Finland 2021 took place between 30th of August and 3rd of September.
 
@@ -14,12 +14,78 @@ You can access the content freely. [See the schedule](/2021/schedule/) for the v
 
 > [Learn more from the conference announcement](/blog/react-finland-2021/) and [read about the highlights of the upcoming conference](/blog/rf21-schedule-highlights/).`;
 
-const PageFor2021 = () => (
-  <section className="intro intro_about">
-    <div className="intro--main">
-      <Markdown source={main} />
-    </div>
-  </section>
+const PageFor2021 = ({ conference }) => (
+  <>
+    <section className="intro intro_about">
+      <div className="intro--main">
+        <Markdown source={main} />
+      </div>
+    </section>
+    <Sponsors {...conference} />
+  </>
 );
 
-export default PageFor2021;
+export default ({ conferenceId }) =>
+  connect(
+    `
+fragment SpeakerFragment on Contact {
+  name
+  about
+  social {
+    homepage
+    github
+    twitter
+    linkedin
+  }
+  image {
+    url
+  }
+}
+
+fragment SponsorFragment on Contact {
+  name
+  social {
+    homepage
+  }
+  about
+  image {
+    url
+  }
+}
+
+query PageQuery($conferenceId: ID!) {
+  conference(id: $conferenceId) {
+    mcs {
+      ...SpeakerFragment
+    }
+    keynoteSpeakers {
+      ...SpeakerFragment
+    }
+    speakers {
+      ...SpeakerFragment
+    }
+    lightningTalkSpeakers {
+      ...SpeakerFragment
+    }
+    workshopInstructors {
+      ...SpeakerFragment
+    }
+    partners {
+      ...SponsorFragment
+    }
+    goldSponsors {
+      ...SponsorFragment
+    }
+    silverSponsors {
+      ...SponsorFragment
+    }
+    bronzeSponsors {
+      ...SponsorFragment
+    }
+  }
+}
+`,
+    () => ({
+      conferenceId,
+    })
+  )(PageFor2021);

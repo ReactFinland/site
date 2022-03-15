@@ -19,22 +19,46 @@ module.exports = {
       description: "Page was not found",
       title: "Page not found",
     }),
-    "/": page("index", {
-      title: EVENT_NAME,
-      description: `${EVENT_NAME} (30.05-03.06.2022) is a conference joining the Finnish React developer community with the global one`,
-    }),
-    "2018": page("2018", {
-      description: "React Finland 2018",
-      title: "React Finland 2018",
-    }),
-    "2019": page("2019", {
-      description: "React Finland 2019",
-      title: "React Finland 2019",
-    }),
-    "2021": page("2021", {
-      description: "React Finland 2021",
-      title: "React Finland 2021",
-    }),
+    "/": page(
+      "index",
+      {
+        title: EVENT_NAME,
+        description: `${EVENT_NAME} (30.05-03.06.2022) is a conference joining the Finnish React developer community with the global one`,
+      },
+      {
+        conferenceId: "react-finland-2022",
+      }
+    ),
+    "2018": page(
+      "2018",
+      {
+        description: "React Finland 2018",
+        title: "React Finland 2018",
+      },
+      {
+        conferenceId: "react-finland-2018",
+      }
+    ),
+    "2019": page(
+      "2019",
+      {
+        description: "React Finland 2019",
+        title: "React Finland 2019",
+      },
+      {
+        conferenceId: "react-finland-2019",
+      }
+    ),
+    "2021": page(
+      "2021",
+      {
+        description: "React Finland 2021",
+        title: "React Finland 2021",
+      },
+      {
+        conferenceId: "react-finland-2021",
+      }
+    ),
     "for-attendees": page("for-attendees", {
       title: "For Attendees",
       description: `What should I know as a ${EVENT_NAME} attendee`,

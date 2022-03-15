@@ -14,6 +14,7 @@ export { default as ScheduleLegend } from "./ScheduleLegend";
 export { default as SessionSpeakers } from "./SessionSpeakers";
 export { default as Subscribe } from "./Subscribe";
 export { default as Speaker } from "./Speaker";
+export { default as Sponsors } from "./Sponsors";
 export { default as Sponsor } from "./Sponsor";
 export { default as Footer } from "./Footer";
 export { default as VenueGallery } from "./VenueGallery";

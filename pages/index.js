@@ -5,6 +5,7 @@ import {
   ContactMini,
   Contacts,
   Markdown,
+  Sponsors,
 } from "components";
 
 const intro = `React Finland 2022 will take place between 12th and 16th of September as a live conference at Paasitorni, Helsinki.
@@ -238,11 +239,13 @@ const Index = ({ conference }) => (
         </section>
       </div>
     </div>*/}
+    <Sponsors {...conference} />
   </>
 );
 
-export default connect(
-  `
+export default ({ conferenceId }) =>
+  connect(
+    `
 fragment SpeakerFragment on Contact {
   name
   about
@@ -252,6 +255,17 @@ fragment SpeakerFragment on Contact {
     twitter
     linkedin
   }
+  image {
+    url
+  }
+}
+
+fragment SponsorFragment on Contact {
+  name
+  social {
+    homepage
+  }
+  about
   image {
     url
   }
@@ -274,11 +288,22 @@ query PageQuery($conferenceId: ID!) {
     workshopInstructors {
       ...SpeakerFragment
     }
+    partners {
+      ...SponsorFragment
+    }
+    goldSponsors {
+      ...SponsorFragment
+    }
+    silverSponsors {
+      ...SponsorFragment
+    }
+    bronzeSponsors {
+      ...SponsorFragment
+    }
   }
 }
 `,
-  () => ({
-    // TODO: Get this through config
-    conferenceId: "react-finland-2022",
-  })
-)(Index);
+    () => ({
+      conferenceId,
+    })
+  )(Index);
