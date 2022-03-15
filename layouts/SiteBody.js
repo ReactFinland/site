@@ -3,17 +3,14 @@ import PropTypes from "prop-types";
 import { HelmetProvider } from "react-helmet-async";
 import Interactive from "antwar-interactive";
 import {
-  AnchorHeader,
   AnchorProvider,
-  Contacts,
   Footer,
   Header,
   Meta,
-  Sponsor,
+  Sponsors,
   Subscribe,
   connect,
 } from "../components";
-import * as tweakSponsors from "./tweak-sponsors";
 
 import "normalize.css/normalize.css";
 import "../styles/style.scss";
@@ -25,18 +22,11 @@ const SiteBody = (
     children,
     location: { pathname },
     page: { file: { title, description, keywords }, previous, next } = {},
-    conference: {
-      partners,
-      goldSponsors,
-      silverSponsors,
-      bronzeSponsors,
-      // platformSponsors,
-    } = {
+    conference: { partners, goldSponsors, silverSponsors, bronzeSponsors } = {
       partners: [],
       goldSponsors: [],
       silverSponsors: [],
       bronzeSponsors: [],
-      // platformSponsors: [],
     },
   },
   { router }
@@ -86,85 +76,12 @@ const SiteBody = (
           >
             <section className="grid grid_6col">
               {children}
-              <div className="grid--full">
-                <div className="sponsors">
-                  <AnchorHeader
-                    className="sponsors--heading visually-hidden"
-                    level={2}
-                  >
-                    Sponsors
-                  </AnchorHeader>
-                </div>
-                <div className="sponsors sponsors_gold">
-                  <AnchorHeader className="sponsors--heading" level={3}>
-                    <span role="img" aria-label="First place medal">
-                      🥇
-                    </span>
-                    Gold Sponsors
-                  </AnchorHeader>
-                  <section className="sponsors--list">
-                    <Contacts items={goldSponsors} render={Sponsor} />
-                    {goldSponsors.length < 2 && (
-                      <a href="/for-sponsors/">Become a sponsor</a>
-                    )}
-                  </section>
-                </div>
-                <div className="sponsors sponsors_silver">
-                  <AnchorHeader className="sponsors--heading" level={3}>
-                    <span role="img" aria-label="Second place medal">
-                      🥈
-                    </span>
-                    Silver Sponsors
-                  </AnchorHeader>
-                  <section className="sponsors--list">
-                    <Contacts items={silverSponsors} render={Sponsor} />
-                    {silverSponsors.length < 4 && (
-                      <a href="/for-sponsors/">Become a sponsor</a>
-                    )}
-                  </section>
-                </div>
-
-                <div className="sponsors sponsors_bronze">
-                  <AnchorHeader className="sponsors--heading" level={3}>
-                    <span role="img" aria-label="Third place medal">
-                      🥉
-                    </span>
-                    Bronze Sponsors
-                  </AnchorHeader>
-                  <section className="sponsors--list">
-                    <Contacts
-                      items={tweakSponsors.bronze(bronzeSponsors)}
-                      render={Sponsor}
-                    />
-                    {bronzeSponsors.length < 6 && (
-                      <a href="/for-sponsors/">Become a sponsor</a>
-                    )}
-                  </section>
-                </div>
-
-                {/*
-                <div className="sponsors sponsors_gold">
-                  <AnchorHeader className="sponsors--heading" level={3}>
-                    <span role="img" aria-label="Third place medal">
-                      🎊
-                    </span>
-                    Platform Sponsor
-                  </AnchorHeader>
-                  <section className="sponsors--list">
-                    <Contacts items={platformSponsors} render={Sponsor} />
-                  </section>
-                </div>
- */}
-
-                <div className="sponsors sponsors_partners">
-                  <AnchorHeader className="sponsors--heading" level={3}>
-                    Partners
-                  </AnchorHeader>
-                  <section className="sponsors--list">
-                    <Contacts items={partners} render={Sponsor} />
-                  </section>
-                </div>
-              </div>
+              <Sponsors
+                goldSponsors={goldSponsors}
+                silverSponsors={silverSponsors}
+                bronzeSponsors={bronzeSponsors}
+                partners={partners}
+              />
             </section>
           </div>
           <Interactive id="components/Subscribe.js" component={Subscribe} />
