@@ -2,15 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { HelmetProvider } from "react-helmet-async";
 import Interactive from "antwar-interactive";
-import {
-  AnchorProvider,
-  Footer,
-  Header,
-  Meta,
-  Sponsors,
-  Subscribe,
-  connect,
-} from "../components";
+import { AnchorProvider, Footer, Header, Meta, Subscribe } from "../components";
 
 import "normalize.css/normalize.css";
 import "../styles/style.scss";
@@ -22,12 +14,6 @@ const SiteBody = (
     children,
     location: { pathname },
     page: { file: { title, description, keywords }, previous, next } = {},
-    conference: { partners, goldSponsors, silverSponsors, bronzeSponsors } = {
-      partners: [],
-      goldSponsors: [],
-      silverSponsors: [],
-      bronzeSponsors: [],
-    },
   },
   { router }
 ) => {
@@ -74,15 +60,7 @@ const SiteBody = (
               "main-container container"
             }
           >
-            <section className="grid grid_6col">
-              {children}
-              <Sponsors
-                goldSponsors={goldSponsors}
-                silverSponsors={silverSponsors}
-                bronzeSponsors={bronzeSponsors}
-                partners={partners}
-              />
-            </section>
+            <section className="grid grid_6col">{children}</section>
           </div>
           <Interactive id="components/Subscribe.js" component={Subscribe} />
           <Footer />
@@ -103,33 +81,4 @@ SiteBody.propTypes = {
   }),
 };
 
-export default connect(`
-  query SponsorQuery($conferenceId: ID!) {
-    conference(id: $conferenceId) {
-      partners {
-        ...SponsorFragment
-      }
-      goldSponsors {
-        ...SponsorFragment
-      }
-      silverSponsors {
-        ...SponsorFragment
-      }
-      bronzeSponsors {
-        ...SponsorFragment
-      }
-    }
-  }
-
-  fragment SponsorFragment on Contact {
-    name
-    social {
-      homepage
-    }
-    about
-    image {
-      url
-    }
-  }
-
-`)(SiteBody);
+export default SiteBody;

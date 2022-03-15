@@ -24,7 +24,7 @@ const Sponsors = ({
       </AnchorHeader>
       <section className="sponsors--list">
         <Contacts items={goldSponsors} render={Sponsor} />
-        {goldSponsors.length < 2 && (
+        {goldSponsors && goldSponsors.length < 2 && (
           <a href="/for-sponsors/">Become a sponsor</a>
         )}
       </section>
@@ -38,7 +38,7 @@ const Sponsors = ({
       </AnchorHeader>
       <section className="sponsors--list">
         <Contacts items={silverSponsors} render={Sponsor} />
-        {silverSponsors.length < 4 && (
+        {silverSponsors && silverSponsors.length < 4 && (
           <a href="/for-sponsors/">Become a sponsor</a>
         )}
       </section>
@@ -56,7 +56,7 @@ const Sponsors = ({
           items={tweakSponsors.bronze(bronzeSponsors)}
           render={Sponsor}
         />
-        {bronzeSponsors.length < 6 && (
+        {bronzeSponsors && bronzeSponsors.length < 6 && (
           <a href="/for-sponsors/">Become a sponsor</a>
         )}
       </section>
