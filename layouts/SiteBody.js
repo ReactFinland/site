@@ -92,7 +92,7 @@ const SiteBody = (
                     className="sponsors--heading visually-hidden"
                     level={2}
                   >
-                    Sponsors of 2019
+                    Sponsors
                   </AnchorHeader>
                 </div>
                 <div className="sponsors sponsors_gold">
