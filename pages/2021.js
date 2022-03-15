@@ -1,5 +1,5 @@
 import React from "react";
-import { Markdown } from "components";
+import { connect, Markdown } from "components";
 
 const main = `React Finland 2021 took place between 30th of August and 3rd of September.
 
@@ -22,4 +22,44 @@ const PageFor2021 = () => (
   </section>
 );
 
-export default PageFor2021;
+export default ({ conferenceId }) =>
+  connect(
+    `
+fragment SpeakerFragment on Contact {
+  name
+  about
+  social {
+    homepage
+    github
+    twitter
+    linkedin
+  }
+  image {
+    url
+  }
+}
+
+query PageQuery($conferenceId: ID!) {
+  conference(id: $conferenceId) {
+    mcs {
+      ...SpeakerFragment
+    }
+    keynoteSpeakers {
+      ...SpeakerFragment
+    }
+    speakers {
+      ...SpeakerFragment
+    }
+    lightningTalkSpeakers {
+      ...SpeakerFragment
+    }
+    workshopInstructors {
+      ...SpeakerFragment
+    }
+  }
+}
+`,
+    () => ({
+      conferenceId,
+    })
+  )(PageFor2021);

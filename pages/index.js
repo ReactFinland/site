@@ -241,8 +241,9 @@ const Index = ({ conference }) => (
   </>
 );
 
-export default connect(
-  `
+export default ({ conferenceId }) =>
+  connect(
+    `
 fragment SpeakerFragment on Contact {
   name
   about
@@ -277,8 +278,7 @@ query PageQuery($conferenceId: ID!) {
   }
 }
 `,
-  () => ({
-    // TODO: Get this through config
-    conferenceId: "react-finland-2022",
-  })
-)(Index);
+    () => ({
+      conferenceId,
+    })
+  )(Index);
