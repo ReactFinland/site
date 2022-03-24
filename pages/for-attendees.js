@@ -91,8 +91,7 @@ Assuming you want to sauna and swim, bring a swimming suit and optionally a towe
 ## How to follow the conference program?
 
 1. Use the site [schedule](/schedule/).
-2. Use the mobile applications (Android, iPhone).
-3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2022.ics). You can import it to your Google Calendar for example.
+2. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2022.ics). You can import it to your Google Calendar for example.
 
 ## How to prepare for the workshops?
 
