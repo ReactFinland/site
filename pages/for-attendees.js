@@ -54,6 +54,7 @@ Geographically Finland is a bit like an island and it's separated from most of t
 
 ## Where to stay?
 
+* [Scandic Paasi](https://www.scandichotels.com/hotels/finland/helsinki/scandic-paasi), [Scandic Hakaniemi](https://www.scandichotels.com/hotels/finland/helsinki/scandic-hakaniemi) - Roughly 160€ per night. [Use this link for a 10% discount](https://www.scandichotels.fi/varaa-hotelli/select-rate?hotel=634&fromDate=2022-09-12&toDate=2022-09-16&room%5b0%5d.adults=1&bookingCode=fiarb).
 * [Hotel F6](https://www.hotelf6.fi/) - Roughly 160€ per night.
 * [Omena Hotels](https://www.omenahotels.com/en/) - Roughly 60-80€ per night. Minimal service. Two separate hotels.
 * [Kongressikoti Hotel](http://kongressikoti.fi/) - Roughly 60€ per night.
