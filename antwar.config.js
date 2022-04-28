@@ -23,7 +23,7 @@ module.exports = {
       "index",
       {
         title: EVENT_NAME,
-        description: `${EVENT_NAME} (30.05-03.06.2022) is a conference joining the Finnish React developer community with the global one`,
+        description: `${EVENT_NAME} is a conference joining the Finnish React developer community with the global one`,
       },
       {
         conferenceId: "react-finland-2022",
