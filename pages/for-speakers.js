@@ -168,7 +168,7 @@ The workshops will also be held at Paasitorni, but in smaller rooms. There will 
 
 Workshop hosts, I'll send you list of your attendees so you can email them with more info e.g. about required pre-installation steps.
 
-The speakers' dinner will be held after the workshops.
+The speakers' dinner will be held after the workshops on Wednesday and we'll go from the front of the venue at 18:00 (either walk or taxi).
 
 ## Talks
 
