@@ -46,6 +46,8 @@ React Finland 2021 conference tickets are now available:
 const secondary = `
 By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduct.org/).
 
+[Read the venue guidelines](https://www.paasitorni.fi/en/safe-meetings-at-paasitorni/) regarding the pandemic before participating.
+
 [Join React Finland Slack to connect with other attendees!](https://join.slack.com/t/react-finland/shared_invite/enQtMzQ0NDM1ODczMjE2LTI3MjZlZGNjNTNkOTU5N2E1OWYxYzY0MWE0Y2NiNWMxMWZiMWEyYjc4MmM1ZDQwZmFhOTkyODBmM2E4NjcxZjM)
 `;
 

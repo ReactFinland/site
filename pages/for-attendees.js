@@ -43,6 +43,10 @@ I hope you enjoy this year's React Finland. It's the first online conference for
 */
 
 const main = `
+## What Corona measures do you take?
+
+We follow the [government guidance](https://new.visitfinland.com/en/practical-tips/covid-19/) and [Paasitorni guidelines](https://www.paasitorni.fi/en/safe-meetings-at-paasitorni/).
+
 ## How to get to Helsinki, Finland?
 
 Geographically Finland is a bit like an island and it's separated from most of the Europe by a sea. That said, there are a few ways to reach Helsinki, Finland:
