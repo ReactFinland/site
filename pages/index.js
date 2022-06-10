@@ -81,6 +81,11 @@ const Index = ({ conference }) => (
         <Markdown source={secondary} />
       </aside>
     </section>
+    <div className="buy-container">
+      <a className="buy-button" href="https://fienta.com/react-finland-2022">
+        Buy tickets
+      </a>
+    </div>
     {conference && conference.mcs && conference.mcs.length > 0 && (
       <>
         <AnchorHeader level={2}>MCs</AnchorHeader>
@@ -136,7 +141,7 @@ const Index = ({ conference }) => (
       )}
     <div className="buy-container">
       <a className="buy-button" href="https://fienta.com/react-finland-2022">
-        Register
+        Buy tickets
       </a>
     </div>
     {/*
