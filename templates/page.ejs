@@ -27,14 +27,21 @@
       };
 
       window.timezoneOffset = function timezoneOffset() {
+        // Fixed to Finnish Summer time
+        return "GMT+3";
+
+        /*
         const tzOffset = -(new Date().getTimezoneOffset() / 60);
         const prefix = tzOffset >= 0 ? "+" : "-";
 
         return "GMT" + prefix + tzOffset;
+        */
       };
 
       window.offsetByTimezone = function offsetByTimezone(time) {
-        const tzOffset = new Date().getTimezoneOffset() / 60;
+        // Fixed to Finnish Summer time
+        // const tzOffset = new Date().getTimezoneOffset() / 60;
+        const tzOffset = -3;
         const parts = time.split(":");
         const hours = parseInt(parts[0], 10);
         const minutes = parts[1];
