@@ -75,7 +75,8 @@ In order for us to procure this document for you, please send us email (info <at
 * Address
 * Passport number
 * The purpose of the visit
-* The length of the visit
+* Arrival date
+* Leaving date
 
 In response, we'll send you a signed pdf you can then present to your authorities and to ours at the border. You should apply for **visitor visa**.
 
