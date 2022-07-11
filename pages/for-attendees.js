@@ -74,7 +74,6 @@ In order for us to procure this document for you, please send us email (info <at
 * Date of birth
 * Address
 * Passport number
-* The purpose of the visit
 * Arrival date
 * Leaving date
 
