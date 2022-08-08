@@ -39,7 +39,7 @@ export default [
         url: "/workshops/",
       },
       {
-        title: <b>Register</b>,
+        title: "Register", // Work around Fienta bug <b>Register</b>,
         url: "https://fienta.com/react-finland-2022",
       },
     ],
