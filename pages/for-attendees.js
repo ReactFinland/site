@@ -87,7 +87,9 @@ To get to the center for airport, you can use train, Finnair buses or taxi. It s
 
 ## What kind of food is available?
 
-We'll provide coffee and snacks during the longer breaks. During the lunch break we use the two restaurants available within the venue. You'll have buffet style food awaiting you and we accommodate to your special needs (vegetarian, vegan, glucose free, etc.) based on your preferences. You can indicate this when buying a ticket so we know to prepare the right kind of food for you. All the food is included to the price of the ticket and it's available both for workshops and the conference itself.
+We'll provide coffee and snacks during the longer breaks. During the lunch break we use the two restaurants available within the venue. You'll have buffet style food awaiting you and we accommodate to your special needs (vegetarian, vegan, glucose free, etc.) based on your preferences. All the food is included to the price of the conference ticket.
+
+If you take both a morning and evening workshop, we'll make sure there's lunch for you. The same goes for full day workshops.
 
 ## What to take with you?
 
