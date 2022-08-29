@@ -141,7 +141,7 @@ From 12th to 14th, several meeting rooms will be used for the workshops. On 15th
         source={`
 ## Hotel
 
-We'll book four nights (extra night per workshop) at a hotel based on your travel dates. This includes breakfast. Exact hotel information will be provided as we know it.
+We'll book four nights (extra night per workshop) at a hotel based on your travel dates. This includes breakfast. The hotel is [Scandic Paasi](https://www.scandichotels.com/hotels/finland/helsinki/scandic-paasi) right next to the venue.
 
 ## How to get to the hotel?
 
