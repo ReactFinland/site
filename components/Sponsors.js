@@ -20,7 +20,7 @@ const Sponsors = ({
         <span role="img" aria-label="First place medal">
           🥇
         </span>
-        Gold Sponsors
+        Gold Sponsor
       </AnchorHeader>
       <section className="sponsors--list">
         <Contacts items={goldSponsors} render={Sponsor} />
