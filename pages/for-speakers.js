@@ -162,11 +162,16 @@ The workshops will also be held at Paasitorni, but in smaller rooms. There will 
 
 Workshop hosts, if you want to send specific information to workshop attendees, let me (Juho) know and I'll do it through the ticket platform.
 
-## Talks
+## Giving the talk
 
-I'll remind you, but please do sound/equipment check on a break before your talk. The talks are divided into sessions. Depending on the session, you'll have around 1h 30m to 1h 45m to split between other speakers in the session.
+We've prepared a simple yet effective process for the talks. It works as follows:
 
-Please coordinate on how to handle the timing with other speakers on the session. There's buffer between sessions (usually 30 min break) so the time limit isn't absolutely strict but preferred.
+1. Show up at the speakers' room about half an hour before the session of your talk. The speakers' room is at the top of the building so keep on climbing.
+2. If you want, our photographer can take a portrait shot of you at the tower top of the building. It's a short climb from the speakers' room.
+3. We'll guide you shortly before the session from the speakers' room to the great hall and do a quick tech check. If you want, you can also do this on some break before your talk and it's a good idea especially if you have audio or video elements in your presentation.
+4. During the session, you'll give your performance. I expect you'll figure out a good order and flow with the other speakers in your session and it's not too bad if you can build on top of each others' talks.
+5. After the session, we'll take you one whole level up to the QA corner. Instead of doing public QAs, we do it in smaller groups. From this spot, our MC will call the speakers one by one to the interview room where our videographer awaits. The idea is that you can speak five minutes about your topic.
+6. Once the break is complete, you are done and can enjoy rest of the conference (assuming you aren't in the last session as then you had time to enjoy before I hope)!
 
 ## Speakers' dinner
 
