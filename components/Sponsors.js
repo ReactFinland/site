@@ -24,7 +24,7 @@ const Sponsors = ({
       </AnchorHeader>
       <section className="sponsors--list">
         <Contacts items={goldSponsors} render={Sponsor} />
-        {goldSponsors && goldSponsors.length < 2 && (
+        {goldSponsors && goldSponsors.length < 1 && (
           <a href="/for-sponsors/">Become a sponsor</a>
         )}
       </section>
