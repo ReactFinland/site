@@ -167,11 +167,10 @@ Workshop hosts, if you want to send specific information to workshop attendees, 
 We've prepared a simple yet effective process for the talks. It works as follows:
 
 1. Show up at the speakers' room about half an hour before the session of your talk. The speakers' room is at the top of the building so keep on climbing.
-2. If you want, our photographer can take a portrait shot of you at the tower top of the building. It's a short climb from the speakers' room.
-3. We'll guide you shortly before the session from the speakers' room to the great hall and do a quick tech check. If you want, you can also do this on some break before your talk and it's a good idea especially if you have audio or video elements in your presentation.
-4. During the session, you'll give your performance. I expect you'll figure out a good order and flow with the other speakers in your session and it's not too bad if you can build on top of each others' talks.
-5. After the session, we'll take you one whole level up to the QA corner. Instead of doing public QAs, we do it in smaller groups. From this spot, our MC will call the speakers one by one to the interview room where our videographer awaits. The idea is that you can speak five minutes about your topic.
-6. Once the break is complete, you are done and can enjoy rest of the conference (assuming you aren't in the last session as then you had time to enjoy before I hope)!
+2. We'll guide you shortly before the session from the speakers' room to the great hall and do a quick tech check. If you want, you can also do this on some break before your talk and it's a good idea especially if you have audio or video elements in your presentation.
+3. During the session, you'll give your performance. I expect you'll figure out a good order and flow with the other speakers in your session and it's not too bad if you can build on top of each others' talks.
+4. After the session, we'll take you one whole level up to the QA corner. Instead of doing public QAs, we do it in smaller groups. From this spot, our MC will call the speakers one by one to the interview room where our videographer awaits. The idea is that you can speak five minutes about your topic. We do speaker portraits at the same time. If you want a photoshoot at the tower, we can also arrange that at a good time slot.
+5. Once the break is complete, you are done and can enjoy rest of the conference (assuming you aren't in the last session as then you had time to enjoy before I hope)!
 
 ## Speakers' dinner
 
