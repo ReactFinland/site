@@ -10,7 +10,12 @@ import {
 
 const intro = `React Finland 2022 occurs between 12th and 16th of September as a live conference at Paasitorni, Helsinki. The workshops take place between 12th and 14th and the conference itself is held on 15th and 16th.
 
-[To learn about the event, read our launch post](/blog/rf-2022/)`;
+[To learn about the event, read our launch post.](/blog/rf-2022/)
+
+In case you cannot make it to the event, follow our live streams through YouTube:
+
+* [Day 1 - 15.09](https://www.youtube.com/watch?v=zE8PDM_7xoQ)
+* [Day 2 - 16.09](https://www.youtube.com/watch?v=rHjwZu0EmlQ)`;
 
 /*
 const pastEvents = `
