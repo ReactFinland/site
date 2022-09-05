@@ -10,7 +10,7 @@ const Footer = ({ pathname }) => {
         <Navigation pathname={pathname} pages={navigationPages} />
         <section className="footer--bottomLinks">
           <a href="https://toolbox.finland.fi/">Finland Toolbox</a>
-          <a href="/imprint/">Imprint</a>
+          <a href="/imprint/">Contact</a>
           <a href="/privacy-policy/">Privacy Policy</a>
           <a href="http://berlincodeofconduct.org/">Code of Conduct</a>
         </section>
