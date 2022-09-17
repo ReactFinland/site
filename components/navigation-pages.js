@@ -10,6 +10,22 @@ export default [
         title: "About",
         url: "/about/",
       },
+      {
+        title: "2018",
+        url: "/2018/",
+      },
+      {
+        title: "2019",
+        url: "/2019/",
+      },
+      {
+        title: "2021",
+        url: "/2021/",
+      },
+      {
+        title: "2022",
+        url: "/2022/",
+      },
       /*{
         title: "For Sponsors",
         url: "/for-sponsors/",
@@ -25,7 +41,7 @@ export default [
       {
         title: "2021",
         url: "/2021/",
-      },*/
+      },
       {
         title: "Speakers",
         url: "/speakers/",
@@ -38,7 +54,7 @@ export default [
         title: "Workshops",
         url: "/workshops/",
       },
-      /*{
+      {
         title: <b>Register</b>,
         url: "https://fienta.com/react-finland-2022",
       },*/
@@ -110,23 +126,11 @@ export default [
         title: "For speakers",
         url: "/for-speakers/",
       },
+      /*
       {
         title: "For sponsors",
         url: "/for-sponsors/",
       },
-      {
-        title: "2018",
-        url: "/2018/",
-      },
-      {
-        title: "2019",
-        url: "/2019/",
-      },
-      {
-        title: "2021",
-        url: "/2021/",
-      },
-      /*
       {
         title: "Call for papers",
         url: "https://forms.gle/JASTVgCrqTfwnMLj7",

@@ -8,11 +8,11 @@ import {
   Sponsors,
 } from "components";
 
-const intro = `React Finland 2022 occurs between 12th and 16th of September as a live conference at Paasitorni, Helsinki. The workshops take place between 12th and 14th and the conference itself is held on 15th and 16th.
+const intro = `React Finland 2022 occured between 12th and 16th of September as a live conference at Paasitorni, Helsinki. The workshops take place between 12th and 14th and the conference itself is held on 15th and 16th.
 
 [To learn about the event, read our launch post.](/blog/rf-2022/)
 
-In case you cannot make it to the event, follow our live streams through YouTube:
+In case you missed the event, check out our live recordings from YouTube:
 
 * [Day 1 - 15.09](https://www.youtube.com/watch?v=zE8PDM_7xoQ)
 * [Day 2 - 16.09](https://www.youtube.com/watch?v=rHjwZu0EmlQ)`;
@@ -91,14 +91,14 @@ const Index = ({ conference }) => (
         Buy tickets
       </a>
       </div>*/}
-    {conference && conference.mcs && conference.mcs.length > 0 && (
+    {/*conference && conference.mcs && conference.mcs.length > 0 && (
       <>
         <AnchorHeader level={2}>MCs</AnchorHeader>
         <div className="grid--full speakers">
           <Contacts items={conference.mcs} render={ContactMini} />
         </div>
       </>
-    )}
+    )*/}
     {/*conference &&
       conference.keynoteSpeakers &&
       conference.keynoteSpeakers.length > 0 && (
@@ -109,14 +109,14 @@ const Index = ({ conference }) => (
           </div>
         </>
       )*/}
-    {conference && conference.speakers && conference.speakers.length > 0 && (
+    {/*conference && conference.speakers && conference.speakers.length > 0 && (
       <>
         <AnchorHeader level={2}>Speakers</AnchorHeader>
         <div className="grid--full speakers">
           <Contacts items={conference.speakers} render={ContactMini} />
         </div>
       </>
-    )}
+    )*/}
     {/*
     {conference &&
       conference.lightningTalkSpeakers &&
@@ -131,7 +131,7 @@ const Index = ({ conference }) => (
           </div>
         </>
       )}*/}
-    {conference &&
+    {/*conference &&
       conference.workshopInstructors &&
       conference.workshopInstructors.length > 0 && (
         <>
@@ -143,7 +143,7 @@ const Index = ({ conference }) => (
             />
           </div>
         </>
-      )}
+      )*/}
     {/*<div className="buy-container">
       <a className="buy-button" href="https://fienta.com/react-finland-2022">
         Buy tickets

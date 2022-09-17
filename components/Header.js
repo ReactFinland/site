@@ -24,13 +24,14 @@ const Header = ({ pathname, title }) => {
             />
             <span className="logo--title">
               <span className="logo--text logo--text-top">React </span>
-              <span className="logo--text logo--text-bottom">Finland 2022</span>
+              <span className="logo--text logo--text-bottom">Finland</span>
             </span>
           </h1>
         </Link>
 
         {/*<h2 className="header--tagline">React Finland 2021</h2>*/}
 
+        {/*
         <section className="header--dates">
           <time dateTime="2022-09-12" className="header--date">
             12th
@@ -40,7 +41,7 @@ const Header = ({ pathname, title }) => {
             16th of September
           </time>
           <address className="header--location">Live</address>
-        </section>
+        </section>*/}
         {/*<Interactive
           id="components/Countdown.js"
           component={Countdown}

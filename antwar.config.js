@@ -59,6 +59,16 @@ module.exports = {
         conferenceId: "react-finland-2021",
       }
     ),
+    "2022": page(
+      "2022",
+      {
+        description: "React Finland 2022",
+        title: "React Finland 2022",
+      },
+      {
+        conferenceId: "react-finland-2022",
+      }
+    ),
     "for-attendees": page("for-attendees", {
       title: "For Attendees",
       description: `What should I know as a ${EVENT_NAME} attendee`,
@@ -134,6 +144,17 @@ module.exports = {
         year: 2021,
       }
     ),
+    "2022/schedule": page(
+      "schedule",
+      {
+        title: "Schedule",
+        description: `What was the schedule of ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2022",
+        year: 2022,
+      }
+    ),
     speakers: page(
       "speakers",
       {
@@ -174,6 +195,16 @@ module.exports = {
         conferenceId: "react-finland-2021",
       }
     ),
+    "2022/speakers": page(
+      "speakers",
+      {
+        title: "Speakers",
+        speakers: `Who spoke at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2022",
+      }
+    ),
     workshops: page(
       "workshops",
       {
@@ -212,6 +243,16 @@ module.exports = {
       },
       {
         conferenceId: "react-finland-2021",
+      }
+    ),
+    "2022/workshops": page(
+      "workshops",
+      {
+        title: "Workshops",
+        description: `Which workshops were held at ${EVENT_NAME}?`,
+      },
+      {
+        conferenceId: "react-finland-2022",
       }
     ),
     blog: {
