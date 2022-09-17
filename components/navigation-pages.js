@@ -38,10 +38,10 @@ export default [
         title: "Workshops",
         url: "/workshops/",
       },
-      {
+      /*{
         title: <b>Register</b>,
         url: "https://fienta.com/react-finland-2022",
-      },
+      },*/
     ],
   },
   {
