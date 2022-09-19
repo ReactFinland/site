@@ -50,6 +50,16 @@ const Schedule = ({ intervals, prefix }) => (
                   />
                 )}
                 <p>
+                  {urls && urls.drawing && (
+                    <a
+                      href={urls.drawing}
+                      style={{ fontSize: "small" }}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Drawing
+                    </a>
+                  )}
                   {urls && urls.slides && (
                     <a
                       href={urls.slides}

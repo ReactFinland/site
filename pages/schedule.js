@@ -77,6 +77,7 @@ query PageQuery($conferenceId: ID!) {
           }
           keywords
           urls {
+            drawing
             slides
             web
             video
@@ -94,6 +95,7 @@ query PageQuery($conferenceId: ID!) {
             }
             keywords
             urls {
+              drawing
               slides
               web
               video

@@ -49,6 +49,17 @@ const Talk = ({
     </div>
 
     <p>
+      {urls && urls.drawing && (
+        <a
+          href={urls.drawing}
+          style={{ fontSize: "small" }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Drawing
+        </a>
+      )}
+
       {urls && urls.slides && (
         <a
           href={urls.slides}
@@ -113,6 +124,7 @@ Talk.propTypes = {
   end: PropTypes.string,
   description: PropTypes.string,
   urls: PropTypes.shape({
+    drawing: PropTypes.string,
     slides: PropTypes.string,
     web: PropTypes.string,
     video: PropTypes.string,
