@@ -5,8 +5,8 @@ const main = `
 \`\`\`
 TOSKA Osuuskunta
 c/o Aleksi Pousar
-Lauttasaarentie 16 A 17
-00200 Helsinki
+Työpajankatu 17 A 258
+00580 Helsinki
 \`\`\`
 
 * info <at> react-finland.fi
