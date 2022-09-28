@@ -73,13 +73,13 @@ const Index = ({ conference }) => (
 
         {/*<Markdown source={pastEvents} />*/}
         {/*<Markdown source={rf2021} />*/}
-        <AnchorHeader level={3}>See how the 2019 event went</AnchorHeader>
+        <AnchorHeader level={3}>See how the 2022 event went</AnchorHeader>
         <iframe
-          src="https://www.youtube.com/embed/BO_osndeLII"
+          src="https://www.youtube.com/embed/6_hKJUdps68"
           width="100%"
           height="400"
           frameBorder="0"
-          title="React Finland 2019"
+          title="React Finland 2022"
         />
       </div>
       <aside className="intro--aside">
