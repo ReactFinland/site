@@ -122,7 +122,6 @@ It is **extremely** important that when you register you show your ticket genera
 
 * We speak Finnish, English, and Swedish (poorly most often). [Check out our brief guide to Finnish](/blog/brief-guide-to-finnish-vol--1---basics-7f43f37d5017/) in order to surprise the locals.
 * We use euro as our currency.
-* Expect the weather to be quite warm (at least 20 C (68 F)). Since the conference is held in late May, the likelyhood for warm weather is high. Consider bringing shorts. Services like [Foreca](https://www.foreca.fi) and [Ilmatieteenlaitos](https://ilmatieteenlaitos.fi) are good for tracking weather.
 * Our electricity network standard voltage is 230 V (50 Hz). The socket style is type F (Schuko) (symmetrical and looks like a pig snout). It accepts plug C and E too.
 * Finland is generally considered a safe country. Do **not** try to go past people in the grill queue, through, as that's a common way to find yourself in a trouble.
 * Finland has around 5.5 million residents. To give you a comparison point, that's about 1.5 times the population of Berlin spread around the area of whole Finland (roughly the size of Germany).

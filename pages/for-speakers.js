@@ -174,7 +174,7 @@ We've prepared a simple yet effective process for the talks. It works as follows
 
 ## Speakers' dinner
 
-The speakers' dinner will be held after the workshops on Wednesday and we'll go from the front of the hotel (Scandic Paasi) at 18:00. The dinner is held at [restaurant Albina](https://restaurantalbina.fi/en/) (Aleksis Kiven katu 23, Helsinki).
+The speakers' dinner will be held after the workshops on Wednesday and we'll go from the front of the hotel (Scandic Paasi) at 18:00.
 
 If you want to get to the restaurant on your own, please let us know so we don't wait for you. :)
 `}
