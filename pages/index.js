@@ -15,7 +15,9 @@ const intro = `React Finland 2022 occurred between 12th and 16th of September as
 In case you missed the conference, check out our live recordings from YouTube:
 
 * [Day 1 - 15.09](https://www.youtube.com/watch?v=zE8PDM_7xoQ)
-* [Day 2 - 16.09](https://www.youtube.com/watch?v=rHjwZu0EmlQ)`;
+* [Day 2 - 16.09](https://www.youtube.com/watch?v=rHjwZu0EmlQ)
+
+Read also [Identio's recap of the conference](https://identio.fi/blogi/react-finland-2022-a-short-review/).`;
 
 /*
 const pastEvents = `
