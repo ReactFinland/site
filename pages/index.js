@@ -17,7 +17,8 @@ In case you missed the conference, check out our live recordings from YouTube:
 * [Day 1 - 15.09](https://www.youtube.com/watch?v=zE8PDM_7xoQ)
 * [Day 2 - 16.09](https://www.youtube.com/watch?v=rHjwZu0EmlQ)
 
-Read also [Identio's recap of the conference](https://identio.fi/blogi/react-finland-2022-a-short-review/).`;
+
+[Check out the official photos](https://www.flickr.com/photos/react-finland/albums/72177720302579786) and [read also Identio's recap of the conference](https://identio.fi/blogi/react-finland-2022-a-short-review/).`;
 
 /*
 const pastEvents = `
