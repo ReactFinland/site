@@ -61,14 +61,17 @@ const Schedule = ({ intervals, prefix }) => (
                     </a>
                   )}
                   {urls && urls.slides && (
-                    <a
-                      href={urls.slides}
-                      style={{ fontSize: "small" }}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Slides (PDF)
-                    </a>
+                    <>
+                      <span style={{ marginLeft: "1em" }}>&nbsp;</span>
+                      <a
+                        href={urls.slides}
+                        style={{ fontSize: "small" }}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Slides (PDF)
+                      </a>
+                    </>
                   )}
                   {urls && urls.web && (
                     <>
