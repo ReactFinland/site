@@ -18,7 +18,12 @@ In case you missed the conference, check out our live recordings from YouTube:
 * [Day 2 - 16.09](https://www.youtube.com/watch?v=rHjwZu0EmlQ)
 
 
-[Check out the official photos](https://www.flickr.com/photos/react-finland/albums/72177720302579786) and [read also Identio's recap of the conference](https://identio.fi/blogi/react-finland-2022-a-short-review/).`;
+See also the following resources:
+
+* [2022 Schedule](/2022/schedule/) including resources (drawings, slides, etc.) related to the talks
+* [Official photos](https://www.flickr.com/photos/react-finland/albums/72177720302579786)
+* [Identio's recap of the conference](https://identio.fi/blogi/react-finland-2022-a-short-review/)
+* [Juha-Matti Santala's recap of the conference](https://hamatti.org/posts/react-finland-2022-recap/)`;
 
 /*
 const pastEvents = `
