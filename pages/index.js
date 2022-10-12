@@ -21,7 +21,7 @@ In case you missed the conference, check out our live recordings from YouTube:
 See also the following resources:
 
 * [2022 Schedule](/2022/schedule/) including resources (drawings, slides, etc.) related to the talks
-* [Official photos](https://www.flickr.com/photos/react-finland/albums/72177720302579786). See also [Kenneth Sutherland's photos](https://www.flickr.com/photos/_delp_/sets/72177720302150173/).
+* [Official photos](https://www.flickr.com/photos/react-finland/albums/72177720302579786). Check [Kenneth Sutherland's photos](https://www.flickr.com/photos/_delp_/sets/72177720302150173/) as well.
 * [Identio's recap of the conference](https://identio.fi/blogi/react-finland-2022-a-short-review/)
 * [Juha-Matti Santala's recap of the conference](https://hamatti.org/posts/react-finland-2022-recap/)`;
 
