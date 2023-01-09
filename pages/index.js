@@ -8,7 +8,9 @@ import {
   Sponsors,
 } from "components";
 
-const intro = `React Finland 2022 occurred between 12th and 16th of September as a live conference at Paasitorni, Helsinki. The workshops took place between 12th and 14th and the conference itself was held on 15th and 16th.
+const intro = `> See our next conference, [Future Frontend](https://futurefrontend.com/). It takes place 05-09.06 at Helsinki, Finland.
+
+React Finland 2022 occurred between 12th and 16th of September as a live conference at Paasitorni, Helsinki. The workshops took place between 12th and 14th and the conference itself was held on 15th and 16th.
 
 [To learn about the event, read our launch post.](/blog/rf-2022/)
 
