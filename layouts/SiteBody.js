@@ -1,8 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { HelmetProvider } from "react-helmet-async";
-import Interactive from "antwar-interactive";
-import { AnchorProvider, Footer, Header, Meta, Subscribe } from "../components";
+// import Interactive from "antwar-interactive";
+import {
+  AnchorProvider,
+  Footer,
+  Header,
+  Meta /* Subscribe */,
+} from "../components";
 
 import "normalize.css/normalize.css";
 import "../styles/style.scss";
@@ -62,7 +67,9 @@ const SiteBody = (
           >
             <section className="grid grid_6col">{children}</section>
           </div>
+          {/*
           <Interactive id="components/Subscribe.js" component={Subscribe} />
+          */}
           <Footer />
         </main>
       </AnchorProvider>
